@@ -1,0 +1,35 @@
+name: Daily Game Generator
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6:00 UTC = 2:00am ET, before US market open
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Target date (YYYY-MM-DD). Defaults to tomorrow.'
+        required: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Generate game file
+        run: npx tsx scripts/fetch-game-data.ts ${{ github.event.inputs.date || '' }}
+
+      - name: Commit game file
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: generate daily game (remember to fill in triviaHints)'
+          file_pattern: 'public/games/*.json'
