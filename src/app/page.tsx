@@ -4,6 +4,7 @@ import { useGameState } from "@/hooks/useGameState";
 import { Header } from "@/components/Header";
 import { StockChart } from "@/components/StockChart";
 import { HintContainer } from "@/components/HintContainer";
+import { AttemptMatrix } from "@/components/AttemptMatrix";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
@@ -61,6 +62,7 @@ export default function Home() {
           firstLetter={payload.ticker[0]}
           guessCount={guesses.length}
         />
+        <AttemptMatrix guesses={guesses} />
       </main>
     </div>
   );
