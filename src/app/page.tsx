@@ -2,11 +2,12 @@
 import { useState, useEffect } from "react";
 import { useGameState } from "@/hooks/useGameState";
 import { Header } from "@/components/Header";
+import { StockChart } from "@/components/StockChart";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
 export default function Home() {
-  const { payload, guesses, status, isLoading, error, justFinished } =
+  const { payload, guesses, isLoading, error, justFinished } =
     useGameState(TODAY);
   const [, setShowStats] = useState(false);
 
@@ -47,10 +48,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen max-w-md mx-auto">
       <Header onStatsClick={() => setShowStats(true)} />
       <main className="flex flex-col flex-1 gap-3 p-3">
-        {/* Components added in Tasks 5–8 */}
-        <pre className="text-xs text-gray-500">
-          {payload.ticker} — {guesses.length} guesses — {status}
-        </pre>
+        <StockChart
+          data={payload.candlestickData}
+          interval={payload.interval}
+          guessCount={guesses.length}
+        />
       </main>
     </div>
   );
