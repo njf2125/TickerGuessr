@@ -1,14 +1,21 @@
 "use client";
-import { BarChart2 } from "lucide-react";
+import { BarChart2, HelpCircle } from "lucide-react";
 
 interface HeaderProps {
   onStatsClick: () => void;
+  onHelpClick: () => void;
 }
 
-export function Header({ onStatsClick }: HeaderProps) {
+export function Header({ onStatsClick, onHelpClick }: HeaderProps) {
   return (
     <header className="flex items-center justify-between px-4 py-3 border-b border-gray-800">
-      <div className="w-8" />
+      <button
+        onClick={onHelpClick}
+        className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-white transition-colors"
+        aria-label="How to play"
+      >
+        <HelpCircle size={20} />
+      </button>
       <h1 className="text-lg font-bold tracking-widest uppercase text-white">
         TickerGuessr
       </h1>

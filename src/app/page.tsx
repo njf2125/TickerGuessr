@@ -7,6 +7,7 @@ import { HintContainer } from "@/components/HintContainer";
 import { AttemptMatrix } from "@/components/AttemptMatrix";
 import { SearchInput } from "@/components/SearchInput";
 import { StatsModal } from "@/components/StatsModal";
+import { HowToModal } from "@/components/HowToModal";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
@@ -14,6 +15,7 @@ export default function Home() {
   const { payload, guesses, status, stats, isLoading, error, justFinished, submitGuess } =
     useGameState(TODAY);
   const [showStats, setShowStats] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
 
   // Auto-open stats only when the player just completed this session — not on refresh.
   useEffect(() => {
@@ -22,6 +24,15 @@ export default function Home() {
       return () => clearTimeout(timer);
     }
   }, [justFinished]);
+
+  // Auto-open the how-to once per browser, on first ever visit.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!localStorage.getItem("tickerguessr_seen_intro")) {
+      setShowHelp(true);
+      localStorage.setItem("tickerguessr_seen_intro", "1");
+    }
+  }, []);
 
   if (isLoading) {
     return (
@@ -50,7 +61,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen max-w-md mx-auto">
-      <Header onStatsClick={() => setShowStats(true)} />
+      <Header onStatsClick={() => setShowStats(true)} onHelpClick={() => setShowHelp(true)} />
       <main className="flex flex-col flex-1 gap-3 p-3">
         <StockChart
           data={payload.candlestickData}
@@ -93,6 +104,7 @@ export default function Home() {
           onClose={() => setShowStats(false)}
         />
       )}
+      {showHelp && <HowToModal onClose={() => setShowHelp(false)} />}
     </div>
   );
 }
