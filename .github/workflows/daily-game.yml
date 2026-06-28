@@ -26,7 +26,11 @@ jobs:
       - run: npm ci
 
       - name: Generate game file
-        run: npx tsx scripts/fetch-game-data.ts ${{ github.event.inputs.date || '' }}
+        # Pass the dispatch input via env (never interpolated into the shell line)
+        # to avoid GitHub Actions script injection. Empty -> script defaults to tomorrow.
+        env:
+          TARGET_DATE: ${{ github.event.inputs.date || '' }}
+        run: npx tsx scripts/fetch-game-data.ts "$TARGET_DATE"
 
       - name: Commit game file
         uses: stefanzweifel/git-auto-commit-action@v5
