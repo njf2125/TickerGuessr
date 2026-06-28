@@ -5,11 +5,12 @@ import { Header } from "@/components/Header";
 import { StockChart } from "@/components/StockChart";
 import { HintContainer } from "@/components/HintContainer";
 import { AttemptMatrix } from "@/components/AttemptMatrix";
+import { SearchInput } from "@/components/SearchInput";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
 export default function Home() {
-  const { payload, guesses, isLoading, error, justFinished } =
+  const { payload, guesses, status, isLoading, error, justFinished, submitGuess } =
     useGameState(TODAY);
   const [, setShowStats] = useState(false);
 
@@ -63,6 +64,13 @@ export default function Home() {
           guessCount={guesses.length}
         />
         <AttemptMatrix guesses={guesses} />
+        <div className="mt-auto pt-2">
+          <SearchInput
+            onSubmit={submitGuess}
+            disabled={status !== "playing"}
+            guessedTickers={guesses.map((g) => g.ticker)}
+          />
+        </div>
       </main>
     </div>
   );
