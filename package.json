@@ -1,26 +1,35 @@
 {
-  "name": "tickerguessr-scaffold",
+  "name": "tickerguessr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
+    "apexcharts": "^5.15.2",
+    "lucide-react": "^1.21.0",
+    "next": "14.2.35",
     "react": "^18",
+    "react-apexcharts": "^2.1.1",
     "react-dom": "^18",
-    "next": "14.2.35"
+    "yahoo-finance2": "^3.15.3"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.35"
+    "tsx": "^4.22.4",
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^6.1.1",
+    "vitest": "^4.1.9"
   }
 }
