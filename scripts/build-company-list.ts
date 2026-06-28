@@ -1,8 +1,9 @@
 import YahooFinance from "yahoo-finance2";
-const yahooFinance = new YahooFinance();
 import https from "https";
 import fs from "fs/promises";
 import path from "path";
+
+const yahooFinance = new YahooFinance();
 
 const MARKET_CAP_MIN = 2_000_000_000;
 const AVG_VOLUME_MIN = 300_000;

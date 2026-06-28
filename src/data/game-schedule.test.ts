@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { GAME_SCHEDULE, getScheduleEntry, GAME_START_DATE } from "./game-schedule";
+import {
+  GAME_SCHEDULE,
+  FALLBACK_POOL,
+  getScheduleEntry,
+  GAME_START_DATE,
+} from "./game-schedule";
 import { COMPANIES } from "./companies";
 
 const TICKERS = new Set(COMPANIES.map((c) => c.ticker));
@@ -10,6 +15,15 @@ describe("game-schedule", () => {
       expect(
         TICKERS.has(entry.ticker),
         `${entry.ticker} missing from companies.ts`
+      ).toBe(true);
+    }
+  });
+
+  it("every fallback-pool ticker exists in companies.ts (winnable)", () => {
+    for (const entry of FALLBACK_POOL) {
+      expect(
+        TICKERS.has(entry.ticker),
+        `fallback ${entry.ticker} missing from companies.ts`
       ).toBe(true);
     }
   });

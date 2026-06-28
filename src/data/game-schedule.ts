@@ -20,7 +20,7 @@ export const GAME_SCHEDULE: ScheduleEntry[] = [
 // the companies.ts screen, so a fallback puzzle is always winnable. Used only
 // after GAME_SCHEDULE runs out. Inlined (no COMPANIES import) so this module
 // stays resolvable under tsx. Keep these tickers present in companies.ts.
-const FALLBACK_POOL: ScheduleEntry[] = [
+export const FALLBACK_POOL: ScheduleEntry[] = [
   { ticker: "AAPL", interval: "1d" },
   { ticker: "MSFT", interval: "1d" },
   { ticker: "AMZN", interval: "1w" },
