@@ -7,6 +7,7 @@ import type { OHLCPoint, CandleInterval } from "@/types/game";
 const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const INTERVAL_LABELS: Record<CandleInterval, string> = {
+  "1h": "Hourly",
   "1d": "Daily",
   "1w": "Weekly",
 };
