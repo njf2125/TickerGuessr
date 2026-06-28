@@ -6,13 +6,14 @@ import { StockChart } from "@/components/StockChart";
 import { HintContainer } from "@/components/HintContainer";
 import { AttemptMatrix } from "@/components/AttemptMatrix";
 import { SearchInput } from "@/components/SearchInput";
+import { StatsModal } from "@/components/StatsModal";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
 export default function Home() {
-  const { payload, guesses, status, isLoading, error, justFinished, submitGuess } =
+  const { payload, guesses, status, stats, isLoading, error, justFinished, submitGuess } =
     useGameState(TODAY);
-  const [, setShowStats] = useState(false);
+  const [showStats, setShowStats] = useState(false);
 
   // Auto-open stats only when the player just completed this session — not on refresh.
   useEffect(() => {
@@ -64,6 +65,17 @@ export default function Home() {
           guessCount={guesses.length}
         />
         <AttemptMatrix guesses={guesses} />
+        {status !== "playing" && (
+          <div className="rounded-xl border border-gray-700 bg-gray-800/60 px-4 py-3 text-center">
+            <p className="text-xs uppercase tracking-wider text-gray-400">
+              {status === "won" ? "You got it" : "The answer was"}
+            </p>
+            <p className="mt-1 text-lg font-bold">
+              <span className="font-mono">{payload.ticker}</span>
+              <span className="ml-2 font-normal text-gray-300">{payload.companyName}</span>
+            </p>
+          </div>
+        )}
         <div className="mt-auto pt-2">
           <SearchInput
             onSubmit={submitGuess}
@@ -72,6 +84,15 @@ export default function Home() {
           />
         </div>
       </main>
+      {showStats && (
+        <StatsModal
+          stats={stats}
+          guesses={guesses}
+          status={status}
+          gameId={payload.gameId}
+          onClose={() => setShowStats(false)}
+        />
+      )}
     </div>
   );
 }
