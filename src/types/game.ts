@@ -3,7 +3,7 @@ export interface Company {
   name: string;
 }
 
-export type CandleInterval = '1d' | '1w';
+export type CandleInterval = '1h' | '1d' | '1w';
 export type GameStatus = 'playing' | 'won' | 'lost';
 
 export interface OHLCPoint {
