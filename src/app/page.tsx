@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useGameState } from "@/hooks/useGameState";
 import { Header } from "@/components/Header";
 import { StockChart } from "@/components/StockChart";
+import { HintContainer } from "@/components/HintContainer";
 
 const TODAY = new Date().toLocaleDateString("en-CA");
 
@@ -51,6 +52,13 @@ export default function Home() {
         <StockChart
           data={payload.candlestickData}
           interval={payload.interval}
+          guessCount={guesses.length}
+        />
+        <HintContainer
+          sector={payload.sector}
+          marketCapTier={payload.marketCapTier}
+          triviaHints={payload.triviaHints}
+          firstLetter={payload.ticker[0]}
           guessCount={guesses.length}
         />
       </main>
