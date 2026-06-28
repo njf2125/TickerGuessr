@@ -1,9 +1,10 @@
 import YahooFinance from "yahoo-finance2";
-const yahooFinance = new YahooFinance();
 import fs from "fs/promises";
 import path from "path";
 import { getScheduleEntry, GAME_START_DATE } from "../src/data/game-schedule";
 import type { GameDayPayload, OHLCPoint, CandleInterval } from "../src/types/game";
+
+const yahooFinance = new YahooFinance();
 
 const SECTOR_MAP: Record<string, string> = {
   Technology: "Technology",
@@ -109,7 +110,7 @@ async function generateGameFile(dateString: string): Promise<void> {
 
   const outPath = path.join(process.cwd(), "public", "games", `${dateString}.json`);
   await fs.mkdir(path.dirname(outPath), { recursive: true });
-  await fs.writeFile(outPath, JSON.stringify(payload, null, 2));
+  await fs.writeFile(outPath, JSON.stringify(payload, null, 2) + "\n");
   console.log(`Wrote ${outPath}`);
   console.log(`⚠️  Fill in triviaHints for ${ticker} before ${dateString} goes live.`);
 }
