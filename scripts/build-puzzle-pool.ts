@@ -26,6 +26,7 @@ function clean(cell: string): string {
     .replace(/&amp;/g, "&")
     .replace(/&#0?39;/g, "'")
     .replace(/&quot;/g, '"')
+    .replace(/&nbsp;|&#160;/gi, " ")
     .trim();
 }
 
@@ -98,7 +99,7 @@ async function main() {
     `export const PUZZLE_POOL: PoolEntry[] = ${JSON.stringify(pool, null, 2)};`,
   ].join("\n");
 
-  await fs.writeFile(path.join(process.cwd(), "src/data/puzzle-pool.ts"), output);
+  await fs.writeFile(path.join(process.cwd(), "src/data/puzzle-pool.ts"), output + "\n");
   console.log(`Wrote ${pool.length} entries to src/data/puzzle-pool.ts`);
 }
 
