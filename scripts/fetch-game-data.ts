@@ -41,7 +41,7 @@ function getJson(url: string): Promise<Record<string, unknown>> {
 }
 
 // Alpha Vantage signals throttling/errors via these keys (with HTTP 200).
-function assertNotThrottled(res: Record<string, unknown>): void {
+export function assertNotThrottled(res: Record<string, unknown>): void {
   for (const k of ["Note", "Information", "Error Message"]) {
     if (res[k]) throw new Error(`Alpha Vantage: ${String(res[k])}`);
   }
@@ -132,7 +132,15 @@ async function generateGameFile(dateString: string): Promise<void> {
   // OVERVIEW for market cap (sector + name come from the curated pool).
   const overview = await getJson(`${BASE}?function=OVERVIEW&symbol=${avSymbol}&apikey=${API_KEY}`);
   assertNotThrottled(overview);
-  const marketCap = Number(overview["MarketCapitalization"] ?? 0);
+  const rawCap = overview["MarketCapitalization"];
+  const marketCap = Number(rawCap);
+  let marketCapTier: string;
+  if (!Number.isFinite(marketCap) || marketCap <= 0) {
+    console.warn(`⚠️  No usable market cap for ${puzzle.ticker} (got ${JSON.stringify(rawCap)}); defaulting tier to "Large Cap" (answer pool is all large/mega cap).`);
+    marketCapTier = "Large Cap";
+  } else {
+    marketCapTier = getMarketCapTier(marketCap);
+  }
 
   const payload: GameDayPayload = {
     gameId: gameIdFor(dateString),
@@ -141,7 +149,7 @@ async function generateGameFile(dateString: string): Promise<void> {
     companyName: puzzle.name,
     interval: puzzle.interval,
     sector: puzzle.sector,
-    marketCapTier: getMarketCapTier(marketCap),
+    marketCapTier,
     triviaHints: [
       `TODO: trivia hint 1 for ${puzzle.ticker}`,
       `TODO: trivia hint 2 for ${puzzle.ticker}`,
