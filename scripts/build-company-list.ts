@@ -34,7 +34,10 @@ function parseNasdaqListed(text: string): Array<{ ticker: string; name: string }
     })
     .map((line) => {
       const cols = line.split("|");
-      return { ticker: normalizeTicker(cols[0]), name: cols[1].trim() };
+      return {
+        ticker: normalizeTicker(cols[0]),
+        name: cols[1].replace(/ Common Stock.*/, "").replace(/ - Class [A-Z]$/, "").trim(),
+      };
     });
 }
 
@@ -85,7 +88,7 @@ async function main() {
   ].join("\n");
 
   const outPath = path.join(process.cwd(), "src/data/companies.ts");
-  await fs.writeFile(outPath, output);
+  await fs.writeFile(outPath, output + "\n");
   console.log(`Wrote ${companies.length} companies to src/data/companies.ts`);
 }
 
