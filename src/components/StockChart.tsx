@@ -43,14 +43,13 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
       },
       yaxis: {
         labels: {
-          show: guessCount >= 4,
+          show: true,
           style: { colors: "#9ca3af", fontSize: "10px" },
           formatter: (val: number) => `$${val.toFixed(0)}`,
         },
       },
       tooltip: {
-        // Candlestick tooltips reveal exact OHLC prices, so keep them gated to
-        // the same threshold as the Y-axis ($ scale) reveal — no early price leak.
+        // Exact OHLC on hover is more revealing than the price scale alone.
         enabled: guessCount >= 4,
         theme: "dark",
       },
