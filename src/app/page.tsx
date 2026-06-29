@@ -75,6 +75,11 @@ export default function Home() {
           firstLetter={payload.firstLetter}
           guessCount={guesses.length}
         />
+        <SearchInput
+          onSubmit={submitGuess}
+          disabled={status !== "playing"}
+          guessedTickers={guesses.map((g) => g.ticker)}
+        />
         <AttemptMatrix guesses={guesses} />
         {status !== "playing" && (
           <div className="rounded-xl border border-gray-700 bg-gray-800/60 px-4 py-3 text-center">
@@ -87,13 +92,6 @@ export default function Home() {
             </p>
           </div>
         )}
-        <div className="sticky bottom-0 bg-gray-900 pt-2 pb-3">
-          <SearchInput
-            onSubmit={submitGuess}
-            disabled={status !== "playing"}
-            guessedTickers={guesses.map((g) => g.ticker)}
-          />
-        </div>
       </main>
       {showStats && (
         <StatsModal
