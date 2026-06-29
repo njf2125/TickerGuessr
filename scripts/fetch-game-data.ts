@@ -174,8 +174,11 @@ async function main() {
   await generateGameFile(date);
 }
 
-// Only run main() when invoked directly, so the test file can import the pure helpers.
-if (process.argv[1] && process.argv[1].includes("fetch-game-data")) {
+// Run main() only when this file is the directly-invoked script (e.g. `npx tsx
+// scripts/fetch-game-data.ts`), not when imported by the test file. Match the
+// resolved basename exactly rather than a loose substring, so a wrapper script
+// whose path merely contains "fetch-game-data" can't trigger it.
+if (process.argv[1] && path.basename(process.argv[1]) === "fetch-game-data.ts") {
   main().catch((err) => {
     console.error(err);
     process.exit(1);
