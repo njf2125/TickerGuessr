@@ -29,8 +29,8 @@ function parseNasdaqListed(text: string): Array<{ ticker: string; name: string }
     .filter((line) => {
       const cols = line.split("|");
       if (cols.length < 8) return false;
-      const [, , , testIssue, financialStatus, , etf] = cols;
-      return etf === "N" && testIssue === "N" && financialStatus === "N";
+      const [, , , testIssue, , , etf] = cols;
+      return etf === "N" && testIssue === "N";
     })
     .map((line) => {
       const cols = line.split("|");
