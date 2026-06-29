@@ -21,6 +21,18 @@ function normalizeTicker(raw: string): string {
   return raw.trim().toUpperCase().replace(/[-/]/g, ".");
 }
 
+// Strip the listing-type suffix ("- Class A Common Stock", "- Common Stock",
+// "Common Stock", etc.) from a raw security name, including any leading dash,
+// and drop a trailing class marker or stray dash. Handles both the NASDAQ
+// ("X - Common Stock") and NYSE ("X Common Stock") naming conventions.
+function cleanCompanyName(raw: string): string {
+  return raw
+    .replace(/\s*-?\s*(Class [A-Z]\s+)?Common Stock.*/i, "")
+    .replace(/\s*-\s*Class [A-Z]\s*$/i, "")
+    .replace(/\s*-\s*$/, "")
+    .trim();
+}
+
 function parseNasdaqListed(text: string): Array<{ ticker: string; name: string }> {
   return text
     .trim()
@@ -36,7 +48,7 @@ function parseNasdaqListed(text: string): Array<{ ticker: string; name: string }
       const cols = line.split("|");
       return {
         ticker: normalizeTicker(cols[0]),
-        name: cols[1].replace(/ Common Stock.*/, "").replace(/ - Class [A-Z]$/, "").trim(),
+        name: cleanCompanyName(cols[1]),
       };
     });
 }
@@ -55,10 +67,7 @@ function parseOtherListed(text: string): Array<{ ticker: string; name: string }>
       const cols = line.split("|");
       return {
         ticker: normalizeTicker(cols[0]),
-        name: cols[1]
-          .replace(/ Common Stock.*/, "")
-          .replace(/ - Class [A-Z]$/, "")
-          .trim(),
+        name: cleanCompanyName(cols[1]),
       };
     });
 }

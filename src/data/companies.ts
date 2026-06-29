@@ -74,11 +74,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AAL",
-    "name": "American Airlines Group, Inc. -"
+    "name": "American Airlines Group, Inc."
   },
   {
     "ticker": "AAME",
-    "name": "Atlantic American Corporation -"
+    "name": "Atlantic American Corporation"
   },
   {
     "ticker": "AAMI",
@@ -86,11 +86,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AAOI",
-    "name": "Applied Optoelectronics, Inc. -"
+    "name": "Applied Optoelectronics, Inc."
   },
   {
     "ticker": "AAON",
-    "name": "AAON, Inc. -"
+    "name": "AAON, Inc."
   },
   {
     "ticker": "AAP",
@@ -102,11 +102,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AAPL",
-    "name": "Apple Inc. -"
+    "name": "Apple Inc."
   },
   {
     "ticker": "AARD",
-    "name": "Aardvark Therapeutics, Inc. -"
+    "name": "Aardvark Therapeutics, Inc."
   },
   {
     "ticker": "AAT",
@@ -122,7 +122,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABAT",
-    "name": "American Battery Technology Company -"
+    "name": "American Battery Technology Company"
   },
   {
     "ticker": "ABBV",
@@ -138,7 +138,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABEO",
-    "name": "Abeona Therapeutics Inc. -"
+    "name": "Abeona Therapeutics Inc."
   },
   {
     "ticker": "ABEV",
@@ -166,7 +166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABOS",
-    "name": "Acumen Pharmaceuticals, Inc. -"
+    "name": "Acumen Pharmaceuticals, Inc."
   },
   {
     "ticker": "ABR",
@@ -174,7 +174,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABSI",
-    "name": "Absci Corporation -"
+    "name": "Absci Corporation"
   },
   {
     "ticker": "ABT",
@@ -190,11 +190,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABUS",
-    "name": "Arbutus Biopharma Corporation -"
+    "name": "Arbutus Biopharma Corporation"
   },
   {
     "ticker": "ABVC",
-    "name": "ABVC BioPharma, Inc. -"
+    "name": "ABVC BioPharma, Inc."
   },
   {
     "ticker": "ABVX",
@@ -202,7 +202,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ABX",
-    "name": "Abacus Global Management, Inc. Class A"
+    "name": "Abacus Global Management, Inc."
   },
   {
     "ticker": "ABXL",
@@ -226,7 +226,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACAD",
-    "name": "ACADIA Pharmaceuticals Inc. -"
+    "name": "ACADIA Pharmaceuticals Inc."
   },
   {
     "ticker": "ACB",
@@ -254,11 +254,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACET",
-    "name": "Adicet Bio, Inc. -"
+    "name": "Adicet Bio, Inc."
   },
   {
     "ticker": "ACFN",
-    "name": "Acorn Energy, Inc. -"
+    "name": "Acorn Energy, Inc."
   },
   {
     "ticker": "ACGC",
@@ -274,7 +274,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACGL",
-    "name": "Arch Capital Group Ltd. -"
+    "name": "Arch Capital Group Ltd."
   },
   {
     "ticker": "ACGLN",
@@ -290,15 +290,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACHC",
-    "name": "Acadia Healthcare Company, Inc. -"
+    "name": "Acadia Healthcare Company, Inc."
   },
   {
     "ticker": "ACHR",
-    "name": "Archer Aviation Inc. Class A"
+    "name": "Archer Aviation Inc."
   },
   {
     "ticker": "ACHR.W",
-    "name": "Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50"
+    "name": "Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one"
   },
   {
     "ticker": "ACHV",
@@ -306,23 +306,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACI",
-    "name": "Albertsons Companies, Inc. Class A"
+    "name": "Albertsons Companies, Inc."
   },
   {
     "ticker": "ACIC",
-    "name": "American Coastal Insurance Corporation -"
+    "name": "American Coastal Insurance Corporation"
   },
   {
     "ticker": "ACIU",
-    "name": "AC Immune SA -"
+    "name": "AC Immune SA"
   },
   {
     "ticker": "ACIW",
-    "name": "ACI Worldwide, Inc. -"
+    "name": "ACI Worldwide, Inc."
   },
   {
     "ticker": "ACLS",
-    "name": "Axcelis Technologies, Inc. -"
+    "name": "Axcelis Technologies, Inc."
   },
   {
     "ticker": "ACM",
@@ -338,19 +338,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACNB",
-    "name": "ACNB Corporation -"
+    "name": "ACNB Corporation"
   },
   {
     "ticker": "ACNT",
-    "name": "Ascent Industries Co. -"
+    "name": "Ascent Industries Co."
   },
   {
     "ticker": "ACOG",
-    "name": "Alpha Cognition Inc. -"
+    "name": "Alpha Cognition Inc."
   },
   {
     "ticker": "ACON",
-    "name": "Aclarion, Inc. -"
+    "name": "Aclarion, Inc."
   },
   {
     "ticker": "ACONW",
@@ -370,23 +370,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACRS",
-    "name": "Aclaris Therapeutics, Inc. -"
+    "name": "Aclaris Therapeutics, Inc."
   },
   {
     "ticker": "ACRV",
-    "name": "Acrivon Therapeutics, Inc. -"
+    "name": "Acrivon Therapeutics, Inc."
   },
   {
     "ticker": "ACT",
-    "name": "Enact Holdings, Inc. -"
+    "name": "Enact Holdings, Inc."
   },
   {
     "ticker": "ACTG",
-    "name": "Acacia Research Corporation -"
+    "name": "Acacia Research Corporation"
   },
   {
     "ticker": "ACTU",
-    "name": "Actuate Therapeutics, Inc. - Common stock"
+    "name": "Actuate Therapeutics, Inc."
   },
   {
     "ticker": "ACU",
@@ -398,11 +398,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ACVA",
-    "name": "ACV Auctions Inc. Class A"
+    "name": "ACV Auctions Inc."
   },
   {
     "ticker": "ACXP",
-    "name": "Acurx Pharmaceuticals, Inc. -"
+    "name": "Acurx Pharmaceuticals, Inc."
   },
   {
     "ticker": "AD",
@@ -426,7 +426,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADAM",
-    "name": "Adamas Trust, Inc. -"
+    "name": "Adamas Trust, Inc."
   },
   {
     "ticker": "ADAMG",
@@ -462,7 +462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADBE",
-    "name": "Adobe Inc. -"
+    "name": "Adobe Inc."
   },
   {
     "ticker": "ADC",
@@ -474,19 +474,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADEA",
-    "name": "Adeia Inc.  -"
+    "name": "Adeia Inc."
   },
   {
     "ticker": "ADGM",
-    "name": "Adagio Medical Holdings, Inc -"
+    "name": "Adagio Medical Holdings, Inc"
   },
   {
     "ticker": "ADI",
-    "name": "Analog Devices, Inc. -"
+    "name": "Analog Devices, Inc."
   },
   {
     "ticker": "ADIL",
-    "name": "Adial Pharmaceuticals, Inc -"
+    "name": "Adial Pharmaceuticals, Inc"
   },
   {
     "ticker": "ADM",
@@ -494,7 +494,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADMA",
-    "name": "ADMA Biologics Inc -"
+    "name": "ADMA Biologics Inc"
   },
   {
     "ticker": "ADNT",
@@ -502,11 +502,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADP",
-    "name": "Automatic Data Processing, Inc. -"
+    "name": "Automatic Data Processing, Inc."
   },
   {
     "ticker": "ADPT",
-    "name": "Adaptive Biotechnologies Corporation -"
+    "name": "Adaptive Biotechnologies Corporation"
   },
   {
     "ticker": "ADSE",
@@ -518,7 +518,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADSK",
-    "name": "Autodesk, Inc. -"
+    "name": "Autodesk, Inc."
   },
   {
     "ticker": "ADT",
@@ -526,15 +526,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADTN",
-    "name": "ADTRAN Holdings, Inc. -"
+    "name": "ADTRAN Holdings, Inc."
   },
   {
     "ticker": "ADUR",
-    "name": "Aduro Clean Technologies Inc. -"
+    "name": "Aduro Clean Technologies Inc."
   },
   {
     "ticker": "ADUS",
-    "name": "Addus HomeCare Corporation -"
+    "name": "Addus HomeCare Corporation"
   },
   {
     "ticker": "ADV",
@@ -542,7 +542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ADVB",
-    "name": "Advanced Biomed Inc. -"
+    "name": "Advanced Biomed Inc."
   },
   {
     "ticker": "ADX",
@@ -566,7 +566,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEBI",
-    "name": "Aebi Schmidt Holding AG -"
+    "name": "Aebi Schmidt Holding AG"
   },
   {
     "ticker": "AEC",
@@ -594,15 +594,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEHR",
-    "name": "Aehr Test Systems -"
+    "name": "Aehr Test Systems"
   },
   {
     "ticker": "AEI",
-    "name": "Alset Inc. -"
+    "name": "Alset Inc."
   },
   {
     "ticker": "AEIS",
-    "name": "Advanced Energy Industries, Inc. -"
+    "name": "Advanced Energy Industries, Inc."
   },
   {
     "ticker": "AEM",
@@ -610,11 +610,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEMD",
-    "name": "Aethlon Medical, Inc. -"
+    "name": "Aethlon Medical, Inc."
   },
   {
     "ticker": "AENT",
-    "name": "Alliance Entertainment Holding Corporation - common stock"
+    "name": "Alliance Entertainment Holding Corporation"
   },
   {
     "ticker": "AENTW",
@@ -626,11 +626,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEON",
-    "name": "AEON Biopharma, Inc. Class A"
+    "name": "AEON Biopharma, Inc."
   },
   {
     "ticker": "AEP",
-    "name": "American Electric Power Company, Inc. -"
+    "name": "American Electric Power Company, Inc."
   },
   {
     "ticker": "AER",
@@ -662,7 +662,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEVA",
-    "name": "Aeva Technologies, Inc. -"
+    "name": "Aeva Technologies, Inc."
   },
   {
     "ticker": "AEXA",
@@ -670,7 +670,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AEYE",
-    "name": "AudioEye, Inc. -"
+    "name": "AudioEye, Inc."
   },
   {
     "ticker": "AFB",
@@ -678,11 +678,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AFBI",
-    "name": "Affinity Bancshares, Inc. -"
+    "name": "Affinity Bancshares, Inc."
   },
   {
     "ticker": "AFCG",
-    "name": "Advanced Flower Capital Inc. -"
+    "name": "Advanced Flower Capital Inc."
   },
   {
     "ticker": "AFG",
@@ -758,7 +758,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGEN",
-    "name": "Agenus Inc. -"
+    "name": "Agenus Inc."
   },
   {
     "ticker": "AGI",
@@ -766,11 +766,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGIG",
-    "name": "Abundia Global Impact Group Inc. Common stock"
+    "name": "Abundia Global Impact Group Inc."
   },
   {
     "ticker": "AGIO",
-    "name": "Agios Pharmaceuticals, Inc. -"
+    "name": "Agios Pharmaceuticals, Inc."
   },
   {
     "ticker": "AGL",
@@ -794,7 +794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGNC",
-    "name": "AGNC Investment Corp. -"
+    "name": "AGNC Investment Corp."
   },
   {
     "ticker": "AGNCL",
@@ -822,7 +822,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGNT",
-    "name": "AGNT, Inc. -"
+    "name": "AGNT, Inc."
   },
   {
     "ticker": "AGO",
@@ -830,7 +830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGPU",
-    "name": "Axe Compute Inc. -"
+    "name": "Axe Compute Inc."
   },
   {
     "ticker": "AGRO",
@@ -846,11 +846,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AGYS",
-    "name": "Agilysys, Inc. -"
+    "name": "Agilysys, Inc."
   },
   {
     "ticker": "AHCO",
-    "name": "AdaptHealth Corp.  -"
+    "name": "AdaptHealth Corp."
   },
   {
     "ticker": "AHG",
@@ -874,11 +874,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AI",
-    "name": "C3.ai, Inc. Class A"
+    "name": "C3.ai, Inc."
   },
   {
     "ticker": "AIAI",
-    "name": "AIAI Holdings Corporation - Class A common stock"
+    "name": "AIAI Holdings Corporation"
   },
   {
     "ticker": "AIB",
@@ -890,19 +890,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIDX",
-    "name": "20/20 Biolabs, Inc. -"
+    "name": "20/20 Biolabs, Inc."
   },
   {
     "ticker": "AIFA",
-    "name": "All In FutureTech Alliance, Inc. -"
+    "name": "All In FutureTech Alliance, Inc."
   },
   {
     "ticker": "AIFC",
-    "name": "AI Financial Corporation -"
+    "name": "AI Financial Corporation"
   },
   {
     "ticker": "AIFF",
-    "name": "Firefly Neuroscience, Inc.  -"
+    "name": "Firefly Neuroscience, Inc."
   },
   {
     "ticker": "AIFU",
@@ -914,7 +914,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIHS",
-    "name": "Senmiao Technology Limited -"
+    "name": "Senmiao Technology Limited"
   },
   {
     "ticker": "AII",
@@ -950,7 +950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIMD",
-    "name": "Ainos, Inc. -"
+    "name": "Ainos, Inc."
   },
   {
     "ticker": "AIMDW",
@@ -970,11 +970,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIOT",
-    "name": "PowerFleet, Inc. -"
+    "name": "PowerFleet, Inc."
   },
   {
     "ticker": "AIP",
-    "name": "Arteris, Inc.  -"
+    "name": "Arteris, Inc."
   },
   {
     "ticker": "AIR",
@@ -982,11 +982,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIRE",
-    "name": "reAlpha Tech Corp. -"
+    "name": "reAlpha Tech Corp."
   },
   {
     "ticker": "AIRG",
-    "name": "Airgain, Inc. -"
+    "name": "Airgain, Inc."
   },
   {
     "ticker": "AIRI",
@@ -1002,15 +1002,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIRO",
-    "name": "AIRO Group Holdings, Inc. -"
+    "name": "AIRO Group Holdings, Inc."
   },
   {
     "ticker": "AIRS",
-    "name": "AirSculpt Technologies, Inc. -"
+    "name": "AirSculpt Technologies, Inc."
   },
   {
     "ticker": "AIRT",
-    "name": "Air T, Inc. -"
+    "name": "Air T, Inc."
   },
   {
     "ticker": "AIRTP",
@@ -1034,7 +1034,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AIXC",
-    "name": "AIxCrypto Holdings, Inc. -"
+    "name": "AIxCrypto Holdings, Inc."
   },
   {
     "ticker": "AIXI",
@@ -1058,7 +1058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AKAM",
-    "name": "Akamai Technologies, Inc. -"
+    "name": "Akamai Technologies, Inc."
   },
   {
     "ticker": "AKAN",
@@ -1066,7 +1066,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AKBA",
-    "name": "Akebia Therapeutics, Inc. -"
+    "name": "Akebia Therapeutics, Inc."
   },
   {
     "ticker": "AKO.A",
@@ -1082,7 +1082,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AKTS",
-    "name": "Aktis Oncology, Inc. - Common stock"
+    "name": "Aktis Oncology, Inc."
   },
   {
     "ticker": "AKTX",
@@ -1090,7 +1090,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALAB",
-    "name": "Astera Labs, Inc. -"
+    "name": "Astera Labs, Inc."
   },
   {
     "ticker": "ALAR",
@@ -1102,7 +1102,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALBT",
-    "name": "Avalon GloboCare Corp. -"
+    "name": "Avalon GloboCare Corp."
   },
   {
     "ticker": "ALC",
@@ -1110,7 +1110,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALCO",
-    "name": "Alico, Inc. -"
+    "name": "Alico, Inc."
   },
   {
     "ticker": "ALDF",
@@ -1126,11 +1126,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALDX",
-    "name": "Aldeyra Therapeutics, Inc. -"
+    "name": "Aldeyra Therapeutics, Inc."
   },
   {
     "ticker": "ALEC",
-    "name": "Alector, Inc. -"
+    "name": "Alector, Inc."
   },
   {
     "ticker": "ALF",
@@ -1150,19 +1150,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALGM",
-    "name": "Allegro MicroSystems, Inc. -"
+    "name": "Allegro MicroSystems, Inc."
   },
   {
     "ticker": "ALGN",
-    "name": "Align Technology, Inc. -"
+    "name": "Align Technology, Inc."
   },
   {
     "ticker": "ALGS",
-    "name": "Aligos Therapeutics, Inc. - Common stock"
+    "name": "Aligos Therapeutics, Inc."
   },
   {
     "ticker": "ALGT",
-    "name": "Allegiant Travel Company -"
+    "name": "Allegiant Travel Company"
   },
   {
     "ticker": "ALH",
@@ -1170,7 +1170,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALHC",
-    "name": "Alignment Healthcare, Inc. -"
+    "name": "Alignment Healthcare, Inc."
   },
   {
     "ticker": "ALIS",
@@ -1186,7 +1186,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALIT",
-    "name": "Alight, Inc. Class A"
+    "name": "Alight, Inc."
   },
   {
     "ticker": "ALK",
@@ -1198,7 +1198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALKT",
-    "name": "Alkami Technology, Inc. -"
+    "name": "Alkami Technology, Inc."
   },
   {
     "ticker": "ALL",
@@ -1210,11 +1210,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALLO",
-    "name": "Allogene Therapeutics, Inc. -"
+    "name": "Allogene Therapeutics, Inc."
   },
   {
     "ticker": "ALLR",
-    "name": "Allarity Therapeutics, Inc. - Common stock"
+    "name": "Allarity Therapeutics, Inc."
   },
   {
     "ticker": "ALLT",
@@ -1230,27 +1230,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALMR",
-    "name": "Alamar Biosciences, Inc. - Class A common stock"
+    "name": "Alamar Biosciences, Inc."
   },
   {
     "ticker": "ALMS",
-    "name": "Alumis Inc. -"
+    "name": "Alumis Inc."
   },
   {
     "ticker": "ALMU",
-    "name": "Aeluma, Inc. -"
+    "name": "Aeluma, Inc."
   },
   {
     "ticker": "ALNT",
-    "name": "Allient Inc. -"
+    "name": "Allient Inc."
   },
   {
     "ticker": "ALNY",
-    "name": "Alnylam Pharmaceuticals, Inc. -"
+    "name": "Alnylam Pharmaceuticals, Inc."
   },
   {
     "ticker": "ALOT",
-    "name": "AstroNova, Inc. -"
+    "name": "AstroNova, Inc."
   },
   {
     "ticker": "ALOV",
@@ -1266,11 +1266,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALOY",
-    "name": "REalloys Inc. -"
+    "name": "REalloys Inc."
   },
   {
     "ticker": "ALP",
-    "name": "Alpha Compute Corp  -"
+    "name": "Alpha Compute Corp"
   },
   {
     "ticker": "ALPS",
@@ -1282,11 +1282,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALRM",
-    "name": "Alarm.com Holdings, Inc. -"
+    "name": "Alarm.com Holdings, Inc."
   },
   {
     "ticker": "ALRS",
-    "name": "Alerus Financial Corporation -"
+    "name": "Alerus Financial Corporation"
   },
   {
     "ticker": "ALSN",
@@ -1294,11 +1294,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALT",
-    "name": "Altimmune, Inc. -"
+    "name": "Altimmune, Inc."
   },
   {
     "ticker": "ALTG",
-    "name": "Alta Equipment Group Inc. Class A"
+    "name": "Alta Equipment Group Inc."
   },
   {
     "ticker": "ALTI",
@@ -1306,7 +1306,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALTO",
-    "name": "Alto Ingredients, Inc. -"
+    "name": "Alto Ingredients, Inc."
   },
   {
     "ticker": "ALUB",
@@ -1338,11 +1338,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ALXO",
-    "name": "ALX Oncology Holdings Inc. -"
+    "name": "ALX Oncology Holdings Inc."
   },
   {
     "ticker": "ALZN",
-    "name": "Alzamend Neuro, Inc. -"
+    "name": "Alzamend Neuro, Inc."
   },
   {
     "ticker": "AM",
@@ -1350,7 +1350,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMAL",
-    "name": "Amalgamated Financial Corp. -"
+    "name": "Amalgamated Financial Corp."
   },
   {
     "ticker": "AMAN",
@@ -1358,7 +1358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMAT",
-    "name": "Applied Materials, Inc. -"
+    "name": "Applied Materials, Inc."
   },
   {
     "ticker": "AMBA",
@@ -1382,11 +1382,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMC",
-    "name": "AMC Entertainment Holdings, Inc. Class A"
+    "name": "AMC Entertainment Holdings, Inc."
   },
   {
     "ticker": "AMCI",
-    "name": "AMC Robotics Corporation -"
+    "name": "AMC Robotics Corporation"
   },
   {
     "ticker": "AMCR",
@@ -1398,7 +1398,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMD",
-    "name": "Advanced Micro Devices, Inc. -"
+    "name": "Advanced Micro Devices, Inc."
   },
   {
     "ticker": "AME",
@@ -1410,7 +1410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMGN",
-    "name": "Amgen Inc. -"
+    "name": "Amgen Inc."
   },
   {
     "ticker": "AMH",
@@ -1418,15 +1418,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMIX",
-    "name": "Autonomix Medical, Inc. -"
+    "name": "Autonomix Medical, Inc."
   },
   {
     "ticker": "AMKR",
-    "name": "Amkor Technology, Inc. -"
+    "name": "Amkor Technology, Inc."
   },
   {
     "ticker": "AMLX",
-    "name": "Amylyx Pharmaceuticals, Inc. -"
+    "name": "Amylyx Pharmaceuticals, Inc."
   },
   {
     "ticker": "AMN",
@@ -1446,7 +1446,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMPG",
-    "name": "Amplitech Group, Inc. -"
+    "name": "Amplitech Group, Inc."
   },
   {
     "ticker": "AMPGR",
@@ -1458,7 +1458,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMPH",
-    "name": "Amphastar Pharmaceuticals, Inc. -"
+    "name": "Amphastar Pharmaceuticals, Inc."
   },
   {
     "ticker": "AMPL",
@@ -1482,7 +1482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMRC",
-    "name": "Ameresco, Inc. Class A"
+    "name": "Ameresco, Inc."
   },
   {
     "ticker": "AMRN",
@@ -1502,19 +1502,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMSC",
-    "name": "American Superconductor Corporation -"
+    "name": "American Superconductor Corporation"
   },
   {
     "ticker": "AMSF",
-    "name": "AMERISAFE, Inc. -"
+    "name": "AMERISAFE, Inc."
   },
   {
     "ticker": "AMSS",
-    "name": "AMASS Brands Inc. -"
+    "name": "AMASS Brands Inc."
   },
   {
     "ticker": "AMST",
-    "name": "Amesite Inc. -"
+    "name": "Amesite Inc."
   },
   {
     "ticker": "AMT",
@@ -1522,7 +1522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMTB",
-    "name": "Amerant Bancorp Inc. Class A"
+    "name": "Amerant Bancorp Inc."
   },
   {
     "ticker": "AMTD",
@@ -1534,7 +1534,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMTX",
-    "name": "Aemetis, Inc -"
+    "name": "Aemetis, Inc"
   },
   {
     "ticker": "AMUB",
@@ -1542,7 +1542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMWL",
-    "name": "American Well Corporation Class A"
+    "name": "American Well Corporation"
   },
   {
     "ticker": "AMX",
@@ -1554,7 +1554,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AMZN",
-    "name": "Amazon.com, Inc. -"
+    "name": "Amazon.com, Inc."
   },
   {
     "ticker": "AN",
@@ -1562,15 +1562,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ANAB",
-    "name": "AnaptysBio, Inc. -"
+    "name": "AnaptysBio, Inc."
   },
   {
     "ticker": "ANDE",
-    "name": "The Andersons, Inc. -"
+    "name": "The Andersons, Inc."
   },
   {
     "ticker": "ANDG",
-    "name": "Andersen Group Inc. Class A"
+    "name": "Andersen Group Inc."
   },
   {
     "ticker": "ANET",
@@ -1594,23 +1594,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ANGO",
-    "name": "AngioDynamics, Inc. -"
+    "name": "AngioDynamics, Inc."
   },
   {
     "ticker": "ANGX",
-    "name": "Angel Studios, Inc. Class A"
+    "name": "Angel Studios, Inc."
   },
   {
     "ticker": "ANIK",
-    "name": "Anika Therapeutics Inc. -"
+    "name": "Anika Therapeutics Inc."
   },
   {
     "ticker": "ANIP",
-    "name": "ANI Pharmaceuticals, Inc. -"
+    "name": "ANI Pharmaceuticals, Inc."
   },
   {
     "ticker": "ANIX",
-    "name": "Anixa Biosciences, Inc. -"
+    "name": "Anixa Biosciences, Inc."
   },
   {
     "ticker": "ANL",
@@ -1626,7 +1626,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ANNX",
-    "name": "Annexon, Inc. - common stock"
+    "name": "Annexon, Inc."
   },
   {
     "ticker": "ANPA",
@@ -1654,7 +1654,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ANTX",
-    "name": "AN2 Therapeutics, Inc. -"
+    "name": "AN2 Therapeutics, Inc."
   },
   {
     "ticker": "ANVS",
@@ -1698,7 +1698,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AOUT",
-    "name": "American Outdoor Brands, Inc. -"
+    "name": "American Outdoor Brands, Inc."
   },
   {
     "ticker": "AP",
@@ -1706,7 +1706,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APA",
-    "name": "APA Corporation -"
+    "name": "APA Corporation"
   },
   {
     "ticker": "APAC",
@@ -1722,7 +1722,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APAM",
-    "name": "Artisan Partners Asset Management Inc. Class A"
+    "name": "Artisan Partners Asset Management Inc."
   },
   {
     "ticker": "APC",
@@ -1734,7 +1734,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APEI",
-    "name": "American Public Education, Inc. -"
+    "name": "American Public Education, Inc."
   },
   {
     "ticker": "APG",
@@ -1742,7 +1742,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APGE",
-    "name": "Apogee Therapeutics, Inc. -"
+    "name": "Apogee Therapeutics, Inc."
   },
   {
     "ticker": "APH",
@@ -1754,7 +1754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APLD",
-    "name": "Applied Digital Corporation -"
+    "name": "Applied Digital Corporation"
   },
   {
     "ticker": "APLE",
@@ -1782,7 +1782,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APOG",
-    "name": "Apogee Enterprises, Inc. -"
+    "name": "Apogee Enterprises, Inc."
   },
   {
     "ticker": "APOS",
@@ -1802,11 +1802,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APPS",
-    "name": "Digital Turbine, Inc. -"
+    "name": "Digital Turbine, Inc."
   },
   {
     "ticker": "APRE",
-    "name": "Aprea Therapeutics, Inc. -"
+    "name": "Aprea Therapeutics, Inc."
   },
   {
     "ticker": "APT",
@@ -1830,7 +1830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APVO",
-    "name": "Aptevo Therapeutics Inc. -"
+    "name": "Aptevo Therapeutics Inc."
   },
   {
     "ticker": "APWC",
@@ -1850,15 +1850,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "APYX",
-    "name": "Apyx Medical Corporation -"
+    "name": "Apyx Medical Corporation"
   },
   {
     "ticker": "AQB",
-    "name": "AquaBounty Technologies, Inc. -"
+    "name": "AquaBounty Technologies, Inc."
   },
   {
     "ticker": "AQMS",
-    "name": "Aqua Metals, Inc. -"
+    "name": "Aqua Metals, Inc."
   },
   {
     "ticker": "AQN",
@@ -1870,7 +1870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AQST",
-    "name": "Aquestive Therapeutics, Inc. -"
+    "name": "Aquestive Therapeutics, Inc."
   },
   {
     "ticker": "AR",
@@ -1878,11 +1878,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARAI",
-    "name": "Arrive AI Inc. -"
+    "name": "Arrive AI Inc."
   },
   {
     "ticker": "ARAY",
-    "name": "Accuray Incorporated -"
+    "name": "Accuray Incorporated"
   },
   {
     "ticker": "ARBB",
@@ -1902,7 +1902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARCB",
-    "name": "ArcBest Corporation -"
+    "name": "ArcBest Corporation"
   },
   {
     "ticker": "ARCC",
@@ -1942,7 +1942,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARCT",
-    "name": "Arcturus Therapeutics Holdings Inc. -"
+    "name": "Arcturus Therapeutics Holdings Inc."
   },
   {
     "ticker": "ARDC",
@@ -1954,7 +1954,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARDX",
-    "name": "Ardelyx, Inc. -"
+    "name": "Ardelyx, Inc."
   },
   {
     "ticker": "ARE",
@@ -1970,7 +1970,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARES",
-    "name": "Ares Management Corporation Class A"
+    "name": "Ares Management Corporation"
   },
   {
     "ticker": "ARGX",
@@ -1990,11 +1990,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARKO",
-    "name": "ARKO Corp. -"
+    "name": "ARKO Corp."
   },
   {
     "ticker": "ARKR",
-    "name": "Ark Restaurants Corp. -"
+    "name": "Ark Restaurants Corp."
   },
   {
     "ticker": "ARL",
@@ -2026,11 +2026,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AROW",
-    "name": "Arrow Financial Corporation -"
+    "name": "Arrow Financial Corporation"
   },
   {
     "ticker": "ARQ",
-    "name": "Arq, Inc. -"
+    "name": "Arq, Inc."
   },
   {
     "ticker": "ARQQ",
@@ -2042,7 +2042,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARQT",
-    "name": "Arcutis Biotherapeutics, Inc. - Common stock"
+    "name": "Arcutis Biotherapeutics, Inc."
   },
   {
     "ticker": "ARR",
@@ -2050,7 +2050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARRY",
-    "name": "Array Technologies, Inc. -"
+    "name": "Array Technologies, Inc."
   },
   {
     "ticker": "ARTC",
@@ -2066,7 +2066,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARTL",
-    "name": "Artelo Biosciences, Inc. -"
+    "name": "Artelo Biosciences, Inc."
   },
   {
     "ticker": "ARTNA",
@@ -2074,15 +2074,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARTV",
-    "name": "Artiva Biotherapeutics, Inc. -"
+    "name": "Artiva Biotherapeutics, Inc."
   },
   {
     "ticker": "ARTW",
-    "name": "Art's-Way Manufacturing Co., Inc. -"
+    "name": "Art's-Way Manufacturing Co., Inc."
   },
   {
     "ticker": "ARVN",
-    "name": "Arvinas, Inc. -"
+    "name": "Arvinas, Inc."
   },
   {
     "ticker": "ARW",
@@ -2090,7 +2090,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ARWR",
-    "name": "Arrowhead Pharmaceuticals, Inc. -"
+    "name": "Arrowhead Pharmaceuticals, Inc."
   },
   {
     "ticker": "ARX",
@@ -2110,7 +2110,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASAN",
-    "name": "Asana, Inc. Class A"
+    "name": "Asana, Inc."
   },
   {
     "ticker": "ASB",
@@ -2122,7 +2122,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASBP",
-    "name": "Aspire Biopharma Holdings, Inc.  -"
+    "name": "Aspire Biopharma Holdings, Inc."
   },
   {
     "ticker": "ASBPW",
@@ -2154,7 +2154,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASLE",
-    "name": "AerSale Corporation -"
+    "name": "AerSale Corporation"
   },
   {
     "ticker": "ASM",
@@ -2162,7 +2162,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASMB",
-    "name": "Assembly Biosciences, Inc. -"
+    "name": "Assembly Biosciences, Inc."
   },
   {
     "ticker": "ASML",
@@ -2174,7 +2174,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASO",
-    "name": "Academy Sports and Outdoors, Inc. -"
+    "name": "Academy Sports and Outdoors, Inc."
   },
   {
     "ticker": "ASPC",
@@ -2190,7 +2190,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASPI",
-    "name": "ASP Isotopes Inc. -"
+    "name": "ASP Isotopes Inc."
   },
   {
     "ticker": "ASPN",
@@ -2198,7 +2198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASPS",
-    "name": "Altisource Portfolio Solutions S.A. -"
+    "name": "Altisource Portfolio Solutions S.A."
   },
   {
     "ticker": "ASPSW",
@@ -2214,7 +2214,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASRV",
-    "name": "AmeriServ Financial Inc. -"
+    "name": "AmeriServ Financial Inc."
   },
   {
     "ticker": "ASST",
@@ -2222,19 +2222,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASTC",
-    "name": "Astrotech Corporation -"
+    "name": "Astrotech Corporation"
   },
   {
     "ticker": "ASTE",
-    "name": "Astec Industries, Inc. -"
+    "name": "Astec Industries, Inc."
   },
   {
     "ticker": "ASTH",
-    "name": "Astrana Health Inc. -"
+    "name": "Astrana Health Inc."
   },
   {
     "ticker": "ASTI",
-    "name": "Ascent Solar Technologies, Inc -"
+    "name": "Ascent Solar Technologies, Inc"
   },
   {
     "ticker": "ASTL",
@@ -2250,7 +2250,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASUR",
-    "name": "Asure Software Inc -"
+    "name": "Asure Software Inc"
   },
   {
     "ticker": "ASX",
@@ -2258,11 +2258,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ASYS",
-    "name": "Amtech Systems, Inc. -"
+    "name": "Amtech Systems, Inc."
   },
   {
     "ticker": "ATAI",
-    "name": "AtaiBeckley Inc. -"
+    "name": "AtaiBeckley Inc."
   },
   {
     "ticker": "ATAT",
@@ -2274,11 +2274,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATCX",
-    "name": "Atlas Critical Minerals Corporation -"
+    "name": "Atlas Critical Minerals Corporation"
   },
   {
     "ticker": "ATEC",
-    "name": "Alphatec Holdings, Inc. -"
+    "name": "Alphatec Holdings, Inc."
   },
   {
     "ticker": "ATEN",
@@ -2286,11 +2286,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATER",
-    "name": "Aterian, Inc. -"
+    "name": "Aterian, Inc."
   },
   {
     "ticker": "ATEX",
-    "name": "Anterix Inc. -"
+    "name": "Anterix Inc."
   },
   {
     "ticker": "ATGL",
@@ -2306,7 +2306,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATHR",
-    "name": "Aether Holdings, Inc. -"
+    "name": "Aether Holdings, Inc."
   },
   {
     "ticker": "ATHS",
@@ -2334,7 +2334,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATLC",
-    "name": "Atlanticus Holdings Corporation -"
+    "name": "Atlanticus Holdings Corporation"
   },
   {
     "ticker": "ATLCL",
@@ -2350,15 +2350,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATLN",
-    "name": "Atlantic International Corp. -"
+    "name": "Atlantic International Corp."
   },
   {
     "ticker": "ATLO",
-    "name": "Ames National Corporation -"
+    "name": "Ames National Corporation"
   },
   {
     "ticker": "ATLX",
-    "name": "Atlas Lithium Corporation -"
+    "name": "Atlas Lithium Corporation"
   },
   {
     "ticker": "ATMP",
@@ -2370,7 +2370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATNI",
-    "name": "ATN International, Inc. -"
+    "name": "ATN International, Inc."
   },
   {
     "ticker": "ATNM",
@@ -2382,15 +2382,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATOM",
-    "name": "Atomera Incorporated -"
+    "name": "Atomera Incorporated"
   },
   {
     "ticker": "ATOS",
-    "name": "Atossa Therapeutics, Inc. -"
+    "name": "Atossa Therapeutics, Inc."
   },
   {
     "ticker": "ATPC",
-    "name": "Agape ATP Corporation -"
+    "name": "Agape ATP Corporation"
   },
   {
     "ticker": "ATR",
@@ -2398,15 +2398,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATRA",
-    "name": "Atara Biotherapeutics, Inc. -"
+    "name": "Atara Biotherapeutics, Inc."
   },
   {
     "ticker": "ATRC",
-    "name": "AtriCure, Inc. -"
+    "name": "AtriCure, Inc."
   },
   {
     "ticker": "ATRO",
-    "name": "Astronics Corporation -"
+    "name": "Astronics Corporation"
   },
   {
     "ticker": "ATS",
@@ -2414,11 +2414,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ATXG",
-    "name": "Addentax Group Corp. -"
+    "name": "Addentax Group Corp."
   },
   {
     "ticker": "ATYR",
-    "name": "aTyr Pharma, Inc. -"
+    "name": "aTyr Pharma, Inc."
   },
   {
     "ticker": "AU",
@@ -2430,7 +2430,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AUBN",
-    "name": "Auburn National Bancorporation, Inc. -"
+    "name": "Auburn National Bancorporation, Inc."
   },
   {
     "ticker": "AUC",
@@ -2446,7 +2446,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AUID",
-    "name": "authID Inc. -"
+    "name": "authID Inc."
   },
   {
     "ticker": "AUNA",
@@ -2462,7 +2462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AURA",
-    "name": "Aura Biosciences, Inc. -"
+    "name": "Aura Biosciences, Inc."
   },
   {
     "ticker": "AURE",
@@ -2482,7 +2482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AUUD",
-    "name": "Auddia Inc. -"
+    "name": "Auddia Inc."
   },
   {
     "ticker": "AVA",
@@ -2490,7 +2490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVAH",
-    "name": "Aveanna Healthcare Holdings Inc. -"
+    "name": "Aveanna Healthcare Holdings Inc."
   },
   {
     "ticker": "AVAL",
@@ -2502,7 +2502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVAV",
-    "name": "AeroVironment, Inc. -"
+    "name": "AeroVironment, Inc."
   },
   {
     "ticker": "AVB",
@@ -2514,11 +2514,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVBH",
-    "name": "Avidbank Holdings, Inc. -"
+    "name": "Avidbank Holdings, Inc."
   },
   {
     "ticker": "AVBP",
-    "name": "ArriVent BioPharma, Inc. -"
+    "name": "ArriVent BioPharma, Inc."
   },
   {
     "ticker": "AVD",
@@ -2526,15 +2526,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVEX",
-    "name": "AEVEX Corp. Class A"
+    "name": "AEVEX Corp."
   },
   {
     "ticker": "AVGO",
-    "name": "Broadcom Inc. -"
+    "name": "Broadcom Inc."
   },
   {
     "ticker": "AVIR",
-    "name": "Atea Pharmaceuticals, Inc. - common stock"
+    "name": "Atea Pharmaceuticals, Inc."
   },
   {
     "ticker": "AVK",
@@ -2542,7 +2542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVLN",
-    "name": "Avalyn Pharma Inc. - common stock"
+    "name": "Avalyn Pharma Inc."
   },
   {
     "ticker": "AVNS",
@@ -2554,11 +2554,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVNW",
-    "name": "Aviat Networks, Inc. -"
+    "name": "Aviat Networks, Inc."
   },
   {
     "ticker": "AVO",
-    "name": "Mission Produce, Inc. -"
+    "name": "Mission Produce, Inc."
   },
   {
     "ticker": "AVPT",
@@ -2566,11 +2566,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVR",
-    "name": "Anteris Technologies Global Corp. -"
+    "name": "Anteris Technologies Global Corp."
   },
   {
     "ticker": "AVT",
-    "name": "Avnet, Inc. -"
+    "name": "Avnet, Inc."
   },
   {
     "ticker": "AVTR",
@@ -2578,7 +2578,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVTX",
-    "name": "Avalo Therapeutics, Inc. -"
+    "name": "Avalo Therapeutics, Inc."
   },
   {
     "ticker": "AVX",
@@ -2586,7 +2586,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AVXL",
-    "name": "Anavex Life Sciences Corp. -"
+    "name": "Anavex Life Sciences Corp."
   },
   {
     "ticker": "AVY",
@@ -2614,7 +2614,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AWRE",
-    "name": "Aware, Inc. -"
+    "name": "Aware, Inc."
   },
   {
     "ticker": "AWX",
@@ -2630,7 +2630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AXGN",
-    "name": "Axogen, Inc. -"
+    "name": "Axogen, Inc."
   },
   {
     "ticker": "AXIA",
@@ -2654,7 +2654,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AXON",
-    "name": "Axon Enterprise, Inc. -"
+    "name": "Axon Enterprise, Inc."
   },
   {
     "ticker": "AXP",
@@ -2670,7 +2670,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AXSM",
-    "name": "Axsome Therapeutics, Inc. -"
+    "name": "Axsome Therapeutics, Inc."
   },
   {
     "ticker": "AXTA",
@@ -2678,7 +2678,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AXTI",
-    "name": "AXT Inc -"
+    "name": "AXT Inc"
   },
   {
     "ticker": "AYA",
@@ -2690,7 +2690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AYTU",
-    "name": "Aytu BioPharma, Inc.  -"
+    "name": "Aytu BioPharma, Inc."
   },
   {
     "ticker": "AZ",
@@ -2710,7 +2710,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "AZTA",
-    "name": "Azenta, Inc. -"
+    "name": "Azenta, Inc."
   },
   {
     "ticker": "AZTR",
@@ -2754,7 +2754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BAER",
-    "name": "Bridger Aerospace Group Holdings, Inc. -"
+    "name": "Bridger Aerospace Group Holdings, Inc."
   },
   {
     "ticker": "BAERW",
@@ -2762,7 +2762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BAFN",
-    "name": "BayFirst Financial Corp. -"
+    "name": "BayFirst Financial Corp."
   },
   {
     "ticker": "BAH",
@@ -2794,7 +2794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BANF",
-    "name": "BancFirst Corporation -"
+    "name": "BancFirst Corporation"
   },
   {
     "ticker": "BANFP",
@@ -2806,7 +2806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BANR",
-    "name": "Banner Corporation -"
+    "name": "Banner Corporation"
   },
   {
     "ticker": "BANX",
@@ -2826,7 +2826,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BARK",
-    "name": "BARK, Inc. Class A"
+    "name": "BARK, Inc."
   },
   {
     "ticker": "BATL",
@@ -2882,7 +2882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BBCP",
-    "name": "Concrete Pumping Holdings, Inc.  -"
+    "name": "Concrete Pumping Holdings, Inc."
   },
   {
     "ticker": "BBCQ",
@@ -2914,11 +2914,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BBIO",
-    "name": "BridgeBio Pharma, Inc. -"
+    "name": "BridgeBio Pharma, Inc."
   },
   {
     "ticker": "BBLG",
-    "name": "Bone Biologics Corp -"
+    "name": "Bone Biologics Corp"
   },
   {
     "ticker": "BBLGW",
@@ -2930,19 +2930,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BBNX",
-    "name": "Beta Bionics, Inc. -"
+    "name": "Beta Bionics, Inc."
   },
   {
     "ticker": "BBOT",
-    "name": "BridgeBio Oncology Therapeutics, Inc. -"
+    "name": "BridgeBio Oncology Therapeutics, Inc."
   },
   {
     "ticker": "BBSI",
-    "name": "Barrett Business Services, Inc. -"
+    "name": "Barrett Business Services, Inc."
   },
   {
     "ticker": "BBT",
-    "name": "Beacon Financial Corporation Common stock"
+    "name": "Beacon Financial Corporation"
   },
   {
     "ticker": "BBUC",
@@ -2970,11 +2970,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCAB",
-    "name": "BioAtla, Inc. -"
+    "name": "BioAtla, Inc."
   },
   {
     "ticker": "BCAL",
-    "name": "California BanCorp -"
+    "name": "California BanCorp"
   },
   {
     "ticker": "BCAR",
@@ -2994,11 +2994,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCAX",
-    "name": "Bicara Therapeutics Inc. -"
+    "name": "Bicara Therapeutics Inc."
   },
   {
     "ticker": "BCBP",
-    "name": "BCB Bancorp, Inc. (NJ) -"
+    "name": "BCB Bancorp, Inc. (NJ)"
   },
   {
     "ticker": "BCC",
@@ -3006,7 +3006,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCDA",
-    "name": "BioCardia, Inc. -"
+    "name": "BioCardia, Inc."
   },
   {
     "ticker": "BCE",
@@ -3014,7 +3014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCG",
-    "name": "Binah Capital Group, Inc. -"
+    "name": "Binah Capital Group, Inc."
   },
   {
     "ticker": "BCGWW",
@@ -3034,7 +3034,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCML",
-    "name": "BayCom Corp -"
+    "name": "BayCom Corp"
   },
   {
     "ticker": "BCO",
@@ -3042,11 +3042,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BCPC",
-    "name": "Balchem Corporation -"
+    "name": "Balchem Corporation"
   },
   {
     "ticker": "BCRX",
-    "name": "BioCryst Pharmaceuticals, Inc. -"
+    "name": "BioCryst Pharmaceuticals, Inc."
   },
   {
     "ticker": "BCS",
@@ -3138,11 +3138,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BDSX",
-    "name": "Biodesix, Inc. -"
+    "name": "Biodesix, Inc."
   },
   {
     "ticker": "BDTX",
-    "name": "Black Diamond Therapeutics, Inc. -"
+    "name": "Black Diamond Therapeutics, Inc."
   },
   {
     "ticker": "BDX",
@@ -3150,7 +3150,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BE",
-    "name": "Bloom Energy Corporation Class A"
+    "name": "Bloom Energy Corporation"
   },
   {
     "ticker": "BEAG",
@@ -3166,11 +3166,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BEAM",
-    "name": "Beam Therapeutics Inc. -"
+    "name": "Beam Therapeutics Inc."
   },
   {
     "ticker": "BEAT",
-    "name": "Heartbeam, Inc. -"
+    "name": "Heartbeam, Inc."
   },
   {
     "ticker": "BEATW",
@@ -3190,11 +3190,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BEEM",
-    "name": "Beam Global -"
+    "name": "Beam Global"
   },
   {
     "ticker": "BEEP",
-    "name": "Mobile Infrastructure Corporation -"
+    "name": "Mobile Infrastructure Corporation"
   },
   {
     "ticker": "BEKE",
@@ -3250,7 +3250,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BETA",
-    "name": "Beta Technologies, Inc. Class A"
+    "name": "Beta Technologies, Inc."
   },
   {
     "ticker": "BETR",
@@ -3262,11 +3262,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BF.A",
-    "name": "Brown Forman Inc Class A"
+    "name": "Brown Forman Inc"
   },
   {
     "ticker": "BF.B",
-    "name": "Brown Forman Inc Class B"
+    "name": "Brown Forman Inc"
   },
   {
     "ticker": "BFAM",
@@ -3274,7 +3274,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BFC",
-    "name": "Bank First Corporation -"
+    "name": "Bank First Corporation"
   },
   {
     "ticker": "BFH",
@@ -3282,11 +3282,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BFLY",
-    "name": "Butterfly Network, Inc. Class A"
+    "name": "Butterfly Network, Inc."
   },
   {
     "ticker": "BFRG",
-    "name": "Bullfrog AI Holdings, Inc. -"
+    "name": "Bullfrog AI Holdings, Inc."
   },
   {
     "ticker": "BFRGW",
@@ -3294,7 +3294,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BFRI",
-    "name": "Biofrontera Inc. -"
+    "name": "Biofrontera Inc."
   },
   {
     "ticker": "BFRIW",
@@ -3306,7 +3306,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BFST",
-    "name": "Business First Bancshares, Inc. -"
+    "name": "Business First Bancshares, Inc."
   },
   {
     "ticker": "BG",
@@ -3322,7 +3322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BGDE",
-    "name": "Big Digital Energy, Inc. -"
+    "name": "Big Digital Energy, Inc."
   },
   {
     "ticker": "BGH",
@@ -3342,7 +3342,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BGLC",
-    "name": "BioNexus Gene Lab Corp - Common stock"
+    "name": "BioNexus Gene Lab Corp"
   },
   {
     "ticker": "BGLWW",
@@ -3354,7 +3354,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BGMS",
-    "name": "Bio Green Med Solution, Inc. -"
+    "name": "Bio Green Med Solution, Inc."
   },
   {
     "ticker": "BGR",
@@ -3386,11 +3386,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BH",
-    "name": "Biglari Holdings Inc. Class B"
+    "name": "Biglari Holdings Inc."
   },
   {
     "ticker": "BH.A",
-    "name": "Biglari Holdings Inc. Class A"
+    "name": "Biglari Holdings Inc."
   },
   {
     "ticker": "BHAV",
@@ -3418,7 +3418,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BHF",
-    "name": "Brighthouse Financial, Inc. -"
+    "name": "Brighthouse Financial, Inc."
   },
   {
     "ticker": "BHFAL",
@@ -3446,7 +3446,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BHM",
-    "name": "Bluerock Homes Trust, Inc. Class A"
+    "name": "Bluerock Homes Trust, Inc."
   },
   {
     "ticker": "BHP",
@@ -3458,11 +3458,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BHRB",
-    "name": "Burke & Herbert Financial Services Corp. -"
+    "name": "Burke & Herbert Financial Services Corp."
   },
   {
     "ticker": "BHST",
-    "name": "BioHarvest Sciences Inc. -"
+    "name": "BioHarvest Sciences Inc."
   },
   {
     "ticker": "BHV",
@@ -3474,7 +3474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BIAF",
-    "name": "bioAffinity Technologies, Inc. -"
+    "name": "bioAffinity Technologies, Inc."
   },
   {
     "ticker": "BIAFW",
@@ -3490,7 +3490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BIIB",
-    "name": "Biogen Inc. -"
+    "name": "Biogen Inc."
   },
   {
     "ticker": "BIII",
@@ -3514,15 +3514,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BIO",
-    "name": "Bio-Rad Laboratories, Inc. Class A"
+    "name": "Bio-Rad Laboratories, Inc."
   },
   {
     "ticker": "BIO.B",
-    "name": "Bio-Rad Laboratories, Inc. Class B"
+    "name": "Bio-Rad Laboratories, Inc."
   },
   {
     "ticker": "BIOA",
-    "name": "BioAge Labs, Inc. -"
+    "name": "BioAge Labs, Inc."
   },
   {
     "ticker": "BIOX",
@@ -3562,7 +3562,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BIVI",
-    "name": "BioVie Inc. - Common stock"
+    "name": "BioVie Inc."
   },
   {
     "ticker": "BIVIW",
@@ -3590,11 +3590,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BJDX",
-    "name": "Bluejay Diagnostics, Inc. -"
+    "name": "Bluejay Diagnostics, Inc."
   },
   {
     "ticker": "BJRI",
-    "name": "BJ's Restaurants, Inc. -"
+    "name": "BJ's Restaurants, Inc."
   },
   {
     "ticker": "BKD",
@@ -3622,27 +3622,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BKKT",
-    "name": "Bakkt, Inc. Class A"
+    "name": "Bakkt, Inc."
   },
   {
     "ticker": "BKKT.W",
-    "name": "Bakkt, Inc. Warrants to purchase Class A"
+    "name": "Bakkt, Inc. Warrants to purchase"
   },
   {
     "ticker": "BKNG",
-    "name": "Booking Holdings Inc. -"
+    "name": "Booking Holdings Inc."
   },
   {
     "ticker": "BKR",
-    "name": "Baker Hughes Company -"
+    "name": "Baker Hughes Company"
   },
   {
     "ticker": "BKSY",
-    "name": "BlackSky Technology Inc. Class A"
+    "name": "BlackSky Technology Inc."
   },
   {
     "ticker": "BKSY.W",
-    "name": "BlackSky Technology Inc. Redeemable Warrants, each whole Warrant exercisable for one share of Class A"
+    "name": "BlackSky Technology Inc. Redeemable Warrants, each whole Warrant exercisable for one share of"
   },
   {
     "ticker": "BKT",
@@ -3662,11 +3662,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BL",
-    "name": "BlackLine, Inc. -"
+    "name": "BlackLine, Inc."
   },
   {
     "ticker": "BLBD",
-    "name": "Blue Bird Corporation -"
+    "name": "Blue Bird Corporation"
   },
   {
     "ticker": "BLCO",
@@ -3686,11 +3686,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BLFS",
-    "name": "BioLife Solutions, Inc. -"
+    "name": "BioLife Solutions, Inc."
   },
   {
     "ticker": "BLIN",
-    "name": "Bridgeline Digital, Inc. -"
+    "name": "Bridgeline Digital, Inc."
   },
   {
     "ticker": "BLIV",
@@ -3702,27 +3702,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BLKB",
-    "name": "Blackbaud, Inc. -"
+    "name": "Blackbaud, Inc."
   },
   {
     "ticker": "BLLN",
-    "name": "BillionToOne, Inc. - Class A common stock"
+    "name": "BillionToOne, Inc."
   },
   {
     "ticker": "BLMN",
-    "name": "Bloomin' Brands, Inc. -"
+    "name": "Bloomin' Brands, Inc."
   },
   {
     "ticker": "BLND",
-    "name": "Blend Labs, Inc. Class A"
+    "name": "Blend Labs, Inc."
   },
   {
     "ticker": "BLNE",
-    "name": "Beeline Holdings, Inc. -"
+    "name": "Beeline Holdings, Inc."
   },
   {
     "ticker": "BLNK",
-    "name": "Blink Charging Co. -"
+    "name": "Blink Charging Co."
   },
   {
     "ticker": "BLRK",
@@ -3766,11 +3766,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BLX",
-    "name": "Bladex, Inc. Class E"
+    "name": "Bladex, Inc."
   },
   {
     "ticker": "BLZE",
-    "name": "Backblaze, Inc. -"
+    "name": "Backblaze, Inc."
   },
   {
     "ticker": "BLZR",
@@ -3790,7 +3790,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BMBL",
-    "name": "Bumble Inc. - common stock"
+    "name": "Bumble Inc."
   },
   {
     "ticker": "BME",
@@ -3798,7 +3798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BMEA",
-    "name": "Biomea Fusion, Inc. -"
+    "name": "Biomea Fusion, Inc."
   },
   {
     "ticker": "BMEZ",
@@ -3842,15 +3842,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BMRA",
-    "name": "Biomerica, Inc. -"
+    "name": "Biomerica, Inc."
   },
   {
     "ticker": "BMRC",
-    "name": "Bank of Marin Bancorp -"
+    "name": "Bank of Marin Bancorp"
   },
   {
     "ticker": "BMRN",
-    "name": "BioMarin Pharmaceutical Inc. -"
+    "name": "BioMarin Pharmaceutical Inc."
   },
   {
     "ticker": "BMY",
@@ -3862,7 +3862,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BNAI",
-    "name": "Brand Engagement Network Inc. -"
+    "name": "Brand Engagement Network Inc."
   },
   {
     "ticker": "BNAIW",
@@ -3870,11 +3870,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BNBX",
-    "name": "BNB Plus Corp. -"
+    "name": "BNB Plus Corp."
   },
   {
     "ticker": "BNC",
-    "name": "CEA Industries Inc. -"
+    "name": "CEA Industries Inc."
   },
   {
     "ticker": "BNCWW",
@@ -3890,7 +3890,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BNGO",
-    "name": "Bionano Genomics, Inc. -"
+    "name": "Bionano Genomics, Inc."
   },
   {
     "ticker": "BNH",
@@ -3902,7 +3902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BNKK",
-    "name": "Bonk, Inc. -"
+    "name": "Bonk, Inc."
   },
   {
     "ticker": "BNL",
@@ -3926,7 +3926,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BNTC",
-    "name": "Benitec Biopharma Inc. -"
+    "name": "Benitec Biopharma Inc."
   },
   {
     "ticker": "BNTX",
@@ -3950,7 +3950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOC",
-    "name": "Boston Omaha Corporation Class A"
+    "name": "Boston Omaha Corporation"
   },
   {
     "ticker": "BODI",
@@ -3962,7 +3962,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOF",
-    "name": "BranchOut Food Inc. -"
+    "name": "BranchOut Food Inc."
   },
   {
     "ticker": "BOH",
@@ -3970,15 +3970,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOKF",
-    "name": "BOK Financial Corporation -"
+    "name": "BOK Financial Corporation"
   },
   {
     "ticker": "BOLD",
-    "name": "Boundless Bio, Inc. -"
+    "name": "Boundless Bio, Inc."
   },
   {
     "ticker": "BOLT",
-    "name": "Bolt Biotherapeutics, Inc. -"
+    "name": "Bolt Biotherapeutics, Inc."
   },
   {
     "ticker": "BON",
@@ -3986,7 +3986,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOOM",
-    "name": "DMC Global Inc. -"
+    "name": "DMC Global Inc."
   },
   {
     "ticker": "BOOT",
@@ -4002,11 +4002,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOT",
-    "name": "RoboStrategy, Inc. -"
+    "name": "RoboStrategy, Inc."
   },
   {
     "ticker": "BOTJ",
-    "name": "Bank of the James Financial Group, Inc. -"
+    "name": "Bank of the James Financial Group, Inc."
   },
   {
     "ticker": "BOW",
@@ -4014,7 +4014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BOX",
-    "name": "Box, Inc. Class A"
+    "name": "Box, Inc."
   },
   {
     "ticker": "BOXL",
@@ -4038,7 +4038,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BPOP",
-    "name": "Popular, Inc. -"
+    "name": "Popular, Inc."
   },
   {
     "ticker": "BPOPM",
@@ -4050,7 +4050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BPRN",
-    "name": "Princeton Bancorp, Inc. -"
+    "name": "Princeton Bancorp, Inc."
   },
   {
     "ticker": "BPYPM",
@@ -4082,7 +4082,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRAI",
-    "name": "Braiin Limited -"
+    "name": "Braiin Limited"
   },
   {
     "ticker": "BRBI",
@@ -4106,7 +4106,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRCC",
-    "name": "BRC Inc. Class A"
+    "name": "BRC Inc."
   },
   {
     "ticker": "BREZ",
@@ -4118,7 +4118,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRFH",
-    "name": "Barfresh Food Group Inc. -"
+    "name": "Barfresh Food Group Inc."
   },
   {
     "ticker": "BRIA",
@@ -4126,7 +4126,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRID",
-    "name": "Bridgford Foods Corporation -"
+    "name": "Bridgford Foods Corporation"
   },
   {
     "ticker": "BRK.A",
@@ -4142,7 +4142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRKR",
-    "name": "Bruker Corporation -"
+    "name": "Bruker Corporation"
   },
   {
     "ticker": "BRKRP",
@@ -4174,11 +4174,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BROS",
-    "name": "Dutch Bros Inc. Class A"
+    "name": "Dutch Bros Inc."
   },
   {
     "ticker": "BRR",
-    "name": "ProCap Financial, Inc. -"
+    "name": "ProCap Financial, Inc."
   },
   {
     "ticker": "BRRWW",
@@ -4190,7 +4190,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRSP",
-    "name": "BrightSpire Capital, Inc. Class A"
+    "name": "BrightSpire Capital, Inc."
   },
   {
     "ticker": "BRT",
@@ -4198,7 +4198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BRTX",
-    "name": "BioRestorative Therapies, Inc. -"
+    "name": "BioRestorative Therapies, Inc."
   },
   {
     "ticker": "BRUN",
@@ -4238,7 +4238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BSBK",
-    "name": "Bogota Financial Corp. -"
+    "name": "Bogota Financial Corp."
   },
   {
     "ticker": "BSBR",
@@ -4246,11 +4246,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BSET",
-    "name": "Bassett Furniture Industries, Incorporated -"
+    "name": "Bassett Furniture Industries, Incorporated"
   },
   {
     "ticker": "BSIN",
-    "name": "Big Sky Industrial Inc. -"
+    "name": "Big Sky Industrial Inc."
   },
   {
     "ticker": "BSL",
@@ -4262,7 +4262,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BSRR",
-    "name": "Sierra Bancorp -"
+    "name": "Sierra Bancorp"
   },
   {
     "ticker": "BST",
@@ -4274,7 +4274,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BSVN",
-    "name": "Bank7 Corp. - Common stock"
+    "name": "Bank7 Corp."
   },
   {
     "ticker": "BSX",
@@ -4286,11 +4286,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTAI",
-    "name": "BioXcel Therapeutics, Inc. -"
+    "name": "BioXcel Therapeutics, Inc."
   },
   {
     "ticker": "BTBD",
-    "name": "BT Brands, Inc. -"
+    "name": "BT Brands, Inc."
   },
   {
     "ticker": "BTBDW",
@@ -4302,7 +4302,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTCS",
-    "name": "BTCS Inc. -"
+    "name": "BTCS Inc."
   },
   {
     "ticker": "BTCT",
@@ -4322,7 +4322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTGO",
-    "name": "BitGo Holdings, Inc. Class A"
+    "name": "BitGo Holdings, Inc."
   },
   {
     "ticker": "BTI",
@@ -4330,7 +4330,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTMD",
-    "name": "Biote Corp. - Class A common stock"
+    "name": "Biote Corp."
   },
   {
     "ticker": "BTO",
@@ -4338,7 +4338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTOC",
-    "name": "Armlogi Holding Corp. - common stock"
+    "name": "Armlogi Holding Corp."
   },
   {
     "ticker": "BTOG",
@@ -4346,11 +4346,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BTQ",
-    "name": "BTQ Technologies Corp. -"
+    "name": "BTQ Technologies Corp."
   },
   {
     "ticker": "BTSG",
-    "name": "BrightSpring Health Services, Inc. -"
+    "name": "BrightSpring Health Services, Inc."
   },
   {
     "ticker": "BTSGU",
@@ -4410,7 +4410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BUSE",
-    "name": "First Busey Corporation -"
+    "name": "First Busey Corporation"
   },
   {
     "ticker": "BUSEP",
@@ -4430,7 +4430,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BVFL",
-    "name": "BV Financial, Inc. -"
+    "name": "BV Financial, Inc."
   },
   {
     "ticker": "BVN",
@@ -4454,7 +4454,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BWB",
-    "name": "Bridgewater Bancshares, Inc. -"
+    "name": "Bridgewater Bancshares, Inc."
   },
   {
     "ticker": "BWBBP",
@@ -4462,11 +4462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BWEN",
-    "name": "Broadwind, Inc. -"
+    "name": "Broadwind, Inc."
   },
   {
     "ticker": "BWFG",
-    "name": "Bankwell Financial Group, Inc. -"
+    "name": "Bankwell Financial Group, Inc."
   },
   {
     "ticker": "BWG",
@@ -4494,7 +4494,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BWMN",
-    "name": "Bowman Consulting Group Ltd. -"
+    "name": "Bowman Consulting Group Ltd."
   },
   {
     "ticker": "BWMX",
@@ -4550,11 +4550,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BYND",
-    "name": "Beyond Meat, Inc. - Common stock"
+    "name": "Beyond Meat, Inc."
   },
   {
     "ticker": "BYRN",
-    "name": "Byrna Technologies, Inc. -"
+    "name": "Byrna Technologies, Inc."
   },
   {
     "ticker": "BYSI",
@@ -4566,7 +4566,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "BZAI",
-    "name": "Blaize Holdings, Inc. -"
+    "name": "Blaize Holdings, Inc."
   },
   {
     "ticker": "BZAIW",
@@ -4602,7 +4602,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CABA",
-    "name": "Cabaletta Bio, Inc. -"
+    "name": "Cabaletta Bio, Inc."
   },
   {
     "ticker": "CABO",
@@ -4610,23 +4610,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CABR",
-    "name": "Caring Brands, Inc. -"
+    "name": "Caring Brands, Inc."
   },
   {
     "ticker": "CAC",
-    "name": "Camden National Corporation -"
+    "name": "Camden National Corporation"
   },
   {
     "ticker": "CACC",
-    "name": "Credit Acceptance Corporation -"
+    "name": "Credit Acceptance Corporation"
   },
   {
     "ticker": "CACI",
-    "name": "CACI International, Inc. Class A"
+    "name": "CACI International, Inc."
   },
   {
     "ticker": "CADL",
-    "name": "Candel Therapeutics, Inc. -"
+    "name": "Candel Therapeutics, Inc."
   },
   {
     "ticker": "CAE",
@@ -4650,7 +4650,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CAI",
-    "name": "Caris Life Sciences, Inc. -"
+    "name": "Caris Life Sciences, Inc."
   },
   {
     "ticker": "CAII",
@@ -4666,7 +4666,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CAKE",
-    "name": "The Cheesecake Factory Incorporated -"
+    "name": "The Cheesecake Factory Incorporated"
   },
   {
     "ticker": "CAL",
@@ -4674,11 +4674,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CALC",
-    "name": "CalciMedica, Inc. -"
+    "name": "CalciMedica, Inc."
   },
   {
     "ticker": "CALM",
-    "name": "Cal-Maine Foods, Inc. -"
+    "name": "Cal-Maine Foods, Inc."
   },
   {
     "ticker": "CALX",
@@ -4690,7 +4690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CAMP",
-    "name": "CAMP4 Therapeutics Corporation -"
+    "name": "CAMP4 Therapeutics Corporation"
   },
   {
     "ticker": "CAMT",
@@ -4726,11 +4726,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CAPR",
-    "name": "Capricor Therapeutics, Inc. -"
+    "name": "Capricor Therapeutics, Inc."
   },
   {
     "ticker": "CAPS",
-    "name": "Capstone Holding Corp. -"
+    "name": "Capstone Holding Corp."
   },
   {
     "ticker": "CAQ",
@@ -4746,11 +4746,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CAR",
-    "name": "Avis Budget Group, Inc. -"
+    "name": "Avis Budget Group, Inc."
   },
   {
     "ticker": "CARE",
-    "name": "Carter Bankshares, Inc. -"
+    "name": "Carter Bankshares, Inc."
   },
   {
     "ticker": "CARG",
@@ -4758,7 +4758,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CARL",
-    "name": "Carlsmed, Inc. -"
+    "name": "Carlsmed, Inc."
   },
   {
     "ticker": "CARR",
@@ -4770,23 +4770,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CART",
-    "name": "Maplebear Inc. -"
+    "name": "Maplebear Inc."
   },
   {
     "ticker": "CASH",
-    "name": "Pathward Financial, Inc. -"
+    "name": "Pathward Financial, Inc."
   },
   {
     "ticker": "CASS",
-    "name": "Cass Information Systems, Inc -"
+    "name": "Cass Information Systems, Inc"
   },
   {
     "ticker": "CAST",
-    "name": "FreeCast, Inc. - Class A common stock"
+    "name": "FreeCast, Inc."
   },
   {
     "ticker": "CASY",
-    "name": "Caseys General Stores, Inc. -"
+    "name": "Caseys General Stores, Inc."
   },
   {
     "ticker": "CAT",
@@ -4794,7 +4794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CATO",
-    "name": "Cato Corporation (The) Class A"
+    "name": "Cato Corporation (The)"
   },
   {
     "ticker": "CATX",
@@ -4802,7 +4802,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CATY",
-    "name": "Cathay General Bancorp -"
+    "name": "Cathay General Bancorp"
   },
   {
     "ticker": "CAVA",
@@ -4826,15 +4826,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CBFV",
-    "name": "CB Financial Services, Inc. -"
+    "name": "CB Financial Services, Inc."
   },
   {
     "ticker": "CBIO",
-    "name": "Crescent Biopharma, Inc. -"
+    "name": "Crescent Biopharma, Inc."
   },
   {
     "ticker": "CBK",
-    "name": "Commercial Bancgroup, Inc. -"
+    "name": "Commercial Bancgroup, Inc."
   },
   {
     "ticker": "CBL",
@@ -4842,15 +4842,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CBLL",
-    "name": "CeriBell, Inc. -"
+    "name": "CeriBell, Inc."
   },
   {
     "ticker": "CBNA",
-    "name": "Chain Bridge Bancorp, Inc. Class A"
+    "name": "Chain Bridge Bancorp, Inc."
   },
   {
     "ticker": "CBNK",
-    "name": "Capital Bancorp, Inc. -"
+    "name": "Capital Bancorp, Inc."
   },
   {
     "ticker": "CBOE",
@@ -4862,7 +4862,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CBRL",
-    "name": "Cracker Barrel Old Country Store, Inc. -"
+    "name": "Cracker Barrel Old Country Store, Inc."
   },
   {
     "ticker": "CBRS",
@@ -4870,7 +4870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CBSH",
-    "name": "Commerce Bancshares, Inc. -"
+    "name": "Commerce Bancshares, Inc."
   },
   {
     "ticker": "CBT",
@@ -4894,7 +4894,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCAP",
-    "name": "Crescent Capital BDC, Inc. -"
+    "name": "Crescent Capital BDC, Inc."
   },
   {
     "ticker": "CCAQ",
@@ -4910,19 +4910,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCB",
-    "name": "Coastal Financial Corporation -"
+    "name": "Coastal Financial Corporation"
   },
   {
     "ticker": "CCBG",
-    "name": "Capital City Bank Group -"
+    "name": "Capital City Bank Group"
   },
   {
     "ticker": "CCC",
-    "name": "CCC Intelligent Solutions Holdings Inc. -"
+    "name": "CCC Intelligent Solutions Holdings Inc."
   },
   {
     "ticker": "CCCC",
-    "name": "C4 Therapeutics, Inc. -"
+    "name": "C4 Therapeutics, Inc."
   },
   {
     "ticker": "CCD",
@@ -5002,7 +5002,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCLD",
-    "name": "CareCloud, Inc. -"
+    "name": "CareCloud, Inc."
   },
   {
     "ticker": "CCM",
@@ -5010,7 +5010,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCNE",
-    "name": "CNB Financial Corporation -"
+    "name": "CNB Financial Corporation"
   },
   {
     "ticker": "CCNEP",
@@ -5022,11 +5022,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCOI",
-    "name": "Cogent Communications Holdings, Inc. -"
+    "name": "Cogent Communications Holdings, Inc."
   },
   {
     "ticker": "CCRN",
-    "name": "Cross Country Healthcare, Inc. -"
+    "name": "Cross Country Healthcare, Inc."
   },
   {
     "ticker": "CCS",
@@ -5034,7 +5034,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CCSI",
-    "name": "Consensus Cloud Solutions, Inc. -"
+    "name": "Consensus Cloud Solutions, Inc."
   },
   {
     "ticker": "CCTG",
@@ -5070,7 +5070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CDIO",
-    "name": "Cardio Diagnostics Holdings Inc. - Common stock"
+    "name": "Cardio Diagnostics Holdings Inc."
   },
   {
     "ticker": "CDIOW",
@@ -5082,11 +5082,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CDLX",
-    "name": "Cardlytics, Inc. -"
+    "name": "Cardlytics, Inc."
   },
   {
     "ticker": "CDNA",
-    "name": "CareDx, Inc. -"
+    "name": "CareDx, Inc."
   },
   {
     "ticker": "CDNL",
@@ -5094,7 +5094,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CDNS",
-    "name": "Cadence Design Systems, Inc. -"
+    "name": "Cadence Design Systems, Inc."
   },
   {
     "ticker": "CDP",
@@ -5114,7 +5114,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CDT",
-    "name": "CDT Equity Inc. -"
+    "name": "CDT Equity Inc."
   },
   {
     "ticker": "CDTG",
@@ -5126,15 +5126,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CDW",
-    "name": "CDW Corporation -"
+    "name": "CDW Corporation"
   },
   {
     "ticker": "CDXS",
-    "name": "Codexis, Inc. -"
+    "name": "Codexis, Inc."
   },
   {
     "ticker": "CDZI",
-    "name": "Cadiz, Inc. -"
+    "name": "Cadiz, Inc."
   },
   {
     "ticker": "CDZIP",
@@ -5146,7 +5146,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CECO",
-    "name": "CECO Environmental Corp. -"
+    "name": "CECO Environmental Corp."
   },
   {
     "ticker": "CEE",
@@ -5154,11 +5154,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CEG",
-    "name": "Constellation Energy Corporation -"
+    "name": "Constellation Energy Corporation"
   },
   {
     "ticker": "CELC",
-    "name": "Celcuity Inc. -"
+    "name": "Celcuity Inc."
   },
   {
     "ticker": "CELG.R",
@@ -5166,7 +5166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CELH",
-    "name": "Celsius Holdings, Inc. -"
+    "name": "Celsius Holdings, Inc."
   },
   {
     "ticker": "CELU",
@@ -5178,15 +5178,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CELZ",
-    "name": "Creative Medical Technology Holdings, Inc. -"
+    "name": "Creative Medical Technology Holdings, Inc."
   },
   {
     "ticker": "CENN",
-    "name": "Cenntro Inc. -"
+    "name": "Cenntro Inc."
   },
   {
     "ticker": "CENT",
-    "name": "Central Garden & Pet Company -"
+    "name": "Central Garden & Pet Company"
   },
   {
     "ticker": "CENTA",
@@ -5194,7 +5194,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CENX",
-    "name": "Century Aluminum Company -"
+    "name": "Century Aluminum Company"
   },
   {
     "ticker": "CEPF",
@@ -5222,11 +5222,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CERS",
-    "name": "Cerus Corporation -"
+    "name": "Cerus Corporation"
   },
   {
     "ticker": "CERT",
-    "name": "Certara, Inc. -"
+    "name": "Certara, Inc."
   },
   {
     "ticker": "CET",
@@ -5234,11 +5234,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CETX",
-    "name": "Cemtrex Inc. -"
+    "name": "Cemtrex Inc."
   },
   {
     "ticker": "CETY",
-    "name": "Clean Energy Technologies, Inc. -"
+    "name": "Clean Energy Technologies, Inc."
   },
   {
     "ticker": "CEV",
@@ -5246,7 +5246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CEVA",
-    "name": "CEVA, Inc. -"
+    "name": "CEVA, Inc."
   },
   {
     "ticker": "CF",
@@ -5254,15 +5254,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CFBK",
-    "name": "CF Bankshares Inc. -"
+    "name": "CF Bankshares Inc."
   },
   {
     "ticker": "CFFI",
-    "name": "C&F Financial Corporation -"
+    "name": "C&F Financial Corporation"
   },
   {
     "ticker": "CFFN",
-    "name": "Capitol Federal Financial, Inc. -"
+    "name": "Capitol Federal Financial, Inc."
   },
   {
     "ticker": "CFG",
@@ -5278,7 +5278,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CG",
-    "name": "The Carlyle Group Inc. -"
+    "name": "The Carlyle Group Inc."
   },
   {
     "ticker": "CGABL",
@@ -5302,7 +5302,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CGEM",
-    "name": "Cullinan Therapeutics, Inc. -"
+    "name": "Cullinan Therapeutics, Inc."
   },
   {
     "ticker": "CGEN",
@@ -5314,7 +5314,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CGNX",
-    "name": "Cognex Corporation -"
+    "name": "Cognex Corporation"
   },
   {
     "ticker": "CGO",
@@ -5322,7 +5322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CGON",
-    "name": "CG Oncology, Inc. - Common stock"
+    "name": "CG Oncology, Inc."
   },
   {
     "ticker": "CGTL",
@@ -5330,7 +5330,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CGTX",
-    "name": "Cognition Therapeutics, Inc. -"
+    "name": "Cognition Therapeutics, Inc."
   },
   {
     "ticker": "CHA",
@@ -5358,7 +5358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHCO",
-    "name": "City Holding Company -"
+    "name": "City Holding Company"
   },
   {
     "ticker": "CHCT",
@@ -5370,7 +5370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHDN",
-    "name": "Churchill Downs, Incorporated -"
+    "name": "Churchill Downs, Incorporated"
   },
   {
     "ticker": "CHE",
@@ -5390,7 +5390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHEF",
-    "name": "The Chefs' Warehouse, Inc. -"
+    "name": "The Chefs' Warehouse, Inc."
   },
   {
     "ticker": "CHGG",
@@ -5410,7 +5410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHMG",
-    "name": "Chemung Financial Corp  -"
+    "name": "Chemung Financial Corp"
   },
   {
     "ticker": "CHMI",
@@ -5446,19 +5446,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHRD",
-    "name": "Chord Energy Corporation -"
+    "name": "Chord Energy Corporation"
   },
   {
     "ticker": "CHRN",
-    "name": "ChronoScale Corporation -"
+    "name": "ChronoScale Corporation"
   },
   {
     "ticker": "CHRS",
-    "name": "Coherus Oncology, Inc. -"
+    "name": "Coherus Oncology, Inc."
   },
   {
     "ticker": "CHRW",
-    "name": "C.H. Robinson Worldwide, Inc. -"
+    "name": "C.H. Robinson Worldwide, Inc."
   },
   {
     "ticker": "CHSCL",
@@ -5498,7 +5498,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CHWY",
-    "name": "Chewy, Inc. Class A"
+    "name": "Chewy, Inc."
   },
   {
     "ticker": "CHY",
@@ -5514,7 +5514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CIA",
-    "name": "Citizens, Inc. Class A"
+    "name": "Citizens, Inc."
   },
   {
     "ticker": "CIB",
@@ -5534,7 +5534,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CIFR",
-    "name": "Cipher Digital Inc. -"
+    "name": "Cipher Digital Inc."
   },
   {
     "ticker": "CIG",
@@ -5554,7 +5554,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CIIT",
-    "name": "Tianci International, Inc. -"
+    "name": "Tianci International, Inc."
   },
   {
     "ticker": "CIK",
@@ -5578,11 +5578,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CINF",
-    "name": "Cincinnati Financial Corporation -"
+    "name": "Cincinnati Financial Corporation"
   },
   {
     "ticker": "CING",
-    "name": "Cingulate Inc. -"
+    "name": "Cingulate Inc."
   },
   {
     "ticker": "CINGW",
@@ -5598,11 +5598,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CISO",
-    "name": "CISO Global, Inc. -"
+    "name": "CISO Global, Inc."
   },
   {
     "ticker": "CISS",
-    "name": "C3is Inc. -"
+    "name": "C3is Inc."
   },
   {
     "ticker": "CITR",
@@ -5610,7 +5610,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CIVB",
-    "name": "Civista Bancshares, Inc.  -"
+    "name": "Civista Bancshares, Inc."
   },
   {
     "ticker": "CIX",
@@ -5618,7 +5618,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CJMB",
-    "name": "Callan JMB Inc. -"
+    "name": "Callan JMB Inc."
   },
   {
     "ticker": "CKX",
@@ -5630,7 +5630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLAR",
-    "name": "Clarus Corporation -"
+    "name": "Clarus Corporation"
   },
   {
     "ticker": "CLB",
@@ -5638,7 +5638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLBK",
-    "name": "Columbia Financial, Inc. -"
+    "name": "Columbia Financial, Inc."
   },
   {
     "ticker": "CLBR",
@@ -5666,7 +5666,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLDX",
-    "name": "Celldex Therapeutics, Inc. -"
+    "name": "Celldex Therapeutics, Inc."
   },
   {
     "ticker": "CLF",
@@ -5674,7 +5674,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLFD",
-    "name": "Clearfield, Inc. -"
+    "name": "Clearfield, Inc."
   },
   {
     "ticker": "CLGN",
@@ -5690,7 +5690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLIR",
-    "name": "ClearSign Technologies Corporation -"
+    "name": "ClearSign Technologies Corporation"
   },
   {
     "ticker": "CLLS",
@@ -5702,23 +5702,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLMB",
-    "name": "Climb Global Solutions, Inc. -"
+    "name": "Climb Global Solutions, Inc."
   },
   {
     "ticker": "CLMT",
-    "name": "Calumet, Inc -"
+    "name": "Calumet, Inc"
   },
   {
     "ticker": "CLNE",
-    "name": "Clean Energy Fuels Corp. -"
+    "name": "Clean Energy Fuels Corp."
   },
   {
     "ticker": "CLNN",
-    "name": "Clene Inc. -"
+    "name": "Clene Inc."
   },
   {
     "ticker": "CLOV",
-    "name": "Clover Health Investments, Corp.  - Class A Common stock"
+    "name": "Clover Health Investments, Corp."
   },
   {
     "ticker": "CLPR",
@@ -5726,19 +5726,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLPS",
-    "name": "CLPS Incorporation -"
+    "name": "CLPS Incorporation"
   },
   {
     "ticker": "CLPT",
-    "name": "ClearPoint Neuro Inc. -"
+    "name": "ClearPoint Neuro Inc."
   },
   {
     "ticker": "CLRB",
-    "name": "Cellectar Biosciences, Inc. -"
+    "name": "Cellectar Biosciences, Inc."
   },
   {
     "ticker": "CLRO",
-    "name": "ClearOne, Inc. -"
+    "name": "ClearOne, Inc."
   },
   {
     "ticker": "CLS",
@@ -5746,7 +5746,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLSK",
-    "name": "CleanSpark, Inc. -"
+    "name": "CleanSpark, Inc."
   },
   {
     "ticker": "CLSKW",
@@ -5754,7 +5754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLST",
-    "name": "Catalyst Bancorp, Inc. - common stock"
+    "name": "Catalyst Bancorp, Inc."
   },
   {
     "ticker": "CLVT",
@@ -5774,7 +5774,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CLYM",
-    "name": "Climb Bio, Inc. -"
+    "name": "Climb Bio, Inc."
   },
   {
     "ticker": "CM",
@@ -5798,7 +5798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CMCO",
-    "name": "Columbus McKinnon Corporation -"
+    "name": "Columbus McKinnon Corporation"
   },
   {
     "ticker": "CMCSA",
@@ -5806,7 +5806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CMCT",
-    "name": "Creative Media  -"
+    "name": "Creative Media"
   },
   {
     "ticker": "CMDB",
@@ -5858,7 +5858,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CMPX",
-    "name": "Compass Therapeutics, Inc. -"
+    "name": "Compass Therapeutics, Inc."
   },
   {
     "ticker": "CMRC",
@@ -5894,11 +5894,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CMTL",
-    "name": "Comtech Telecommunications Corp. -"
+    "name": "Comtech Telecommunications Corp."
   },
   {
     "ticker": "CMTV",
-    "name": "Community Bancorp.  - Common stock"
+    "name": "Community Bancorp."
   },
   {
     "ticker": "CNA",
@@ -5918,11 +5918,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNDT",
-    "name": "Conduent Incorporated -"
+    "name": "Conduent Incorporated"
   },
   {
     "ticker": "CNET",
-    "name": "ZW Data Action Technologies Inc. -"
+    "name": "ZW Data Action Technologies Inc."
   },
   {
     "ticker": "CNEY",
@@ -5950,7 +5950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNM",
-    "name": "Core & Main, Inc. Class A"
+    "name": "Core & Main, Inc."
   },
   {
     "ticker": "CNMD",
@@ -5966,7 +5966,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNOB",
-    "name": "ConnectOne Bancorp, Inc. -"
+    "name": "ConnectOne Bancorp, Inc."
   },
   {
     "ticker": "CNOBP",
@@ -5990,7 +5990,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNSP",
-    "name": "CNS Pharmaceuticals, Inc. -"
+    "name": "CNS Pharmaceuticals, Inc."
   },
   {
     "ticker": "CNTB",
@@ -5998,15 +5998,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNTN",
-    "name": "Canton Strategic Holdings, Inc. -"
+    "name": "Canton Strategic Holdings, Inc."
   },
   {
     "ticker": "CNTX",
-    "name": "Context Therapeutics Inc. -"
+    "name": "Context Therapeutics Inc."
   },
   {
     "ticker": "CNTY",
-    "name": "Century Casinos, Inc. -"
+    "name": "Century Casinos, Inc."
   },
   {
     "ticker": "CNVS",
@@ -6018,19 +6018,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CNXC",
-    "name": "Concentrix Corporation -"
+    "name": "Concentrix Corporation"
   },
   {
     "ticker": "CNXN",
-    "name": "PC Connection, Inc. -"
+    "name": "PC Connection, Inc."
   },
   {
     "ticker": "CNXU",
-    "name": "Conexeu Sciences Inc. -"
+    "name": "Conexeu Sciences Inc."
   },
   {
     "ticker": "COAG",
-    "name": "Hemab Therapeutics Holdings, Inc. -"
+    "name": "Hemab Therapeutics Holdings, Inc."
   },
   {
     "ticker": "COCH",
@@ -6042,15 +6042,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COCO",
-    "name": "The Vita Coco Company, Inc. -"
+    "name": "The Vita Coco Company, Inc."
   },
   {
     "ticker": "COCP",
-    "name": "Cocrystal Pharma, Inc. -"
+    "name": "Cocrystal Pharma, Inc."
   },
   {
     "ticker": "CODA",
-    "name": "Coda Octopus Group, Inc. - Common stock"
+    "name": "Coda Octopus Group, Inc."
   },
   {
     "ticker": "CODI",
@@ -6058,7 +6058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CODX",
-    "name": "Co-Diagnostics, Inc. -"
+    "name": "Co-Diagnostics, Inc."
   },
   {
     "ticker": "COE",
@@ -6070,11 +6070,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COFS",
-    "name": "ChoiceOne Financial Services, Inc. -"
+    "name": "ChoiceOne Financial Services, Inc."
   },
   {
     "ticker": "COGT",
-    "name": "Cogent Biosciences, Inc. -"
+    "name": "Cogent Biosciences, Inc."
   },
   {
     "ticker": "COHN",
@@ -6086,7 +6086,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COHU",
-    "name": "Cohu, Inc. -"
+    "name": "Cohu, Inc."
   },
   {
     "ticker": "COIN",
@@ -6094,7 +6094,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COKE",
-    "name": "Coca-Cola Consolidated, Inc. -"
+    "name": "Coca-Cola Consolidated, Inc."
   },
   {
     "ticker": "COLA",
@@ -6110,7 +6110,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COLB",
-    "name": "Columbia Banking System, Inc. -"
+    "name": "Columbia Banking System, Inc."
   },
   {
     "ticker": "COLD",
@@ -6118,15 +6118,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COLL",
-    "name": "Collegium Pharmaceutical, Inc. -"
+    "name": "Collegium Pharmaceutical, Inc."
   },
   {
     "ticker": "COLM",
-    "name": "Columbia Sportswear Company -"
+    "name": "Columbia Sportswear Company"
   },
   {
     "ticker": "COMP",
-    "name": "Compass, Inc. Class A"
+    "name": "Compass, Inc."
   },
   {
     "ticker": "CON",
@@ -6134,7 +6134,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COO",
-    "name": "The Cooper Companies, Inc.  -"
+    "name": "The Cooper Companies, Inc."
   },
   {
     "ticker": "COOK",
@@ -6170,11 +6170,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CORT",
-    "name": "Corcept Therapeutics Incorporated -"
+    "name": "Corcept Therapeutics Incorporated"
   },
   {
     "ticker": "CORZ",
-    "name": "Core Scientific, Inc. -"
+    "name": "Core Scientific, Inc."
   },
   {
     "ticker": "CORZW",
@@ -6186,7 +6186,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COSM",
-    "name": "Cosmos Health Inc. -"
+    "name": "Cosmos Health Inc."
   },
   {
     "ticker": "COSO",
@@ -6194,11 +6194,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COST",
-    "name": "Costco Wholesale Corporation -"
+    "name": "Costco Wholesale Corporation"
   },
   {
     "ticker": "COTY",
-    "name": "Coty Inc. Class A"
+    "name": "Coty Inc."
   },
   {
     "ticker": "COUR",
@@ -6206,7 +6206,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "COYA",
-    "name": "Coya Therapeutics, Inc. -"
+    "name": "Coya Therapeutics, Inc."
   },
   {
     "ticker": "CP",
@@ -6214,7 +6214,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPA",
-    "name": "Copa Holdings, S.A. Class A"
+    "name": "Copa Holdings, S.A."
   },
   {
     "ticker": "CPAC",
@@ -6226,11 +6226,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPB",
-    "name": "The Campbell's Company -"
+    "name": "The Campbell's Company"
   },
   {
     "ticker": "CPBI",
-    "name": "Central Plains Bancshares, Inc. -"
+    "name": "Central Plains Bancshares, Inc."
   },
   {
     "ticker": "CPF",
@@ -6238,7 +6238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPHC",
-    "name": "Canterbury Park Holding Corporation -"
+    "name": "Canterbury Park Holding Corporation"
   },
   {
     "ticker": "CPHI",
@@ -6246,7 +6246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPIX",
-    "name": "Cumberland Pharmaceuticals Inc. -"
+    "name": "Cumberland Pharmaceuticals Inc."
   },
   {
     "ticker": "CPK",
@@ -6254,7 +6254,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPNG",
-    "name": "Coupang, Inc. Class A"
+    "name": "Coupang, Inc."
   },
   {
     "ticker": "CPOP",
@@ -6266,11 +6266,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPRT",
-    "name": "Copart, Inc. -"
+    "name": "Copart, Inc."
   },
   {
     "ticker": "CPRX",
-    "name": "Catalyst Pharmaceuticals, Inc. -"
+    "name": "Catalyst Pharmaceuticals, Inc."
   },
   {
     "ticker": "CPS",
@@ -6278,11 +6278,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CPSH",
-    "name": "CPS Technologies Corp. -"
+    "name": "CPS Technologies Corp."
   },
   {
     "ticker": "CPSS",
-    "name": "Consumer Portfolio Services, Inc. -"
+    "name": "Consumer Portfolio Services, Inc."
   },
   {
     "ticker": "CPT",
@@ -6318,7 +6318,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRAI",
-    "name": "CRA International,Inc. -"
+    "name": "CRA International,Inc."
   },
   {
     "ticker": "CRAN",
@@ -6354,11 +6354,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRBP",
-    "name": "Corbus Pharmaceuticals Holdings, Inc. -"
+    "name": "Corbus Pharmaceuticals Holdings, Inc."
   },
   {
     "ticker": "CRBU",
-    "name": "Caribou Biosciences, Inc. -"
+    "name": "Caribou Biosciences, Inc."
   },
   {
     "ticker": "CRC",
@@ -6366,11 +6366,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRCL",
-    "name": "Circle Internet Group, Inc. Class A"
+    "name": "Circle Internet Group, Inc."
   },
   {
     "ticker": "CRCT",
-    "name": "Cricut, Inc. - Class A common stock"
+    "name": "Cricut, Inc."
   },
   {
     "ticker": "CRD.A",
@@ -6382,7 +6382,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRDF",
-    "name": "Cardiff Oncology, Inc. -"
+    "name": "Cardiff Oncology, Inc."
   },
   {
     "ticker": "CRDL",
@@ -6398,7 +6398,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CREG",
-    "name": "Smart Powerr Corp. -"
+    "name": "Smart Powerr Corp."
   },
   {
     "ticker": "CRESY",
@@ -6406,7 +6406,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CREX",
-    "name": "Creative Realities, Inc. -"
+    "name": "Creative Realities, Inc."
   },
   {
     "ticker": "CRF",
@@ -6422,7 +6422,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRGY",
-    "name": "Crescent Energy Company Class A"
+    "name": "Crescent Energy Company"
   },
   {
     "ticker": "CRH",
@@ -6434,7 +6434,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRIS",
-    "name": "Curis, Inc. -"
+    "name": "Curis, Inc."
   },
   {
     "ticker": "CRK",
@@ -6450,7 +6450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRMD",
-    "name": "CorMedix Inc. -"
+    "name": "CorMedix Inc."
   },
   {
     "ticker": "CRML",
@@ -6462,11 +6462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRMT",
-    "name": "America's Car-Mart, Inc. -"
+    "name": "America's Car-Mart, Inc."
   },
   {
     "ticker": "CRNC",
-    "name": "Cerence Inc. -"
+    "name": "Cerence Inc."
   },
   {
     "ticker": "CRNT",
@@ -6474,7 +6474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRNX",
-    "name": "Crinetics Pharmaceuticals, Inc. -"
+    "name": "Crinetics Pharmaceuticals, Inc."
   },
   {
     "ticker": "CRON",
@@ -6482,7 +6482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CROX",
-    "name": "Crocs, Inc. -"
+    "name": "Crocs, Inc."
   },
   {
     "ticker": "CRS",
@@ -6494,7 +6494,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRSR",
-    "name": "Corsair Gaming, Inc. -"
+    "name": "Corsair Gaming, Inc."
   },
   {
     "ticker": "CRT",
@@ -6506,19 +6506,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRUS",
-    "name": "Cirrus Logic, Inc. -"
+    "name": "Cirrus Logic, Inc."
   },
   {
     "ticker": "CRVL",
-    "name": "CorVel Corp. -"
+    "name": "CorVel Corp."
   },
   {
     "ticker": "CRVO",
-    "name": "CervoMed Inc. -"
+    "name": "CervoMed Inc."
   },
   {
     "ticker": "CRVS",
-    "name": "Corvus Pharmaceuticals, Inc. -"
+    "name": "Corvus Pharmaceuticals, Inc."
   },
   {
     "ticker": "CRWD",
@@ -6526,7 +6526,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CRWS",
-    "name": "Crown Crafts, Inc. -"
+    "name": "Crown Crafts, Inc."
   },
   {
     "ticker": "CRWV",
@@ -6542,15 +6542,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CSBR",
-    "name": "Champions Oncology, Inc. -"
+    "name": "Champions Oncology, Inc."
   },
   {
     "ticker": "CSCO",
-    "name": "Cisco Systems, Inc. -"
+    "name": "Cisco Systems, Inc."
   },
   {
     "ticker": "CSGP",
-    "name": "CoStar Group, Inc. -"
+    "name": "CoStar Group, Inc."
   },
   {
     "ticker": "CSHR",
@@ -6570,7 +6570,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CSPI",
-    "name": "CSP Inc. -"
+    "name": "CSP Inc."
   },
   {
     "ticker": "CSQ",
@@ -6586,7 +6586,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CSTL",
-    "name": "Castle Biosciences, Inc. - Common stock"
+    "name": "Castle Biosciences, Inc."
   },
   {
     "ticker": "CSTM",
@@ -6602,11 +6602,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CSWC",
-    "name": "Capital Southwest Corporation -"
+    "name": "Capital Southwest Corporation"
   },
   {
     "ticker": "CSX",
-    "name": "CSX Corporation -"
+    "name": "CSX Corporation"
   },
   {
     "ticker": "CTAA",
@@ -6622,15 +6622,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTAS",
-    "name": "Cintas Corporation -"
+    "name": "Cintas Corporation"
   },
   {
     "ticker": "CTBI",
-    "name": "Community Trust Bancorp, Inc. -"
+    "name": "Community Trust Bancorp, Inc."
   },
   {
     "ticker": "CTEV",
-    "name": "Claritev Corporation Class A"
+    "name": "Claritev Corporation"
   },
   {
     "ticker": "CTGG",
@@ -6646,7 +6646,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTKB",
-    "name": "Cytek Biosciences, Inc. -"
+    "name": "Cytek Biosciences, Inc."
   },
   {
     "ticker": "CTM",
@@ -6654,11 +6654,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTMX",
-    "name": "CytomX Therapeutics, Inc. -"
+    "name": "CytomX Therapeutics, Inc."
   },
   {
     "ticker": "CTNM",
-    "name": "Contineum Therapeutics, Inc. - Common stock"
+    "name": "Contineum Therapeutics, Inc."
   },
   {
     "ticker": "CTNT",
@@ -6670,7 +6670,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTOR",
-    "name": "Citius Oncology, Inc.  -"
+    "name": "Citius Oncology, Inc."
   },
   {
     "ticker": "CTOS",
@@ -6690,7 +6690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTRN",
-    "name": "Citi Trends, Inc. -"
+    "name": "Citi Trends, Inc."
   },
   {
     "ticker": "CTS",
@@ -6702,7 +6702,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTSO",
-    "name": "Cytosorbents Corporation -"
+    "name": "Cytosorbents Corporation"
   },
   {
     "ticker": "CTVA",
@@ -6714,7 +6714,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CTXR",
-    "name": "Citius Pharmaceuticals, Inc. -"
+    "name": "Citius Pharmaceuticals, Inc."
   },
   {
     "ticker": "CUB",
@@ -6742,7 +6742,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CUE",
-    "name": "Cue Biopharma, Inc. -"
+    "name": "Cue Biopharma, Inc."
   },
   {
     "ticker": "CULP",
@@ -6770,7 +6770,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CURX",
-    "name": "Curanex Pharmaceuticals Inc -"
+    "name": "Curanex Pharmaceuticals Inc"
   },
   {
     "ticker": "CUZ",
@@ -6778,15 +6778,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CV",
-    "name": "CapsoVision, Inc. -"
+    "name": "CapsoVision, Inc."
   },
   {
     "ticker": "CVBF",
-    "name": "CVB Financial Corporation -"
+    "name": "CVB Financial Corporation"
   },
   {
     "ticker": "CVCO",
-    "name": "Cavco Industries, Inc. -"
+    "name": "Cavco Industries, Inc."
   },
   {
     "ticker": "CVE",
@@ -6798,7 +6798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CVGI",
-    "name": "Commercial Vehicle Group, Inc. -"
+    "name": "Commercial Vehicle Group, Inc."
   },
   {
     "ticker": "CVI",
@@ -6806,15 +6806,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CVKD",
-    "name": "Cadrenal Therapeutics, Inc. -"
+    "name": "Cadrenal Therapeutics, Inc."
   },
   {
     "ticker": "CVLG",
-    "name": "Covenant Logistics Group, Inc. Class A"
+    "name": "Covenant Logistics Group, Inc."
   },
   {
     "ticker": "CVLT",
-    "name": "Commvault Systems, Inc. -"
+    "name": "Commvault Systems, Inc."
   },
   {
     "ticker": "CVM",
@@ -6822,7 +6822,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CVNA",
-    "name": "Carvana Co. Class A"
+    "name": "Carvana Co."
   },
   {
     "ticker": "CVR",
@@ -6830,7 +6830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CVRX",
-    "name": "CVRx, Inc. -"
+    "name": "CVRx, Inc."
   },
   {
     "ticker": "CVS",
@@ -6846,7 +6846,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CVV",
-    "name": "CVD Equipment Corporation -"
+    "name": "CVD Equipment Corporation"
   },
   {
     "ticker": "CVX",
@@ -6858,7 +6858,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CWBC",
-    "name": "Community West Bancshares -"
+    "name": "Community West Bancshares"
   },
   {
     "ticker": "CWCO",
@@ -6870,11 +6870,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CWEN",
-    "name": "Clearway Energy, Inc. Class C"
+    "name": "Clearway Energy, Inc."
   },
   {
     "ticker": "CWH",
-    "name": "Camping World Holdings, Inc. Class A"
+    "name": "Camping World Holdings, Inc."
   },
   {
     "ticker": "CWK",
@@ -6902,7 +6902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CXDO",
-    "name": "Crexendo, Inc. -"
+    "name": "Crexendo, Inc."
   },
   {
     "ticker": "CXII",
@@ -6918,7 +6918,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CXM",
-    "name": "Sprinklr, Inc. Class A"
+    "name": "Sprinklr, Inc."
   },
   {
     "ticker": "CXT",
@@ -6930,15 +6930,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CYAB",
-    "name": "Cyabra, Inc. -"
+    "name": "Cyabra, Inc."
   },
   {
     "ticker": "CYCN",
-    "name": "Cyclerion Therapeutics, Inc. -"
+    "name": "Cyclerion Therapeutics, Inc."
   },
   {
     "ticker": "CYCU",
-    "name": "Cycurion, Inc. -"
+    "name": "Cycurion, Inc."
   },
   {
     "ticker": "CYCUW",
@@ -6954,35 +6954,35 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "CYN",
-    "name": "Cyngn Inc. - Common stock"
+    "name": "Cyngn Inc."
   },
   {
     "ticker": "CYPH",
-    "name": "Cypherpunk Technologies Inc. -"
+    "name": "Cypherpunk Technologies Inc."
   },
   {
     "ticker": "CYRX",
-    "name": "CryoPort, Inc. -"
+    "name": "CryoPort, Inc."
   },
   {
     "ticker": "CYTK",
-    "name": "Cytokinetics, Incorporated -"
+    "name": "Cytokinetics, Incorporated"
   },
   {
     "ticker": "CZFS",
-    "name": "Citizens Financial Services, Inc. -"
+    "name": "Citizens Financial Services, Inc."
   },
   {
     "ticker": "CZNC",
-    "name": "Citizens & Northern Corp -"
+    "name": "Citizens & Northern Corp"
   },
   {
     "ticker": "CZR",
-    "name": "Caesars Entertainment, Inc. -"
+    "name": "Caesars Entertainment, Inc."
   },
   {
     "ticker": "CZWI",
-    "name": "Citizens Community Bancorp, Inc. -"
+    "name": "Citizens Community Bancorp, Inc."
   },
   {
     "ticker": "D",
@@ -7006,7 +7006,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DAIC",
-    "name": "CID HoldCo, Inc. -"
+    "name": "CID HoldCo, Inc."
   },
   {
     "ticker": "DAICW",
@@ -7014,11 +7014,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DAIO",
-    "name": "Data I/O Corporation -"
+    "name": "Data I/O Corporation"
   },
   {
     "ticker": "DAKT",
-    "name": "Daktronics, Inc. -"
+    "name": "Daktronics, Inc."
   },
   {
     "ticker": "DAL",
@@ -7038,11 +7038,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DARE",
-    "name": "Dare Bioscience, Inc. -"
+    "name": "Dare Bioscience, Inc."
   },
   {
     "ticker": "DASH",
-    "name": "DoorDash, Inc. -"
+    "name": "DoorDash, Inc."
   },
   {
     "ticker": "DAVA",
@@ -7074,15 +7074,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DBD",
-    "name": "Diebold Nixdorf Incorporated Common stock"
+    "name": "Diebold Nixdorf Incorporated"
   },
   {
     "ticker": "DBGI",
-    "name": "Digital Brands Group, Inc. -"
+    "name": "Digital Brands Group, Inc."
   },
   {
     "ticker": "DBI",
-    "name": "Designer Brands Inc. Class A"
+    "name": "Designer Brands Inc."
   },
   {
     "ticker": "DBL",
@@ -7114,7 +7114,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DCGO",
-    "name": "DocGo Inc. -"
+    "name": "DocGo Inc."
   },
   {
     "ticker": "DCH",
@@ -7134,11 +7134,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DCOY",
-    "name": "Decoy Therapeutics Inc. -"
+    "name": "Decoy Therapeutics Inc."
   },
   {
     "ticker": "DCTH",
-    "name": "Delcath Systems, Inc. -"
+    "name": "Delcath Systems, Inc."
   },
   {
     "ticker": "DCX",
@@ -7194,7 +7194,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DEFT",
-    "name": "Defi Technologies, Inc. -"
+    "name": "Defi Technologies, Inc."
   },
   {
     "ticker": "DEI",
@@ -7202,7 +7202,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DELL",
-    "name": "Dell Technologies Inc. Class C"
+    "name": "Dell Technologies Inc."
   },
   {
     "ticker": "DEO",
@@ -7210,7 +7210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DERM",
-    "name": "Journey Medical Corporation -"
+    "name": "Journey Medical Corporation"
   },
   {
     "ticker": "DETX",
@@ -7218,7 +7218,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DFDV",
-    "name": "DeFi Development Corp. -"
+    "name": "DeFi Development Corp."
   },
   {
     "ticker": "DFDVW",
@@ -7226,7 +7226,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DFH",
-    "name": "Dream Finders Homes, Inc. Class A"
+    "name": "Dream Finders Homes, Inc."
   },
   {
     "ticker": "DFIN",
@@ -7234,7 +7234,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DFLI",
-    "name": "Dragonfly Energy Holdings Corp -"
+    "name": "Dragonfly Energy Holdings Corp"
   },
   {
     "ticker": "DFLIW",
@@ -7242,7 +7242,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DFNS",
-    "name": "T3 Defense Inc. -"
+    "name": "T3 Defense Inc."
   },
   {
     "ticker": "DFNSW",
@@ -7254,7 +7254,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DFSC",
-    "name": "DEFSEC Technologies Inc. - common stock, no R/S concurrent with offering"
+    "name": "DEFSEC Technologies Inc."
   },
   {
     "ticker": "DFSCW",
@@ -7282,7 +7282,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DGII",
-    "name": "Digi International Inc. -"
+    "name": "Digi International Inc."
   },
   {
     "ticker": "DGNX",
@@ -7346,7 +7346,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DIBS",
-    "name": "1stdibs.com, Inc. -"
+    "name": "1stdibs.com, Inc."
   },
   {
     "ticker": "DIN",
@@ -7358,7 +7358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DIOD",
-    "name": "Diodes Incorporated -"
+    "name": "Diodes Incorporated"
   },
   {
     "ticker": "DIS",
@@ -7370,7 +7370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DJCO",
-    "name": "Daily Journal Corp. (S.C.) -"
+    "name": "Daily Journal Corp. (S.C.)"
   },
   {
     "ticker": "DJP",
@@ -7378,7 +7378,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DJT",
-    "name": "Trump Media & Technology Group Corp. -"
+    "name": "Trump Media & Technology Group Corp."
   },
   {
     "ticker": "DJTWW",
@@ -7410,7 +7410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DLHC",
-    "name": "DLH Holdings Corp. -"
+    "name": "DLH Holdings Corp."
   },
   {
     "ticker": "DLNG",
@@ -7422,7 +7422,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DLPN",
-    "name": "Dolphin Entertainment, Inc. -"
+    "name": "Dolphin Entertainment, Inc."
   },
   {
     "ticker": "DLR",
@@ -7434,7 +7434,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DLTR",
-    "name": "Dollar Tree, Inc. -"
+    "name": "Dollar Tree, Inc."
   },
   {
     "ticker": "DLX",
@@ -7466,7 +7466,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DMAC",
-    "name": "DiaMedica Therapeutics Inc. -"
+    "name": "DiaMedica Therapeutics Inc."
   },
   {
     "ticker": "DMB",
@@ -7498,19 +7498,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DMRA",
-    "name": "Damora Therapeutics, Inc. -"
+    "name": "Damora Therapeutics, Inc."
   },
   {
     "ticker": "DMRC",
-    "name": "Digimarc Corporation -"
+    "name": "Digimarc Corporation"
   },
   {
     "ticker": "DNA",
-    "name": "Ginkgo Bioworks Holdings, Inc. Class A"
+    "name": "Ginkgo Bioworks Holdings, Inc."
   },
   {
     "ticker": "DNLI",
-    "name": "Denali Therapeutics Inc. -"
+    "name": "Denali Therapeutics Inc."
   },
   {
     "ticker": "DNMX",
@@ -7538,11 +7538,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DNTH",
-    "name": "Dianthus Therapeutics, Inc. -"
+    "name": "Dianthus Therapeutics, Inc."
   },
   {
     "ticker": "DNUT",
-    "name": "Krispy Kreme, Inc. -"
+    "name": "Krispy Kreme, Inc."
   },
   {
     "ticker": "DOC",
@@ -7554,11 +7554,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DOCS",
-    "name": "Doximity, Inc. Class A"
+    "name": "Doximity, Inc."
   },
   {
     "ticker": "DOCU",
-    "name": "DocuSign, Inc. -"
+    "name": "DocuSign, Inc."
   },
   {
     "ticker": "DOGZ",
@@ -7570,7 +7570,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DOMH",
-    "name": "Dominari Holdings Inc. -"
+    "name": "Dominari Holdings Inc."
   },
   {
     "ticker": "DOMO",
@@ -7582,7 +7582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DORM",
-    "name": "Dorman Products, Inc. -"
+    "name": "Dorman Products, Inc."
   },
   {
     "ticker": "DOUG",
@@ -7618,7 +7618,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DPZ",
-    "name": "Domino's Pizza Inc -"
+    "name": "Domino's Pizza Inc"
   },
   {
     "ticker": "DQ",
@@ -7646,7 +7646,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DRH",
-    "name": "Diamondrock Hospitality Company -"
+    "name": "Diamondrock Hospitality Company"
   },
   {
     "ticker": "DRI",
@@ -7654,11 +7654,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DRIO",
-    "name": "DarioHealth Corp. -"
+    "name": "DarioHealth Corp."
   },
   {
     "ticker": "DRMA",
-    "name": "Dermata Therapeutics, Inc. -"
+    "name": "Dermata Therapeutics, Inc."
   },
   {
     "ticker": "DRMAW",
@@ -7666,7 +7666,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DRS",
-    "name": "Leonardo DRS, Inc. -"
+    "name": "Leonardo DRS, Inc."
   },
   {
     "ticker": "DRTS",
@@ -7678,11 +7678,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DRUG",
-    "name": "Bright Minds Biosciences Inc. - common stock"
+    "name": "Bright Minds Biosciences Inc."
   },
   {
     "ticker": "DRVN",
-    "name": "Driven Brands Holdings Inc. -"
+    "name": "Driven Brands Holdings Inc."
   },
   {
     "ticker": "DSAC",
@@ -7702,15 +7702,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DSGN",
-    "name": "Design Therapeutics, Inc. -"
+    "name": "Design Therapeutics, Inc."
   },
   {
     "ticker": "DSGR",
-    "name": "Distribution Solutions Group, Inc. -"
+    "name": "Distribution Solutions Group, Inc."
   },
   {
     "ticker": "DSGX",
-    "name": "The Descartes Systems Group Inc. -"
+    "name": "The Descartes Systems Group Inc."
   },
   {
     "ticker": "DSL",
@@ -7722,7 +7722,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DSP",
-    "name": "Viant Technology Inc. - common stock"
+    "name": "Viant Technology Inc."
   },
   {
     "ticker": "DSS",
@@ -7738,7 +7738,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DSX",
-    "name": "Diana Shipping inc. common stock"
+    "name": "Diana Shipping inc."
   },
   {
     "ticker": "DSX.W",
@@ -7762,7 +7762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DTCX",
-    "name": "Datacentrex, Inc. -"
+    "name": "Datacentrex, Inc."
   },
   {
     "ticker": "DTE",
@@ -7778,11 +7778,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DTI",
-    "name": "Drilling Tools International Corporation  -"
+    "name": "Drilling Tools International Corporation"
   },
   {
     "ticker": "DTIL",
-    "name": "Precision BioSciences, Inc. -"
+    "name": "Precision BioSciences, Inc."
   },
   {
     "ticker": "DTK",
@@ -7810,7 +7810,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DTST",
-    "name": "Data Storage Corporation -"
+    "name": "Data Storage Corporation"
   },
   {
     "ticker": "DTW",
@@ -7826,7 +7826,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DUKR",
-    "name": "DUKE Robotics Corp. -"
+    "name": "DUKE Robotics Corp."
   },
   {
     "ticker": "DUKRW",
@@ -7842,7 +7842,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DUOT",
-    "name": "Duos Technologies Group, Inc. -"
+    "name": "Duos Technologies Group, Inc."
   },
   {
     "ticker": "DV",
@@ -7854,7 +7854,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DVLT",
-    "name": "Datavault AI Inc. -"
+    "name": "Datavault AI Inc."
   },
   {
     "ticker": "DVN",
@@ -7862,11 +7862,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DWSN",
-    "name": "Dawson Geophysical Company -"
+    "name": "Dawson Geophysical Company"
   },
   {
     "ticker": "DWTX",
-    "name": "Dogwood Therapeutics, Inc.  -"
+    "name": "Dogwood Therapeutics, Inc."
   },
   {
     "ticker": "DX",
@@ -7878,7 +7878,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DXCM",
-    "name": "DexCom, Inc. -"
+    "name": "DexCom, Inc."
   },
   {
     "ticker": "DXF",
@@ -7886,11 +7886,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DXLG",
-    "name": "Destination XL Group, Inc. -"
+    "name": "Destination XL Group, Inc."
   },
   {
     "ticker": "DXPE",
-    "name": "DXP Enterprises, Inc. -"
+    "name": "DXP Enterprises, Inc."
   },
   {
     "ticker": "DXR",
@@ -7910,11 +7910,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "DYAI",
-    "name": "Dyadic International, Inc. -"
+    "name": "Dyadic International, Inc."
   },
   {
     "ticker": "DYN",
-    "name": "Dyne Therapeutics, Inc. -"
+    "name": "Dyne Therapeutics, Inc."
   },
   {
     "ticker": "DYNC",
@@ -7950,7 +7950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EA",
-    "name": "Electronic Arts Inc. -"
+    "name": "Electronic Arts Inc."
   },
   {
     "ticker": "EAD",
@@ -7974,11 +7974,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EBAY",
-    "name": "eBay Inc. -"
+    "name": "eBay Inc."
   },
   {
     "ticker": "EBC",
-    "name": "Eastern Bankshares, Inc. -"
+    "name": "Eastern Bankshares, Inc."
   },
   {
     "ticker": "EBF",
@@ -7986,7 +7986,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EBMT",
-    "name": "Eagle Bancorp Montana, Inc. -"
+    "name": "Eagle Bancorp Montana, Inc."
   },
   {
     "ticker": "EBON",
@@ -8006,7 +8006,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ECBK",
-    "name": "ECB Bancorp, Inc. -"
+    "name": "ECB Bancorp, Inc."
   },
   {
     "ticker": "ECC",
@@ -8034,7 +8034,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ECHO",
-    "name": "EchoStar Corporation - Common stock"
+    "name": "EchoStar Corporation"
   },
   {
     "ticker": "ECL",
@@ -8046,11 +8046,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ECOR",
-    "name": "electroCore, Inc. -"
+    "name": "electroCore, Inc."
   },
   {
     "ticker": "ECPG",
-    "name": "Encore Capital Group Inc -"
+    "name": "Encore Capital Group Inc"
   },
   {
     "ticker": "ECVT",
@@ -8070,7 +8070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EDBL",
-    "name": "Edible Garden AG Incorporated -"
+    "name": "Edible Garden AG Incorporated"
   },
   {
     "ticker": "EDBLW",
@@ -8090,7 +8090,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EDIT",
-    "name": "Editas Medicine, Inc. -"
+    "name": "Editas Medicine, Inc."
   },
   {
     "ticker": "EDN",
@@ -8114,11 +8114,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EDUC",
-    "name": "Educational Development Corporation -"
+    "name": "Educational Development Corporation"
   },
   {
     "ticker": "EE",
-    "name": "Excelerate Energy, Inc. Class A"
+    "name": "Excelerate Energy, Inc."
   },
   {
     "ticker": "EEA",
@@ -8126,11 +8126,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EEFT",
-    "name": "Euronet Worldwide, Inc. -"
+    "name": "Euronet Worldwide, Inc."
   },
   {
     "ticker": "EEIQ",
-    "name": "EpicQuest Education Group International Limited -"
+    "name": "EpicQuest Education Group International Limited"
   },
   {
     "ticker": "EEX",
@@ -8142,7 +8142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EFOI",
-    "name": "Energy Focus, Inc. -"
+    "name": "Energy Focus, Inc."
   },
   {
     "ticker": "EFOR",
@@ -8154,7 +8154,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EFSC",
-    "name": "Enterprise Financial Services Corporation -"
+    "name": "Enterprise Financial Services Corporation"
   },
   {
     "ticker": "EFSCP",
@@ -8162,7 +8162,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EFSI",
-    "name": "Eagle Financial Services Inc -"
+    "name": "Eagle Financial Services Inc"
   },
   {
     "ticker": "EFT",
@@ -8186,11 +8186,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EGAN",
-    "name": "eGain Corporation -"
+    "name": "eGain Corporation"
   },
   {
     "ticker": "EGBN",
-    "name": "Eagle Bancorp, Inc. -"
+    "name": "Eagle Bancorp, Inc."
   },
   {
     "ticker": "EGG",
@@ -8210,7 +8210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EGHT",
-    "name": "8x8 Inc - Common stock"
+    "name": "8x8 Inc"
   },
   {
     "ticker": "EGO",
@@ -8242,11 +8242,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EHLD",
-    "name": "Euroholdings Ltd. -"
+    "name": "Euroholdings Ltd."
   },
   {
     "ticker": "EHTH",
-    "name": "eHealth, Inc. -"
+    "name": "eHealth, Inc."
   },
   {
     "ticker": "EIC",
@@ -8266,7 +8266,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EIKN",
-    "name": "Eikon Therapeutics, Inc. -"
+    "name": "Eikon Therapeutics, Inc."
   },
   {
     "ticker": "EIM",
@@ -8290,7 +8290,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELAB",
-    "name": "PMGC Holdings Inc. -"
+    "name": "PMGC Holdings Inc."
   },
   {
     "ticker": "ELAN",
@@ -8298,7 +8298,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELBM",
-    "name": "Electra Battery Materials Corporation -"
+    "name": "Electra Battery Materials Corporation"
   },
   {
     "ticker": "ELC",
@@ -8306,11 +8306,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELDN",
-    "name": "Eledon Pharmaceuticals, Inc. -"
+    "name": "Eledon Pharmaceuticals, Inc."
   },
   {
     "ticker": "ELE",
-    "name": "Elemental Royalty Corporation -"
+    "name": "Elemental Royalty Corporation"
   },
   {
     "ticker": "ELF",
@@ -8334,7 +8334,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELMT",
-    "name": "The Elmet Group Co. -"
+    "name": "The Elmet Group Co."
   },
   {
     "ticker": "ELOG",
@@ -8342,7 +8342,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELOX",
-    "name": "Eloxx Pharmaceuticals, Inc. -"
+    "name": "Eloxx Pharmaceuticals, Inc."
   },
   {
     "ticker": "ELPC",
@@ -8358,7 +8358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELSE",
-    "name": "Electro-Sensors, Inc. -"
+    "name": "Electro-Sensors, Inc."
   },
   {
     "ticker": "ELTK",
@@ -8366,7 +8366,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELTX",
-    "name": "Elicio Therapeutics, Inc. -"
+    "name": "Elicio Therapeutics, Inc."
   },
   {
     "ticker": "ELUT",
@@ -8382,7 +8382,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELVN",
-    "name": "Enliven Therapeutics, Inc.  -"
+    "name": "Enliven Therapeutics, Inc."
   },
   {
     "ticker": "ELVR",
@@ -8390,7 +8390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ELWT",
-    "name": "Elauwit Connection, Inc. -"
+    "name": "Elauwit Connection, Inc."
   },
   {
     "ticker": "EMA",
@@ -8398,11 +8398,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EMAT",
-    "name": "Evolution Metals & Technologies Corp. -"
+    "name": "Evolution Metals & Technologies Corp."
   },
   {
     "ticker": "EMBC",
-    "name": "Embecta Corp. -"
+    "name": "Embecta Corp."
   },
   {
     "ticker": "EMBJ",
@@ -8430,7 +8430,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EML",
-    "name": "Eastern Company (The) -"
+    "name": "Eastern Company (The)"
   },
   {
     "ticker": "EMN",
@@ -8446,7 +8446,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EMPD",
-    "name": "Empery Digital Inc. - Common stock"
+    "name": "Empery Digital Inc."
   },
   {
     "ticker": "EMPG",
@@ -8462,7 +8462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ENGN",
-    "name": "enGene Therapeutics Inc. -"
+    "name": "enGene Therapeutics Inc."
   },
   {
     "ticker": "ENGNW",
@@ -8474,7 +8474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ENHA",
-    "name": "Enhanced Group Inc. Class A"
+    "name": "Enhanced Group Inc."
   },
   {
     "ticker": "ENIC",
@@ -8502,7 +8502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ENPH",
-    "name": "Enphase Energy, Inc. -"
+    "name": "Enphase Energy, Inc."
   },
   {
     "ticker": "ENR",
@@ -8522,19 +8522,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ENSC",
-    "name": "Ensysce Biosciences, Inc. -"
+    "name": "Ensysce Biosciences, Inc."
   },
   {
     "ticker": "ENSG",
-    "name": "The Ensign Group, Inc. -"
+    "name": "The Ensign Group, Inc."
   },
   {
     "ticker": "ENTA",
-    "name": "Enanta Pharmaceuticals, Inc. -"
+    "name": "Enanta Pharmaceuticals, Inc."
   },
   {
     "ticker": "ENTG",
-    "name": "Entegris, Inc. -"
+    "name": "Entegris, Inc."
   },
   {
     "ticker": "ENTX",
@@ -8546,11 +8546,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ENVB",
-    "name": "Enveric Biosciences, Inc.  -"
+    "name": "Enveric Biosciences, Inc."
   },
   {
     "ticker": "ENVX",
-    "name": "Enovix Corporation -"
+    "name": "Enovix Corporation"
   },
   {
     "ticker": "EOD",
@@ -8566,15 +8566,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EOLS",
-    "name": "Evolus, Inc. -"
+    "name": "Evolus, Inc."
   },
   {
     "ticker": "EONR",
-    "name": "EON Resources Inc. Class A"
+    "name": "EON Resources Inc."
   },
   {
     "ticker": "EONR.W",
-    "name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A"
+    "name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of"
   },
   {
     "ticker": "EOS",
@@ -8582,7 +8582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EOSE",
-    "name": "Eos Energy Enterprises, Inc. -"
+    "name": "Eos Energy Enterprises, Inc."
   },
   {
     "ticker": "EOT",
@@ -8626,7 +8626,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EPRX",
-    "name": "Eupraxia Pharmaceuticals Inc. -"
+    "name": "Eupraxia Pharmaceuticals Inc."
   },
   {
     "ticker": "EPSM",
@@ -8638,11 +8638,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EQ",
-    "name": "Equillium, Inc. -"
+    "name": "Equillium, Inc."
   },
   {
     "ticker": "EQBK",
-    "name": "Equity Bancshares, Inc. Class A"
+    "name": "Equity Bancshares, Inc."
   },
   {
     "ticker": "EQH",
@@ -8650,7 +8650,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EQIX",
-    "name": "Equinix, Inc. -"
+    "name": "Equinix, Inc."
   },
   {
     "ticker": "EQNR",
@@ -8678,7 +8678,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ERAS",
-    "name": "Erasca, Inc. -"
+    "name": "Erasca, Inc."
   },
   {
     "ticker": "ERC",
@@ -8698,11 +8698,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ERII",
-    "name": "Energy Recovery, Inc. -"
+    "name": "Energy Recovery, Inc."
   },
   {
     "ticker": "ERNA",
-    "name": "Ernexa Therapeutics Inc. -"
+    "name": "Ernexa Therapeutics Inc."
   },
   {
     "ticker": "ERNAW",
@@ -8714,7 +8714,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EROC",
-    "name": "ERock, Inc. Class A"
+    "name": "ERock, Inc."
   },
   {
     "ticker": "EROK",
@@ -8734,7 +8734,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ESCA",
-    "name": "Escalade, Incorporated -"
+    "name": "Escalade, Incorporated"
   },
   {
     "ticker": "ESE",
@@ -8742,7 +8742,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ESEA",
-    "name": "Euroseas Ltd. -"
+    "name": "Euroseas Ltd."
   },
   {
     "ticker": "ESI",
@@ -8750,7 +8750,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ESLA",
-    "name": "Estrella Immunopharma, Inc. -"
+    "name": "Estrella Immunopharma, Inc."
   },
   {
     "ticker": "ESLAW",
@@ -8766,7 +8766,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ESOA",
-    "name": "Energy Services of America Corporation -"
+    "name": "Energy Services of America Corporation"
   },
   {
     "ticker": "ESP",
@@ -8774,15 +8774,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ESPR",
-    "name": "Esperion Therapeutics, Inc. -"
+    "name": "Esperion Therapeutics, Inc."
   },
   {
     "ticker": "ESQ",
-    "name": "Esquire Financial Holdings, Inc. -"
+    "name": "Esquire Financial Holdings, Inc."
   },
   {
     "ticker": "ESRT",
-    "name": "Empire State Realty Trust, Inc. Class A"
+    "name": "Empire State Realty Trust, Inc."
   },
   {
     "ticker": "ESS",
@@ -8826,7 +8826,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ETON",
-    "name": "Eton Pharmaceuticals, Inc. -"
+    "name": "Eton Pharmaceuticals, Inc."
   },
   {
     "ticker": "ETOR",
@@ -8874,7 +8874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EU",
-    "name": "enCore Energy Corp. -"
+    "name": "enCore Energy Corp."
   },
   {
     "ticker": "EUDA",
@@ -8918,7 +8918,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EVCM",
-    "name": "EverCommerce Inc. -"
+    "name": "EverCommerce Inc."
   },
   {
     "ticker": "EVER",
@@ -8946,15 +8946,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EVGO",
-    "name": "EVgo Inc. -"
+    "name": "EVgo Inc."
   },
   {
     "ticker": "EVGOW",
-    "name": "EVgo Inc. - Warrants, each whole warrant exercisable for one share of Class A"
+    "name": "EVgo Inc. - Warrants, each whole warrant exercisable for one share of"
   },
   {
     "ticker": "EVH",
-    "name": "Evolent Health, Inc Class A"
+    "name": "Evolent Health, Inc"
   },
   {
     "ticker": "EVI",
@@ -8994,11 +8994,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EVR",
-    "name": "Evercore Inc. Class A"
+    "name": "Evercore Inc."
   },
   {
     "ticker": "EVRG",
-    "name": "Evergy, Inc. -"
+    "name": "Evergy, Inc."
   },
   {
     "ticker": "EVT",
@@ -9014,7 +9014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EVTV",
-    "name": "Envirotech Vehicles, Inc. - Common stock"
+    "name": "Envirotech Vehicles, Inc."
   },
   {
     "ticker": "EVV",
@@ -9026,23 +9026,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EWBC",
-    "name": "East West Bancorp, Inc. -"
+    "name": "East West Bancorp, Inc."
   },
   {
     "ticker": "EWTX",
-    "name": "Edgewise Therapeutics, Inc. -"
+    "name": "Edgewise Therapeutics, Inc."
   },
   {
     "ticker": "EXC",
-    "name": "Exelon Corporation -"
+    "name": "Exelon Corporation"
   },
   {
     "ticker": "EXE",
-    "name": "Expand Energy Corporation -"
+    "name": "Expand Energy Corporation"
   },
   {
     "ticker": "EXEL",
-    "name": "Exelixis, Inc. -"
+    "name": "Exelixis, Inc."
   },
   {
     "ticker": "EXFY",
@@ -9058,15 +9058,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EXLS",
-    "name": "ExlService Holdings, Inc. -"
+    "name": "ExlService Holdings, Inc."
   },
   {
     "ticker": "EXOD",
-    "name": "Exodus Movement, Inc. Class A"
+    "name": "Exodus Movement, Inc."
   },
   {
     "ticker": "EXOZ",
-    "name": "eXoZymes Inc. -"
+    "name": "eXoZymes Inc."
   },
   {
     "ticker": "EXP",
@@ -9078,11 +9078,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EXPE",
-    "name": "Expedia Group, Inc. -"
+    "name": "Expedia Group, Inc."
   },
   {
     "ticker": "EXPO",
-    "name": "Exponent, Inc. -"
+    "name": "Exponent, Inc."
   },
   {
     "ticker": "EXR",
@@ -9090,11 +9090,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EXTR",
-    "name": "Extreme Networks, Inc. -"
+    "name": "Extreme Networks, Inc."
   },
   {
     "ticker": "EXYN",
-    "name": "Exyn Technologies, Inc. -"
+    "name": "Exyn Technologies, Inc."
   },
   {
     "ticker": "EXYNW",
@@ -9102,11 +9102,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EYE",
-    "name": "National Vision Holdings, Inc. -"
+    "name": "National Vision Holdings, Inc."
   },
   {
     "ticker": "EYPT",
-    "name": "EyePoint, Inc. -"
+    "name": "EyePoint, Inc."
   },
   {
     "ticker": "EZGO",
@@ -9118,7 +9118,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "EZRA",
-    "name": "Reliance Global Group, Inc. -"
+    "name": "Reliance Global Group, Inc."
   },
   {
     "ticker": "F",
@@ -9126,11 +9126,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FA",
-    "name": "First Advantage Corporation -"
+    "name": "First Advantage Corporation"
   },
   {
     "ticker": "FABC",
-    "name": "Fabric.AI, Inc. -"
+    "name": "Fabric.AI, Inc."
   },
   {
     "ticker": "FAC",
@@ -9162,19 +9162,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FANG",
-    "name": "Diamondback Energy, Inc. -"
+    "name": "Diamondback Energy, Inc."
   },
   {
     "ticker": "FAST",
-    "name": "Fastenal Company -"
+    "name": "Fastenal Company"
   },
   {
     "ticker": "FATE",
-    "name": "Fate Therapeutics, Inc. -"
+    "name": "Fate Therapeutics, Inc."
   },
   {
     "ticker": "FATN",
-    "name": "FatPipe, Inc. - common stock"
+    "name": "FatPipe, Inc."
   },
   {
     "ticker": "FAX",
@@ -9190,7 +9190,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FBIO",
-    "name": "Fortress Biotech, Inc. -"
+    "name": "Fortress Biotech, Inc."
   },
   {
     "ticker": "FBIOP",
@@ -9198,7 +9198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FBIZ",
-    "name": "First Business Financial Services, Inc. -"
+    "name": "First Business Financial Services, Inc."
   },
   {
     "ticker": "FBK",
@@ -9206,15 +9206,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FBLA",
-    "name": "FB Bancorp, Inc. -"
+    "name": "FB Bancorp, Inc."
   },
   {
     "ticker": "FBLG",
-    "name": "FibroBiologics, Inc. -"
+    "name": "FibroBiologics, Inc."
   },
   {
     "ticker": "FBNC",
-    "name": "First Bancorp -"
+    "name": "First Bancorp"
   },
   {
     "ticker": "FBP",
@@ -9226,7 +9226,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FBRX",
-    "name": "Forte Biosciences, Inc.  -"
+    "name": "Forte Biosciences, Inc."
   },
   {
     "ticker": "FBYD",
@@ -9246,11 +9246,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FCAP",
-    "name": "First Capital, Inc. -"
+    "name": "First Capital, Inc."
   },
   {
     "ticker": "FCBC",
-    "name": "First Community Bankshares, Inc. -"
+    "name": "First Community Bankshares, Inc."
   },
   {
     "ticker": "FCBM",
@@ -9258,11 +9258,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FCCO",
-    "name": "First Community Corporation -"
+    "name": "First Community Corporation"
   },
   {
     "ticker": "FCEL",
-    "name": "FuelCell Energy, Inc. -"
+    "name": "FuelCell Energy, Inc."
   },
   {
     "ticker": "FCF",
@@ -9270,7 +9270,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FCFS",
-    "name": "FirstCash Holdings, Inc. -"
+    "name": "FirstCash Holdings, Inc."
   },
   {
     "ticker": "FCHL",
@@ -9318,7 +9318,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FCUV",
-    "name": "Focus Universal Inc. -"
+    "name": "Focus Universal Inc."
   },
   {
     "ticker": "FCX",
@@ -9326,11 +9326,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FDBC",
-    "name": "Fidelity D & D Bancorp, Inc. -"
+    "name": "Fidelity D & D Bancorp, Inc."
   },
   {
     "ticker": "FDMT",
-    "name": "4D Molecular Therapeutics, Inc. -"
+    "name": "4D Molecular Therapeutics, Inc."
   },
   {
     "ticker": "FDS",
@@ -9338,7 +9338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FDSB",
-    "name": "Fifth District Bancorp, Inc. -"
+    "name": "Fifth District Bancorp, Inc."
   },
   {
     "ticker": "FDUS",
@@ -9358,7 +9358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FEAM",
-    "name": "5E Advanced Materials, Inc. -"
+    "name": "5E Advanced Materials, Inc."
   },
   {
     "ticker": "FEBO",
@@ -9370,23 +9370,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FEED",
-    "name": "ENvue Medical, Inc. -"
+    "name": "ENvue Medical, Inc."
   },
   {
     "ticker": "FEIM",
-    "name": "Frequency Electronics, Inc. -"
+    "name": "Frequency Electronics, Inc."
   },
   {
     "ticker": "FELE",
-    "name": "Franklin Electric Co., Inc. -"
+    "name": "Franklin Electric Co., Inc."
   },
   {
     "ticker": "FEMY",
-    "name": "Femasys Inc. -"
+    "name": "Femasys Inc."
   },
   {
     "ticker": "FENC",
-    "name": "Fennec Pharmaceuticals Inc. -"
+    "name": "Fennec Pharmaceuticals Inc."
   },
   {
     "ticker": "FENG",
@@ -9434,7 +9434,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FFBC",
-    "name": "First Financial Bancorp. -"
+    "name": "First Financial Bancorp."
   },
   {
     "ticker": "FFC",
@@ -9442,11 +9442,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FFIN",
-    "name": "First Financial Bankshares, Inc. -"
+    "name": "First Financial Bankshares, Inc."
   },
   {
     "ticker": "FFIV",
-    "name": "F5, Inc. -"
+    "name": "F5, Inc."
   },
   {
     "ticker": "FG",
@@ -9454,7 +9454,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FGBI",
-    "name": "First Guaranty Bancshares, Inc. -"
+    "name": "First Guaranty Bancshares, Inc."
   },
   {
     "ticker": "FGBIP",
@@ -9486,7 +9486,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FGMC",
-    "name": "FG Merger II Corp. - Common stock"
+    "name": "FG Merger II Corp."
   },
   {
     "ticker": "FGMCR",
@@ -9502,7 +9502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FGNX",
-    "name": "FG Nexus Inc. -"
+    "name": "FG Nexus Inc."
   },
   {
     "ticker": "FGNXP",
@@ -9514,7 +9514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FHB",
-    "name": "First Hawaiian, Inc. -"
+    "name": "First Hawaiian, Inc."
   },
   {
     "ticker": "FHI",
@@ -9526,11 +9526,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FHTX",
-    "name": "Foghorn Therapeutics Inc. -"
+    "name": "Foghorn Therapeutics Inc."
   },
   {
     "ticker": "FIBK",
-    "name": "First Interstate BancSystem, Inc. -"
+    "name": "First Interstate BancSystem, Inc."
   },
   {
     "ticker": "FICO",
@@ -9538,11 +9538,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FIEE",
-    "name": "FiEE, Inc -"
+    "name": "FiEE, Inc"
   },
   {
     "ticker": "FIG",
-    "name": "Figma, Inc. Class A"
+    "name": "Figma, Inc."
   },
   {
     "ticker": "FIGR",
@@ -9550,7 +9550,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FIGS",
-    "name": "FIGS, Inc. Class A"
+    "name": "FIGS, Inc."
   },
   {
     "ticker": "FIGX",
@@ -9574,15 +9574,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FINW",
-    "name": "FinWise Bancorp -"
+    "name": "FinWise Bancorp"
   },
   {
     "ticker": "FIP",
-    "name": "FTAI Infrastructure Inc. -"
+    "name": "FTAI Infrastructure Inc."
   },
   {
     "ticker": "FIRY",
-    "name": "Firy Inc. Class A"
+    "name": "Firy Inc."
   },
   {
     "ticker": "FIS",
@@ -9590,7 +9590,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FISI",
-    "name": "Financial Institutions, Inc. -"
+    "name": "Financial Institutions, Inc."
   },
   {
     "ticker": "FISK",
@@ -9598,11 +9598,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FISN",
-    "name": "Deep Fission, Inc. -"
+    "name": "Deep Fission, Inc."
   },
   {
     "ticker": "FISV",
-    "name": "Fiserv, Inc. -"
+    "name": "Fiserv, Inc."
   },
   {
     "ticker": "FITB",
@@ -9610,11 +9610,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FIVE",
-    "name": "Five Below, Inc. -"
+    "name": "Five Below, Inc."
   },
   {
     "ticker": "FIVN",
-    "name": "Five9, Inc. -"
+    "name": "Five9, Inc."
   },
   {
     "ticker": "FIX",
@@ -9622,7 +9622,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FIZZ",
-    "name": "National Beverage Corp. -"
+    "name": "National Beverage Corp."
   },
   {
     "ticker": "FJET",
@@ -9630,7 +9630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FKWL",
-    "name": "Franklin Wireless Corp. - common stock"
+    "name": "Franklin Wireless Corp."
   },
   {
     "ticker": "FLC",
@@ -9654,15 +9654,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLGT",
-    "name": "Fulgent Genetics, Inc. -"
+    "name": "Fulgent Genetics, Inc."
   },
   {
     "ticker": "FLL",
-    "name": "Full House Resorts, Inc. -"
+    "name": "Full House Resorts, Inc."
   },
   {
     "ticker": "FLNA",
-    "name": "Filana Therapeutics, Inc. -"
+    "name": "Filana Therapeutics, Inc."
   },
   {
     "ticker": "FLNC",
@@ -9674,7 +9674,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLNT",
-    "name": "Fluent, Inc. -"
+    "name": "Fluent, Inc."
   },
   {
     "ticker": "FLO",
@@ -9682,7 +9682,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLOC",
-    "name": "Flowco Holdings Inc. Class A"
+    "name": "Flowco Holdings Inc."
   },
   {
     "ticker": "FLR",
@@ -9698,7 +9698,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLUX",
-    "name": "Flux Power Holdings, Inc. -"
+    "name": "Flux Power Holdings, Inc."
   },
   {
     "ticker": "FLWS",
@@ -9710,15 +9710,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLXS",
-    "name": "Flexsteel Industries, Inc. -"
+    "name": "Flexsteel Industries, Inc."
   },
   {
     "ticker": "FLY",
-    "name": "Firefly Aerospace Inc. -"
+    "name": "Firefly Aerospace Inc."
   },
   {
     "ticker": "FLYE",
-    "name": "Fly-E Group, Inc. -"
+    "name": "Fly-E Group, Inc."
   },
   {
     "ticker": "FLYW",
@@ -9726,15 +9726,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FLYX",
-    "name": "flyExclusive, Inc. Class A"
+    "name": "flyExclusive, Inc."
   },
   {
     "ticker": "FLYX.W",
-    "name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share"
+    "name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one"
   },
   {
     "ticker": "FLZH",
-    "name": "Flash Sports & Media Holdings, Inc. -"
+    "name": "Flash Sports & Media Holdings, Inc."
   },
   {
     "ticker": "FMAC",
@@ -9750,11 +9750,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FMAO",
-    "name": "Farmers & Merchants Bancorp, Inc. -"
+    "name": "Farmers & Merchants Bancorp, Inc."
   },
   {
     "ticker": "FMBH",
-    "name": "First Mid Bancshares, Inc. -"
+    "name": "First Mid Bancshares, Inc."
   },
   {
     "ticker": "FMC",
@@ -9770,7 +9770,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FMNB",
-    "name": "Farmers National Banc Corp. -"
+    "name": "Farmers National Banc Corp."
   },
   {
     "ticker": "FMS",
@@ -9818,7 +9818,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FNGR",
-    "name": "FingerMotion, Inc. - common stock"
+    "name": "FingerMotion, Inc."
   },
   {
     "ticker": "FNKO",
@@ -9826,11 +9826,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FNLC",
-    "name": "First Bancorp, Inc (ME) -"
+    "name": "First Bancorp, Inc (ME)"
   },
   {
     "ticker": "FNRN",
-    "name": "First Northern Community Bancorp - Common stock"
+    "name": "First Northern Community Bancorp"
   },
   {
     "ticker": "FNUC",
@@ -9842,15 +9842,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FNWB",
-    "name": "First Northwest Bancorp -"
+    "name": "First Northwest Bancorp"
   },
   {
     "ticker": "FNWD",
-    "name": "Finward Bancorp - common stock"
+    "name": "Finward Bancorp"
   },
   {
     "ticker": "FOA",
-    "name": "Finance of America Companies Inc. Class A"
+    "name": "Finance of America Companies Inc."
   },
   {
     "ticker": "FOCL",
@@ -9870,11 +9870,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FORM",
-    "name": "FormFactor, Inc. -"
+    "name": "FormFactor, Inc."
   },
   {
     "ticker": "FORR",
-    "name": "Forrester Research, Inc. -"
+    "name": "Forrester Research, Inc."
   },
   {
     "ticker": "FORTY",
@@ -9882,11 +9882,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FOSL",
-    "name": "Fossil Group, Inc. -"
+    "name": "Fossil Group, Inc."
   },
   {
     "ticker": "FOUR",
-    "name": "Shift4 Payments, Inc. Class A"
+    "name": "Shift4 Payments, Inc."
   },
   {
     "ticker": "FOX",
@@ -9898,11 +9898,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FOXF",
-    "name": "Fox Factory Holding Corp. -"
+    "name": "Fox Factory Holding Corp."
   },
   {
     "ticker": "FOXX",
-    "name": "Foxx Development Holdings Inc. -"
+    "name": "Foxx Development Holdings Inc."
   },
   {
     "ticker": "FOXXW",
@@ -9922,7 +9922,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FPS",
-    "name": "Forgent Power Solutions, Inc. Class A"
+    "name": "Forgent Power Solutions, Inc."
   },
   {
     "ticker": "FR",
@@ -9934,11 +9934,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRAF",
-    "name": "Franklin Financial Services Corporation -"
+    "name": "Franklin Financial Services Corporation"
   },
   {
     "ticker": "FRBA",
-    "name": "First Bank  -"
+    "name": "First Bank"
   },
   {
     "ticker": "FRBT",
@@ -9946,7 +9946,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRD",
-    "name": "Friedman Industries Inc. -"
+    "name": "Friedman Industries Inc."
   },
   {
     "ticker": "FRGT",
@@ -9954,11 +9954,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRHC",
-    "name": "Freedom Holding Corp. -"
+    "name": "Freedom Holding Corp."
   },
   {
     "ticker": "FRME",
-    "name": "First Merchants Corporation -"
+    "name": "First Merchants Corporation"
   },
   {
     "ticker": "FRMEP",
@@ -9966,11 +9966,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRMI",
-    "name": "Fermi Inc. -"
+    "name": "Fermi Inc."
   },
   {
     "ticker": "FRMM",
-    "name": "Forum Markets, Incorporated -"
+    "name": "Forum Markets, Incorporated"
   },
   {
     "ticker": "FRO",
@@ -9982,11 +9982,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRPH",
-    "name": "FRP Holdings, Inc. -"
+    "name": "FRP Holdings, Inc."
   },
   {
     "ticker": "FRPT",
-    "name": "Freshpet, Inc. -"
+    "name": "Freshpet, Inc."
   },
   {
     "ticker": "FRSH",
@@ -9994,7 +9994,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRST",
-    "name": "Primis Financial Corp. -"
+    "name": "Primis Financial Corp."
   },
   {
     "ticker": "FRSX",
@@ -10010,15 +10010,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FRVO",
-    "name": "Fervo Energy Company - Class A common stock"
+    "name": "Fervo Energy Company"
   },
   {
     "ticker": "FSBC",
-    "name": "Five Star Bancorp -"
+    "name": "Five Star Bancorp"
   },
   {
     "ticker": "FSBW",
-    "name": "FS Bancorp, Inc. -"
+    "name": "FS Bancorp, Inc."
   },
   {
     "ticker": "FSCO",
@@ -10026,7 +10026,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FSEA",
-    "name": "First Seacoast Bancorp, Inc. -"
+    "name": "First Seacoast Bancorp, Inc."
   },
   {
     "ticker": "FSHP",
@@ -10050,7 +10050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FSLR",
-    "name": "First Solar, Inc. -"
+    "name": "First Solar, Inc."
   },
   {
     "ticker": "FSLY",
@@ -10074,11 +10074,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FSTR",
-    "name": "L.B. Foster Company -"
+    "name": "L.B. Foster Company"
   },
   {
     "ticker": "FSUN",
-    "name": "FirstSun Capital Bancorp -"
+    "name": "FirstSun Capital Bancorp"
   },
   {
     "ticker": "FSV",
@@ -10090,7 +10090,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTAI",
-    "name": "FTAI Aviation Ltd. -"
+    "name": "FTAI Aviation Ltd."
   },
   {
     "ticker": "FTAIM",
@@ -10098,15 +10098,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTCI",
-    "name": "FTC Solar, Inc. -"
+    "name": "FTC Solar, Inc."
   },
   {
     "ticker": "FTDR",
-    "name": "Frontdoor, Inc. -"
+    "name": "Frontdoor, Inc."
   },
   {
     "ticker": "FTEK",
-    "name": "Fuel Tech, Inc. -"
+    "name": "Fuel Tech, Inc."
   },
   {
     "ticker": "FTF",
@@ -10114,11 +10114,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTFT",
-    "name": "Future FinTech Group Inc. -"
+    "name": "Future FinTech Group Inc."
   },
   {
     "ticker": "FTH",
-    "name": "Faeth Therapeutics, Inc.  -"
+    "name": "Faeth Therapeutics, Inc."
   },
   {
     "ticker": "FTHA",
@@ -10134,7 +10134,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTHM",
-    "name": "Fathom Holdings Inc. -"
+    "name": "Fathom Holdings Inc."
   },
   {
     "ticker": "FTHY",
@@ -10150,11 +10150,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTLF",
-    "name": "FitLife Brands, Inc. -"
+    "name": "FitLife Brands, Inc."
   },
   {
     "ticker": "FTNT",
-    "name": "Fortinet, Inc. -"
+    "name": "Fortinet, Inc."
   },
   {
     "ticker": "FTRA.U",
@@ -10162,7 +10162,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTRE",
-    "name": "Fortrea Holdings Inc. -"
+    "name": "Fortrea Holdings Inc."
   },
   {
     "ticker": "FTRK",
@@ -10178,15 +10178,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FTW",
-    "name": "Presidio Production Company Class A"
+    "name": "Presidio Production Company"
   },
   {
     "ticker": "FTW.W",
-    "name": "Presidio Production Company Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share"
+    "name": "Presidio Production Company Warrants, each whole warrant exercisable for one share of"
   },
   {
     "ticker": "FUBO",
-    "name": "FuboTV Inc. Class A"
+    "name": "FuboTV Inc."
   },
   {
     "ticker": "FUFU",
@@ -10202,11 +10202,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FULC",
-    "name": "Fulcrum Therapeutics, Inc. -"
+    "name": "Fulcrum Therapeutics, Inc."
   },
   {
     "ticker": "FULT",
-    "name": "Fulton Financial Corporation -"
+    "name": "Fulton Financial Corporation"
   },
   {
     "ticker": "FULTP",
@@ -10218,7 +10218,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FUNC",
-    "name": "First United Corporation -"
+    "name": "First United Corporation"
   },
   {
     "ticker": "FUND",
@@ -10230,11 +10230,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FUSB",
-    "name": "First US Bancshares, Inc. -"
+    "name": "First US Bancshares, Inc."
   },
   {
     "ticker": "FUSE",
-    "name": "Fusemachines Inc. - Common stock"
+    "name": "Fusemachines Inc."
   },
   {
     "ticker": "FUSEW",
@@ -10250,7 +10250,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FVCB",
-    "name": "FVCBankcorp, Inc. -"
+    "name": "FVCBankcorp, Inc."
   },
   {
     "ticker": "FVN",
@@ -10278,7 +10278,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FWDI",
-    "name": "Forward Industries, Inc. -"
+    "name": "Forward Industries, Inc."
   },
   {
     "ticker": "FWONA",
@@ -10290,11 +10290,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FWRD",
-    "name": "Forward Air Corporation -"
+    "name": "Forward Air Corporation"
   },
   {
     "ticker": "FWRG",
-    "name": "First Watch Restaurant Group, Inc. -"
+    "name": "First Watch Restaurant Group, Inc."
   },
   {
     "ticker": "FXACU",
@@ -10302,7 +10302,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "FXNC",
-    "name": "First National Corporation -"
+    "name": "First National Corporation"
   },
   {
     "ticker": "G",
@@ -10314,7 +10314,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GABC",
-    "name": "German American Bancorp, Inc. -"
+    "name": "German American Bancorp, Inc."
   },
   {
     "ticker": "GAIA",
@@ -10338,7 +10338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GALT",
-    "name": "Galectin Therapeutics Inc. -"
+    "name": "Galectin Therapeutics Inc."
   },
   {
     "ticker": "GAM",
@@ -10350,11 +10350,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GAME",
-    "name": "GameSquare Holdings, Inc. - Common stock"
+    "name": "GameSquare Holdings, Inc."
   },
   {
     "ticker": "GANX",
-    "name": "Gain Therapeutics, Inc. -"
+    "name": "Gain Therapeutics, Inc."
   },
   {
     "ticker": "GAP",
@@ -10362,7 +10362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GASS",
-    "name": "StealthGas, Inc. - common stock"
+    "name": "StealthGas, Inc."
   },
   {
     "ticker": "GATX",
@@ -10390,7 +10390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GBFH",
-    "name": "GBank Financial Holdings Inc. -"
+    "name": "GBank Financial Holdings Inc."
   },
   {
     "ticker": "GBLI",
@@ -10402,7 +10402,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GBTG",
-    "name": "Global Business Travel Group, Inc. Class A"
+    "name": "Global Business Travel Group, Inc."
   },
   {
     "ticker": "GBX",
@@ -10410,7 +10410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GCBC",
-    "name": "Greene County Bancorp, Inc. -"
+    "name": "Greene County Bancorp, Inc."
   },
   {
     "ticker": "GCDT",
@@ -10450,7 +10450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GCTK",
-    "name": "GlucoTrack, Inc. -"
+    "name": "GlucoTrack, Inc."
   },
   {
     "ticker": "GCTS",
@@ -10470,11 +10470,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GDC",
-    "name": "GD Culture Group Limited -"
+    "name": "GD Culture Group Limited"
   },
   {
     "ticker": "GDDY",
-    "name": "GoDaddy Inc. Class A"
+    "name": "GoDaddy Inc."
   },
   {
     "ticker": "GDEV",
@@ -10498,7 +10498,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GDOT",
-    "name": "Green Dot Corporation Class A"
+    "name": "Green Dot Corporation"
   },
   {
     "ticker": "GDRX",
@@ -10542,15 +10542,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GEF",
-    "name": "Greif Inc. Class A"
+    "name": "Greif Inc."
   },
   {
     "ticker": "GEF.B",
-    "name": "Greif, Inc. Corporation Class B"
+    "name": "Greif, Inc. Corporation"
   },
   {
     "ticker": "GEG",
-    "name": "Great Elm Group, Inc.  -"
+    "name": "Great Elm Group, Inc."
   },
   {
     "ticker": "GEGGL",
@@ -10558,7 +10558,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GEHC",
-    "name": "GE HealthCare Technologies Inc. -"
+    "name": "GE HealthCare Technologies Inc."
   },
   {
     "ticker": "GEL",
@@ -10574,11 +10574,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GEN",
-    "name": "Gen Digital Inc. -"
+    "name": "Gen Digital Inc."
   },
   {
     "ticker": "GENB",
-    "name": "Generate Biomedicines, Inc. -"
+    "name": "Generate Biomedicines, Inc."
   },
   {
     "ticker": "GENC",
@@ -10602,15 +10602,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GEOS",
-    "name": "Geospace Technologies Corporation -"
+    "name": "Geospace Technologies Corporation"
   },
   {
     "ticker": "GERN",
-    "name": "Geron Corporation -"
+    "name": "Geron Corporation"
   },
   {
     "ticker": "GETY",
-    "name": "Getty Images Holdings, Inc. Class A"
+    "name": "Getty Images Holdings, Inc."
   },
   {
     "ticker": "GEV",
@@ -10618,7 +10618,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GEVO",
-    "name": "Gevo, Inc. -"
+    "name": "Gevo, Inc."
   },
   {
     "ticker": "GF",
@@ -10678,7 +10678,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GGRP",
-    "name": "The Glimpse Group, Inc. -"
+    "name": "The Glimpse Group, Inc."
   },
   {
     "ticker": "GGT",
@@ -10690,7 +10690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GH",
-    "name": "Guardant Health, Inc. -"
+    "name": "Guardant Health, Inc."
   },
   {
     "ticker": "GHC",
@@ -10738,7 +10738,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GIFT",
-    "name": "Giftify, Inc. -"
+    "name": "Giftify, Inc."
   },
   {
     "ticker": "GIGM",
@@ -10746,7 +10746,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GIII",
-    "name": "G-III Apparel Group, LTD. -"
+    "name": "G-III Apparel Group, LTD."
   },
   {
     "ticker": "GIL",
@@ -10754,7 +10754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GILD",
-    "name": "Gilead Sciences, Inc. -"
+    "name": "Gilead Sciences, Inc."
   },
   {
     "ticker": "GILT",
@@ -10762,7 +10762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GIPR",
-    "name": "Generation Income Properties Inc. - Common stock"
+    "name": "Generation Income Properties Inc."
   },
   {
     "ticker": "GIPRW",
@@ -10842,7 +10842,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLBS",
-    "name": "Globus Maritime Limited -"
+    "name": "Globus Maritime Limited"
   },
   {
     "ticker": "GLDG",
@@ -10878,7 +10878,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLND",
-    "name": "Greenland Energy Company -"
+    "name": "Greenland Energy Company"
   },
   {
     "ticker": "GLNDW",
@@ -10898,7 +10898,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLOO",
-    "name": "Gloo Holdings, Inc. -"
+    "name": "Gloo Holdings, Inc."
   },
   {
     "ticker": "GLP",
@@ -10906,7 +10906,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLPI",
-    "name": "Gaming and Leisure Properties, Inc. -"
+    "name": "Gaming and Leisure Properties, Inc."
   },
   {
     "ticker": "GLQ",
@@ -10918,7 +10918,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLSI",
-    "name": "Greenwich LifeSciences, Inc. - Common stock"
+    "name": "Greenwich LifeSciences, Inc."
   },
   {
     "ticker": "GLU",
@@ -10926,7 +10926,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLUE",
-    "name": "Monte Rosa Therapeutics, Inc. -"
+    "name": "Monte Rosa Therapeutics, Inc."
   },
   {
     "ticker": "GLV",
@@ -10942,7 +10942,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GLXY",
-    "name": "Galaxy Digital Inc. - Class A common stock"
+    "name": "Galaxy Digital Inc."
   },
   {
     "ticker": "GM",
@@ -10962,7 +10962,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GMED",
-    "name": "Globus Medical, Inc. Class A"
+    "name": "Globus Medical, Inc."
   },
   {
     "ticker": "GMEX",
@@ -10978,7 +10978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GMRS",
-    "name": "GMR Solutions Inc. Class A"
+    "name": "GMR Solutions Inc."
   },
   {
     "ticker": "GMTL",
@@ -10986,7 +10986,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GNE",
-    "name": "Genie Energy Ltd. Class B"
+    "name": "Genie Energy Ltd."
   },
   {
     "ticker": "GNK",
@@ -11002,11 +11002,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GNLX",
-    "name": "Genelux Corporation -"
+    "name": "Genelux Corporation"
   },
   {
     "ticker": "GNPX",
-    "name": "Genprex, Inc. -"
+    "name": "Genprex, Inc."
   },
   {
     "ticker": "GNRC",
@@ -11018,7 +11018,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GNSS",
-    "name": "Genasys Inc. -"
+    "name": "Genasys Inc."
   },
   {
     "ticker": "GNT",
@@ -11030,7 +11030,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GNTX",
-    "name": "Gentex Corporation -"
+    "name": "Gentex Corporation"
   },
   {
     "ticker": "GNW",
@@ -11038,11 +11038,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GO",
-    "name": "Grocery Outlet Holding Corp. -"
+    "name": "Grocery Outlet Holding Corp."
   },
   {
     "ticker": "GOAI",
-    "name": "Eva Live Inc. -"
+    "name": "Eva Live Inc."
   },
   {
     "ticker": "GOF",
@@ -11050,7 +11050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GOGO",
-    "name": "Gogo Inc. -"
+    "name": "Gogo Inc."
   },
   {
     "ticker": "GOLD",
@@ -11098,7 +11098,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GOSS",
-    "name": "Gossamer Bio, Inc. -"
+    "name": "Gossamer Bio, Inc."
   },
   {
     "ticker": "GOTU",
@@ -11106,7 +11106,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GOVX",
-    "name": "GeoVax Labs, Inc. -"
+    "name": "GeoVax Labs, Inc."
   },
   {
     "ticker": "GP",
@@ -11146,7 +11146,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GPGI",
-    "name": "GPGI, Inc. Class A"
+    "name": "GPGI, Inc."
   },
   {
     "ticker": "GPI",
@@ -11174,7 +11174,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GPRE",
-    "name": "Green Plains, Inc. -"
+    "name": "Green Plains, Inc."
   },
   {
     "ticker": "GPRK",
@@ -11210,7 +11210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRAL",
-    "name": "GRAIL, Inc. -"
+    "name": "GRAIL, Inc."
   },
   {
     "ticker": "GRAN",
@@ -11226,15 +11226,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRCE",
-    "name": "Grace Therapeutics, Inc. -"
+    "name": "Grace Therapeutics, Inc."
   },
   {
     "ticker": "GRDN",
-    "name": "Guardian Pharmacy Services, Inc. Class A"
+    "name": "Guardian Pharmacy Services, Inc."
   },
   {
     "ticker": "GRDX",
-    "name": "GridAI Technologies Corp.  -"
+    "name": "GridAI Technologies Corp."
   },
   {
     "ticker": "GREE",
@@ -11254,11 +11254,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRI",
-    "name": "GRI Bio, Inc. -"
+    "name": "GRI Bio, Inc."
   },
   {
     "ticker": "GRML",
-    "name": "Greenland Mines Ltd -"
+    "name": "Greenland Mines Ltd"
   },
   {
     "ticker": "GRMLW",
@@ -11278,7 +11278,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRNQ",
-    "name": "Greenpro Capital Corp. -"
+    "name": "Greenpro Capital Corp."
   },
   {
     "ticker": "GRNT",
@@ -11290,7 +11290,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GROV",
-    "name": "Grove Collaborative Holdings, Inc. Class A"
+    "name": "Grove Collaborative Holdings, Inc."
   },
   {
     "ticker": "GROW",
@@ -11306,7 +11306,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRPN",
-    "name": "Groupon, Inc. -"
+    "name": "Groupon, Inc."
   },
   {
     "ticker": "GRRR",
@@ -11322,7 +11322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GRWG",
-    "name": "GrowGeneration Corp. -"
+    "name": "GrowGeneration Corp."
   },
   {
     "ticker": "GRX",
@@ -11334,11 +11334,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GSAT",
-    "name": "Globalstar, Inc. -"
+    "name": "Globalstar, Inc."
   },
   {
     "ticker": "GSBC",
-    "name": "Great Southern Bancorp, Inc. -"
+    "name": "Great Southern Bancorp, Inc."
   },
   {
     "ticker": "GSBD",
@@ -11362,7 +11362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GSIT",
-    "name": "GSI Technology, Inc. -"
+    "name": "GSI Technology, Inc."
   },
   {
     "ticker": "GSIW",
@@ -11402,11 +11402,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GT",
-    "name": "The Goodyear Tire & Rubber Company -"
+    "name": "The Goodyear Tire & Rubber Company"
   },
   {
     "ticker": "GTBP",
-    "name": "GT Biopharma, Inc. -"
+    "name": "GT Biopharma, Inc."
   },
   {
     "ticker": "GTE",
@@ -11450,7 +11450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GTIM",
-    "name": "Good Times Restaurants Inc. -"
+    "name": "Good Times Restaurants Inc."
   },
   {
     "ticker": "GTLB",
@@ -11462,7 +11462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GTM",
-    "name": "ZoomInfo Technologies Inc. -"
+    "name": "ZoomInfo Technologies Inc."
   },
   {
     "ticker": "GTN",
@@ -11470,11 +11470,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GTN.A",
-    "name": "Gray Media, Inc. Class A"
+    "name": "Gray Media, Inc."
   },
   {
     "ticker": "GTX",
-    "name": "Garrett Motion Inc. -"
+    "name": "Garrett Motion Inc."
   },
   {
     "ticker": "GTY",
@@ -11490,7 +11490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GURE",
-    "name": "Gulf Resources, Inc. -"
+    "name": "Gulf Resources, Inc."
   },
   {
     "ticker": "GUT",
@@ -11498,7 +11498,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GUTS",
-    "name": "Fractyl Health, Inc. -"
+    "name": "Fractyl Health, Inc."
   },
   {
     "ticker": "GV",
@@ -11514,7 +11514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GWAV",
-    "name": "Greenwave Technology Solutions, Inc. -"
+    "name": "Greenwave Technology Solutions, Inc."
   },
   {
     "ticker": "GWH",
@@ -11530,7 +11530,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GWRS",
-    "name": "Global Water Resources, Inc. - common stock"
+    "name": "Global Water Resources, Inc."
   },
   {
     "ticker": "GWW",
@@ -11538,7 +11538,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GXAI",
-    "name": "Gaxos.ai Inc. -"
+    "name": "Gaxos.ai Inc."
   },
   {
     "ticker": "GXO",
@@ -11546,15 +11546,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "GYRE",
-    "name": "Gyre Therapeutics, Inc. -"
+    "name": "Gyre Therapeutics, Inc."
   },
   {
     "ticker": "GYRO",
-    "name": "Gyrodyne , LLC -"
+    "name": "Gyrodyne , LLC"
   },
   {
     "ticker": "H",
-    "name": "Hyatt Hotels Corporation Class A"
+    "name": "Hyatt Hotels Corporation"
   },
   {
     "ticker": "HACQ",
@@ -11574,7 +11574,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HAFC",
-    "name": "Hanmi Financial Corporation -"
+    "name": "Hanmi Financial Corporation"
   },
   {
     "ticker": "HAFN",
@@ -11582,7 +11582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HAIN",
-    "name": "The Hain Celestial Group, Inc. -"
+    "name": "The Hain Celestial Group, Inc."
   },
   {
     "ticker": "HAL",
@@ -11590,7 +11590,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HALO",
-    "name": "Halozyme Therapeutics, Inc. -"
+    "name": "Halozyme Therapeutics, Inc."
   },
   {
     "ticker": "HAO",
@@ -11598,11 +11598,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HAPN",
-    "name": "Happen, Inc. -"
+    "name": "Happen, Inc."
   },
   {
     "ticker": "HAS",
-    "name": "Hasbro, Inc. -"
+    "name": "Hasbro, Inc."
   },
   {
     "ticker": "HASI",
@@ -11630,7 +11630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HBAN",
-    "name": "Huntington Bancshares Incorporated -"
+    "name": "Huntington Bancshares Incorporated"
   },
   {
     "ticker": "HBANL",
@@ -11650,15 +11650,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HBB",
-    "name": "Hamilton Beach Brands Holding Company Class A"
+    "name": "Hamilton Beach Brands Holding Company"
   },
   {
     "ticker": "HBCP",
-    "name": "Home Bancorp, Inc. -"
+    "name": "Home Bancorp, Inc."
   },
   {
     "ticker": "HBIO",
-    "name": "Harvard Bioscience, Inc. -"
+    "name": "Harvard Bioscience, Inc."
   },
   {
     "ticker": "HBM",
@@ -11670,11 +11670,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HBNC",
-    "name": "Horizon Bancorp, Inc. -"
+    "name": "Horizon Bancorp, Inc."
   },
   {
     "ticker": "HBT",
-    "name": "HBT Financial, Inc. -"
+    "name": "HBT Financial, Inc."
   },
   {
     "ticker": "HCA",
@@ -11698,7 +11698,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HCAT",
-    "name": "Health Catalyst, Inc - Common stock"
+    "name": "Health Catalyst, Inc"
   },
   {
     "ticker": "HCC",
@@ -11726,7 +11726,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HCKT",
-    "name": "The Hackett Group, Inc. -"
+    "name": "The Hackett Group, Inc."
   },
   {
     "ticker": "HCM",
@@ -11746,19 +11746,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HCSG",
-    "name": "Healthcare Services Group, Inc. -"
+    "name": "Healthcare Services Group, Inc."
   },
   {
     "ticker": "HCTI",
-    "name": "Healthcare Triangle, Inc. -"
+    "name": "Healthcare Triangle, Inc."
   },
   {
     "ticker": "HCWB",
-    "name": "HCW Biologics Inc. -"
+    "name": "HCW Biologics Inc."
   },
   {
     "ticker": "HCWC",
-    "name": "Healthy Choice Wellness Corp. Class A"
+    "name": "Healthy Choice Wellness Corp."
   },
   {
     "ticker": "HCXY",
@@ -11778,7 +11778,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HDRN",
-    "name": "Hadron Energy, Inc. -"
+    "name": "Hadron Energy, Inc."
   },
   {
     "ticker": "HDRNW",
@@ -11786,7 +11786,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HDSN",
-    "name": "Hudson Technologies, Inc. -"
+    "name": "Hudson Technologies, Inc."
   },
   {
     "ticker": "HE",
@@ -11802,11 +11802,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HELE",
-    "name": "Helen of Troy Limited -"
+    "name": "Helen of Troy Limited"
   },
   {
     "ticker": "HELP",
-    "name": "Cybin Inc. -"
+    "name": "Cybin Inc."
   },
   {
     "ticker": "HEPS",
@@ -11830,11 +11830,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HFBL",
-    "name": "Home Federal Bancorp, Inc. of Louisiana -"
+    "name": "Home Federal Bancorp, Inc. of Louisiana"
   },
   {
     "ticker": "HFFG",
-    "name": "HF Foods Group Inc. -"
+    "name": "HF Foods Group Inc."
   },
   {
     "ticker": "HFRO",
@@ -11842,7 +11842,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HFWA",
-    "name": "Heritage Financial Corporation -"
+    "name": "Heritage Financial Corporation"
   },
   {
     "ticker": "HG",
@@ -11850,7 +11850,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HGBL",
-    "name": "Heritage Global Inc. -"
+    "name": "Heritage Global Inc."
   },
   {
     "ticker": "HGLB",
@@ -11858,7 +11858,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HGTY",
-    "name": "Hagerty, Inc. Class A"
+    "name": "Hagerty, Inc."
   },
   {
     "ticker": "HGV",
@@ -11870,11 +11870,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HHS",
-    "name": "Harte Hanks, Inc. -"
+    "name": "Harte Hanks, Inc."
   },
   {
     "ticker": "HIFS",
-    "name": "Hingham Institution for Savings -"
+    "name": "Hingham Institution for Savings"
   },
   {
     "ticker": "HIG",
@@ -11882,7 +11882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HIHO",
-    "name": "Highway Holdings Limited -"
+    "name": "Highway Holdings Limited"
   },
   {
     "ticker": "HII",
@@ -11890,7 +11890,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HIMS",
-    "name": "Hims & Hers Health, Inc. Class A"
+    "name": "Hims & Hers Health, Inc."
   },
   {
     "ticker": "HIMX",
@@ -11898,7 +11898,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HIND",
-    "name": "Vyome Holdings, Inc. -"
+    "name": "Vyome Holdings, Inc."
   },
   {
     "ticker": "HIO",
@@ -11950,7 +11950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HLI",
-    "name": "Houlihan Lokey, Inc. Class A"
+    "name": "Houlihan Lokey, Inc."
   },
   {
     "ticker": "HLIO",
@@ -11958,7 +11958,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HLIT",
-    "name": "Harmonic Inc. -"
+    "name": "Harmonic Inc."
   },
   {
     "ticker": "HLLY",
@@ -11970,7 +11970,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HLMN",
-    "name": "Hillman Solutions Corp. -"
+    "name": "Hillman Solutions Corp."
   },
   {
     "ticker": "HLN",
@@ -12002,7 +12002,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HMH",
-    "name": "HMH Holding Inc. -"
+    "name": "HMH Holding Inc."
   },
   {
     "ticker": "HMN",
@@ -12010,7 +12010,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HMR",
-    "name": "Heidmar Maritime Holdings Corp. -"
+    "name": "Heidmar Maritime Holdings Corp."
   },
   {
     "ticker": "HMY",
@@ -12018,7 +12018,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HNGE",
-    "name": "Hinge Health, Inc. Class A"
+    "name": "Hinge Health, Inc."
   },
   {
     "ticker": "HNI",
@@ -12026,7 +12026,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HNNA",
-    "name": "Hennessy Advisors, Inc. -"
+    "name": "Hennessy Advisors, Inc."
   },
   {
     "ticker": "HNNAZ",
@@ -12034,19 +12034,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HNRG",
-    "name": "Hallador Energy Company -"
+    "name": "Hallador Energy Company"
   },
   {
     "ticker": "HNST",
-    "name": "The Honest Company, Inc. -"
+    "name": "The Honest Company, Inc."
   },
   {
     "ticker": "HNVR",
-    "name": "Hanover Bancorp, Inc. -"
+    "name": "Hanover Bancorp, Inc."
   },
   {
     "ticker": "HOFT",
-    "name": "Hooker Furnishings Corporation -"
+    "name": "Hooker Furnishings Corporation"
   },
   {
     "ticker": "HOG",
@@ -12066,11 +12066,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HON",
-    "name": "Honeywell International Inc. -"
+    "name": "Honeywell International Inc."
   },
   {
     "ticker": "HONA",
-    "name": "Honeywell Aerospace Inc. -"
+    "name": "Honeywell Aerospace Inc."
   },
   {
     "ticker": "HOOD",
@@ -12078,15 +12078,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HOPE",
-    "name": "Hope Bancorp, Inc. -"
+    "name": "Hope Bancorp, Inc."
   },
   {
     "ticker": "HOUR",
-    "name": "Hour Loop, Inc. - common stock"
+    "name": "Hour Loop, Inc."
   },
   {
     "ticker": "HOV",
-    "name": "Hovnanian Enterprises, Inc. Class A"
+    "name": "Hovnanian Enterprises, Inc."
   },
   {
     "ticker": "HOVNP",
@@ -12102,7 +12102,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HOWL",
-    "name": "Werewolf Therapeutics, Inc. -"
+    "name": "Werewolf Therapeutics, Inc."
   },
   {
     "ticker": "HP",
@@ -12130,7 +12130,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HPK",
-    "name": "HighPeak Energy, Inc. -"
+    "name": "HighPeak Energy, Inc."
   },
   {
     "ticker": "HPP",
@@ -12154,7 +12154,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HQI",
-    "name": "HireQuest, Inc. -"
+    "name": "HireQuest, Inc."
   },
   {
     "ticker": "HQL",
@@ -12166,7 +12166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HQY",
-    "name": "HealthEquity, Inc. -"
+    "name": "HealthEquity, Inc."
   },
   {
     "ticker": "HR",
@@ -12186,11 +12186,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HRMY",
-    "name": "Harmony Biosciences Holdings, Inc. -"
+    "name": "Harmony Biosciences Holdings, Inc."
   },
   {
     "ticker": "HROW",
-    "name": "Harrow, Inc. -"
+    "name": "Harrow, Inc."
   },
   {
     "ticker": "HRTG",
@@ -12198,11 +12198,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HRTX",
-    "name": "Heron Therapeutics, Inc.   -"
+    "name": "Heron Therapeutics, Inc."
   },
   {
     "ticker": "HRZN",
-    "name": "Horizon Technology Finance Corporation -"
+    "name": "Horizon Technology Finance Corporation"
   },
   {
     "ticker": "HSAI",
@@ -12214,7 +12214,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HSCS",
-    "name": "HeartSciences Inc. -"
+    "name": "HeartSciences Inc."
   },
   {
     "ticker": "HSCSW",
@@ -12230,7 +12230,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HSIC",
-    "name": "Henry Schein, Inc. -"
+    "name": "Henry Schein, Inc."
   },
   {
     "ticker": "HSLV",
@@ -12238,11 +12238,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HST",
-    "name": "Host Hotels & Resorts, Inc. -"
+    "name": "Host Hotels & Resorts, Inc."
   },
   {
     "ticker": "HSTM",
-    "name": "HealthStream, Inc. -"
+    "name": "HealthStream, Inc."
   },
   {
     "ticker": "HSY",
@@ -12258,7 +12258,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HTCR",
-    "name": "Heartcore Enterprises, Inc. -"
+    "name": "Heartcore Enterprises, Inc."
   },
   {
     "ticker": "HTD",
@@ -12270,7 +12270,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HTFL",
-    "name": "Heartflow, Inc. -"
+    "name": "Heartflow, Inc."
   },
   {
     "ticker": "HTGC",
@@ -12286,7 +12286,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HTLD",
-    "name": "Heartland Express, Inc. -"
+    "name": "Heartland Express, Inc."
   },
   {
     "ticker": "HTLM",
@@ -12294,7 +12294,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HTO",
-    "name": "H2O America  -"
+    "name": "H2O America"
   },
   {
     "ticker": "HTOO",
@@ -12306,7 +12306,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HTZ",
-    "name": "Hertz Global Holdings, Inc -"
+    "name": "Hertz Global Holdings, Inc"
   },
   {
     "ticker": "HTZWW",
@@ -12354,7 +12354,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HUMA",
-    "name": "Humacyte, Inc. -"
+    "name": "Humacyte, Inc."
   },
   {
     "ticker": "HUMAW",
@@ -12366,19 +12366,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HURA",
-    "name": "TuHURA Biosciences, Inc. -"
+    "name": "TuHURA Biosciences, Inc."
   },
   {
     "ticker": "HURC",
-    "name": "Hurco Companies, Inc. -"
+    "name": "Hurco Companies, Inc."
   },
   {
     "ticker": "HURN",
-    "name": "Huron Consulting Group Inc. -"
+    "name": "Huron Consulting Group Inc."
   },
   {
     "ticker": "HUT",
-    "name": "Hut 8 Corp. -"
+    "name": "Hut 8 Corp."
   },
   {
     "ticker": "HUYA",
@@ -12418,11 +12418,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HWBK",
-    "name": "Hawthorn Bancshares, Inc. -"
+    "name": "Hawthorn Bancshares, Inc."
   },
   {
     "ticker": "HWC",
-    "name": "Hancock Whitney Corporation -"
+    "name": "Hancock Whitney Corporation"
   },
   {
     "ticker": "HWCPZ",
@@ -12430,11 +12430,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HWH",
-    "name": "HWH International Inc. -"
+    "name": "HWH International Inc."
   },
   {
     "ticker": "HWKN",
-    "name": "Hawkins, Inc. -"
+    "name": "Hawkins, Inc."
   },
   {
     "ticker": "HWM",
@@ -12450,15 +12450,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HY",
-    "name": "Hyster-Yale, Inc. Class A common stock"
+    "name": "Hyster-Yale, Inc."
   },
   {
     "ticker": "HYFM",
-    "name": "Hydrofarm Holdings Group, Inc. -"
+    "name": "Hydrofarm Holdings Group, Inc."
   },
   {
     "ticker": "HYFT",
-    "name": "MindWalk Holdings Corp. -"
+    "name": "MindWalk Holdings Corp."
   },
   {
     "ticker": "HYI",
@@ -12466,7 +12466,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HYLN",
-    "name": "Hyliion Holdings Corp. Class A"
+    "name": "Hyliion Holdings Corp."
   },
   {
     "ticker": "HYMC",
@@ -12474,11 +12474,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "HYNE",
-    "name": "Hoyne Bancorp, Inc. -"
+    "name": "Hoyne Bancorp, Inc."
   },
   {
     "ticker": "HYPD",
-    "name": "Hyperion DeFi, Inc. -"
+    "name": "Hyperion DeFi, Inc."
   },
   {
     "ticker": "HYPR",
@@ -12530,7 +12530,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IART",
-    "name": "Integra LifeSciences Holdings Corporation -"
+    "name": "Integra LifeSciences Holdings Corporation"
   },
   {
     "ticker": "IAUX",
@@ -12542,7 +12542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IBAC",
-    "name": "IB Acquisition Corp. -"
+    "name": "IB Acquisition Corp."
   },
   {
     "ticker": "IBACR",
@@ -12550,7 +12550,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IBCP",
-    "name": "Independent Bank Corporation -"
+    "name": "Independent Bank Corporation"
   },
   {
     "ticker": "IBEX",
@@ -12562,7 +12562,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IBIO",
-    "name": "iBio, Inc. -"
+    "name": "iBio, Inc."
   },
   {
     "ticker": "IBKR",
@@ -12582,7 +12582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IBOC",
-    "name": "International Bancshares Corporation -"
+    "name": "International Bancshares Corporation"
   },
   {
     "ticker": "IBP",
@@ -12590,15 +12590,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IBRX",
-    "name": "ImmunityBio, Inc. -"
+    "name": "ImmunityBio, Inc."
   },
   {
     "ticker": "IBTA",
-    "name": "Ibotta, Inc. Class A"
+    "name": "Ibotta, Inc."
   },
   {
     "ticker": "ICCC",
-    "name": "ImmuCell Corporation -"
+    "name": "ImmuCell Corporation"
   },
   {
     "ticker": "ICCM",
@@ -12610,7 +12610,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ICFI",
-    "name": "ICF International, Inc. -"
+    "name": "ICF International, Inc."
   },
   {
     "ticker": "ICG",
@@ -12630,15 +12630,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ICMB",
-    "name": "Investcorp Credit Management BDC, Inc. -"
+    "name": "Investcorp Credit Management BDC, Inc."
   },
   {
     "ticker": "ICON",
-    "name": "Icon Energy Corp. - Common stock"
+    "name": "Icon Energy Corp."
   },
   {
     "ticker": "ICU",
-    "name": "SeaStar Medical Holding Corporation -"
+    "name": "SeaStar Medical Holding Corporation"
   },
   {
     "ticker": "ICUCW",
@@ -12646,7 +12646,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ICUI",
-    "name": "ICU Medical, Inc. -"
+    "name": "ICU Medical, Inc."
   },
   {
     "ticker": "IDA",
@@ -12662,7 +12662,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IDCC",
-    "name": "InterDigital, Inc. -"
+    "name": "InterDigital, Inc."
   },
   {
     "ticker": "IDE",
@@ -12670,7 +12670,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IDN",
-    "name": "Intellicheck, Inc. -"
+    "name": "Intellicheck, Inc."
   },
   {
     "ticker": "IDR",
@@ -12678,15 +12678,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IDT",
-    "name": "IDT Corporation Class B"
+    "name": "IDT Corporation"
   },
   {
     "ticker": "IDXX",
-    "name": "IDEXX Laboratories, Inc. -"
+    "name": "IDEXX Laboratories, Inc."
   },
   {
     "ticker": "IDYA",
-    "name": "IDEAYA Biosciences, Inc. -"
+    "name": "IDEAYA Biosciences, Inc."
   },
   {
     "ticker": "IE",
@@ -12710,7 +12710,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IESC",
-    "name": "IES Holdings, Inc. -"
+    "name": "IES Holdings, Inc."
   },
   {
     "ticker": "IEX",
@@ -12730,7 +12730,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IFRX",
-    "name": "InflaRx N.V. -"
+    "name": "InflaRx N.V."
   },
   {
     "ticker": "IFS",
@@ -12802,7 +12802,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "III",
-    "name": "Information Services Group, Inc. -"
+    "name": "Information Services Group, Inc."
   },
   {
     "ticker": "IIIN",
@@ -12810,7 +12810,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IIIV",
-    "name": "i3 Verticals, Inc. -"
+    "name": "i3 Verticals, Inc."
   },
   {
     "ticker": "IIM",
@@ -12822,7 +12822,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IKT",
-    "name": "Inhibikase Therapeutics, Inc. -"
+    "name": "Inhibikase Therapeutics, Inc."
   },
   {
     "ticker": "ILAG",
@@ -12830,7 +12830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ILLR",
-    "name": "Triller Group Inc. -"
+    "name": "Triller Group Inc."
   },
   {
     "ticker": "ILLRW",
@@ -12850,7 +12850,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ILMN",
-    "name": "Illumina, Inc. -"
+    "name": "Illumina, Inc."
   },
   {
     "ticker": "ILPT",
@@ -12858,7 +12858,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IMA",
-    "name": "ImageneBio, Inc. -"
+    "name": "ImageneBio, Inc."
   },
   {
     "ticker": "IMAX",
@@ -12874,7 +12874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IMDX",
-    "name": "Insight Molecular Diagnostics Inc. -"
+    "name": "Insight Molecular Diagnostics Inc."
   },
   {
     "ticker": "IMKTA",
@@ -12886,19 +12886,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IMMR",
-    "name": "Immersion Corporation -"
+    "name": "Immersion Corporation"
   },
   {
     "ticker": "IMMX",
-    "name": "Immix Biopharma, Inc. -"
+    "name": "Immix Biopharma, Inc."
   },
   {
     "ticker": "IMNM",
-    "name": "Immunome, Inc. -"
+    "name": "Immunome, Inc."
   },
   {
     "ticker": "IMNN",
-    "name": "Imunon, Inc. -"
+    "name": "Imunon, Inc."
   },
   {
     "ticker": "IMO",
@@ -12926,7 +12926,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IMSR",
-    "name": "Terrestrial Energy Inc. -"
+    "name": "Terrestrial Energy Inc."
   },
   {
     "ticker": "IMSRW",
@@ -12942,19 +12942,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IMUX",
-    "name": "Immunic, Inc.  -"
+    "name": "Immunic, Inc."
   },
   {
     "ticker": "IMVT",
-    "name": "Immunovant, Inc.  -"
+    "name": "Immunovant, Inc."
   },
   {
     "ticker": "IMXI",
-    "name": "International Money Express, Inc. -"
+    "name": "International Money Express, Inc."
   },
   {
     "ticker": "INAB",
-    "name": "IN8bio, Inc. -"
+    "name": "IN8bio, Inc."
   },
   {
     "ticker": "INAC",
@@ -12970,7 +12970,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INBK",
-    "name": "First Internet Bancorp -"
+    "name": "First Internet Bancorp"
   },
   {
     "ticker": "INBKZ",
@@ -12978,11 +12978,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INBS",
-    "name": "Intelligent Bio Solutions Inc.  -"
+    "name": "Intelligent Bio Solutions Inc."
   },
   {
     "ticker": "INBX",
-    "name": "Inhibrx Biosciences, Inc. -"
+    "name": "Inhibrx Biosciences, Inc."
   },
   {
     "ticker": "INCR",
@@ -12990,11 +12990,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INCY",
-    "name": "Incyte Corporation -"
+    "name": "Incyte Corporation"
   },
   {
     "ticker": "INDB",
-    "name": "Independent Bank Corp. -"
+    "name": "Independent Bank Corp."
   },
   {
     "ticker": "INDI",
@@ -13006,11 +13006,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INDP",
-    "name": "Indaptus Therapeutics, Inc. -"
+    "name": "Indaptus Therapeutics, Inc."
   },
   {
     "ticker": "INDV",
-    "name": "Indivior Pharmaceuticals, Inc.  -"
+    "name": "Indivior Pharmaceuticals, Inc."
   },
   {
     "ticker": "INEO",
@@ -13042,7 +13042,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INGN",
-    "name": "Inogen, Inc -"
+    "name": "Inogen, Inc"
   },
   {
     "ticker": "INGR",
@@ -13050,7 +13050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INHD",
-    "name": "Inno Holdings Inc. -"
+    "name": "Inno Holdings Inc."
   },
   {
     "ticker": "INIO",
@@ -13058,7 +13058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INKT",
-    "name": "MiNK Therapeutics, Inc. -"
+    "name": "MiNK Therapeutics, Inc."
   },
   {
     "ticker": "INLF",
@@ -13074,7 +13074,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INMB",
-    "name": "INmune Bio Inc. - Common stock"
+    "name": "INmune Bio Inc."
   },
   {
     "ticker": "INMD",
@@ -13086,31 +13086,31 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INNV",
-    "name": "InnovAge Holding Corp. -"
+    "name": "InnovAge Holding Corp."
   },
   {
     "ticker": "INO",
-    "name": "Inovio Pharmaceuticals, Inc. -"
+    "name": "Inovio Pharmaceuticals, Inc."
   },
   {
     "ticker": "INOD",
-    "name": "Innodata Inc. -"
+    "name": "Innodata Inc."
   },
   {
     "ticker": "INR",
-    "name": "Infinity Natural Resources, Inc. Class A"
+    "name": "Infinity Natural Resources, Inc."
   },
   {
     "ticker": "INSE",
-    "name": "Inspired Entertainment, Inc. -"
+    "name": "Inspired Entertainment, Inc."
   },
   {
     "ticker": "INSG",
-    "name": "Inseego Corp. -"
+    "name": "Inseego Corp."
   },
   {
     "ticker": "INSM",
-    "name": "Insmed Incorporated -"
+    "name": "Insmed Incorporated"
   },
   {
     "ticker": "INSP",
@@ -13122,15 +13122,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INTA",
-    "name": "Intapp, Inc. -"
+    "name": "Intapp, Inc."
   },
   {
     "ticker": "INTC",
-    "name": "Intel Corporation -"
+    "name": "Intel Corporation"
   },
   {
     "ticker": "INTG",
-    "name": "The Intergroup Corporation -"
+    "name": "The Intergroup Corporation"
   },
   {
     "ticker": "INTJ",
@@ -13142,7 +13142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INTS",
-    "name": "Intensity Therapeutics, Inc. -"
+    "name": "Intensity Therapeutics, Inc."
   },
   {
     "ticker": "INTT",
@@ -13150,11 +13150,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INTU",
-    "name": "Intuit Inc. -"
+    "name": "Intuit Inc."
   },
   {
     "ticker": "INTZ",
-    "name": "Intrusion Inc. -"
+    "name": "Intrusion Inc."
   },
   {
     "ticker": "INUV",
@@ -13162,15 +13162,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "INV",
-    "name": "Innventure, Inc. -"
+    "name": "Innventure, Inc."
   },
   {
     "ticker": "INVA",
-    "name": "Innoviva, Inc. -"
+    "name": "Innoviva, Inc."
   },
   {
     "ticker": "INVE",
-    "name": "Identiv, Inc. -"
+    "name": "Identiv, Inc."
   },
   {
     "ticker": "INVH",
@@ -13198,7 +13198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IONS",
-    "name": "Ionis Pharmaceuticals, Inc. -"
+    "name": "Ionis Pharmaceuticals, Inc."
   },
   {
     "ticker": "IOR",
@@ -13206,11 +13206,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IOSP",
-    "name": "Innospec Inc. -"
+    "name": "Innospec Inc."
   },
   {
     "ticker": "IOT",
-    "name": "Samsara Inc. Class A"
+    "name": "Samsara Inc."
   },
   {
     "ticker": "IOTR",
@@ -13218,7 +13218,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IOVA",
-    "name": "Iovance Biotherapeutics, Inc. -"
+    "name": "Iovance Biotherapeutics, Inc."
   },
   {
     "ticker": "IP",
@@ -13226,7 +13226,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IPAR",
-    "name": "Interparfums, Inc. -"
+    "name": "Interparfums, Inc."
   },
   {
     "ticker": "IPCX",
@@ -13242,7 +13242,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IPDN",
-    "name": "Professional Diversity Network, Inc. -"
+    "name": "Professional Diversity Network, Inc."
   },
   {
     "ticker": "IPEX",
@@ -13270,7 +13270,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IPGP",
-    "name": "IPG Photonics Corporation -"
+    "name": "IPG Photonics Corporation"
   },
   {
     "ticker": "IPHA",
@@ -13282,15 +13282,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IPM",
-    "name": "Intelligent Protection Management Corp.  -"
+    "name": "Intelligent Protection Management Corp."
   },
   {
     "ticker": "IPSC",
-    "name": "Century Therapeutics, Inc. -"
+    "name": "Century Therapeutics, Inc."
   },
   {
     "ticker": "IPST",
-    "name": "IP Strategy Holdings, Inc. -"
+    "name": "IP Strategy Holdings, Inc."
   },
   {
     "ticker": "IPVVU",
@@ -13298,11 +13298,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IPW",
-    "name": "iPower Inc. -"
+    "name": "iPower Inc."
   },
   {
     "ticker": "IPWR",
-    "name": "Ideal Power Inc. -"
+    "name": "Ideal Power Inc."
   },
   {
     "ticker": "IPX",
@@ -13318,7 +13318,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IQST",
-    "name": "iQSTEL Inc. -"
+    "name": "iQSTEL Inc."
   },
   {
     "ticker": "IQV",
@@ -13342,11 +13342,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IRD",
-    "name": "Opus Genetics, Inc. -"
+    "name": "Opus Genetics, Inc."
   },
   {
     "ticker": "IRDM",
-    "name": "Iridium Communications Inc -"
+    "name": "Iridium Communications Inc"
   },
   {
     "ticker": "IREN",
@@ -13354,7 +13354,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IRHO",
-    "name": "Iron Horse Acquisitions II Corp. -"
+    "name": "Iron Horse Acquisitions II Corp."
   },
   {
     "ticker": "IRHOR",
@@ -13366,19 +13366,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IRIX",
-    "name": "IRIDEX Corporation -"
+    "name": "IRIDEX Corporation"
   },
   {
     "ticker": "IRM",
-    "name": "Iron Mountain Incorporated (Delaware)Common Stock REIT"
+    "name": "Iron Mountain Incorporated (Delaware)"
   },
   {
     "ticker": "IRMD",
-    "name": "iRadimed Corporation -"
+    "name": "iRadimed Corporation"
   },
   {
     "ticker": "IRON",
-    "name": "Disc Medicine, Inc. -"
+    "name": "Disc Medicine, Inc."
   },
   {
     "ticker": "IRS",
@@ -13390,7 +13390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IRTC",
-    "name": "iRhythm Holdings, Inc.  -"
+    "name": "iRhythm Holdings, Inc."
   },
   {
     "ticker": "IRWD",
@@ -13398,7 +13398,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ISBA",
-    "name": "Isabella Bank Corporation - Common stock"
+    "name": "Isabella Bank Corporation"
   },
   {
     "ticker": "ISD",
@@ -13414,23 +13414,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ISPC",
-    "name": "iSpecimen Inc. -"
+    "name": "iSpecimen Inc."
   },
   {
     "ticker": "ISPR",
-    "name": "Ispire Technology Inc. -"
+    "name": "Ispire Technology Inc."
   },
   {
     "ticker": "ISRG",
-    "name": "Intuitive Surgical, Inc. -"
+    "name": "Intuitive Surgical, Inc."
   },
   {
     "ticker": "ISSC",
-    "name": "Innovative Solutions and Support, Inc. -"
+    "name": "Innovative Solutions and Support, Inc."
   },
   {
     "ticker": "ISTR",
-    "name": "Investar Holding Corporation -"
+    "name": "Investar Holding Corporation"
   },
   {
     "ticker": "IT",
@@ -13454,7 +13454,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ITIC",
-    "name": "Investors Title Company -"
+    "name": "Investors Title Company"
   },
   {
     "ticker": "ITOC",
@@ -13470,7 +13470,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ITRI",
-    "name": "Itron, Inc. -"
+    "name": "Itron, Inc."
   },
   {
     "ticker": "ITRN",
@@ -13494,7 +13494,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IVDA",
-    "name": "Iveda Solutions, Inc. -"
+    "name": "Iveda Solutions, Inc."
   },
   {
     "ticker": "IVDAW",
@@ -13502,7 +13502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IVF",
-    "name": "INVO Fertility, Inc. -"
+    "name": "INVO Fertility, Inc."
   },
   {
     "ticker": "IVR",
@@ -13514,7 +13514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IVVD",
-    "name": "Invivyd, Inc. -"
+    "name": "Invivyd, Inc."
   },
   {
     "ticker": "IVZ",
@@ -13526,11 +13526,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "IXHL",
-    "name": "Incannex Healthcare Inc. -"
+    "name": "Incannex Healthcare Inc."
   },
   {
     "ticker": "IZEA",
-    "name": "IZEA Worldwide, Inc. -"
+    "name": "IZEA Worldwide, Inc."
   },
   {
     "ticker": "IZM",
@@ -13546,7 +13546,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JACK",
-    "name": "Jack In The Box Inc. -"
+    "name": "Jack In The Box Inc."
   },
   {
     "ticker": "JACS",
@@ -13566,11 +13566,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JAGX",
-    "name": "Jaguar Health, Inc. -"
+    "name": "Jaguar Health, Inc."
   },
   {
     "ticker": "JAKK",
-    "name": "JAKKS Pacific, Inc. -"
+    "name": "JAKKS Pacific, Inc."
   },
   {
     "ticker": "JAN",
@@ -13578,7 +13578,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JANX",
-    "name": "Janux Therapeutics, Inc. -"
+    "name": "Janux Therapeutics, Inc."
   },
   {
     "ticker": "JATT",
@@ -13598,7 +13598,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JBHT",
-    "name": "J.B. Hunt Transport Services, Inc. -"
+    "name": "J.B. Hunt Transport Services, Inc."
   },
   {
     "ticker": "JBI",
@@ -13606,7 +13606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JBIO",
-    "name": "Jade Biosciences, Inc. -"
+    "name": "Jade Biosciences, Inc."
   },
   {
     "ticker": "JBK",
@@ -13618,7 +13618,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JBLU",
-    "name": "JetBlue Airways Corporation -"
+    "name": "JetBlue Airways Corporation"
   },
   {
     "ticker": "JBS",
@@ -13626,7 +13626,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JBSS",
-    "name": "John B. Sanfilippo & Son, Inc. -"
+    "name": "John B. Sanfilippo & Son, Inc."
   },
   {
     "ticker": "JBTM",
@@ -13634,7 +13634,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JCAP",
-    "name": "Jefferson Capital, Inc. -"
+    "name": "Jefferson Capital, Inc."
   },
   {
     "ticker": "JCE",
@@ -13734,11 +13734,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JJSF",
-    "name": "J & J Snack Foods Corp. -"
+    "name": "J & J Snack Foods Corp."
   },
   {
     "ticker": "JKHY",
-    "name": "Jack Henry & Associates, Inc. -"
+    "name": "Jack Henry & Associates, Inc."
   },
   {
     "ticker": "JKS",
@@ -13770,7 +13770,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JMSB",
-    "name": "John Marshall Bancorp, Inc. -"
+    "name": "John Marshall Bancorp, Inc."
   },
   {
     "ticker": "JNJ",
@@ -13826,11 +13826,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JRSH",
-    "name": "Jerash Holdings (US), Inc. -"
+    "name": "Jerash Holdings (US), Inc."
   },
   {
     "ticker": "JRVR",
-    "name": "James River Group Holdings, Inc. -"
+    "name": "James River Group Holdings, Inc."
   },
   {
     "ticker": "JSM",
@@ -13846,15 +13846,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JTAI",
-    "name": "Jet.AI Inc. -"
+    "name": "Jet.AI Inc."
   },
   {
     "ticker": "JUNS",
-    "name": "Jupiter Neurosciences, Inc. -"
+    "name": "Jupiter Neurosciences, Inc."
   },
   {
     "ticker": "JVA",
-    "name": "Coffee Holding Co., Inc. -"
+    "name": "Coffee Holding Co., Inc."
   },
   {
     "ticker": "JWEL",
@@ -13862,11 +13862,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JXG",
-    "name": "JX Luxventure Group Inc. -"
+    "name": "JX Luxventure Group Inc."
   },
   {
     "ticker": "JXN",
-    "name": "Jackson Financial Inc. Class A"
+    "name": "Jackson Financial Inc."
   },
   {
     "ticker": "JYD",
@@ -13874,7 +13874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "JYNT",
-    "name": "The Joint Corp. -"
+    "name": "The Joint Corp."
   },
   {
     "ticker": "JZ",
@@ -13890,11 +13890,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KALA",
-    "name": "KALA BIO, Inc. -"
+    "name": "KALA BIO, Inc."
   },
   {
     "ticker": "KALU",
-    "name": "Kaiser Aluminum Corporation -"
+    "name": "Kaiser Aluminum Corporation"
   },
   {
     "ticker": "KAPA",
@@ -13902,7 +13902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KARD",
-    "name": "Kardigan, Inc. -"
+    "name": "Kardigan, Inc."
   },
   {
     "ticker": "KARO",
@@ -13978,7 +13978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KDK",
-    "name": "Kodiak AI, Inc. -"
+    "name": "Kodiak AI, Inc."
   },
   {
     "ticker": "KDKRW",
@@ -13986,15 +13986,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KDP",
-    "name": "Keurig Dr Pepper Inc. -"
+    "name": "Keurig Dr Pepper Inc."
   },
   {
     "ticker": "KE",
-    "name": "Kimball Electronics, Inc. -"
+    "name": "Kimball Electronics, Inc."
   },
   {
     "ticker": "KEEL",
-    "name": "Keel Infrastructure Corp. -"
+    "name": "Keel Infrastructure Corp."
   },
   {
     "ticker": "KELYA",
@@ -14014,7 +14014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KEQU",
-    "name": "Kewaunee Scientific Corporation -"
+    "name": "Kewaunee Scientific Corporation"
   },
   {
     "ticker": "KEX",
@@ -14046,7 +14046,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KFFB",
-    "name": "Kentucky First Federal Bancorp -"
+    "name": "Kentucky First Federal Bancorp"
   },
   {
     "ticker": "KFII",
@@ -14070,7 +14070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KG",
-    "name": "Kestrel Group, Ltd. -"
+    "name": "Kestrel Group, Ltd."
   },
   {
     "ticker": "KGC",
@@ -14078,7 +14078,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KGEI",
-    "name": "Kolibri Global Energy Inc. - Common stock"
+    "name": "Kolibri Global Energy Inc."
   },
   {
     "ticker": "KGS",
@@ -14086,11 +14086,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KHC",
-    "name": "The Kraft Heinz Company -"
+    "name": "The Kraft Heinz Company"
   },
   {
     "ticker": "KIDS",
-    "name": "OrthoPediatrics Corp. -"
+    "name": "OrthoPediatrics Corp."
   },
   {
     "ticker": "KIDZ",
@@ -14106,7 +14106,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KINS",
-    "name": "Kingstone Companies, Inc -"
+    "name": "Kingstone Companies, Inc"
   },
   {
     "ticker": "KIO",
@@ -14114,7 +14114,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KITT",
-    "name": "Nauticus Robotics, Inc. - Common stock"
+    "name": "Nauticus Robotics, Inc."
   },
   {
     "ticker": "KITTW",
@@ -14134,7 +14134,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KLAC",
-    "name": "KLA Corporation  -"
+    "name": "KLA Corporation"
   },
   {
     "ticker": "KLAR",
@@ -14146,27 +14146,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KLIC",
-    "name": "Kulicke and Soffa Industries, Inc. -"
+    "name": "Kulicke and Soffa Industries, Inc."
   },
   {
     "ticker": "KLRA",
-    "name": "Kailera Therapeutics, Inc. - Common stock"
+    "name": "Kailera Therapeutics, Inc."
   },
   {
     "ticker": "KLRS",
-    "name": "Kalaris Therapeutics, Inc.  -"
+    "name": "Kalaris Therapeutics, Inc."
   },
   {
     "ticker": "KLTR",
-    "name": "Kaltura, Inc. -"
+    "name": "Kaltura, Inc."
   },
   {
     "ticker": "KLXE",
-    "name": "KLX Energy Services Holdings, Inc.  -"
+    "name": "KLX Energy Services Holdings, Inc."
   },
   {
     "ticker": "KMB",
-    "name": "Kimberly-Clark Corporation -"
+    "name": "Kimberly-Clark Corporation"
   },
   {
     "ticker": "KMDA",
@@ -14194,7 +14194,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KMTS",
-    "name": "Kestra Medical Technologies, Ltd. -"
+    "name": "Kestra Medical Technologies, Ltd."
   },
   {
     "ticker": "KMX",
@@ -14230,7 +14230,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KNTK",
-    "name": "Kinetik Holdings Inc. Class A"
+    "name": "Kinetik Holdings Inc."
   },
   {
     "ticker": "KNX",
@@ -14242,7 +14242,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KOD",
-    "name": "Kodiak Sciences Inc -"
+    "name": "Kodiak Sciences Inc"
   },
   {
     "ticker": "KODK",
@@ -14258,7 +14258,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KOPN",
-    "name": "Kopin Corporation -"
+    "name": "Kopin Corporation"
   },
   {
     "ticker": "KORE",
@@ -14270,7 +14270,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KOSS",
-    "name": "Koss Corporation -"
+    "name": "Koss Corporation"
   },
   {
     "ticker": "KOYN",
@@ -14298,15 +14298,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KPLT",
-    "name": "Katapult Holdings, Inc. -"
+    "name": "Katapult Holdings, Inc."
   },
   {
     "ticker": "KPRX",
-    "name": "Kiora Pharmaceuticals, Inc.  -"
+    "name": "Kiora Pharmaceuticals, Inc."
   },
   {
     "ticker": "KPTI",
-    "name": "Karyopharm Therapeutics Inc. -"
+    "name": "Karyopharm Therapeutics Inc."
   },
   {
     "ticker": "KR",
@@ -14342,7 +14342,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KRMD",
-    "name": "KORU Medical Systems, Inc. -"
+    "name": "KORU Medical Systems, Inc."
   },
   {
     "ticker": "KRMN",
@@ -14354,7 +14354,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KRNY",
-    "name": "Kearny Financial -"
+    "name": "Kearny Financial"
   },
   {
     "ticker": "KRO",
@@ -14362,7 +14362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KROS",
-    "name": "Keros Therapeutics, Inc. - common stock"
+    "name": "Keros Therapeutics, Inc."
   },
   {
     "ticker": "KRP",
@@ -14370,7 +14370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KRRO",
-    "name": "Korro Bio, Inc. -"
+    "name": "Korro Bio, Inc."
   },
   {
     "ticker": "KRSP",
@@ -14386,7 +14386,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KRT",
-    "name": "Karat Packaging Inc. -"
+    "name": "Karat Packaging Inc."
   },
   {
     "ticker": "KRUS",
@@ -14394,7 +14394,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KRYS",
-    "name": "Krystal Biotech, Inc. -"
+    "name": "Krystal Biotech, Inc."
   },
   {
     "ticker": "KSCP",
@@ -14418,7 +14418,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KTCC",
-    "name": "Key Tronic Corporation -"
+    "name": "Key Tronic Corporation"
   },
   {
     "ticker": "KTF",
@@ -14434,11 +14434,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KTOS",
-    "name": "Kratos Defense & Security Solutions, Inc. -"
+    "name": "Kratos Defense & Security Solutions, Inc."
   },
   {
     "ticker": "KTTA",
-    "name": "Pasithea Therapeutics Corp. -"
+    "name": "Pasithea Therapeutics Corp."
   },
   {
     "ticker": "KTTAW",
@@ -14462,11 +14462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KURA",
-    "name": "Kura Oncology, Inc. -"
+    "name": "Kura Oncology, Inc."
   },
   {
     "ticker": "KUST",
-    "name": "Kustom Entertainment, Inc. -"
+    "name": "Kustom Entertainment, Inc."
   },
   {
     "ticker": "KVAC",
@@ -14482,7 +14482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KVHI",
-    "name": "KVH Industries, Inc. -"
+    "name": "KVH Industries, Inc."
   },
   {
     "ticker": "KVUE",
@@ -14522,7 +14522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KYMR",
-    "name": "Kymera Therapeutics, Inc. -"
+    "name": "Kymera Therapeutics, Inc."
   },
   {
     "ticker": "KYN",
@@ -14530,11 +14530,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "KYNB",
-    "name": "Kyntra Bio, Inc. -"
+    "name": "Kyntra Bio, Inc."
   },
   {
     "ticker": "KYTX",
-    "name": "Kyverna Therapeutics, Inc. -"
+    "name": "Kyverna Therapeutics, Inc."
   },
   {
     "ticker": "KZIA",
@@ -14546,11 +14546,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LAB",
-    "name": "Standard BioTools Inc. -"
+    "name": "Standard BioTools Inc."
   },
   {
     "ticker": "LABT",
-    "name": "Lakewood-Amedex Biotherapeutics Inc. -"
+    "name": "Lakewood-Amedex Biotherapeutics Inc."
   },
   {
     "ticker": "LAC",
@@ -14562,7 +14562,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LADR",
-    "name": "Ladder Capital Corp Class A"
+    "name": "Ladder Capital Corp"
   },
   {
     "ticker": "LAES",
@@ -14582,7 +14582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LAKE",
-    "name": "Lakeland Industries, Inc. -"
+    "name": "Lakeland Industries, Inc."
   },
   {
     "ticker": "LAMR",
@@ -14590,7 +14590,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LAND",
-    "name": "Gladstone Land Corporation -"
+    "name": "Gladstone Land Corporation"
   },
   {
     "ticker": "LANDO",
@@ -14610,15 +14610,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LARK",
-    "name": "Landmark Bancorp Inc. -"
+    "name": "Landmark Bancorp Inc."
   },
   {
     "ticker": "LASE",
-    "name": "Laser Photonics Corporation -"
+    "name": "Laser Photonics Corporation"
   },
   {
     "ticker": "LASR",
-    "name": "nLIGHT, Inc. -"
+    "name": "nLIGHT, Inc."
   },
   {
     "ticker": "LATA",
@@ -14634,7 +14634,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LAUR",
-    "name": "Laureate Education, Inc. -"
+    "name": "Laureate Education, Inc."
   },
   {
     "ticker": "LAW",
@@ -14670,11 +14670,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LBRT",
-    "name": "Liberty Energy Inc. Class A common stock"
+    "name": "Liberty Energy Inc."
   },
   {
     "ticker": "LBRX",
-    "name": "LB Pharmaceuticals Inc -"
+    "name": "LB Pharmaceuticals Inc"
   },
   {
     "ticker": "LBTYA",
@@ -14710,7 +14710,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LCID",
-    "name": "Lucid Group, Inc. -"
+    "name": "Lucid Group, Inc."
   },
   {
     "ticker": "LCII",
@@ -14718,11 +14718,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LCLN",
-    "name": "Lincoln International, Inc. Class A"
+    "name": "Lincoln International, Inc."
   },
   {
     "ticker": "LCNB",
-    "name": "LCNB Corporation -"
+    "name": "LCNB Corporation"
   },
   {
     "ticker": "LCTX",
@@ -14730,11 +14730,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LCUT",
-    "name": "Lifetime Brands, Inc. -"
+    "name": "Lifetime Brands, Inc."
   },
   {
     "ticker": "LDI",
-    "name": "loanDepot, Inc. Class A"
+    "name": "loanDepot, Inc."
   },
   {
     "ticker": "LDOS",
@@ -14746,7 +14746,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LE",
-    "name": "Lands' End, Inc. -"
+    "name": "Lands' End, Inc."
   },
   {
     "ticker": "LEA",
@@ -14758,11 +14758,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LEDS",
-    "name": "SemiLEDS Corporation -"
+    "name": "SemiLEDS Corporation"
   },
   {
     "ticker": "LEE",
-    "name": "Lee Enterprises, Incorporated -"
+    "name": "Lee Enterprises, Incorporated"
   },
   {
     "ticker": "LEG",
@@ -14770,7 +14770,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LEGH",
-    "name": "Legacy Housing Corporation -"
+    "name": "Legacy Housing Corporation"
   },
   {
     "ticker": "LEGN",
@@ -14790,7 +14790,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LEN",
-    "name": "Lennar Corporation Class A"
+    "name": "Lennar Corporation"
   },
   {
     "ticker": "LEN.B",
@@ -14798,7 +14798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LENZ",
-    "name": "LENZ Therapeutics, Inc. -"
+    "name": "LENZ Therapeutics, Inc."
   },
   {
     "ticker": "LEO",
@@ -14806,19 +14806,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LESL",
-    "name": "Leslie's, Inc. -"
+    "name": "Leslie's, Inc."
   },
   {
     "ticker": "LEU",
-    "name": "Centrus Energy Corp. Class A"
+    "name": "Centrus Energy Corp."
   },
   {
     "ticker": "LEVI",
-    "name": "Levi Strauss & Co Class A"
+    "name": "Levi Strauss & Co"
   },
   {
     "ticker": "LEXX",
-    "name": "Lexaria Bioscience Corp. -"
+    "name": "Lexaria Bioscience Corp."
   },
   {
     "ticker": "LFAC",
@@ -14834,11 +14834,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LFCR",
-    "name": "Lifecore Biomedical, Inc. -"
+    "name": "Lifecore Biomedical, Inc."
   },
   {
     "ticker": "LFMD",
-    "name": "LifeMD, Inc. -"
+    "name": "LifeMD, Inc."
   },
   {
     "ticker": "LFMDP",
@@ -14850,7 +14850,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LFST",
-    "name": "LifeStance Health Group, Inc. -"
+    "name": "LifeStance Health Group, Inc."
   },
   {
     "ticker": "LFT",
@@ -14858,15 +14858,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LFTO",
-    "name": "Liftoff Mobile, Inc. -"
+    "name": "Liftoff Mobile, Inc."
   },
   {
     "ticker": "LFUS",
-    "name": "Littelfuse, Inc. -"
+    "name": "Littelfuse, Inc."
   },
   {
     "ticker": "LFVN",
-    "name": "Lifevantage Corporation -"
+    "name": "Lifevantage Corporation"
   },
   {
     "ticker": "LFWD",
@@ -14890,7 +14890,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LGIH",
-    "name": "LGI Homes, Inc. -"
+    "name": "LGI Homes, Inc."
   },
   {
     "ticker": "LGL",
@@ -14898,11 +14898,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LGN",
-    "name": "Legence Corp. - Class A Common stock"
+    "name": "Legence Corp."
   },
   {
     "ticker": "LGND",
-    "name": "Ligand Pharmaceuticals Incorporated -"
+    "name": "Ligand Pharmaceuticals Incorporated"
   },
   {
     "ticker": "LGO",
@@ -14914,7 +14914,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LGVN",
-    "name": "Longeveron Inc. - Class A Common stock"
+    "name": "Longeveron Inc."
   },
   {
     "ticker": "LH",
@@ -14922,7 +14922,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LHAI",
-    "name": "Linkhome Holdings Inc. - Common stock"
+    "name": "Linkhome Holdings Inc."
   },
   {
     "ticker": "LHSW",
@@ -14950,11 +14950,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LIEN",
-    "name": "Chicago Atlantic BDC, Inc. -"
+    "name": "Chicago Atlantic BDC, Inc."
   },
   {
     "ticker": "LIF",
-    "name": "Life360, Inc. -"
+    "name": "Life360, Inc."
   },
   {
     "ticker": "LIFE",
@@ -14990,19 +14990,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LINC",
-    "name": "Lincoln Educational Services Corporation -"
+    "name": "Lincoln Educational Services Corporation"
   },
   {
     "ticker": "LIND",
-    "name": "Lindblad Expeditions Holdings Inc.  -"
+    "name": "Lindblad Expeditions Holdings Inc."
   },
   {
     "ticker": "LINE",
-    "name": "Lineage, Inc. -"
+    "name": "Lineage, Inc."
   },
   {
     "ticker": "LINK",
-    "name": "Interlink Electronics, Inc. -"
+    "name": "Interlink Electronics, Inc."
   },
   {
     "ticker": "LION",
@@ -15010,7 +15010,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LIQT",
-    "name": "LiqTech International, Inc. -"
+    "name": "LiqTech International, Inc."
   },
   {
     "ticker": "LITB",
@@ -15018,15 +15018,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LITE",
-    "name": "Lumentum Holdings Inc. -"
+    "name": "Lumentum Holdings Inc."
   },
   {
     "ticker": "LITS",
-    "name": "Lite Strategy, Inc. -"
+    "name": "Lite Strategy, Inc."
   },
   {
     "ticker": "LIVE",
-    "name": "Live Ventures Incorporated -"
+    "name": "Live Ventures Incorporated"
   },
   {
     "ticker": "LIVN",
@@ -15034,11 +15034,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LIXT",
-    "name": "Lixte Biotechnology Holdings, Inc. -"
+    "name": "Lixte Biotechnology Holdings, Inc."
   },
   {
     "ticker": "LKFN",
-    "name": "Lakeland Financial Corporation -"
+    "name": "Lakeland Financial Corporation"
   },
   {
     "ticker": "LKFT",
@@ -15046,7 +15046,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LKQ",
-    "name": "LKQ Corporation -"
+    "name": "LKQ Corporation"
   },
   {
     "ticker": "LKSP",
@@ -15074,15 +15074,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LMAT",
-    "name": "LeMaitre Vascular, Inc. -"
+    "name": "LeMaitre Vascular, Inc."
   },
   {
     "ticker": "LMB",
-    "name": "Limbach Holdings, Inc. -"
+    "name": "Limbach Holdings, Inc."
   },
   {
     "ticker": "LMFA",
-    "name": "LM Funding America, Inc. -"
+    "name": "LM Funding America, Inc."
   },
   {
     "ticker": "LMND",
@@ -15090,11 +15090,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LMNR",
-    "name": "Limoneira Co -"
+    "name": "Limoneira Co"
   },
   {
     "ticker": "LMRI",
-    "name": "Lumexa Imaging Holdings, Inc. -"
+    "name": "Lumexa Imaging Holdings, Inc."
   },
   {
     "ticker": "LMT",
@@ -15102,7 +15102,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LNAI",
-    "name": "Lunai Bioworks Inc. -"
+    "name": "Lunai Bioworks Inc."
   },
   {
     "ticker": "LNC",
@@ -15126,19 +15126,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LNSR",
-    "name": "LENSAR, Inc. -"
+    "name": "LENSAR, Inc."
   },
   {
     "ticker": "LNT",
-    "name": "Alliant Energy Corporation -"
+    "name": "Alliant Energy Corporation"
   },
   {
     "ticker": "LNTH",
-    "name": "Lantheus Holdings, Inc. -"
+    "name": "Lantheus Holdings, Inc."
   },
   {
     "ticker": "LNZA",
-    "name": "LanzaTech Global, Inc. -"
+    "name": "LanzaTech Global, Inc."
   },
   {
     "ticker": "LNZAW",
@@ -15146,7 +15146,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LOAN",
-    "name": "Manhattan Bridge Capital, Inc -"
+    "name": "Manhattan Bridge Capital, Inc"
   },
   {
     "ticker": "LOAR",
@@ -15166,7 +15166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LOCO",
-    "name": "El Pollo Loco Holdings, Inc. -"
+    "name": "El Pollo Loco Holdings, Inc."
   },
   {
     "ticker": "LODE",
@@ -15182,15 +15182,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LONA",
-    "name": "LeonaBio, Inc. -"
+    "name": "LeonaBio, Inc."
   },
   {
     "ticker": "LOOP",
-    "name": "Loop Industries, Inc. -"
+    "name": "Loop Industries, Inc."
   },
   {
     "ticker": "LOPE",
-    "name": "Grand Canyon Education, Inc. -"
+    "name": "Grand Canyon Education, Inc."
   },
   {
     "ticker": "LOT",
@@ -15202,7 +15202,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LOVE",
-    "name": "The Lovesac Company -"
+    "name": "The Lovesac Company"
   },
   {
     "ticker": "LOW",
@@ -15238,7 +15238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LPCN",
-    "name": "Lipocine Inc. -"
+    "name": "Lipocine Inc."
   },
   {
     "ticker": "LPCV",
@@ -15262,15 +15262,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LPLA",
-    "name": "LPL Financial Holdings Inc. -"
+    "name": "LPL Financial Holdings Inc."
   },
   {
     "ticker": "LPRO",
-    "name": "Open Lending Corporation -"
+    "name": "Open Lending Corporation"
   },
   {
     "ticker": "LPSN",
-    "name": "LivePerson, Inc. -"
+    "name": "LivePerson, Inc."
   },
   {
     "ticker": "LPTH",
@@ -15282,15 +15282,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LQDA",
-    "name": "Liquidia Corporation -"
+    "name": "Liquidia Corporation"
   },
   {
     "ticker": "LQDT",
-    "name": "Liquidity Services, Inc. -"
+    "name": "Liquidity Services, Inc."
   },
   {
     "ticker": "LRCX",
-    "name": "Lam Research Corporation -"
+    "name": "Lam Research Corporation"
   },
   {
     "ticker": "LRE",
@@ -15298,11 +15298,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LRHC",
-    "name": "La Rosa Holdings Corp. -"
+    "name": "La Rosa Holdings Corp."
   },
   {
     "ticker": "LRMR",
-    "name": "Larimar Therapeutics, Inc. -"
+    "name": "Larimar Therapeutics, Inc."
   },
   {
     "ticker": "LRN",
@@ -15310,15 +15310,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LSAK",
-    "name": "Lesaka Technologies, Inc. -"
+    "name": "Lesaka Technologies, Inc."
   },
   {
     "ticker": "LSBK",
-    "name": "Lake Shore Bancorp, Inc. -"
+    "name": "Lake Shore Bancorp, Inc."
   },
   {
     "ticker": "LSCC",
-    "name": "Lattice Semiconductor Corporation -"
+    "name": "Lattice Semiconductor Corporation"
   },
   {
     "ticker": "LSE",
@@ -15330,7 +15330,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LSH",
-    "name": "Lakeside Holding Limited -"
+    "name": "Lakeside Holding Limited"
   },
   {
     "ticker": "LSPD",
@@ -15338,15 +15338,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LSTA",
-    "name": "Lisata Therapeutics, Inc. -"
+    "name": "Lisata Therapeutics, Inc."
   },
   {
     "ticker": "LSTR",
-    "name": "Landstar System, Inc. -"
+    "name": "Landstar System, Inc."
   },
   {
     "ticker": "LTBR",
-    "name": "Lightbridge Corporation -"
+    "name": "Lightbridge Corporation"
   },
   {
     "ticker": "LTC",
@@ -15366,11 +15366,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LTRN",
-    "name": "Lantern Pharma Inc. -"
+    "name": "Lantern Pharma Inc."
   },
   {
     "ticker": "LTRX",
-    "name": "Lantronix, Inc. -"
+    "name": "Lantronix, Inc."
   },
   {
     "ticker": "LTRYW",
@@ -15382,15 +15382,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LUCD",
-    "name": "Lucid Diagnostics Inc. -"
+    "name": "Lucid Diagnostics Inc."
   },
   {
     "ticker": "LUCK",
-    "name": "Lucky Strike Entertainment Corporation Class A"
+    "name": "Lucky Strike Entertainment Corporation"
   },
   {
     "ticker": "LUCY",
-    "name": "Innovative Eyewear, Inc. -"
+    "name": "Innovative Eyewear, Inc."
   },
   {
     "ticker": "LUCYW",
@@ -15402,7 +15402,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LULU",
-    "name": "lululemon athletica inc. -"
+    "name": "lululemon athletica inc."
   },
   {
     "ticker": "LUMN",
@@ -15410,7 +15410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LUNG",
-    "name": "Pulmonx Corporation -"
+    "name": "Pulmonx Corporation"
   },
   {
     "ticker": "LUNR",
@@ -15426,11 +15426,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LVLU",
-    "name": "Lulu's Fashion Lounge Holdings, Inc. -"
+    "name": "Lulu's Fashion Lounge Holdings, Inc."
   },
   {
     "ticker": "LVO",
-    "name": "LiveOne, Inc. -"
+    "name": "LiveOne, Inc."
   },
   {
     "ticker": "LVS",
@@ -15462,11 +15462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LWAY",
-    "name": "Lifeway Foods, Inc. -"
+    "name": "Lifeway Foods, Inc."
   },
   {
     "ticker": "LWLG",
-    "name": "Lightwave Logic, Inc. -"
+    "name": "Lightwave Logic, Inc."
   },
   {
     "ticker": "LX",
@@ -15478,7 +15478,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LXEO",
-    "name": "Lexeo Therapeutics, Inc. -"
+    "name": "Lexeo Therapeutics, Inc."
   },
   {
     "ticker": "LXFR",
@@ -15490,7 +15490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LXRX",
-    "name": "Lexicon Pharmaceuticals, Inc. -"
+    "name": "Lexicon Pharmaceuticals, Inc."
   },
   {
     "ticker": "LXU",
@@ -15502,7 +15502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LYEL",
-    "name": "Lyell Immunopharma, Inc. -"
+    "name": "Lyell Immunopharma, Inc."
   },
   {
     "ticker": "LYFT",
@@ -15514,7 +15514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LYTS",
-    "name": "LSI Industries Inc. -"
+    "name": "LSI Industries Inc."
   },
   {
     "ticker": "LYV",
@@ -15522,7 +15522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "LZ",
-    "name": "LegalZoom.com, Inc. -"
+    "name": "LegalZoom.com, Inc."
   },
   {
     "ticker": "LZB",
@@ -15590,15 +15590,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MAIR",
-    "name": "Madison Air Solutions Corporation Class A"
+    "name": "Madison Air Solutions Corporation"
   },
   {
     "ticker": "MAKO",
-    "name": "Mako Mining Corp -"
+    "name": "Mako Mining Corp"
   },
   {
     "ticker": "MAMA",
-    "name": "Mama's Creations, Inc. -"
+    "name": "Mama's Creations, Inc."
   },
   {
     "ticker": "MAMK",
@@ -15606,7 +15606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MAMO",
-    "name": "Massimo Group -"
+    "name": "Massimo Group"
   },
   {
     "ticker": "MAN",
@@ -15618,7 +15618,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MANH",
-    "name": "Manhattan Associates, Inc. -"
+    "name": "Manhattan Associates, Inc."
   },
   {
     "ticker": "MANU",
@@ -15630,7 +15630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MARA",
-    "name": "MARA Holdings, Inc. -"
+    "name": "MARA Holdings, Inc."
   },
   {
     "ticker": "MARPS",
@@ -15646,11 +15646,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MASS",
-    "name": "908 Devices Inc. -"
+    "name": "908 Devices Inc."
   },
   {
     "ticker": "MAT",
-    "name": "Mattel, Inc. -"
+    "name": "Mattel, Inc."
   },
   {
     "ticker": "MATH",
@@ -15670,15 +15670,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MAX",
-    "name": "MediaAlpha, Inc. Class A"
+    "name": "MediaAlpha, Inc."
   },
   {
     "ticker": "MAYS",
-    "name": "J. W. Mays, Inc. -"
+    "name": "J. W. Mays, Inc."
   },
   {
     "ticker": "MAZE",
-    "name": "Maze Therapeutics, Inc. -"
+    "name": "Maze Therapeutics, Inc."
   },
   {
     "ticker": "MB",
@@ -15702,7 +15702,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MBBC",
-    "name": "Marathon Bancorp, Inc. -"
+    "name": "Marathon Bancorp, Inc."
   },
   {
     "ticker": "MBC",
@@ -15718,7 +15718,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MBIN",
-    "name": "Merchants Bancorp -"
+    "name": "Merchants Bancorp"
   },
   {
     "ticker": "MBINL",
@@ -15734,7 +15734,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MBIO",
-    "name": "Mustang Bio, Inc. -"
+    "name": "Mustang Bio, Inc."
   },
   {
     "ticker": "MBLY",
@@ -15746,15 +15746,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MBOT",
-    "name": "Microbot Medical Inc.  -"
+    "name": "Microbot Medical Inc."
   },
   {
     "ticker": "MBRX",
-    "name": "Moleculin Biotech, Inc. -"
+    "name": "Moleculin Biotech, Inc."
   },
   {
     "ticker": "MBUU",
-    "name": "Malibu Boats, Inc. -"
+    "name": "Malibu Boats, Inc."
   },
   {
     "ticker": "MBVI",
@@ -15770,15 +15770,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MBWM",
-    "name": "Mercantile Bank Corporation -"
+    "name": "Mercantile Bank Corporation"
   },
   {
     "ticker": "MBX",
-    "name": "MBX Biosciences, Inc. -"
+    "name": "MBX Biosciences, Inc."
   },
   {
     "ticker": "MC",
-    "name": "Moelis & Company Class A"
+    "name": "Moelis & Company"
   },
   {
     "ticker": "MCAH",
@@ -15798,7 +15798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MCBS",
-    "name": "MetroCity Bankshares, Inc. -"
+    "name": "MetroCity Bankshares, Inc."
   },
   {
     "ticker": "MCD",
@@ -15806,7 +15806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MCFT",
-    "name": "MasterCraft Boat Holdings, Inc. -"
+    "name": "MasterCraft Boat Holdings, Inc."
   },
   {
     "ticker": "MCGA",
@@ -15826,7 +15826,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MCHP",
-    "name": "Microchip Technology Incorporated -"
+    "name": "Microchip Technology Incorporated"
   },
   {
     "ticker": "MCHPP",
@@ -15854,11 +15854,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MCRB",
-    "name": "Seres Therapeutics, Inc. -"
+    "name": "Seres Therapeutics, Inc."
   },
   {
     "ticker": "MCRI",
-    "name": "Monarch Casino & Resort, Inc. -"
+    "name": "Monarch Casino & Resort, Inc."
   },
   {
     "ticker": "MCRP",
@@ -15902,7 +15902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDCX",
-    "name": "Medicus Pharma Ltd. -"
+    "name": "Medicus Pharma Ltd."
   },
   {
     "ticker": "MDCXW",
@@ -15910,7 +15910,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDGL",
-    "name": "Madrigal Pharmaceuticals, Inc. -"
+    "name": "Madrigal Pharmaceuticals, Inc."
   },
   {
     "ticker": "MDIA",
@@ -15918,7 +15918,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDLN",
-    "name": "Medline Inc. - Class A common stock"
+    "name": "Medline Inc."
   },
   {
     "ticker": "MDLZ",
@@ -15926,7 +15926,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDRR",
-    "name": "Medalist Diversified, Inc. -"
+    "name": "Medalist Diversified, Inc."
   },
   {
     "ticker": "MDT",
@@ -15938,7 +15938,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDV",
-    "name": "Modiv Industrial, Inc. Class C"
+    "name": "Modiv Industrial, Inc."
   },
   {
     "ticker": "MDWD",
@@ -15946,7 +15946,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MDXG",
-    "name": "MiMedx Group, Inc -"
+    "name": "MiMedx Group, Inc"
   },
   {
     "ticker": "MDXH",
@@ -15962,7 +15962,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MEDP",
-    "name": "Medpace Holdings, Inc. -"
+    "name": "Medpace Holdings, Inc."
   },
   {
     "ticker": "MEGI",
@@ -15978,7 +15978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MELI",
-    "name": "MercadoLibre, Inc. -"
+    "name": "MercadoLibre, Inc."
   },
   {
     "ticker": "MENS",
@@ -15986,11 +15986,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MEOH",
-    "name": "Methanex Corporation -"
+    "name": "Methanex Corporation"
   },
   {
     "ticker": "MERC",
-    "name": "Mercer International Inc. -"
+    "name": "Mercer International Inc."
   },
   {
     "ticker": "MESH",
@@ -16078,7 +16078,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MFIN",
-    "name": "Medallion Financial Corp. -"
+    "name": "Medallion Financial Corp."
   },
   {
     "ticker": "MFM",
@@ -16086,7 +16086,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MFPVV",
-    "name": "Midera Food Processing, Inc. -"
+    "name": "Midera Food Processing, Inc."
   },
   {
     "ticker": "MG",
@@ -16098,7 +16098,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MGEE",
-    "name": "MGE Energy Inc. -"
+    "name": "MGE Energy Inc."
   },
   {
     "ticker": "MGF",
@@ -16122,15 +16122,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MGNI",
-    "name": "Magnite, Inc. -"
+    "name": "Magnite, Inc."
   },
   {
     "ticker": "MGNX",
-    "name": "MacroGenics, Inc. -"
+    "name": "MacroGenics, Inc."
   },
   {
     "ticker": "MGPI",
-    "name": "MGP Ingredients, Inc. -"
+    "name": "MGP Ingredients, Inc."
   },
   {
     "ticker": "MGR",
@@ -16142,7 +16142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MGRC",
-    "name": "McGrath RentCorp -"
+    "name": "McGrath RentCorp"
   },
   {
     "ticker": "MGRD",
@@ -16158,7 +16158,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MGRX",
-    "name": "Mangoceuticals, Inc. -"
+    "name": "Mangoceuticals, Inc."
   },
   {
     "ticker": "MGTX",
@@ -16166,15 +16166,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MGX",
-    "name": "Metagenomi Therapeutics, Inc. -"
+    "name": "Metagenomi Therapeutics, Inc."
   },
   {
     "ticker": "MGY",
-    "name": "Magnolia Oil & Gas Corporation Class A"
+    "name": "Magnolia Oil & Gas Corporation"
   },
   {
     "ticker": "MGYR",
-    "name": "Magyar Bancorp, Inc. -"
+    "name": "Magyar Bancorp, Inc."
   },
   {
     "ticker": "MH",
@@ -16222,11 +16222,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MIDD",
-    "name": "The Middleby Corporation -"
+    "name": "The Middleby Corporation"
   },
   {
     "ticker": "MIDDV",
-    "name": "Middleby Corp. -"
+    "name": "Middleby Corp."
   },
   {
     "ticker": "MIMI",
@@ -16238,7 +16238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MIND",
-    "name": "MIND Technology, Inc. -"
+    "name": "MIND Technology, Inc."
   },
   {
     "ticker": "MINE",
@@ -16246,15 +16246,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MIR",
-    "name": "Mirion Technologies, Inc. Class A"
+    "name": "Mirion Technologies, Inc."
   },
   {
     "ticker": "MIRA",
-    "name": "MIRA Pharmaceuticals, Inc. -"
+    "name": "MIRA Pharmaceuticals, Inc."
   },
   {
     "ticker": "MIRM",
-    "name": "Mirum Pharmaceuticals, Inc. - common stock"
+    "name": "Mirum Pharmaceuticals, Inc."
   },
   {
     "ticker": "MIST",
@@ -16262,7 +16262,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MITK",
-    "name": "Mitek Systems, Inc. -"
+    "name": "Mitek Systems, Inc."
   },
   {
     "ticker": "MITN",
@@ -16318,7 +16318,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MKSI",
-    "name": "MKS Inc. -"
+    "name": "MKS Inc."
   },
   {
     "ticker": "MKTW",
@@ -16326,11 +16326,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MKTX",
-    "name": "MarketAxess Holdings, Inc. -"
+    "name": "MarketAxess Holdings, Inc."
   },
   {
     "ticker": "MKZR",
-    "name": "MacKenzie Realty Capital, Inc. -"
+    "name": "MacKenzie Realty Capital, Inc."
   },
   {
     "ticker": "MLAA",
@@ -16346,11 +16346,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MLAB",
-    "name": "Mesa Laboratories, Inc. -"
+    "name": "Mesa Laboratories, Inc."
   },
   {
     "ticker": "MLCI",
-    "name": "Mount Logan Capital Inc. -"
+    "name": "Mount Logan Capital Inc."
   },
   {
     "ticker": "MLCIL",
@@ -16378,7 +16378,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MLKN",
-    "name": "MillerKnoll, Inc. -"
+    "name": "MillerKnoll, Inc."
   },
   {
     "ticker": "MLM",
@@ -16406,7 +16406,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MLYS",
-    "name": "Mineralys Therapeutics, Inc. -"
+    "name": "Mineralys Therapeutics, Inc."
   },
   {
     "ticker": "MMA",
@@ -16418,7 +16418,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MMED",
-    "name": "MiniMed Group, Inc. -"
+    "name": "MiniMed Group, Inc."
   },
   {
     "ticker": "MMI",
@@ -16438,7 +16438,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MMSI",
-    "name": "Merit Medical Systems, Inc. -"
+    "name": "Merit Medical Systems, Inc."
   },
   {
     "ticker": "MMT",
@@ -16478,15 +16478,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MNKD",
-    "name": "MannKind Corporation -"
+    "name": "MannKind Corporation"
   },
   {
     "ticker": "MNOV",
-    "name": "MediciNova, Inc. -"
+    "name": "MediciNova, Inc."
   },
   {
     "ticker": "MNPR",
-    "name": "Monopar Therapeutics Inc. -"
+    "name": "Monopar Therapeutics Inc."
   },
   {
     "ticker": "MNR",
@@ -16494,11 +16494,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MNRO",
-    "name": "Monro, Inc.  -"
+    "name": "Monro, Inc."
   },
   {
     "ticker": "MNSB",
-    "name": "MainStreet Bancshares, Inc. -"
+    "name": "MainStreet Bancshares, Inc."
   },
   {
     "ticker": "MNSBP",
@@ -16510,15 +16510,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MNST",
-    "name": "Monster Beverage Corporation -"
+    "name": "Monster Beverage Corporation"
   },
   {
     "ticker": "MNTK",
-    "name": "Montauk Renewables, Inc. -"
+    "name": "Montauk Renewables, Inc."
   },
   {
     "ticker": "MNTN",
-    "name": "MNTN, Inc. Class A"
+    "name": "MNTN, Inc."
   },
   {
     "ticker": "MNTS",
@@ -16550,7 +16550,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MOBI",
-    "name": "Mobia Medical, Inc. -"
+    "name": "Mobia Medical, Inc."
   },
   {
     "ticker": "MOBX",
@@ -16566,15 +16566,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MODD",
-    "name": "Modular Medical, Inc. - common stock"
+    "name": "Modular Medical, Inc."
   },
   {
     "ticker": "MOG.A",
-    "name": "Moog Inc. Class A"
+    "name": "Moog Inc."
   },
   {
     "ticker": "MOG.B",
-    "name": "Moog Inc. Class B"
+    "name": "Moog Inc."
   },
   {
     "ticker": "MOGU",
@@ -16594,7 +16594,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MORN",
-    "name": "Morningstar, Inc. -"
+    "name": "Morningstar, Inc."
   },
   {
     "ticker": "MOS",
@@ -16606,7 +16606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MOVE",
-    "name": "Corvex, Inc. -"
+    "name": "Corvex, Inc."
   },
   {
     "ticker": "MP",
@@ -16618,11 +16618,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MPAA",
-    "name": "Motorcar Parts of America, Inc. -"
+    "name": "Motorcar Parts of America, Inc."
   },
   {
     "ticker": "MPB",
-    "name": "Mid Penn Bancorp -"
+    "name": "Mid Penn Bancorp"
   },
   {
     "ticker": "MPC",
@@ -16630,7 +16630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MPLT",
-    "name": "MapLight Therapeutics, Inc. -"
+    "name": "MapLight Therapeutics, Inc."
   },
   {
     "ticker": "MPLX",
@@ -16638,7 +16638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MPT",
-    "name": "Medical Properties Trust, Inc. common stock"
+    "name": "Medical Properties Trust, Inc."
   },
   {
     "ticker": "MPTI",
@@ -16654,7 +16654,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MPWR",
-    "name": "Monolithic Power Systems, Inc. -"
+    "name": "Monolithic Power Systems, Inc."
   },
   {
     "ticker": "MQ",
@@ -16666,19 +16666,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MRAM",
-    "name": "Everspin Technologies, Inc. -"
+    "name": "Everspin Technologies, Inc."
   },
   {
     "ticker": "MRBK",
-    "name": "Meridian Corporation -"
+    "name": "Meridian Corporation"
   },
   {
     "ticker": "MRCY",
-    "name": "Mercury Systems Inc -"
+    "name": "Mercury Systems Inc"
   },
   {
     "ticker": "MRDN",
-    "name": "Meridian Holdings Inc. -"
+    "name": "Meridian Holdings Inc."
   },
   {
     "ticker": "MREO",
@@ -16690,11 +16690,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MRKR",
-    "name": "Marker Therapeutics, Inc. -"
+    "name": "Marker Therapeutics, Inc."
   },
   {
     "ticker": "MRLN",
-    "name": "Merlin, Inc. -"
+    "name": "Merlin, Inc."
   },
   {
     "ticker": "MRM",
@@ -16702,7 +16702,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MRNA",
-    "name": "Moderna, Inc. -"
+    "name": "Moderna, Inc."
   },
   {
     "ticker": "MRNO",
@@ -16714,7 +16714,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MRP",
-    "name": "Millrose Properties, Inc. Class A"
+    "name": "Millrose Properties, Inc."
   },
   {
     "ticker": "MRSH",
@@ -16726,15 +16726,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MRTN",
-    "name": "Marten Transport, Ltd. -"
+    "name": "Marten Transport, Ltd."
   },
   {
     "ticker": "MRVI",
-    "name": "Maravai LifeSciences Holdings, Inc. - Class A common stock"
+    "name": "Maravai LifeSciences Holdings, Inc."
   },
   {
     "ticker": "MRVL",
-    "name": "Marvell Technology, Inc. -"
+    "name": "Marvell Technology, Inc."
   },
   {
     "ticker": "MRX",
@@ -16750,7 +16750,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MSAI",
-    "name": "MultiSensor AI Holdings, Inc. -"
+    "name": "MultiSensor AI Holdings, Inc."
   },
   {
     "ticker": "MSAIW",
@@ -16762,7 +16762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MSBI",
-    "name": "Midland States Bancorp, Inc. -"
+    "name": "Midland States Bancorp, Inc."
   },
   {
     "ticker": "MSBIP",
@@ -16786,15 +16786,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MSEX",
-    "name": "Middlesex Water Company -"
+    "name": "Middlesex Water Company"
   },
   {
     "ticker": "MSFT",
-    "name": "Microsoft Corporation -"
+    "name": "Microsoft Corporation"
   },
   {
     "ticker": "MSGE",
-    "name": "Madison Square Garden Entertainment Corp. Class A"
+    "name": "Madison Square Garden Entertainment Corp."
   },
   {
     "ticker": "MSGM",
@@ -16802,7 +16802,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MSGS",
-    "name": "Madison Square Garden Sports Corp. Class A"
+    "name": "Madison Square Garden Sports Corp."
   },
   {
     "ticker": "MSGY",
@@ -16818,7 +16818,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MSLE",
-    "name": "Satellos Bioscience Inc. -"
+    "name": "Satellos Bioscience Inc."
   },
   {
     "ticker": "MSM",
@@ -16870,7 +16870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MTCH",
-    "name": "Match Group, Inc. -"
+    "name": "Match Group, Inc."
   },
   {
     "ticker": "MTD",
@@ -16894,7 +16894,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MTEX",
-    "name": "Mannatech, Incorporated -"
+    "name": "Mannatech, Incorporated"
   },
   {
     "ticker": "MTG",
@@ -16938,11 +16938,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MTRX",
-    "name": "Matrix Service Company -"
+    "name": "Matrix Service Company"
   },
   {
     "ticker": "MTSI",
-    "name": "MACOM Technology Solutions Holdings, Inc. -"
+    "name": "MACOM Technology Solutions Holdings, Inc."
   },
   {
     "ticker": "MTUS",
@@ -16950,7 +16950,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MTVA",
-    "name": "MetaVia Inc.  -"
+    "name": "MetaVia Inc."
   },
   {
     "ticker": "MTW",
@@ -16966,7 +16966,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MU",
-    "name": "Micron Technology, Inc. -"
+    "name": "Micron Technology, Inc."
   },
   {
     "ticker": "MUA",
@@ -17010,11 +17010,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MVBF",
-    "name": "MVB Financial Corp. -"
+    "name": "MVB Financial Corp."
   },
   {
     "ticker": "MVIS",
-    "name": "MicroVision, Inc. -"
+    "name": "MicroVision, Inc."
   },
   {
     "ticker": "MVO",
@@ -17022,7 +17022,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MVST",
-    "name": "Microvast Holdings, Inc. -"
+    "name": "Microvast Holdings, Inc."
   },
   {
     "ticker": "MVSTW",
@@ -17042,11 +17042,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MWH",
-    "name": "SOLV Energy, Inc. - Class A common stock"
+    "name": "SOLV Energy, Inc."
   },
   {
     "ticker": "MWYN",
-    "name": "Marwynn Holdings, Inc. - Common stock"
+    "name": "Marwynn Holdings, Inc."
   },
   {
     "ticker": "MX",
@@ -17058,7 +17058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MXCT",
-    "name": "MaxCyte, Inc. -"
+    "name": "MaxCyte, Inc."
   },
   {
     "ticker": "MXE",
@@ -17070,7 +17070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MXL",
-    "name": "MaxLinear, Inc -"
+    "name": "MaxLinear, Inc"
   },
   {
     "ticker": "MYE",
@@ -17078,11 +17078,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MYFW",
-    "name": "First Western Financial, Inc. -"
+    "name": "First Western Financial, Inc."
   },
   {
     "ticker": "MYGN",
-    "name": "Myriad Genetics, Inc. -"
+    "name": "Myriad Genetics, Inc."
   },
   {
     "ticker": "MYI",
@@ -17090,7 +17090,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MYN",
-    "name": "Blackrock MuniYield New York Quality Fund, Inc.Common Stock"
+    "name": "Blackrock MuniYield New York Quality Fund, Inc."
   },
   {
     "ticker": "MYND",
@@ -17106,11 +17106,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MYRG",
-    "name": "MYR Group, Inc. -"
+    "name": "MYR Group, Inc."
   },
   {
     "ticker": "MYSE",
-    "name": "Myseum.AI, Inc. -"
+    "name": "Myseum.AI, Inc."
   },
   {
     "ticker": "MYSEW",
@@ -17118,7 +17118,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MYSZ",
-    "name": "My Size, Inc. -"
+    "name": "My Size, Inc."
   },
   {
     "ticker": "MYX",
@@ -17138,7 +17138,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "MZTI",
-    "name": "The Marzetti Company -"
+    "name": "The Marzetti Company"
   },
   {
     "ticker": "MZYX",
@@ -17174,11 +17174,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NAGE",
-    "name": "Niagen Bioscience, Inc. -"
+    "name": "Niagen Bioscience, Inc."
   },
   {
     "ticker": "NAII",
-    "name": "Natural Alternatives International, Inc. -"
+    "name": "Natural Alternatives International, Inc."
   },
   {
     "ticker": "NAK",
@@ -17186,7 +17186,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NAKA",
-    "name": "Nakamoto Inc. -"
+    "name": "Nakamoto Inc."
   },
   {
     "ticker": "NAMI",
@@ -17218,7 +17218,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NATH",
-    "name": "Nathan's Famous, Inc. -"
+    "name": "Nathan's Famous, Inc."
   },
   {
     "ticker": "NATL",
@@ -17226,15 +17226,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NATR",
-    "name": "Nature's Sunshine Products, Inc. -"
+    "name": "Nature's Sunshine Products, Inc."
   },
   {
     "ticker": "NAUT",
-    "name": "Nautilus Biotechnology, Inc. -"
+    "name": "Nautilus Biotechnology, Inc."
   },
   {
     "ticker": "NAVI",
-    "name": "Navient Corporation -"
+    "name": "Navient Corporation"
   },
   {
     "ticker": "NAVN",
@@ -17246,7 +17246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NB",
-    "name": "NioCorp Developments Ltd. -"
+    "name": "NioCorp Developments Ltd."
   },
   {
     "ticker": "NBB",
@@ -17254,7 +17254,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NBBK",
-    "name": "NB Bancorp, Inc. -"
+    "name": "NB Bancorp, Inc."
   },
   {
     "ticker": "NBH",
@@ -17270,11 +17270,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NBIX",
-    "name": "Neurocrine Biosciences, Inc. -"
+    "name": "Neurocrine Biosciences, Inc."
   },
   {
     "ticker": "NBN",
-    "name": "Northeast Bank -"
+    "name": "Northeast Bank"
   },
   {
     "ticker": "NBP",
@@ -17298,7 +17298,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NBTB",
-    "name": "NBT Bancorp Inc. -"
+    "name": "NBT Bancorp Inc."
   },
   {
     "ticker": "NBTX",
@@ -17342,7 +17342,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NCMI",
-    "name": "National CineMedia, Inc. -"
+    "name": "National CineMedia, Inc."
   },
   {
     "ticker": "NCNA",
@@ -17350,11 +17350,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NCNO",
-    "name": "nCino, Inc. -"
+    "name": "nCino, Inc."
   },
   {
     "ticker": "NCPL",
-    "name": "Netcapital Inc. -"
+    "name": "Netcapital Inc."
   },
   {
     "ticker": "NCPLW",
@@ -17362,11 +17362,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NCRA",
-    "name": "Nocera, Inc. - common stock"
+    "name": "Nocera, Inc."
   },
   {
     "ticker": "NCSM",
-    "name": "NCS Multistage Holdings, Inc. -"
+    "name": "NCS Multistage Holdings, Inc."
   },
   {
     "ticker": "NCT",
@@ -17386,7 +17386,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NDAQ",
-    "name": "Nasdaq, Inc. -"
+    "name": "Nasdaq, Inc."
   },
   {
     "ticker": "NDLS",
@@ -17398,11 +17398,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NDRA",
-    "name": "ENDRA Life Sciences Inc. -"
+    "name": "ENDRA Life Sciences Inc."
   },
   {
     "ticker": "NDSN",
-    "name": "Nordson Corporation -"
+    "name": "Nordson Corporation"
   },
   {
     "ticker": "NE",
@@ -17422,7 +17422,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NECB",
-    "name": "NorthEast Community Bancorp, Inc. -"
+    "name": "NorthEast Community Bancorp, Inc."
   },
   {
     "ticker": "NEE",
@@ -17442,19 +17442,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEO",
-    "name": "NeoGenomics, Inc. -"
+    "name": "NeoGenomics, Inc."
   },
   {
     "ticker": "NEOG",
-    "name": "Neogen Corporation -"
+    "name": "Neogen Corporation"
   },
   {
     "ticker": "NEON",
-    "name": "Neonode Inc. -"
+    "name": "Neonode Inc."
   },
   {
     "ticker": "NEOV",
-    "name": "NeoVolta Inc. -"
+    "name": "NeoVolta Inc."
   },
   {
     "ticker": "NEOVW",
@@ -17462,11 +17462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEPH",
-    "name": "Nephros, Inc. -"
+    "name": "Nephros, Inc."
   },
   {
     "ticker": "NERV",
-    "name": "Minerva Neurosciences, Inc -"
+    "name": "Minerva Neurosciences, Inc"
   },
   {
     "ticker": "NESR",
@@ -17474,7 +17474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NET",
-    "name": "Cloudflare, Inc. Class A"
+    "name": "Cloudflare, Inc."
   },
   {
     "ticker": "NEU",
@@ -17482,7 +17482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEUP",
-    "name": "Neuphoria Therapeutics Inc. -"
+    "name": "Neuphoria Therapeutics Inc."
   },
   {
     "ticker": "NEWP",
@@ -17490,7 +17490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEWT",
-    "name": "NewtekOne, Inc. -"
+    "name": "NewtekOne, Inc."
   },
   {
     "ticker": "NEWTG",
@@ -17518,7 +17518,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEXM",
-    "name": "NexMetals Mining Corp. -"
+    "name": "NexMetals Mining Corp."
   },
   {
     "ticker": "NEXN",
@@ -17534,11 +17534,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NEXT",
-    "name": "NextDecade Corporation -"
+    "name": "NextDecade Corporation"
   },
   {
     "ticker": "NFBK",
-    "name": "Northfield Bancorp, Inc. -"
+    "name": "Northfield Bancorp, Inc."
   },
   {
     "ticker": "NFE",
@@ -17558,7 +17558,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NFLX",
-    "name": "Netflix, Inc. -"
+    "name": "Netflix, Inc."
   },
   {
     "ticker": "NG",
@@ -17566,7 +17566,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NGEN",
-    "name": "NervGen Pharma Corp. - Common stock"
+    "name": "NervGen Pharma Corp."
   },
   {
     "ticker": "NGG",
@@ -17578,7 +17578,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NGNE",
-    "name": "Neurogene Inc. -"
+    "name": "Neurogene Inc."
   },
   {
     "ticker": "NGS",
@@ -17642,7 +17642,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NHTC",
-    "name": "Natural Health Trends Corp. -"
+    "name": "Natural Health Trends Corp."
   },
   {
     "ticker": "NI",
@@ -17702,7 +17702,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NIXX",
-    "name": "Nixxy, Inc. -"
+    "name": "Nixxy, Inc."
   },
   {
     "ticker": "NIXXW",
@@ -17722,15 +17722,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NKSH",
-    "name": "National Bankshares, Inc. -"
+    "name": "National Bankshares, Inc."
   },
   {
     "ticker": "NKTR",
-    "name": "Nektar Therapeutics -"
+    "name": "Nektar Therapeutics"
   },
   {
     "ticker": "NKTX",
-    "name": "Nkarta, Inc. -"
+    "name": "Nkarta, Inc."
   },
   {
     "ticker": "NKX",
@@ -17754,7 +17754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NMAX",
-    "name": "Newsmax, Inc. Class B"
+    "name": "Newsmax, Inc."
   },
   {
     "ticker": "NMCO",
@@ -17762,7 +17762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NMFC",
-    "name": "New Mountain Finance Corporation -"
+    "name": "New Mountain Finance Corporation"
   },
   {
     "ticker": "NMFCZ",
@@ -17778,7 +17778,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NMIH",
-    "name": "NMI Holdings Inc -"
+    "name": "NMI Holdings Inc"
   },
   {
     "ticker": "NML",
@@ -17806,7 +17806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NMRA",
-    "name": "Neumora Therapeutics, Inc. -"
+    "name": "Neumora Therapeutics, Inc."
   },
   {
     "ticker": "NMRK",
@@ -17822,7 +17822,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NMTC",
-    "name": "NeuroOne Medical Technologies Corporation -"
+    "name": "NeuroOne Medical Technologies Corporation"
   },
   {
     "ticker": "NMZ",
@@ -17830,11 +17830,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NN",
-    "name": "NextNav Inc. - Common stock"
+    "name": "NextNav Inc."
   },
   {
     "ticker": "NNBR",
-    "name": "NN, Inc. -"
+    "name": "NN, Inc."
   },
   {
     "ticker": "NNDM",
@@ -17842,7 +17842,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NNE",
-    "name": "Nano Nuclear Energy Inc. - common stock"
+    "name": "Nano Nuclear Energy Inc."
   },
   {
     "ticker": "NNI",
@@ -17882,11 +17882,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NODK",
-    "name": "NI Holdings, Inc. -"
+    "name": "NI Holdings, Inc."
   },
   {
     "ticker": "NOEM",
-    "name": "CO2 Energy Transition Corp. -"
+    "name": "CO2 Energy Transition Corp."
   },
   {
     "ticker": "NOEMR",
@@ -17934,7 +17934,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NP",
-    "name": "Neptune Insurance Holdings Inc. Class A"
+    "name": "Neptune Insurance Holdings Inc."
   },
   {
     "ticker": "NPAC",
@@ -17954,7 +17954,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NPCE",
-    "name": "Neuropace, Inc. -"
+    "name": "Neuropace, Inc."
   },
   {
     "ticker": "NPCT",
@@ -17986,15 +17986,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NPWR",
-    "name": "NET Power Inc. Class A"
+    "name": "NET Power Inc."
   },
   {
     "ticker": "NPWR.W",
-    "name": "NET Power Inc. Redeemable warrants, each whole warrant exercisable for one share of Class A"
+    "name": "NET Power Inc. Redeemable warrants, each whole warrant exercisable for one share of"
   },
   {
     "ticker": "NRC",
-    "name": "NRC Health -"
+    "name": "NRC Health"
   },
   {
     "ticker": "NRDS",
@@ -18002,7 +18002,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NRDY",
-    "name": "Nerdy Inc. Class A"
+    "name": "Nerdy Inc."
   },
   {
     "ticker": "NREF",
@@ -18018,11 +18018,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NRIM",
-    "name": "Northrim BanCorp Inc -"
+    "name": "Northrim BanCorp Inc"
   },
   {
     "ticker": "NRIX",
-    "name": "Nurix Therapeutics, Inc. - Common stock"
+    "name": "Nurix Therapeutics, Inc."
   },
   {
     "ticker": "NRK",
@@ -18054,7 +18054,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NRXP",
-    "name": "NRX Pharmaceuticals, Inc. -"
+    "name": "NRX Pharmaceuticals, Inc."
   },
   {
     "ticker": "NRXS",
@@ -18070,7 +18070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NSIT",
-    "name": "Insight Enterprises, Inc. -"
+    "name": "Insight Enterprises, Inc."
   },
   {
     "ticker": "NSP",
@@ -18078,7 +18078,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NSPR",
-    "name": "InspireMD Inc. -"
+    "name": "InspireMD Inc."
   },
   {
     "ticker": "NSRX",
@@ -18086,19 +18086,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NSSC",
-    "name": "NAPCO Security Technologies, Inc. -"
+    "name": "NAPCO Security Technologies, Inc."
   },
   {
     "ticker": "NSTS",
-    "name": "NSTS Bancorp, Inc. -"
+    "name": "NSTS Bancorp, Inc."
   },
   {
     "ticker": "NSYS",
-    "name": "Nortech Systems Incorporated -"
+    "name": "Nortech Systems Incorporated"
   },
   {
     "ticker": "NTAP",
-    "name": "NetApp, Inc. -"
+    "name": "NetApp, Inc."
   },
   {
     "ticker": "NTB",
@@ -18110,7 +18110,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTCT",
-    "name": "NetScout Systems, Inc. -"
+    "name": "NetScout Systems, Inc."
   },
   {
     "ticker": "NTES",
@@ -18118,15 +18118,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTGR",
-    "name": "NETGEAR, Inc. -"
+    "name": "NETGEAR, Inc."
   },
   {
     "ticker": "NTHI",
-    "name": "NeOnc Technologies Holdings, Inc. -"
+    "name": "NeOnc Technologies Holdings, Inc."
   },
   {
     "ticker": "NTIC",
-    "name": "Northern Technologies International Corporation -"
+    "name": "Northern Technologies International Corporation"
   },
   {
     "ticker": "NTIP",
@@ -18134,7 +18134,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTLA",
-    "name": "Intellia Therapeutics, Inc. -"
+    "name": "Intellia Therapeutics, Inc."
   },
   {
     "ticker": "NTNX",
@@ -18146,11 +18146,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTRA",
-    "name": "Natera, Inc. -"
+    "name": "Natera, Inc."
   },
   {
     "ticker": "NTRB",
-    "name": "Nutriband Inc. -"
+    "name": "Nutriband Inc."
   },
   {
     "ticker": "NTRBW",
@@ -18158,11 +18158,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTRP",
-    "name": "NextTrip, Inc. -"
+    "name": "NextTrip, Inc."
   },
   {
     "ticker": "NTRS",
-    "name": "Northern Trust Corporation -"
+    "name": "Northern Trust Corporation"
   },
   {
     "ticker": "NTRSO",
@@ -18178,7 +18178,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NTWK",
-    "name": "NETSOL Technologies Inc. -"
+    "name": "NETSOL Technologies Inc."
   },
   {
     "ticker": "NTWO",
@@ -18202,7 +18202,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NUAI",
-    "name": "New Era Energy & Digital, Inc. -"
+    "name": "New Era Energy & Digital, Inc."
   },
   {
     "ticker": "NUAIW",
@@ -18210,7 +18210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NUCL",
-    "name": "Eagle Nuclear Energy Corp. - Common stock"
+    "name": "Eagle Nuclear Energy Corp."
   },
   {
     "ticker": "NUCLW",
@@ -18226,11 +18226,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NUTR",
-    "name": "Nusatrip Incorporated -"
+    "name": "Nusatrip Incorporated"
   },
   {
     "ticker": "NUTX",
-    "name": "Nutex Health Inc. -"
+    "name": "Nutex Health Inc."
   },
   {
     "ticker": "NUV",
@@ -18238,7 +18238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NUVB",
-    "name": "Nuvation Bio Inc. Class A"
+    "name": "Nuvation Bio Inc."
   },
   {
     "ticker": "NUVL",
@@ -18250,7 +18250,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NUWE",
-    "name": "Nuwellis, Inc. -"
+    "name": "Nuwellis, Inc."
   },
   {
     "ticker": "NVA",
@@ -18262,7 +18262,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NVAX",
-    "name": "Novavax, Inc. -"
+    "name": "Novavax, Inc."
   },
   {
     "ticker": "NVCR",
@@ -18270,15 +18270,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NVCT",
-    "name": "Nuvectis Pharma, Inc. -"
+    "name": "Nuvectis Pharma, Inc."
   },
   {
     "ticker": "NVDA",
-    "name": "NVIDIA Corporation -"
+    "name": "NVIDIA Corporation"
   },
   {
     "ticker": "NVEC",
-    "name": "NVE Corporation -"
+    "name": "NVE Corporation"
   },
   {
     "ticker": "NVG",
@@ -18302,7 +18302,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NVNO",
-    "name": "enVVeno Medical Corporation -"
+    "name": "enVVeno Medical Corporation"
   },
   {
     "ticker": "NVO",
@@ -18330,11 +18330,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NVTS",
-    "name": "Navitas Semiconductor Corporation -"
+    "name": "Navitas Semiconductor Corporation"
   },
   {
     "ticker": "NVVE",
-    "name": "Nuvve Holding Corp. -"
+    "name": "Nuvve Holding Corp."
   },
   {
     "ticker": "NVX",
@@ -18342,27 +18342,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NWAX",
-    "name": "New America Acquisition I Corp. Class A"
+    "name": "New America Acquisition I Corp."
   },
   {
     "ticker": "NWAX.U",
-    "name": "New America Acquisition I Corp. Units, each consisting of one share of Class A"
+    "name": "New America Acquisition I Corp. Units, each consisting of one share of"
   },
   {
     "ticker": "NWAX.W",
-    "name": "New America Acquisition I Corp. Warrants, each whole warrant is exercisable to purchase one share of Class A common stock"
+    "name": "New America Acquisition I Corp. Warrants, each whole warrant is exercisable to purchase one share of"
   },
   {
     "ticker": "NWBI",
-    "name": "Northwest Bancshares, Inc. -"
+    "name": "Northwest Bancshares, Inc."
   },
   {
     "ticker": "NWE",
-    "name": "NorthWestern Energy Group, Inc.  -"
+    "name": "NorthWestern Energy Group, Inc."
   },
   {
     "ticker": "NWFL",
-    "name": "Norwood Financial Corp. -"
+    "name": "Norwood Financial Corp."
   },
   {
     "ticker": "NWG",
@@ -18374,7 +18374,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NWL",
-    "name": "Newell Brands Inc. -"
+    "name": "Newell Brands Inc."
   },
   {
     "ticker": "NWN",
@@ -18382,7 +18382,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NWPX",
-    "name": "NWPX Infrastructure, Inc. -"
+    "name": "NWPX Infrastructure, Inc."
   },
   {
     "ticker": "NWS",
@@ -18394,7 +18394,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NWTG",
-    "name": "Newton Golf Company, Inc. -"
+    "name": "Newton Golf Company, Inc."
   },
   {
     "ticker": "NX",
@@ -18406,7 +18406,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXDR",
-    "name": "Nextdoor Holdings, Inc. Class A"
+    "name": "Nextdoor Holdings, Inc."
   },
   {
     "ticker": "NXDT",
@@ -18422,7 +18422,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXGL",
-    "name": "NexGel, Inc -"
+    "name": "NexGel, Inc"
   },
   {
     "ticker": "NXGLW",
@@ -18430,7 +18430,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXL",
-    "name": "Nexalin Technology, Inc. -"
+    "name": "Nexalin Technology, Inc."
   },
   {
     "ticker": "NXP",
@@ -18438,11 +18438,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXPI",
-    "name": "NXP Semiconductors N.V. -"
+    "name": "NXP Semiconductors N.V."
   },
   {
     "ticker": "NXPL",
-    "name": "NextPlat Corp -"
+    "name": "NextPlat Corp"
   },
   {
     "ticker": "NXRT",
@@ -18450,7 +18450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXST",
-    "name": "Nexstar Media Group, Inc. -"
+    "name": "Nexstar Media Group, Inc."
   },
   {
     "ticker": "NXT",
@@ -18458,11 +18458,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXTC",
-    "name": "NextCure, Inc. -"
+    "name": "NextCure, Inc."
   },
   {
     "ticker": "NXTS",
-    "name": "Nexentis Technologies Inc. -"
+    "name": "Nexentis Technologies Inc."
   },
   {
     "ticker": "NXTT",
@@ -18470,7 +18470,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NXXT",
-    "name": "NextNRG, Inc. -"
+    "name": "NextNRG, Inc."
   },
   {
     "ticker": "NYAX",
@@ -18478,7 +18478,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "NYC",
-    "name": "American Strategic Investment Co. Class A"
+    "name": "American Strategic Investment Co."
   },
   {
     "ticker": "NYT",
@@ -18498,7 +18498,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OABI",
-    "name": "OmniAb, Inc. -"
+    "name": "OmniAb, Inc."
   },
   {
     "ticker": "OABIW",
@@ -18522,7 +18522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OBAI",
-    "name": "Our Bond, Inc. -"
+    "name": "Our Bond, Inc."
   },
   {
     "ticker": "OBAWU",
@@ -18550,7 +18550,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OBT",
-    "name": "Orange County Bancorp, Inc. -"
+    "name": "Orange County Bancorp, Inc."
   },
   {
     "ticker": "OC",
@@ -18562,7 +18562,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OCC",
-    "name": "Optical Cable Corporation -"
+    "name": "Optical Cable Corporation"
   },
   {
     "ticker": "OCCI",
@@ -18578,7 +18578,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OCFC",
-    "name": "OceanFirst Financial Corp. -"
+    "name": "OceanFirst Financial Corp."
   },
   {
     "ticker": "OCG",
@@ -18586,7 +18586,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OCGN",
-    "name": "Ocugen, Inc. -"
+    "name": "Ocugen, Inc."
   },
   {
     "ticker": "OCS",
@@ -18606,7 +18606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OCUL",
-    "name": "Ocular Therapeutix, Inc. -"
+    "name": "Ocular Therapeutix, Inc."
   },
   {
     "ticker": "ODC",
@@ -18618,11 +18618,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ODFL",
-    "name": "Old Dominion Freight Line, Inc. -"
+    "name": "Old Dominion Freight Line, Inc."
   },
   {
     "ticker": "ODTX",
-    "name": "Odyssey Therapeutics, Inc. -"
+    "name": "Odyssey Therapeutics, Inc."
   },
   {
     "ticker": "ODV",
@@ -18634,7 +18634,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ODYS",
-    "name": "Odysight.ai Inc. -"
+    "name": "Odysight.ai Inc."
   },
   {
     "ticker": "OEC",
@@ -18642,7 +18642,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OESX",
-    "name": "Orion Energy Systems, Inc. -"
+    "name": "Orion Energy Systems, Inc."
   },
   {
     "ticker": "OFAL",
@@ -18654,11 +18654,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OFIX",
-    "name": "Orthofix Medical Inc.  -"
+    "name": "Orthofix Medical Inc."
   },
   {
     "ticker": "OFLX",
-    "name": "Omega Flex, Inc. -"
+    "name": "Omega Flex, Inc."
   },
   {
     "ticker": "OFRM",
@@ -18762,7 +18762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OKLO",
-    "name": "Oklo Inc. Class A common stock"
+    "name": "Oklo Inc."
   },
   {
     "ticker": "OKTA",
@@ -18778,19 +18778,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OLB",
-    "name": "The OLB Group, Inc. -"
+    "name": "The OLB Group, Inc."
   },
   {
     "ticker": "OLED",
-    "name": "Universal Display Corporation -"
+    "name": "Universal Display Corporation"
   },
   {
     "ticker": "OLLI",
-    "name": "Ollie's Bargain Outlet Holdings, Inc. -"
+    "name": "Ollie's Bargain Outlet Holdings, Inc."
   },
   {
     "ticker": "OLMA",
-    "name": "Olema Pharmaceuticals, Inc. -"
+    "name": "Olema Pharmaceuticals, Inc."
   },
   {
     "ticker": "OLN",
@@ -18798,7 +18798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OLOX",
-    "name": "Olenox Industries Inc. -"
+    "name": "Olenox Industries Inc."
   },
   {
     "ticker": "OLP",
@@ -18806,11 +18806,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OLPX",
-    "name": "Olaplex Holdings, Inc. -"
+    "name": "Olaplex Holdings, Inc."
   },
   {
     "ticker": "OM",
-    "name": "Outset Medical, Inc. -"
+    "name": "Outset Medical, Inc."
   },
   {
     "ticker": "OMAB",
@@ -18822,19 +18822,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OMCL",
-    "name": "Omnicell, Inc. -"
+    "name": "Omnicell, Inc."
   },
   {
     "ticker": "OMDA",
-    "name": "Omada Health, Inc. -"
+    "name": "Omada Health, Inc."
   },
   {
     "ticker": "OMER",
-    "name": "Omeros Corporation -"
+    "name": "Omeros Corporation"
   },
   {
     "ticker": "OMEX",
-    "name": "Odyssey Marine Exploration, Inc. -"
+    "name": "Odyssey Marine Exploration, Inc."
   },
   {
     "ticker": "OMF",
@@ -18850,11 +18850,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ON",
-    "name": "ON Semiconductor Corporation -"
+    "name": "ON Semiconductor Corporation"
   },
   {
     "ticker": "ONB",
-    "name": "Old National Bancorp -"
+    "name": "Old National Bancorp"
   },
   {
     "ticker": "ONBPO",
@@ -18882,15 +18882,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ONCO",
-    "name": "Onconetix, Inc.  -"
+    "name": "Onconetix, Inc."
   },
   {
     "ticker": "ONCY",
-    "name": "Oncolytics Biotech Inc. -"
+    "name": "Oncolytics Biotech Inc."
   },
   {
     "ticker": "ONDS",
-    "name": "Ondas Inc -"
+    "name": "Ondas Inc"
   },
   {
     "ticker": "ONEG",
@@ -18902,7 +18902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ONFO",
-    "name": "Onfolio Holdings Inc. -"
+    "name": "Onfolio Holdings Inc."
   },
   {
     "ticker": "ONFOW",
@@ -18942,7 +18942,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPAD",
-    "name": "Offerpad Solutions Inc. Class A"
+    "name": "Offerpad Solutions Inc."
   },
   {
     "ticker": "OPAL",
@@ -18950,15 +18950,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPBK",
-    "name": "OP Bancorp -"
+    "name": "OP Bancorp"
   },
   {
     "ticker": "OPCH",
-    "name": "Option Care Health, Inc. -"
+    "name": "Option Care Health, Inc."
   },
   {
     "ticker": "OPEN",
-    "name": "Opendoor Technologies Inc  -"
+    "name": "Opendoor Technologies Inc"
   },
   {
     "ticker": "OPENL",
@@ -18974,7 +18974,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPFI",
-    "name": "OppFi Inc. Class A"
+    "name": "OppFi Inc."
   },
   {
     "ticker": "OPFI.W",
@@ -18990,7 +18990,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPK",
-    "name": "Opko Health, Inc. -"
+    "name": "Opko Health, Inc."
   },
   {
     "ticker": "OPLN",
@@ -19006,11 +19006,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPRT",
-    "name": "Oportun Financial Corporation - common stock"
+    "name": "Oportun Financial Corporation"
   },
   {
     "ticker": "OPRX",
-    "name": "OptimizeRx Corporation -"
+    "name": "OptimizeRx Corporation"
   },
   {
     "ticker": "OPTH",
@@ -19022,7 +19022,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPTU",
-    "name": "Optimum Communications, Inc. Class A common stock"
+    "name": "Optimum Communications, Inc."
   },
   {
     "ticker": "OPTX",
@@ -19034,11 +19034,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OPXS",
-    "name": "Optex Systems Holdings, Inc. -"
+    "name": "Optex Systems Holdings, Inc."
   },
   {
     "ticker": "OPY",
-    "name": "Oppenheimer Holdings, Inc. Class A"
+    "name": "Oppenheimer Holdings, Inc."
   },
   {
     "ticker": "OR",
@@ -19050,7 +19050,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORBS",
-    "name": "Eightco Holdings Inc. -"
+    "name": "Eightco Holdings Inc."
   },
   {
     "ticker": "ORC",
@@ -19066,7 +19066,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORGO",
-    "name": "Organogenesis Holdings Inc.  - Class A"
+    "name": "Organogenesis Holdings Inc."
   },
   {
     "ticker": "ORI",
@@ -19074,7 +19074,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORIC",
-    "name": "Oric Pharmaceuticals, Inc. -"
+    "name": "Oric Pharmaceuticals, Inc."
   },
   {
     "ticker": "ORIO",
@@ -19094,7 +19094,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORKA",
-    "name": "Oruka Therapeutics, Inc. -"
+    "name": "Oruka Therapeutics, Inc."
   },
   {
     "ticker": "ORKT",
@@ -19106,11 +19106,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORLY",
-    "name": "O'Reilly Automotive, Inc. -"
+    "name": "O'Reilly Automotive, Inc."
   },
   {
     "ticker": "ORMP",
-    "name": "Oramed Pharmaceuticals Inc. -"
+    "name": "Oramed Pharmaceuticals Inc."
   },
   {
     "ticker": "ORN",
@@ -19118,15 +19118,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ORRF",
-    "name": "Orrstown Financial Services, Inc. -"
+    "name": "Orrstown Financial Services, Inc."
   },
   {
     "ticker": "OSBC",
-    "name": "Old Second Bancorp, Inc. -"
+    "name": "Old Second Bancorp, Inc."
   },
   {
     "ticker": "OSCR",
-    "name": "Oscar Health, Inc. Class A"
+    "name": "Oscar Health, Inc."
   },
   {
     "ticker": "OSG",
@@ -19134,19 +19134,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OSIS",
-    "name": "OSI Systems, Inc. -"
+    "name": "OSI Systems, Inc."
   },
   {
     "ticker": "OSK",
-    "name": "Oshkosh Corporation (Holding Company)Common Stock"
+    "name": "Oshkosh Corporation (Holding Company)"
   },
   {
     "ticker": "OSPN",
-    "name": "OneSpan Inc. -"
+    "name": "OneSpan Inc."
   },
   {
     "ticker": "OSRH",
-    "name": "OSR Health, Inc. -"
+    "name": "OSR Health, Inc."
   },
   {
     "ticker": "OSRHW",
@@ -19154,7 +19154,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OSS",
-    "name": "One Stop Systems, Inc. -"
+    "name": "One Stop Systems, Inc."
   },
   {
     "ticker": "OST",
@@ -19166,7 +19166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OSUR",
-    "name": "OraSure Technologies, Inc. -"
+    "name": "OraSure Technologies, Inc."
   },
   {
     "ticker": "OSW",
@@ -19210,7 +19210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OTLK",
-    "name": "Outlook Therapeutics, Inc. -"
+    "name": "Outlook Therapeutics, Inc."
   },
   {
     "ticker": "OTLY",
@@ -19218,11 +19218,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OTTR",
-    "name": "Otter Tail Corporation -"
+    "name": "Otter Tail Corporation"
   },
   {
     "ticker": "OUST",
-    "name": "Ouster, Inc. -"
+    "name": "Ouster, Inc."
   },
   {
     "ticker": "OUT",
@@ -19230,15 +19230,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OVBC",
-    "name": "Ohio Valley Banc Corp. -"
+    "name": "Ohio Valley Banc Corp."
   },
   {
     "ticker": "OVID",
-    "name": "Ovid Therapeutics Inc. -"
+    "name": "Ovid Therapeutics Inc."
   },
   {
     "ticker": "OVLY",
-    "name": "Oak Valley Bancorp (CA) -"
+    "name": "Oak Valley Bancorp (CA)"
   },
   {
     "ticker": "OVV",
@@ -19246,7 +19246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OWL",
-    "name": "Blue Owl Capital Inc. Class A"
+    "name": "Blue Owl Capital Inc."
   },
   {
     "ticker": "OWLS",
@@ -19254,7 +19254,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OWLT",
-    "name": "Owlet, Inc. Class A"
+    "name": "Owlet, Inc."
   },
   {
     "ticker": "OXBR",
@@ -19338,7 +19338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "OZK",
-    "name": "Bank OZK -"
+    "name": "Bank OZK"
   },
   {
     "ticker": "OZKAP",
@@ -19346,7 +19346,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "P",
-    "name": "Everpure, Inc. Class A common stock"
+    "name": "Everpure, Inc."
   },
   {
     "ticker": "PAA",
@@ -19374,7 +19374,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PACB",
-    "name": "Pacific Biosciences of California, Inc. -"
+    "name": "Pacific Biosciences of California, Inc."
   },
   {
     "ticker": "PACH",
@@ -19390,7 +19390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PACK",
-    "name": "Ranpak Holdings Corp Class A"
+    "name": "Ranpak Holdings Corp"
   },
   {
     "ticker": "PACS",
@@ -19430,11 +19430,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PAL",
-    "name": "Proficient Auto Logistics, Inc. -"
+    "name": "Proficient Auto Logistics, Inc."
   },
   {
     "ticker": "PALI",
-    "name": "Palisade Bio, Inc. -"
+    "name": "Palisade Bio, Inc."
   },
   {
     "ticker": "PALO",
@@ -19454,15 +19454,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PAMT",
-    "name": "PAMT CORP -"
+    "name": "PAMT CORP"
   },
   {
     "ticker": "PANL",
-    "name": "Pangaea Logistics Solutions Ltd. -"
+    "name": "Pangaea Logistics Solutions Ltd."
   },
   {
     "ticker": "PANW",
-    "name": "Palo Alto Networks, Inc. -"
+    "name": "Palo Alto Networks, Inc."
   },
   {
     "ticker": "PAPL",
@@ -19474,7 +19474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PARK",
-    "name": "Park Dental Partners, Inc. -"
+    "name": "Park Dental Partners, Inc."
   },
   {
     "ticker": "PARR",
@@ -19482,7 +19482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PASG",
-    "name": "Passage Bio, Inc. -"
+    "name": "Passage Bio, Inc."
   },
   {
     "ticker": "PASW",
@@ -19490,15 +19490,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PATH",
-    "name": "UiPath, Inc. Class A"
+    "name": "UiPath, Inc."
   },
   {
     "ticker": "PATK",
-    "name": "Patrick Industries, Inc. -"
+    "name": "Patrick Industries, Inc."
   },
   {
     "ticker": "PAVM",
-    "name": "PAVmed Inc. -"
+    "name": "PAVmed Inc."
   },
   {
     "ticker": "PAVS",
@@ -19514,7 +19514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PAY",
-    "name": "Paymentus Holdings, Inc. Class A"
+    "name": "Paymentus Holdings, Inc."
   },
   {
     "ticker": "PAYC",
@@ -19522,7 +19522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PAYO",
-    "name": "Payoneer Global Inc. -"
+    "name": "Payoneer Global Inc."
   },
   {
     "ticker": "PAYP",
@@ -19530,11 +19530,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PAYS",
-    "name": "Paysign, Inc. -"
+    "name": "Paysign, Inc."
   },
   {
     "ticker": "PAYX",
-    "name": "Paychex, Inc. -"
+    "name": "Paychex, Inc."
   },
   {
     "ticker": "PB",
@@ -19546,11 +19546,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PBF",
-    "name": "PBF Energy Inc. Class A"
+    "name": "PBF Energy Inc."
   },
   {
     "ticker": "PBFS",
-    "name": "Pioneer Bancorp, Inc. -"
+    "name": "Pioneer Bancorp, Inc."
   },
   {
     "ticker": "PBH",
@@ -19558,7 +19558,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PBHC",
-    "name": "Pathfinder Bancorp, Inc. -"
+    "name": "Pathfinder Bancorp, Inc."
   },
   {
     "ticker": "PBI",
@@ -19566,11 +19566,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PBK",
-    "name": "PowerBank Corporation -"
+    "name": "PowerBank Corporation"
   },
   {
     "ticker": "PBLS",
-    "name": "Parabilis Medicines, Inc. -"
+    "name": "Parabilis Medicines, Inc."
   },
   {
     "ticker": "PBM",
@@ -19594,7 +19594,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PBYI",
-    "name": "Puma Biotechnology Inc -"
+    "name": "Puma Biotechnology Inc"
   },
   {
     "ticker": "PC",
@@ -19614,11 +19614,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PCAR",
-    "name": "PACCAR Inc. -"
+    "name": "PACCAR Inc."
   },
   {
     "ticker": "PCB",
-    "name": "PCB Bancorp -"
+    "name": "PCB Bancorp"
   },
   {
     "ticker": "PCF",
@@ -19650,11 +19650,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PCRX",
-    "name": "Pacira BioSciences, Inc. -"
+    "name": "Pacira BioSciences, Inc."
   },
   {
     "ticker": "PCSA",
-    "name": "Processa Pharmaceuticals, Inc. -"
+    "name": "Processa Pharmaceuticals, Inc."
   },
   {
     "ticker": "PCSC",
@@ -19662,7 +19662,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PCT",
-    "name": "PureCycle Technologies, Inc. - Common stock"
+    "name": "PureCycle Technologies, Inc."
   },
   {
     "ticker": "PCTTU",
@@ -19674,15 +19674,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PCTY",
-    "name": "Paylocity Holding Corporation -"
+    "name": "Paylocity Holding Corporation"
   },
   {
     "ticker": "PCVX",
-    "name": "Vaxcyte, Inc. -"
+    "name": "Vaxcyte, Inc."
   },
   {
     "ticker": "PCYO",
-    "name": "Pure Cycle Corporation -"
+    "name": "Pure Cycle Corporation"
   },
   {
     "ticker": "PD",
@@ -19702,11 +19702,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PDEX",
-    "name": "Pro-Dex, Inc. -"
+    "name": "Pro-Dex, Inc."
   },
   {
     "ticker": "PDFS",
-    "name": "PDF Solutions, Inc. -"
+    "name": "PDF Solutions, Inc."
   },
   {
     "ticker": "PDI",
@@ -19714,11 +19714,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PDLB",
-    "name": "Ponce Financial Group, Inc. -"
+    "name": "Ponce Financial Group, Inc."
   },
   {
     "ticker": "PDM",
-    "name": "Piedmont Realty Trust, Inc. Class A"
+    "name": "Piedmont Realty Trust, Inc."
   },
   {
     "ticker": "PDO",
@@ -19734,7 +19734,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PDSB",
-    "name": "PDS Biotechnology Corporation -"
+    "name": "PDS Biotechnology Corporation"
   },
   {
     "ticker": "PDT",
@@ -19746,7 +19746,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PDYN",
-    "name": "Palladyne AI Corp. - Common stock"
+    "name": "Palladyne AI Corp."
   },
   {
     "ticker": "PDYNW",
@@ -19758,11 +19758,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PEBK",
-    "name": "Peoples Bancorp of North Carolina, Inc. -"
+    "name": "Peoples Bancorp of North Carolina, Inc."
   },
   {
     "ticker": "PEBO",
-    "name": "Peoples Bancorp Inc. -"
+    "name": "Peoples Bancorp Inc."
   },
   {
     "ticker": "PECE",
@@ -19782,7 +19782,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PECO",
-    "name": "Phillips Edison & Company, Inc. -"
+    "name": "Phillips Edison & Company, Inc."
   },
   {
     "ticker": "PED",
@@ -19794,7 +19794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PEGA",
-    "name": "Pegasystems Inc. -"
+    "name": "Pegasystems Inc."
   },
   {
     "ticker": "PEN",
@@ -19802,11 +19802,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PENG",
-    "name": "Penguin Solutions, Inc. -"
+    "name": "Penguin Solutions, Inc."
   },
   {
     "ticker": "PENN",
-    "name": "PENN Entertainment, Inc. -"
+    "name": "PENN Entertainment, Inc."
   },
   {
     "ticker": "PEO",
@@ -19814,11 +19814,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PEP",
-    "name": "PepsiCo, Inc. -"
+    "name": "PepsiCo, Inc."
   },
   {
     "ticker": "PEPG",
-    "name": "PepGen Inc. -"
+    "name": "PepGen Inc."
   },
   {
     "ticker": "PERF",
@@ -19830,11 +19830,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PESI",
-    "name": "Perma-Fix Environmental Services, Inc. -"
+    "name": "Perma-Fix Environmental Services, Inc."
   },
   {
     "ticker": "PETS",
-    "name": "PetMed Express, Inc. -"
+    "name": "PetMed Express, Inc."
   },
   {
     "ticker": "PETZ",
@@ -19854,7 +19854,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PFBC",
-    "name": "Preferred Bank -"
+    "name": "Preferred Bank"
   },
   {
     "ticker": "PFD",
@@ -19870,7 +19870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PFG",
-    "name": "Principal Financial Group Inc -"
+    "name": "Principal Financial Group Inc"
   },
   {
     "ticker": "PFGC",
@@ -19882,7 +19882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PFIS",
-    "name": "Peoples Financial Services Corp.  -"
+    "name": "Peoples Financial Services Corp."
   },
   {
     "ticker": "PFL",
@@ -19910,7 +19910,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PFSA",
-    "name": "Profusa, Inc. -"
+    "name": "Profusa, Inc."
   },
   {
     "ticker": "PFSI",
@@ -19918,7 +19918,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PFX",
-    "name": "PhenixFIN Corporation  -"
+    "name": "PhenixFIN Corporation"
   },
   {
     "ticker": "PFXNZ",
@@ -19942,15 +19942,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PGC",
-    "name": "Peapack-Gladstone Financial Corporation -"
+    "name": "Peapack-Gladstone Financial Corporation"
   },
   {
     "ticker": "PGEN",
-    "name": "Precigen, Inc. -"
+    "name": "Precigen, Inc."
   },
   {
     "ticker": "PGNY",
-    "name": "Progyny, Inc. -"
+    "name": "Progyny, Inc."
   },
   {
     "ticker": "PGP",
@@ -19982,7 +19982,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PHAT",
-    "name": "Phathom Pharmaceuticals, Inc. -"
+    "name": "Phathom Pharmaceuticals, Inc."
   },
   {
     "ticker": "PHG",
@@ -19990,7 +19990,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PHGE",
-    "name": "BiomX Inc. COmmon Stock"
+    "name": "BiomX Inc."
   },
   {
     "ticker": "PHI",
@@ -20002,7 +20002,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PHIO",
-    "name": "Phio Pharmaceuticals Corp. -"
+    "name": "Phio Pharmaceuticals Corp."
   },
   {
     "ticker": "PHK",
@@ -20022,7 +20022,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PHUN",
-    "name": "Phunware, Inc. -"
+    "name": "Phunware, Inc."
   },
   {
     "ticker": "PHVS",
@@ -20030,7 +20030,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PI",
-    "name": "Impinj, Inc. -"
+    "name": "Impinj, Inc."
   },
   {
     "ticker": "PICS",
@@ -20058,7 +20058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PINS",
-    "name": "Pinterest, Inc. Class A"
+    "name": "Pinterest, Inc."
   },
   {
     "ticker": "PIPR",
@@ -20066,7 +20066,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PJT",
-    "name": "PJT Partners Inc. Class A"
+    "name": "PJT Partners Inc."
   },
   {
     "ticker": "PK",
@@ -20074,7 +20074,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PKBK",
-    "name": "Parke Bancorp, Inc. -"
+    "name": "Parke Bancorp, Inc."
   },
   {
     "ticker": "PKE",
@@ -20086,7 +20086,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PKOH",
-    "name": "Park-Ohio Holdings Corp. -"
+    "name": "Park-Ohio Holdings Corp."
   },
   {
     "ticker": "PKX",
@@ -20094,11 +20094,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PL",
-    "name": "Planet Labs PBC Class A"
+    "name": "Planet Labs PBC"
   },
   {
     "ticker": "PLAB",
-    "name": "Photronics, Inc. -"
+    "name": "Photronics, Inc."
   },
   {
     "ticker": "PLAG",
@@ -20106,11 +20106,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLAY",
-    "name": "Dave & Buster's Entertainment, Inc. -"
+    "name": "Dave & Buster's Entertainment, Inc."
   },
   {
     "ticker": "PLBC",
-    "name": "Plumas Bancorp -"
+    "name": "Plumas Bancorp"
   },
   {
     "ticker": "PLBL",
@@ -20118,11 +20118,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLBY",
-    "name": "Playboy, Inc. -"
+    "name": "Playboy, Inc."
   },
   {
     "ticker": "PLCE",
-    "name": "Children's Place, Inc. (The) -"
+    "name": "Children's Place, Inc. (The)"
   },
   {
     "ticker": "PLD",
@@ -20150,7 +20150,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLMR",
-    "name": "Palomar Holdings, Inc. - Common stock"
+    "name": "Palomar Holdings, Inc."
   },
   {
     "ticker": "PLNT",
@@ -20162,11 +20162,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLPC",
-    "name": "Preformed Line Products Company -"
+    "name": "Preformed Line Products Company"
   },
   {
     "ticker": "PLRX",
-    "name": "Pliant Therapeutics, Inc. -"
+    "name": "Pliant Therapeutics, Inc."
   },
   {
     "ticker": "PLRZ",
@@ -20174,7 +20174,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLSE",
-    "name": "Pulse Biosciences, Inc -"
+    "name": "Pulse Biosciences, Inc"
   },
   {
     "ticker": "PLSM",
@@ -20182,7 +20182,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLTK",
-    "name": "Playtika Holding Corp. -"
+    "name": "Playtika Holding Corp."
   },
   {
     "ticker": "PLTR",
@@ -20194,7 +20194,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLUG",
-    "name": "Plug Power, Inc. -"
+    "name": "Plug Power, Inc."
   },
   {
     "ticker": "PLUN",
@@ -20210,11 +20210,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLUR",
-    "name": "Pluri Inc. -"
+    "name": "Pluri Inc."
   },
   {
     "ticker": "PLUS",
-    "name": "ePlus inc. -"
+    "name": "ePlus inc."
   },
   {
     "ticker": "PLUT",
@@ -20226,11 +20226,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PLXS",
-    "name": "Plexus Corp. -"
+    "name": "Plexus Corp."
   },
   {
     "ticker": "PLYX",
-    "name": "Polaryx Therapeutics, Inc. -"
+    "name": "Polaryx Therapeutics, Inc."
   },
   {
     "ticker": "PM",
@@ -20242,7 +20242,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PMCB",
-    "name": "PharmaCyte  Biotech, Inc. -"
+    "name": "PharmaCyte  Biotech, Inc."
   },
   {
     "ticker": "PMEC",
@@ -20286,7 +20286,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PMTS",
-    "name": "CPI Card Group Inc. -"
+    "name": "CPI Card Group Inc."
   },
   {
     "ticker": "PMTU",
@@ -20302,7 +20302,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PMVP",
-    "name": "PMV Pharmaceuticals, Inc. -"
+    "name": "PMV Pharmaceuticals, Inc."
   },
   {
     "ticker": "PN",
@@ -20310,7 +20310,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PNBK",
-    "name": "Patriot National Bancorp Inc. -"
+    "name": "Patriot National Bancorp Inc."
   },
   {
     "ticker": "PNC",
@@ -20318,7 +20318,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PNFP",
-    "name": "Pinnacle Financial Partners, Inc. Common stock"
+    "name": "Pinnacle Financial Partners, Inc."
   },
   {
     "ticker": "PNI",
@@ -20334,11 +20334,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PNRG",
-    "name": "PrimeEnergy Resources Corporation -"
+    "name": "PrimeEnergy Resources Corporation"
   },
   {
     "ticker": "PNTG",
-    "name": "The Pennant Group, Inc. -"
+    "name": "The Pennant Group, Inc."
   },
   {
     "ticker": "PNW",
@@ -20350,15 +20350,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "POCI",
-    "name": "Precision Optics Corporation, Inc. - Common stock"
+    "name": "Precision Optics Corporation, Inc."
   },
   {
     "ticker": "PODC",
-    "name": "PodcastOne, Inc. -"
+    "name": "PodcastOne, Inc."
   },
   {
     "ticker": "PODD",
-    "name": "Insulet Corporation -"
+    "name": "Insulet Corporation"
   },
   {
     "ticker": "POET",
@@ -20366,7 +20366,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "POLA",
-    "name": "Polar Power, Inc. -"
+    "name": "Polar Power, Inc."
   },
   {
     "ticker": "POLE",
@@ -20402,7 +20402,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "POOL",
-    "name": "Pool Corporation -"
+    "name": "Pool Corporation"
   },
   {
     "ticker": "POR",
@@ -20414,15 +20414,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "POWI",
-    "name": "Power Integrations, Inc. -"
+    "name": "Power Integrations, Inc."
   },
   {
     "ticker": "POWL",
-    "name": "Powell Industries, Inc. -"
+    "name": "Powell Industries, Inc."
   },
   {
     "ticker": "POWW",
-    "name": "Outdoor Holding Company -"
+    "name": "Outdoor Holding Company"
   },
   {
     "ticker": "POWWP",
@@ -20434,11 +20434,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PPC",
-    "name": "Pilgrim's Pride Corporation -"
+    "name": "Pilgrim's Pride Corporation"
   },
   {
     "ticker": "PPCB",
-    "name": "Propanc Biopharma, Inc. -"
+    "name": "Propanc Biopharma, Inc."
   },
   {
     "ticker": "PPG",
@@ -20446,11 +20446,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PPHC",
-    "name": "Public Policy Holding Company, Inc. -"
+    "name": "Public Policy Holding Company, Inc."
   },
   {
     "ticker": "PPIH",
-    "name": "Perma-Pipe International Holdings, Inc. -"
+    "name": "Perma-Pipe International Holdings, Inc."
   },
   {
     "ticker": "PPL",
@@ -20462,11 +20462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PPLI",
-    "name": "People Incorporated -"
+    "name": "People Incorporated"
   },
   {
     "ticker": "PPSI",
-    "name": "Pioneer Power Solutions, Inc. -"
+    "name": "Pioneer Power Solutions, Inc."
   },
   {
     "ticker": "PPT",
@@ -20478,27 +20478,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PR",
-    "name": "Permian Resources Corporation Class A"
+    "name": "Permian Resources Corporation"
   },
   {
     "ticker": "PRAA",
-    "name": "PRA Group, Inc. -"
+    "name": "PRA Group, Inc."
   },
   {
     "ticker": "PRAX",
-    "name": "Praxis Precision Medicines, Inc. -"
+    "name": "Praxis Precision Medicines, Inc."
   },
   {
     "ticker": "PRCH",
-    "name": "Porch Group, Inc. -"
+    "name": "Porch Group, Inc."
   },
   {
     "ticker": "PRCT",
-    "name": "PROCEPT BioRobotics Corporation -"
+    "name": "PROCEPT BioRobotics Corporation"
   },
   {
     "ticker": "PRDO",
-    "name": "Perdoceo Education Corporation -"
+    "name": "Perdoceo Education Corporation"
   },
   {
     "ticker": "PRE",
@@ -20522,7 +20522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRGS",
-    "name": "Progress Software Corporation -"
+    "name": "Progress Software Corporation"
   },
   {
     "ticker": "PRH",
@@ -20530,7 +20530,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRHI",
-    "name": "Presurance Holdings, Inc. -"
+    "name": "Presurance Holdings, Inc."
   },
   {
     "ticker": "PRHIZ",
@@ -20554,11 +20554,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRLB",
-    "name": "Proto Labs, Inc. Common stock"
+    "name": "Proto Labs, Inc."
   },
   {
     "ticker": "PRLD",
-    "name": "Prelude Therapeutics Incorporated -"
+    "name": "Prelude Therapeutics Incorporated"
   },
   {
     "ticker": "PRM",
@@ -20566,15 +20566,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRMB",
-    "name": "Primo Brands Corporation Class A"
+    "name": "Primo Brands Corporation"
   },
   {
     "ticker": "PRME",
-    "name": "Prime Medicine, Inc. -"
+    "name": "Prime Medicine, Inc."
   },
   {
     "ticker": "PROF",
-    "name": "Profound Medical Corp. - common stock"
+    "name": "Profound Medical Corp."
   },
   {
     "ticker": "PROK",
@@ -20582,19 +20582,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PROP",
-    "name": "Prairie Operating Co. -"
+    "name": "Prairie Operating Co."
   },
   {
     "ticker": "PROV",
-    "name": "Provident Financial Holdings, Inc. -"
+    "name": "Provident Financial Holdings, Inc."
   },
   {
     "ticker": "PRPL",
-    "name": "Purple Innovation, Inc. -"
+    "name": "Purple Innovation, Inc."
   },
   {
     "ticker": "PRPO",
-    "name": "Precipio, Inc. -"
+    "name": "Precipio, Inc."
   },
   {
     "ticker": "PRQR",
@@ -20606,7 +20606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRSO",
-    "name": "Peraso Inc. -"
+    "name": "Peraso Inc."
   },
   {
     "ticker": "PRSU",
@@ -20622,11 +20622,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRTH",
-    "name": "Priority Technology Holdings, Inc. -"
+    "name": "Priority Technology Holdings, Inc."
   },
   {
     "ticker": "PRTS",
-    "name": "CarParts.com, Inc. -"
+    "name": "CarParts.com, Inc."
   },
   {
     "ticker": "PRU",
@@ -20634,7 +20634,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PRVA",
-    "name": "Privia Health Group, Inc. -"
+    "name": "Privia Health Group, Inc."
   },
   {
     "ticker": "PRZO",
@@ -20674,7 +20674,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PSIX",
-    "name": "Power Solutions International, Inc. -"
+    "name": "Power Solutions International, Inc."
   },
   {
     "ticker": "PSKY",
@@ -20682,7 +20682,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PSMT",
-    "name": "PriceSmart, Inc. -"
+    "name": "PriceSmart, Inc."
   },
   {
     "ticker": "PSN",
@@ -20690,7 +20690,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PSNL",
-    "name": "Personalis, Inc. -"
+    "name": "Personalis, Inc."
   },
   {
     "ticker": "PSNY",
@@ -20706,19 +20706,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PSQH",
-    "name": "PSQ Holdings, Inc. Class A"
+    "name": "PSQ Holdings, Inc."
   },
   {
     "ticker": "PSQH.W",
-    "name": "PSQ Holdings, Inc. Warrants, each exercisable for one share of Class A common stock at an exercise price of $11.50 per share"
+    "name": "PSQ Holdings, Inc. Warrants, each exercisable for one share of"
   },
   {
     "ticker": "PSTL",
-    "name": "Postal Realty Trust, Inc. Class A"
+    "name": "Postal Realty Trust, Inc."
   },
   {
     "ticker": "PSTV",
-    "name": "PLUS THERAPEUTICS, Inc. -"
+    "name": "PLUS THERAPEUTICS, Inc."
   },
   {
     "ticker": "PSUS",
@@ -20738,19 +20738,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PTC",
-    "name": "PTC Inc. -"
+    "name": "PTC Inc."
   },
   {
     "ticker": "PTCT",
-    "name": "PTC Therapeutics, Inc. -"
+    "name": "PTC Therapeutics, Inc."
   },
   {
     "ticker": "PTEN",
-    "name": "Patterson-UTI Energy, Inc. -"
+    "name": "Patterson-UTI Energy, Inc."
   },
   {
     "ticker": "PTGX",
-    "name": "Protagonist Therapeutics, Inc. -"
+    "name": "Protagonist Therapeutics, Inc."
   },
   {
     "ticker": "PTHS",
@@ -20766,7 +20766,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PTN",
-    "name": "Palatin Technologies, Inc. -"
+    "name": "Palatin Technologies, Inc."
   },
   {
     "ticker": "PTNM",
@@ -20774,7 +20774,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PTON",
-    "name": "Peloton Interactive, Inc. -"
+    "name": "Peloton Interactive, Inc."
   },
   {
     "ticker": "PTOR",
@@ -20806,7 +20806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PULM",
-    "name": "Pulmatrix, Inc. -"
+    "name": "Pulmatrix, Inc."
   },
   {
     "ticker": "PUMP",
@@ -20814,11 +20814,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PURR",
-    "name": "Hyperliquid Strategies Inc -"
+    "name": "Hyperliquid Strategies Inc"
   },
   {
     "ticker": "PUSA",
-    "name": "Aureus Greenway Holdings Inc. -"
+    "name": "Aureus Greenway Holdings Inc."
   },
   {
     "ticker": "PVH",
@@ -20830,7 +20830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PVLA",
-    "name": "Palvella Therapeutics, Inc. -"
+    "name": "Palvella Therapeutics, Inc."
   },
   {
     "ticker": "PW",
@@ -20846,7 +20846,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PWRL",
-    "name": "Powerlaw Corp. -"
+    "name": "Powerlaw Corp."
   },
   {
     "ticker": "PXED",
@@ -20854,11 +20854,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PXLW",
-    "name": "Pixelworks, Inc. -"
+    "name": "Pixelworks, Inc."
   },
   {
     "ticker": "PXS",
-    "name": "Pyxis Tankers Inc. -"
+    "name": "Pyxis Tankers Inc."
   },
   {
     "ticker": "PYPD",
@@ -20866,7 +20866,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PYPL",
-    "name": "PayPal Holdings, Inc. -"
+    "name": "PayPal Holdings, Inc."
   },
   {
     "ticker": "PYT",
@@ -20874,7 +20874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PYXS",
-    "name": "Pyxis Oncology, Inc. -"
+    "name": "Pyxis Oncology, Inc."
   },
   {
     "ticker": "PZG",
@@ -20882,7 +20882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "PZZA",
-    "name": "Papa John's International, Inc. -"
+    "name": "Papa John's International, Inc."
   },
   {
     "ticker": "Q",
@@ -20906,23 +20906,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QCLS",
-    "name": "Q/C Technologies, Inc. -"
+    "name": "Q/C Technologies, Inc."
   },
   {
     "ticker": "QCOM",
-    "name": "QUALCOMM Incorporated -"
+    "name": "QUALCOMM Incorporated"
   },
   {
     "ticker": "QCRH",
-    "name": "QCR Holdings, Inc. -"
+    "name": "QCR Holdings, Inc."
   },
   {
     "ticker": "QDEL",
-    "name": "QuidelOrtho Corporation -"
+    "name": "QuidelOrtho Corporation"
   },
   {
     "ticker": "QETA",
-    "name": "Quetta Acquisition Corporation -"
+    "name": "Quetta Acquisition Corporation"
   },
   {
     "ticker": "QETAR",
@@ -20954,11 +20954,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QLYS",
-    "name": "Qualys, Inc. -"
+    "name": "Qualys, Inc."
   },
   {
     "ticker": "QMCO",
-    "name": "Quantum Corporation -"
+    "name": "Quantum Corporation"
   },
   {
     "ticker": "QMMM",
@@ -20970,7 +20970,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QNCX",
-    "name": "Quince Therapeutics, Inc. -"
+    "name": "Quince Therapeutics, Inc."
   },
   {
     "ticker": "QNRX",
@@ -20978,7 +20978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QNST",
-    "name": "QuinStreet, Inc. -"
+    "name": "QuinStreet, Inc."
   },
   {
     "ticker": "QNT",
@@ -21006,15 +21006,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QRHC",
-    "name": "Quest Resource Holding Corporation -"
+    "name": "Quest Resource Holding Corporation"
   },
   {
     "ticker": "QRVO",
-    "name": "Qorvo, Inc. -"
+    "name": "Qorvo, Inc."
   },
   {
     "ticker": "QS",
-    "name": "QuantumScape Corporation -"
+    "name": "QuantumScape Corporation"
   },
   {
     "ticker": "QSEA",
@@ -21046,15 +21046,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QTI",
-    "name": "QT Imaging Holdings, Inc. -"
+    "name": "QT Imaging Holdings, Inc."
   },
   {
     "ticker": "QTRX",
-    "name": "Quanterix Corporation -"
+    "name": "Quanterix Corporation"
   },
   {
     "ticker": "QTTB",
-    "name": "Q32 Bio Inc. -"
+    "name": "Q32 Bio Inc."
   },
   {
     "ticker": "QTWO",
@@ -21062,11 +21062,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QUAD",
-    "name": "Quad Graphics, Inc Class A"
+    "name": "Quad Graphics, Inc"
   },
   {
     "ticker": "QUBT",
-    "name": "Quantum Computing Inc. -"
+    "name": "Quantum Computing Inc."
   },
   {
     "ticker": "QUCY",
@@ -21074,7 +21074,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QUIK",
-    "name": "QuickLogic Corporation -"
+    "name": "QuickLogic Corporation"
   },
   {
     "ticker": "QUMS",
@@ -21094,7 +21094,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "QXL",
-    "name": "Quantum X Labs Inc. -"
+    "name": "Quantum X Labs Inc."
   },
   {
     "ticker": "QXO",
@@ -21146,7 +21146,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RAIL",
-    "name": "Freightcar America, Inc. -"
+    "name": "Freightcar America, Inc."
   },
   {
     "ticker": "RAIN",
@@ -21186,15 +21186,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RAPP",
-    "name": "Rapport Therapeutics, Inc. -"
+    "name": "Rapport Therapeutics, Inc."
   },
   {
     "ticker": "RARE",
-    "name": "Ultragenyx Pharmaceutical Inc. -"
+    "name": "Ultragenyx Pharmaceutical Inc."
   },
   {
     "ticker": "RAVE",
-    "name": "Rave Restaurant Group, Inc. -"
+    "name": "Rave Restaurant Group, Inc."
   },
   {
     "ticker": "RAY",
@@ -21210,11 +21210,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RBB",
-    "name": "RBB Bancorp -"
+    "name": "RBB Bancorp"
   },
   {
     "ticker": "RBBN",
-    "name": "Ribbon Communications Inc.  -"
+    "name": "Ribbon Communications Inc."
   },
   {
     "ticker": "RBC",
@@ -21226,19 +21226,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RBKB",
-    "name": "Rhinebeck Bancorp, Inc. -"
+    "name": "Rhinebeck Bancorp, Inc."
   },
   {
     "ticker": "RBLX",
-    "name": "Roblox Corporation Class A"
+    "name": "Roblox Corporation"
   },
   {
     "ticker": "RBNE",
-    "name": "Robin Energy Ltd. -"
+    "name": "Robin Energy Ltd."
   },
   {
     "ticker": "RBRK",
-    "name": "Rubrik, Inc. Class A"
+    "name": "Rubrik, Inc."
   },
   {
     "ticker": "RC",
@@ -21246,7 +21246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RCAT",
-    "name": "Red Cat Holdings, Inc. -"
+    "name": "Red Cat Holdings, Inc."
   },
   {
     "ticker": "RCD",
@@ -21254,7 +21254,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RCEL",
-    "name": "Avita Medical, Inc. -"
+    "name": "Avita Medical, Inc."
   },
   {
     "ticker": "RCG",
@@ -21266,7 +21266,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RCKT",
-    "name": "Rocket Pharmaceuticals, Inc. -"
+    "name": "Rocket Pharmaceuticals, Inc."
   },
   {
     "ticker": "RCKTW",
@@ -21274,7 +21274,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RCKY",
-    "name": "Rocky Brands, Inc. -"
+    "name": "Rocky Brands, Inc."
   },
   {
     "ticker": "RCL",
@@ -21282,7 +21282,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RCMT",
-    "name": "RCM Technologies, Inc. -"
+    "name": "RCM Technologies, Inc."
   },
   {
     "ticker": "RCON",
@@ -21330,7 +21330,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RDDT",
-    "name": "Reddit, Inc. Class A"
+    "name": "Reddit, Inc."
   },
   {
     "ticker": "RDGT",
@@ -21354,7 +21354,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RDNT",
-    "name": "RadNet, Inc. -"
+    "name": "RadNet, Inc."
   },
   {
     "ticker": "RDNW",
@@ -21362,7 +21362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RDVT",
-    "name": "Red Violet, Inc. -"
+    "name": "Red Violet, Inc."
   },
   {
     "ticker": "RDW",
@@ -21390,7 +21390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REAL",
-    "name": "The RealReal, Inc. -"
+    "name": "The RealReal, Inc."
   },
   {
     "ticker": "REAX",
@@ -21398,7 +21398,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REBN",
-    "name": "Reborn Coffee, Inc. -"
+    "name": "Reborn Coffee, Inc."
   },
   {
     "ticker": "RECT",
@@ -21414,15 +21414,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REFI",
-    "name": "Chicago Atlantic Real Estate Finance, Inc. -"
+    "name": "Chicago Atlantic Real Estate Finance, Inc."
   },
   {
     "ticker": "REFR",
-    "name": "Research Frontiers Incorporated -"
+    "name": "Research Frontiers Incorporated"
   },
   {
     "ticker": "REG",
-    "name": "Regency Centers Corporation -"
+    "name": "Regency Centers Corporation"
   },
   {
     "ticker": "REGCO",
@@ -21434,7 +21434,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REGN",
-    "name": "Regeneron Pharmaceuticals, Inc. -"
+    "name": "Regeneron Pharmaceuticals, Inc."
   },
   {
     "ticker": "REI",
@@ -21442,11 +21442,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REKR",
-    "name": "Rekor Systems, Inc. -"
+    "name": "Rekor Systems, Inc."
   },
   {
     "ticker": "RELL",
-    "name": "Richardson Electronics, Ltd. -"
+    "name": "Richardson Electronics, Ltd."
   },
   {
     "ticker": "RELX",
@@ -21454,7 +21454,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RELY",
-    "name": "Remitly Global, Inc. - Common stock"
+    "name": "Remitly Global, Inc."
   },
   {
     "ticker": "RENT",
@@ -21462,11 +21462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RENX",
-    "name": "RenX Enterprises Corp. -"
+    "name": "RenX Enterprises Corp."
   },
   {
     "ticker": "REPL",
-    "name": "Replimune Group, Inc. -"
+    "name": "Replimune Group, Inc."
   },
   {
     "ticker": "REPX",
@@ -21486,7 +21486,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REVB",
-    "name": "Revelation Biosciences, Inc. -"
+    "name": "Revelation Biosciences, Inc."
   },
   {
     "ticker": "REVBW",
@@ -21502,7 +21502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "REYN",
-    "name": "Reynolds Consumer Products Inc. -"
+    "name": "Reynolds Consumer Products Inc."
   },
   {
     "ticker": "REZI",
@@ -21542,11 +21542,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RFIL",
-    "name": "RF Industries, Ltd. -"
+    "name": "RF Industries, Ltd."
   },
   {
     "ticker": "RFL",
-    "name": "Rafael Holdings, Inc. Class B"
+    "name": "Rafael Holdings, Inc."
   },
   {
     "ticker": "RFM",
@@ -21566,15 +21566,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RGCO",
-    "name": "RGC Resources Inc. -"
+    "name": "RGC Resources Inc."
   },
   {
     "ticker": "RGEN",
-    "name": "Repligen Corporation -"
+    "name": "Repligen Corporation"
   },
   {
     "ticker": "RGLD",
-    "name": "Royal Gold, Inc. -"
+    "name": "Royal Gold, Inc."
   },
   {
     "ticker": "RGNT",
@@ -21582,11 +21582,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RGNX",
-    "name": "REGENXBIO Inc. -"
+    "name": "REGENXBIO Inc."
   },
   {
     "ticker": "RGP",
-    "name": "Resources Connection, Inc. -"
+    "name": "Resources Connection, Inc."
   },
   {
     "ticker": "RGR",
@@ -21594,7 +21594,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RGS",
-    "name": "Regis Corporation -"
+    "name": "Regis Corporation"
   },
   {
     "ticker": "RGT",
@@ -21602,7 +21602,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RGTI",
-    "name": "Rigetti Computing, Inc.  - Common stock"
+    "name": "Rigetti Computing, Inc."
   },
   {
     "ticker": "RGTIW",
@@ -21638,7 +21638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RICK",
-    "name": "RCI Hospitality Holdings, Inc. -"
+    "name": "RCI Hospitality Holdings, Inc."
   },
   {
     "ticker": "RIG",
@@ -21646,11 +21646,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RIGL",
-    "name": "Rigel Pharmaceuticals, Inc. -"
+    "name": "Rigel Pharmaceuticals, Inc."
   },
   {
     "ticker": "RILY",
-    "name": "BRC Group Holdings, Inc. -"
+    "name": "BRC Group Holdings, Inc."
   },
   {
     "ticker": "RILYG",
@@ -21678,7 +21678,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RIME",
-    "name": "Algorhythm Holdings, Inc. -"
+    "name": "Algorhythm Holdings, Inc."
   },
   {
     "ticker": "RIO",
@@ -21686,7 +21686,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RIOT",
-    "name": "Riot Platforms, Inc. -"
+    "name": "Riot Platforms, Inc."
   },
   {
     "ticker": "RITM",
@@ -21706,7 +21706,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RJET",
-    "name": "Republic Airways Holdings Inc. -"
+    "name": "Republic Airways Holdings Inc."
   },
   {
     "ticker": "RJF",
@@ -21714,19 +21714,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RKDA",
-    "name": "Arcadia Biosciences, Inc. -"
+    "name": "Arcadia Biosciences, Inc."
   },
   {
     "ticker": "RKLB",
-    "name": "Rocket Lab Corporation -"
+    "name": "Rocket Lab Corporation"
   },
   {
     "ticker": "RKT",
-    "name": "Rocket Companies, Inc. Class A"
+    "name": "Rocket Companies, Inc."
   },
   {
     "ticker": "RKTO",
-    "name": "Rocket One Inc. -"
+    "name": "Rocket One Inc."
   },
   {
     "ticker": "RL",
@@ -21734,7 +21734,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RLAY",
-    "name": "Relay Therapeutics, Inc. -"
+    "name": "Relay Therapeutics, Inc."
   },
   {
     "ticker": "RLGT",
@@ -21750,7 +21750,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RLMD",
-    "name": "Relmada Therapeutics, Inc. -"
+    "name": "Relmada Therapeutics, Inc."
   },
   {
     "ticker": "RLTY",
@@ -21762,7 +21762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RLYB",
-    "name": "Rallybio Corporation -"
+    "name": "Rallybio Corporation"
   },
   {
     "ticker": "RM",
@@ -21770,19 +21770,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RMAX",
-    "name": "RE/MAX Holdings, Inc. Class A"
+    "name": "RE/MAX Holdings, Inc."
   },
   {
     "ticker": "RMBI",
-    "name": "Richmond Mutual Bancorporation, Inc. -"
+    "name": "Richmond Mutual Bancorporation, Inc."
   },
   {
     "ticker": "RMBS",
-    "name": "Rambus, Inc. -"
+    "name": "Rambus, Inc."
   },
   {
     "ticker": "RMCF",
-    "name": "Rocky Mountain Chocolate Factory, Inc. -"
+    "name": "Rocky Mountain Chocolate Factory, Inc."
   },
   {
     "ticker": "RMCO",
@@ -21814,7 +21814,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RMNI",
-    "name": "Rimini Street, Inc. -"
+    "name": "Rimini Street, Inc."
   },
   {
     "ticker": "RMR",
@@ -21834,27 +21834,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RMTI",
-    "name": "Rockwell Medical, Inc. -"
+    "name": "Rockwell Medical, Inc."
   },
   {
     "ticker": "RNA",
-    "name": "Atrium Therapeutics, Inc. -"
+    "name": "Atrium Therapeutics, Inc."
   },
   {
     "ticker": "RNAC",
-    "name": "Cartesian Therapeutics, Inc. -"
+    "name": "Cartesian Therapeutics, Inc."
   },
   {
     "ticker": "RNAZ",
-    "name": "TransCode Therapeutics, Inc. -"
+    "name": "TransCode Therapeutics, Inc."
   },
   {
     "ticker": "RNG",
-    "name": "RingCentral, Inc. Class A"
+    "name": "RingCentral, Inc."
   },
   {
     "ticker": "RNGR",
-    "name": "Ranger Energy Services, Inc. Class A"
+    "name": "Ranger Energy Services, Inc."
   },
   {
     "ticker": "RNGT",
@@ -21882,7 +21882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RNTX",
-    "name": "Rein Therapeutics, Inc. -"
+    "name": "Rein Therapeutics, Inc."
   },
   {
     "ticker": "RNW",
@@ -21894,19 +21894,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RNXT",
-    "name": "RenovoRx, Inc. -"
+    "name": "RenovoRx, Inc."
   },
   {
     "ticker": "ROAD",
-    "name": "Construction Partners, Inc. -"
+    "name": "Construction Partners, Inc."
   },
   {
     "ticker": "ROC",
-    "name": "Rank One Computing Corporation - Common stock"
+    "name": "Rank One Computing Corporation"
   },
   {
     "ticker": "ROCK",
-    "name": "Gibraltar Industries, Inc. -"
+    "name": "Gibraltar Industries, Inc."
   },
   {
     "ticker": "ROG",
@@ -21938,15 +21938,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ROOT",
-    "name": "Root, Inc. -"
+    "name": "Root, Inc."
   },
   {
     "ticker": "ROP",
-    "name": "Roper Technologies, Inc. -"
+    "name": "Roper Technologies, Inc."
   },
   {
     "ticker": "ROST",
-    "name": "Ross Stores, Inc. -"
+    "name": "Ross Stores, Inc."
   },
   {
     "ticker": "RPAY",
@@ -21954,11 +21954,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RPC",
-    "name": "Ridgepost Capital, Inc. Class A"
+    "name": "Ridgepost Capital, Inc."
   },
   {
     "ticker": "RPD",
-    "name": "Rapid7, Inc. -"
+    "name": "Rapid7, Inc."
   },
   {
     "ticker": "RPGL",
@@ -21978,7 +21978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RPT",
-    "name": "Rithm Property Trust Inc. Common stock"
+    "name": "Rithm Property Trust Inc."
   },
   {
     "ticker": "RQI",
@@ -21994,7 +21994,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RRBI",
-    "name": "Red River Bancshares, Inc. -"
+    "name": "Red River Bancshares, Inc."
   },
   {
     "ticker": "RRC",
@@ -22014,7 +22014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RRGB",
-    "name": "Red Robin Gourmet Burgers, Inc. -"
+    "name": "Red Robin Gourmet Burgers, Inc."
   },
   {
     "ticker": "RRR",
@@ -22038,7 +22038,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RSI",
-    "name": "Rush Street Interactive, Inc. Class A"
+    "name": "Rush Street Interactive, Inc."
   },
   {
     "ticker": "RSKD",
@@ -22046,11 +22046,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RSSS",
-    "name": "Research Solutions, Inc -"
+    "name": "Research Solutions, Inc"
   },
   {
     "ticker": "RSVR",
-    "name": "Reservoir Media, Inc.. -"
+    "name": "Reservoir Media, Inc.."
   },
   {
     "ticker": "RSVRW",
@@ -22070,7 +22070,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RTB",
-    "name": "RTB Digital, Inc. -"
+    "name": "RTB Digital, Inc."
   },
   {
     "ticker": "RTO",
@@ -22082,7 +22082,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RUBI",
-    "name": "Rubico Inc. -"
+    "name": "Rubico Inc."
   },
   {
     "ticker": "RUM",
@@ -22094,7 +22094,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RUN",
-    "name": "Sunrun Inc. -"
+    "name": "Sunrun Inc."
   },
   {
     "ticker": "RUSHA",
@@ -22110,11 +22110,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RVLV",
-    "name": "Revolve Group, Inc. Class A"
+    "name": "Revolve Group, Inc."
   },
   {
     "ticker": "RVMD",
-    "name": "Revolution Medicines, Inc. -"
+    "name": "Revolution Medicines, Inc."
   },
   {
     "ticker": "RVMDW",
@@ -22126,7 +22126,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RVSB",
-    "name": "Riverview Bancorp Inc -"
+    "name": "Riverview Bancorp Inc"
   },
   {
     "ticker": "RVSN",
@@ -22146,7 +22146,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RWAY",
-    "name": "Runway Growth Finance Corp. -"
+    "name": "Runway Growth Finance Corp."
   },
   {
     "ticker": "RWAYI",
@@ -22190,11 +22190,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RXST",
-    "name": "RxSight, Inc. -"
+    "name": "RxSight, Inc."
   },
   {
     "ticker": "RXT",
-    "name": "Rackspace Technology, Inc. -"
+    "name": "Rackspace Technology, Inc."
   },
   {
     "ticker": "RY",
@@ -22210,7 +22210,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RYAN",
-    "name": "Ryan Specialty Holdings, Inc. Class A"
+    "name": "Ryan Specialty Holdings, Inc."
   },
   {
     "ticker": "RYDE",
@@ -22222,7 +22222,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RYM",
-    "name": "RYTHM, Inc. -"
+    "name": "RYTHM, Inc."
   },
   {
     "ticker": "RYN",
@@ -22234,7 +22234,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RYTM",
-    "name": "Rhythm Pharmaceuticals, Inc. -"
+    "name": "Rhythm Pharmaceuticals, Inc."
   },
   {
     "ticker": "RYZ",
@@ -22246,7 +22246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "RZLT",
-    "name": "Rezolute, Inc. -"
+    "name": "Rezolute, Inc."
   },
   {
     "ticker": "RZLV",
@@ -22258,7 +22258,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "S",
-    "name": "SentinelOne, Inc. Class A"
+    "name": "SentinelOne, Inc."
   },
   {
     "ticker": "SA",
@@ -22282,11 +22282,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SABR",
-    "name": "Sabre Corporation -"
+    "name": "Sabre Corporation"
   },
   {
     "ticker": "SABS",
-    "name": "SAB Biotherapeutics, Inc. -"
+    "name": "SAB Biotherapeutics, Inc."
   },
   {
     "ticker": "SABSW",
@@ -22314,7 +22314,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SAFT",
-    "name": "Safety Insurance Group, Inc. -"
+    "name": "Safety Insurance Group, Inc."
   },
   {
     "ticker": "SAFX",
@@ -22346,11 +22346,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SAIA",
-    "name": "Saia, Inc. -"
+    "name": "Saia, Inc."
   },
   {
     "ticker": "SAIC",
-    "name": "Science Applications International Corporation -"
+    "name": "Science Applications International Corporation"
   },
   {
     "ticker": "SAIH",
@@ -22362,7 +22362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SAIL",
-    "name": "SailPoint, Inc. -"
+    "name": "SailPoint, Inc."
   },
   {
     "ticker": "SAJ",
@@ -22374,7 +22374,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SAMG",
-    "name": "Silvercrest Asset Management Group Inc. -"
+    "name": "Silvercrest Asset Management Group Inc."
   },
   {
     "ticker": "SAN",
@@ -22382,7 +22382,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SANA",
-    "name": "Sana Biotechnology, Inc. -"
+    "name": "Sana Biotechnology, Inc."
   },
   {
     "ticker": "SANG",
@@ -22390,7 +22390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SANM",
-    "name": "Sanmina Corporation -"
+    "name": "Sanmina Corporation"
   },
   {
     "ticker": "SAP",
@@ -22442,11 +22442,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SBC",
-    "name": "SBC Medical Group Holdings Incorporated -"
+    "name": "SBC Medical Group Holdings Incorporated"
   },
   {
     "ticker": "SBCF",
-    "name": "Seacoast Banking Corporation of Florida -"
+    "name": "Seacoast Banking Corporation of Florida"
   },
   {
     "ticker": "SBCWW",
@@ -22454,7 +22454,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SBET",
-    "name": "Sharplink, Inc. -"
+    "name": "Sharplink, Inc."
   },
   {
     "ticker": "SBEV",
@@ -22462,11 +22462,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SBFG",
-    "name": "SB Financial Group, Inc. -"
+    "name": "SB Financial Group, Inc."
   },
   {
     "ticker": "SBFM",
-    "name": "Sunshine Biopharma Inc. - Common stock"
+    "name": "Sunshine Biopharma Inc."
   },
   {
     "ticker": "SBFMW",
@@ -22498,7 +22498,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SBRA",
-    "name": "Sabra Health Care REIT, Inc. -"
+    "name": "Sabra Health Care REIT, Inc."
   },
   {
     "ticker": "SBS",
@@ -22514,7 +22514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SBUX",
-    "name": "Starbucks Corporation -"
+    "name": "Starbucks Corporation"
   },
   {
     "ticker": "SBXD",
@@ -22574,7 +22574,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SCHL",
-    "name": "Scholastic Corporation -"
+    "name": "Scholastic Corporation"
   },
   {
     "ticker": "SCHW",
@@ -22598,7 +22598,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SCKT",
-    "name": "Socket Mobile, Inc. -"
+    "name": "Socket Mobile, Inc."
   },
   {
     "ticker": "SCL",
@@ -22606,7 +22606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SCLX",
-    "name": "Scilex Holding Company -"
+    "name": "Scilex Holding Company"
   },
   {
     "ticker": "SCLXW",
@@ -22622,11 +22622,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SCNX",
-    "name": "Scienture Holdings, Inc. -"
+    "name": "Scienture Holdings, Inc."
   },
   {
     "ticker": "SCOR",
-    "name": "comScore, Inc. -"
+    "name": "comScore, Inc."
   },
   {
     "ticker": "SCPQ",
@@ -22642,15 +22642,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SCSC",
-    "name": "ScanSource, Inc. -"
+    "name": "ScanSource, Inc."
   },
   {
     "ticker": "SCWO",
-    "name": "374Water Inc. - common stock"
+    "name": "374Water Inc."
   },
   {
     "ticker": "SCYX",
-    "name": "SCYNEXIS, Inc. -"
+    "name": "SCYNEXIS, Inc."
   },
   {
     "ticker": "SCZM",
@@ -22674,15 +22674,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SDGR",
-    "name": "Schrodinger, Inc. -"
+    "name": "Schrodinger, Inc."
   },
   {
     "ticker": "SDHC",
-    "name": "Smith Douglas Homes Corp. Class A"
+    "name": "Smith Douglas Homes Corp."
   },
   {
     "ticker": "SDHI",
-    "name": "Siddhi Acquisition Corp - Class A Common stock"
+    "name": "Siddhi Acquisition Corp"
   },
   {
     "ticker": "SDHIR",
@@ -22698,7 +22698,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SDOT",
-    "name": "Sadot Group Inc. -"
+    "name": "Sadot Group Inc."
   },
   {
     "ticker": "SDRL",
@@ -22706,7 +22706,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SDST",
-    "name": "Stardust Power Inc. -"
+    "name": "Stardust Power Inc."
   },
   {
     "ticker": "SDSTW",
@@ -22718,7 +22718,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SEAT",
-    "name": "Vivid Seats Inc. - Class A common stock"
+    "name": "Vivid Seats Inc."
   },
   {
     "ticker": "SEATW",
@@ -22730,7 +22730,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SEDG",
-    "name": "SolarEdge Technologies, Inc. -"
+    "name": "SolarEdge Technologies, Inc."
   },
   {
     "ticker": "SEED",
@@ -22746,19 +22746,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SEGG",
-    "name": "Sports Entertainment Gaming Global Corporation  -"
+    "name": "Sports Entertainment Gaming Global Corporation"
   },
   {
     "ticker": "SEI",
-    "name": "Solaris Energy Infrastructure, Inc. Class A"
+    "name": "Solaris Energy Infrastructure, Inc."
   },
   {
     "ticker": "SEIC",
-    "name": "SEI Investments Company -"
+    "name": "SEI Investments Company"
   },
   {
     "ticker": "SELF",
-    "name": "Global Self Storage, Inc. -"
+    "name": "Global Self Storage, Inc."
   },
   {
     "ticker": "SEM",
@@ -22774,11 +22774,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SENS",
-    "name": "Senseonics Holdings, Inc. -"
+    "name": "Senseonics Holdings, Inc."
   },
   {
     "ticker": "SEPN",
-    "name": "Septerna, Inc. -"
+    "name": "Septerna, Inc."
   },
   {
     "ticker": "SER",
@@ -22790,15 +22790,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SERV",
-    "name": "Serve Robotics Inc. -"
+    "name": "Serve Robotics Inc."
   },
   {
     "ticker": "SES",
-    "name": "SES AI Corporation Class A"
+    "name": "SES AI Corporation"
   },
   {
     "ticker": "SES.W",
-    "name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A"
+    "name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of"
   },
   {
     "ticker": "SEV",
@@ -22806,11 +22806,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SEVN",
-    "name": "Seven Hills Realty Trust  -"
+    "name": "Seven Hills Realty Trust"
   },
   {
     "ticker": "SEZL",
-    "name": "Sezzle Inc. -"
+    "name": "Sezzle Inc."
   },
   {
     "ticker": "SF",
@@ -22822,7 +22822,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SFBC",
-    "name": "Sound Financial Bancorp, Inc. -"
+    "name": "Sound Financial Bancorp, Inc."
   },
   {
     "ticker": "SFBS",
@@ -22830,7 +22830,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SFD",
-    "name": "Smithfield Foods, Inc. -"
+    "name": "Smithfield Foods, Inc."
   },
   {
     "ticker": "SFHG",
@@ -22846,15 +22846,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SFM",
-    "name": "Sprouts Farmers Market, Inc. -"
+    "name": "Sprouts Farmers Market, Inc."
   },
   {
     "ticker": "SFNC",
-    "name": "Simmons First National Corporation -"
+    "name": "Simmons First National Corporation"
   },
   {
     "ticker": "SFST",
-    "name": "Southern First Bancshares, Inc. -"
+    "name": "Southern First Bancshares, Inc."
   },
   {
     "ticker": "SFWL",
@@ -22862,7 +22862,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SG",
-    "name": "Sweetgreen, Inc. Class A"
+    "name": "Sweetgreen, Inc."
   },
   {
     "ticker": "SGA",
@@ -22870,7 +22870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SGC",
-    "name": "Superior Group of Companies, Inc. -"
+    "name": "Superior Group of Companies, Inc."
   },
   {
     "ticker": "SGHC",
@@ -22878,7 +22878,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SGHT",
-    "name": "Sight Sciences, Inc. -"
+    "name": "Sight Sciences, Inc."
   },
   {
     "ticker": "SGI",
@@ -22886,7 +22886,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SGLY",
-    "name": "Singularity Future Technology Ltd. -"
+    "name": "Singularity Future Technology Ltd."
   },
   {
     "ticker": "SGML",
@@ -22898,15 +22898,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SGP",
-    "name": "SpyGlass Pharma, Inc. -"
+    "name": "SpyGlass Pharma, Inc."
   },
   {
     "ticker": "SGRP",
-    "name": "SPAR Group, Inc. -"
+    "name": "SPAR Group, Inc."
   },
   {
     "ticker": "SGRY",
-    "name": "Surgery Partners, Inc. -"
+    "name": "Surgery Partners, Inc."
   },
   {
     "ticker": "SGU",
@@ -22914,7 +22914,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHAK",
-    "name": "Shake Shack, Inc. Class A"
+    "name": "Shake Shack, Inc."
   },
   {
     "ticker": "SHAZ",
@@ -22922,11 +22922,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHBI",
-    "name": "Shore Bancshares, Inc. -"
+    "name": "Shore Bancshares, Inc."
   },
   {
     "ticker": "SHC",
-    "name": "Sotera Health Company -"
+    "name": "Sotera Health Company"
   },
   {
     "ticker": "SHEL",
@@ -22934,7 +22934,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHEN",
-    "name": "Shenandoah Telecommunications Co -"
+    "name": "Shenandoah Telecommunications Co"
   },
   {
     "ticker": "SHFS",
@@ -22950,11 +22950,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHIM",
-    "name": "Shimmick Corporation -"
+    "name": "Shimmick Corporation"
   },
   {
     "ticker": "SHIP",
-    "name": "Seanergy Maritime Holdings Corp. -"
+    "name": "Seanergy Maritime Holdings Corp."
   },
   {
     "ticker": "SHLS",
@@ -22974,11 +22974,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHOE",
-    "name": "Shoe Station Group, Inc. -"
+    "name": "Shoe Station Group, Inc."
   },
   {
     "ticker": "SHOO",
-    "name": "Steven Madden, Ltd. -"
+    "name": "Steven Madden, Ltd."
   },
   {
     "ticker": "SHOP",
@@ -22990,7 +22990,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SHPH",
-    "name": "Shuttle Pharmaceuticals Holdings, Inc. - common stock"
+    "name": "Shuttle Pharmaceuticals Holdings, Inc."
   },
   {
     "ticker": "SHW",
@@ -23002,7 +23002,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SIBN",
-    "name": "SI-BONE, Inc. -"
+    "name": "SI-BONE, Inc."
   },
   {
     "ticker": "SID",
@@ -23014,7 +23014,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SIEB",
-    "name": "Siebert Financial Corp. -"
+    "name": "Siebert Financial Corp."
   },
   {
     "ticker": "SIF",
@@ -23030,11 +23030,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SIGA",
-    "name": "SIGA Technologies Inc. -"
+    "name": "SIGA Technologies Inc."
   },
   {
     "ticker": "SIGI",
-    "name": "Selective Insurance Group, Inc. -"
+    "name": "Selective Insurance Group, Inc."
   },
   {
     "ticker": "SIGIP",
@@ -23054,7 +23054,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SILO",
-    "name": "Silo Pharma, Inc. -"
+    "name": "Silo Pharma, Inc."
   },
   {
     "ticker": "SIM",
@@ -23082,15 +23082,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SINT",
-    "name": "SiNtx Technologies, Inc. -"
+    "name": "SiNtx Technologies, Inc."
   },
   {
     "ticker": "SION",
-    "name": "Sionna Therapeutics, Inc. -"
+    "name": "Sionna Therapeutics, Inc."
   },
   {
     "ticker": "SIRI",
-    "name": "SiriusXM Holdings Inc. -"
+    "name": "SiriusXM Holdings Inc."
   },
   {
     "ticker": "SITC",
@@ -23102,7 +23102,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SITM",
-    "name": "SiTime Corporation -"
+    "name": "SiTime Corporation"
   },
   {
     "ticker": "SJ",
@@ -23122,7 +23122,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SKIL",
-    "name": "Skillsoft Corp. Class A"
+    "name": "Skillsoft Corp."
   },
   {
     "ticker": "SKIN",
@@ -23142,7 +23142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SKWD",
-    "name": "Skyward Specialty Insurance Group, Inc. -"
+    "name": "Skyward Specialty Insurance Group, Inc."
   },
   {
     "ticker": "SKY",
@@ -23150,7 +23150,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SKYA",
-    "name": "SkyAI, Inc. -"
+    "name": "SkyAI, Inc."
   },
   {
     "ticker": "SKYAW",
@@ -23158,35 +23158,35 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SKYE",
-    "name": "Skye Bioscience, Inc. -"
+    "name": "Skye Bioscience, Inc."
   },
   {
     "ticker": "SKYH",
-    "name": "Sky Harbour Group Corporation Class A"
+    "name": "Sky Harbour Group Corporation"
   },
   {
     "ticker": "SKYH.W",
-    "name": "Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share"
+    "name": "Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of"
   },
   {
     "ticker": "SKYQ",
-    "name": "Sky Quarry Inc. -"
+    "name": "Sky Quarry Inc."
   },
   {
     "ticker": "SKYT",
-    "name": "SkyWater Technology, Inc. -"
+    "name": "SkyWater Technology, Inc."
   },
   {
     "ticker": "SKYW",
-    "name": "SkyWest, Inc. -"
+    "name": "SkyWest, Inc."
   },
   {
     "ticker": "SKYX",
-    "name": "SKYX Platforms Corp. -"
+    "name": "SKYX Platforms Corp."
   },
   {
     "ticker": "SLAB",
-    "name": "Silicon Laboratories, Inc. -"
+    "name": "Silicon Laboratories, Inc."
   },
   {
     "ticker": "SLAI",
@@ -23202,11 +23202,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLDB",
-    "name": "Solid Biosciences Inc. -"
+    "name": "Solid Biosciences Inc."
   },
   {
     "ticker": "SLDE",
-    "name": "Slide Insurance Holdings, Inc. -"
+    "name": "Slide Insurance Holdings, Inc."
   },
   {
     "ticker": "SLDP",
@@ -23218,7 +23218,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLE",
-    "name": "Super League Enterprise, Inc. -"
+    "name": "Super League Enterprise, Inc."
   },
   {
     "ticker": "SLF",
@@ -23246,7 +23246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLM",
-    "name": "SLM Corporation -"
+    "name": "SLM Corporation"
   },
   {
     "ticker": "SLMBP",
@@ -23270,11 +23270,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLNG",
-    "name": "Stabilis Solutions, Inc. -"
+    "name": "Stabilis Solutions, Inc."
   },
   {
     "ticker": "SLNH",
-    "name": "Soluna Holdings, Inc. -"
+    "name": "Soluna Holdings, Inc."
   },
   {
     "ticker": "SLNHP",
@@ -23282,7 +23282,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLP",
-    "name": "Simulations Plus, Inc. -"
+    "name": "Simulations Plus, Inc."
   },
   {
     "ticker": "SLQT",
@@ -23294,11 +23294,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SLS",
-    "name": "SELLAS Life Sciences Group, Inc.  -"
+    "name": "SELLAS Life Sciences Group, Inc."
   },
   {
     "ticker": "SLSN",
-    "name": "Solesence, Inc. - Common stock"
+    "name": "Solesence, Inc."
   },
   {
     "ticker": "SLSR",
@@ -23326,7 +23326,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMBC",
-    "name": "Southern Missouri Bancorp, Inc. -"
+    "name": "Southern Missouri Bancorp, Inc."
   },
   {
     "ticker": "SMBK",
@@ -23338,7 +23338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMCI",
-    "name": "Super Micro Computer, Inc. -"
+    "name": "Super Micro Computer, Inc."
   },
   {
     "ticker": "SMCIP",
@@ -23362,7 +23362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMID",
-    "name": "Smith-Midland Corporation -"
+    "name": "Smith-Midland Corporation"
   },
   {
     "ticker": "SMJF",
@@ -23370,7 +23370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMMT",
-    "name": "Summit Therapeutics Inc.  -"
+    "name": "Summit Therapeutics Inc."
   },
   {
     "ticker": "SMP",
@@ -23378,31 +23378,31 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMPL",
-    "name": "The Simply Good Foods Company -"
+    "name": "The Simply Good Foods Company"
   },
   {
     "ticker": "SMR",
-    "name": "NuScale Power Corporation Class A"
+    "name": "NuScale Power Corporation"
   },
   {
     "ticker": "SMRT",
-    "name": "SmartRent, Inc. Class A"
+    "name": "SmartRent, Inc."
   },
   {
     "ticker": "SMSI",
-    "name": "Smith Micro Software, Inc. -"
+    "name": "Smith Micro Software, Inc."
   },
   {
     "ticker": "SMTC",
-    "name": "Semtech Corporation -"
+    "name": "Semtech Corporation"
   },
   {
     "ticker": "SMTI",
-    "name": "Sanara MedTech Inc. -"
+    "name": "Sanara MedTech Inc."
   },
   {
     "ticker": "SMTK",
-    "name": "SmartKem, Inc. -"
+    "name": "SmartKem, Inc."
   },
   {
     "ticker": "SMWB",
@@ -23414,7 +23414,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SMXT",
-    "name": "Solarmax Technology Inc. -"
+    "name": "Solarmax Technology Inc."
   },
   {
     "ticker": "SMXWW",
@@ -23434,11 +23434,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNAP",
-    "name": "Snap Inc. Class A"
+    "name": "Snap Inc."
   },
   {
     "ticker": "SND",
-    "name": "Smart Sand, Inc. -"
+    "name": "Smart Sand, Inc."
   },
   {
     "ticker": "SNDA",
@@ -23446,7 +23446,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNDK",
-    "name": "Sandisk Corporation -"
+    "name": "Sandisk Corporation"
   },
   {
     "ticker": "SNDL",
@@ -23458,15 +23458,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNDX",
-    "name": "Syndax Pharmaceuticals, Inc. -"
+    "name": "Syndax Pharmaceuticals, Inc."
   },
   {
     "ticker": "SNES",
-    "name": "SenesTech, Inc. -"
+    "name": "SenesTech, Inc."
   },
   {
     "ticker": "SNEX",
-    "name": "StoneX Group Inc. -"
+    "name": "StoneX Group Inc."
   },
   {
     "ticker": "SNFCA",
@@ -23474,7 +23474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNGX",
-    "name": "Soligenix, Inc. -"
+    "name": "Soligenix, Inc."
   },
   {
     "ticker": "SNN",
@@ -23482,7 +23482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNOA",
-    "name": "Sonoma Pharmaceuticals, Inc. -"
+    "name": "Sonoma Pharmaceuticals, Inc."
   },
   {
     "ticker": "SNOW",
@@ -23490,7 +23490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNPS",
-    "name": "Synopsys, Inc. -"
+    "name": "Synopsys, Inc."
   },
   {
     "ticker": "SNT",
@@ -23502,11 +23502,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNTI",
-    "name": "Senti Biosciences Holdings, Inc. -"
+    "name": "Senti Biosciences Holdings, Inc."
   },
   {
     "ticker": "SNWV",
-    "name": "SANUWAVE Health, Inc. -"
+    "name": "SANUWAVE Health, Inc."
   },
   {
     "ticker": "SNX",
@@ -23518,7 +23518,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SNYR",
-    "name": "Synergy CHC Corp. -"
+    "name": "Synergy CHC Corp."
   },
   {
     "ticker": "SO",
@@ -23526,7 +23526,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOAR",
-    "name": "Volato Group, Inc. Class A"
+    "name": "Volato Group, Inc."
   },
   {
     "ticker": "SOBO",
@@ -23534,7 +23534,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOBR",
-    "name": "SOBR Safe, Inc. -"
+    "name": "SOBR Safe, Inc."
   },
   {
     "ticker": "SOC",
@@ -23554,7 +23554,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOFI",
-    "name": "SoFi Technologies, Inc.  -"
+    "name": "SoFi Technologies, Inc."
   },
   {
     "ticker": "SOGP",
@@ -23582,7 +23582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOLS",
-    "name": "Solstice Advanced Materials Inc. -"
+    "name": "Solstice Advanced Materials Inc."
   },
   {
     "ticker": "SOLV",
@@ -23598,11 +23598,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SONM",
-    "name": "DNA X, Inc. -"
+    "name": "DNA X, Inc."
   },
   {
     "ticker": "SONO",
-    "name": "Sonos, Inc. -"
+    "name": "Sonos, Inc."
   },
   {
     "ticker": "SONY",
@@ -23638,7 +23638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOTK",
-    "name": "Sono-Tek Corporation -"
+    "name": "Sono-Tek Corporation"
   },
   {
     "ticker": "SOUL",
@@ -23662,11 +23662,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SOWG",
-    "name": "Sow Good Inc. -"
+    "name": "Sow Good Inc."
   },
   {
     "ticker": "SPAI",
-    "name": "Safe Pro Group Inc. -"
+    "name": "Safe Pro Group Inc."
   },
   {
     "ticker": "SPB",
@@ -23702,7 +23702,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPFI",
-    "name": "South Plains Financial, Inc. -"
+    "name": "South Plains Financial, Inc."
   },
   {
     "ticker": "SPG",
@@ -23726,11 +23726,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPHR",
-    "name": "Sphere Entertainment Co. Class A"
+    "name": "Sphere Entertainment Co."
   },
   {
     "ticker": "SPIR",
-    "name": "Spire Global, Inc. Class A"
+    "name": "Spire Global, Inc."
   },
   {
     "ticker": "SPKL",
@@ -23762,7 +23762,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPOK",
-    "name": "Spok Holdings, Inc. -"
+    "name": "Spok Holdings, Inc."
   },
   {
     "ticker": "SPOT",
@@ -23774,7 +23774,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPRB",
-    "name": "Spruce Biosciences, Inc. -"
+    "name": "Spruce Biosciences, Inc."
   },
   {
     "ticker": "SPRC",
@@ -23782,19 +23782,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPRO",
-    "name": "Spero Therapeutics, Inc. -"
+    "name": "Spero Therapeutics, Inc."
   },
   {
     "ticker": "SPRU",
-    "name": "Spruce Power Holding Corporation Class A"
+    "name": "Spruce Power Holding Corporation"
   },
   {
     "ticker": "SPRY",
-    "name": "ARS Pharmaceuticals, Inc. -"
+    "name": "ARS Pharmaceuticals, Inc."
   },
   {
     "ticker": "SPSC",
-    "name": "SPS Commerce, Inc. -"
+    "name": "SPS Commerce, Inc."
   },
   {
     "ticker": "SPT",
@@ -23802,15 +23802,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SPTX",
-    "name": "Seaport Therapeutics, Inc. -"
+    "name": "Seaport Therapeutics, Inc."
   },
   {
     "ticker": "SPWH",
-    "name": "Sportsman's Warehouse Holdings, Inc. -"
+    "name": "Sportsman's Warehouse Holdings, Inc."
   },
   {
     "ticker": "SPWR",
-    "name": "SunPower Inc. -"
+    "name": "SunPower Inc."
   },
   {
     "ticker": "SPWRW",
@@ -23854,11 +23854,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SRBK",
-    "name": "SR Bancorp, Inc. - Common stock"
+    "name": "SR Bancorp, Inc."
   },
   {
     "ticker": "SRCE",
-    "name": "1st Source Corporation -"
+    "name": "1st Source Corporation"
   },
   {
     "ticker": "SRE",
@@ -23874,7 +23874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SRG",
-    "name": "Seritage Growth Properties Class A"
+    "name": "Seritage Growth Properties"
   },
   {
     "ticker": "SRI",
@@ -23890,11 +23890,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SRPT",
-    "name": "Sarepta Therapeutics, Inc. -"
+    "name": "Sarepta Therapeutics, Inc."
   },
   {
     "ticker": "SRRK",
-    "name": "Scholar Rock Holding Corporation -"
+    "name": "Scholar Rock Holding Corporation"
   },
   {
     "ticker": "SRTA",
@@ -23902,7 +23902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SRTS",
-    "name": "Sensus Healthcare, Inc. -"
+    "name": "Sensus Healthcare, Inc."
   },
   {
     "ticker": "SRV",
@@ -23914,7 +23914,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SRZN",
-    "name": "Surrozen, Inc. -"
+    "name": "Surrozen, Inc."
   },
   {
     "ticker": "SRZNW",
@@ -23942,7 +23942,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SSBI",
-    "name": "Summit State Bank -"
+    "name": "Summit State Bank"
   },
   {
     "ticker": "SSD",
@@ -23962,7 +23962,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SSII",
-    "name": "SS Innovations International Inc. -"
+    "name": "SS Innovations International Inc."
   },
   {
     "ticker": "SSL",
@@ -23978,7 +23978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SSNC",
-    "name": "SS&C Technologies Holdings, Inc. -"
+    "name": "SS&C Technologies Holdings, Inc."
   },
   {
     "ticker": "SSP",
@@ -23986,7 +23986,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SSRM",
-    "name": "SSR Mining Inc. -"
+    "name": "SSR Mining Inc."
   },
   {
     "ticker": "SSSS",
@@ -23998,11 +23998,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SST",
-    "name": "System1, Inc. Class A"
+    "name": "System1, Inc."
   },
   {
     "ticker": "SSTI",
-    "name": "SoundThinking, Inc. -"
+    "name": "SoundThinking, Inc."
   },
   {
     "ticker": "SSTK",
@@ -24010,7 +24010,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SSYS",
-    "name": "Stratasys, Ltd. -"
+    "name": "Stratasys, Ltd."
   },
   {
     "ticker": "ST",
@@ -24018,7 +24018,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STAA",
-    "name": "STAAR Surgical Company -"
+    "name": "STAAR Surgical Company"
   },
   {
     "ticker": "STAG",
@@ -24030,7 +24030,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STBA",
-    "name": "S&T Bancorp, Inc. -"
+    "name": "S&T Bancorp, Inc."
   },
   {
     "ticker": "STC",
@@ -24046,7 +24046,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STEM",
-    "name": "Stem, Inc. Class A"
+    "name": "Stem, Inc."
   },
   {
     "ticker": "STEP",
@@ -24058,7 +24058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STEX",
-    "name": "Streamex Corp. -"
+    "name": "Streamex Corp."
   },
   {
     "ticker": "STFS",
@@ -24078,11 +24078,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STI",
-    "name": "Solidion Technology, Inc. -"
+    "name": "Solidion Technology, Inc."
   },
   {
     "ticker": "STIM",
-    "name": "Neuronetics, Inc. -"
+    "name": "Neuronetics, Inc."
   },
   {
     "ticker": "STK",
@@ -24098,7 +24098,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STKS",
-    "name": "The ONE Group Hospitality, Inc. -"
+    "name": "The ONE Group Hospitality, Inc."
   },
   {
     "ticker": "STLA",
@@ -24106,7 +24106,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STLD",
-    "name": "Steel Dynamics, Inc. -"
+    "name": "Steel Dynamics, Inc."
   },
   {
     "ticker": "STM",
@@ -24126,11 +24126,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STOK",
-    "name": "Stoke Therapeutics, Inc. -"
+    "name": "Stoke Therapeutics, Inc."
   },
   {
     "ticker": "STRA",
-    "name": "Strategic Education, Inc. -"
+    "name": "Strategic Education, Inc."
   },
   {
     "ticker": "STRC",
@@ -24150,15 +24150,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STRL",
-    "name": "Sterling Infrastructure, Inc. -"
+    "name": "Sterling Infrastructure, Inc."
   },
   {
     "ticker": "STRO",
-    "name": "Sutro Biopharma, Inc. -"
+    "name": "Sutro Biopharma, Inc."
   },
   {
     "ticker": "STRR",
-    "name": "Star Equity Holdings, Inc. -"
+    "name": "Star Equity Holdings, Inc."
   },
   {
     "ticker": "STRRP",
@@ -24166,11 +24166,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STRS",
-    "name": "Stratus Properties Inc. -"
+    "name": "Stratus Properties Inc."
   },
   {
     "ticker": "STRT",
-    "name": "STRATTEC SECURITY CORPORATION -"
+    "name": "STRATTEC SECURITY CORPORATION"
   },
   {
     "ticker": "STRW",
@@ -24186,11 +24186,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "STTK",
-    "name": "Shattuck Labs, Inc. -"
+    "name": "Shattuck Labs, Inc."
   },
   {
     "ticker": "STUB",
-    "name": "StubHub Holdings, Inc. Class A"
+    "name": "StubHub Holdings, Inc."
   },
   {
     "ticker": "STVN",
@@ -24226,7 +24226,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SUIG",
-    "name": "Sui Group Holdings Limited -"
+    "name": "Sui Group Holdings Limited"
   },
   {
     "ticker": "SUJA",
@@ -24258,15 +24258,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SUNE",
-    "name": "SUNation Energy, Inc. -"
+    "name": "SUNation Energy, Inc."
   },
   {
     "ticker": "SUNS",
-    "name": "Sunrise Realty Trust, Inc. -"
+    "name": "Sunrise Realty Trust, Inc."
   },
   {
     "ticker": "SUPN",
-    "name": "Supernus Pharmaceuticals, Inc. -"
+    "name": "Supernus Pharmaceuticals, Inc."
   },
   {
     "ticker": "SUPV",
@@ -24278,7 +24278,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SURG",
-    "name": "SurgePays, Inc. -"
+    "name": "SurgePays, Inc."
   },
   {
     "ticker": "SUZ",
@@ -24330,7 +24330,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SVCO",
-    "name": "Silvaco Group, Inc. -"
+    "name": "Silvaco Group, Inc."
   },
   {
     "ticker": "SVIV",
@@ -24350,7 +24350,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SVRA",
-    "name": "Savara, Inc. -"
+    "name": "Savara, Inc."
   },
   {
     "ticker": "SVRE",
@@ -24362,7 +24362,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SVRN",
-    "name": "OceanPal Inc. -"
+    "name": "OceanPal Inc."
   },
   {
     "ticker": "SVV",
@@ -24374,7 +24374,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SWAG",
-    "name": "Stran & Company, Inc. -"
+    "name": "Stran & Company, Inc."
   },
   {
     "ticker": "SWAGW",
@@ -24382,11 +24382,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SWBI",
-    "name": "Smith & Wesson Brands, Inc. -"
+    "name": "Smith & Wesson Brands, Inc."
   },
   {
     "ticker": "SWIM",
-    "name": "Latham Group, Inc. -"
+    "name": "Latham Group, Inc."
   },
   {
     "ticker": "SWK",
@@ -24398,11 +24398,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SWKS",
-    "name": "Skyworks Solutions, Inc. -"
+    "name": "Skyworks Solutions, Inc."
   },
   {
     "ticker": "SWMR",
-    "name": "Swarmer, Inc - common stock"
+    "name": "Swarmer, Inc"
   },
   {
     "ticker": "SWVL",
@@ -24438,7 +24438,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SXTP",
-    "name": "60 Degrees Pharmaceuticals, Inc. -"
+    "name": "60 Degrees Pharmaceuticals, Inc."
   },
   {
     "ticker": "SXTPW",
@@ -24450,7 +24450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SYBT",
-    "name": "Stock Yards Bancorp, Inc. -"
+    "name": "Stock Yards Bancorp, Inc."
   },
   {
     "ticker": "SYF",
@@ -24466,7 +24466,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SYNA",
-    "name": "Synaptics Incorporated -"
+    "name": "Synaptics Incorporated"
   },
   {
     "ticker": "SYNX",
@@ -24474,11 +24474,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "SYPR",
-    "name": "Sypris Solutions, Inc. -"
+    "name": "Sypris Solutions, Inc."
   },
   {
     "ticker": "SYRE",
-    "name": "Spyre Therapeutics, Inc. -"
+    "name": "Spyre Therapeutics, Inc."
   },
   {
     "ticker": "SYY",
@@ -24530,7 +24530,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TACT",
-    "name": "TransAct Technologies Incorporated -"
+    "name": "TransAct Technologies Incorporated"
   },
   {
     "ticker": "TAK",
@@ -24542,7 +24542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TALK",
-    "name": "Talkspace, Inc. -"
+    "name": "Talkspace, Inc."
   },
   {
     "ticker": "TALO",
@@ -24558,23 +24558,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TAOX",
-    "name": "Tao Synergies Inc. -"
+    "name": "Tao Synergies Inc."
   },
   {
     "ticker": "TAP",
-    "name": "Molson Coors Beverage Company Class B"
+    "name": "Molson Coors Beverage Company"
   },
   {
     "ticker": "TAP.A",
-    "name": "Molson Coors Beverage Company Class A"
+    "name": "Molson Coors Beverage Company"
   },
   {
     "ticker": "TARA",
-    "name": "Protara Therapeutics, Inc.  -"
+    "name": "Protara Therapeutics, Inc."
   },
   {
     "ticker": "TARS",
-    "name": "Tarsus Pharmaceuticals, Inc. -"
+    "name": "Tarsus Pharmaceuticals, Inc."
   },
   {
     "ticker": "TASK",
@@ -24598,7 +24598,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TAYD",
-    "name": "Taylor Devices, Inc. -"
+    "name": "Taylor Devices, Inc."
   },
   {
     "ticker": "TBB",
@@ -24610,15 +24610,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TBBK",
-    "name": "The Bancorp, Inc. -"
+    "name": "The Bancorp, Inc."
   },
   {
     "ticker": "TBCH",
-    "name": "Turtle Beach Corporation -"
+    "name": "Turtle Beach Corporation"
   },
   {
     "ticker": "TBH",
-    "name": "Brag House Holdings, Inc. -"
+    "name": "Brag House Holdings, Inc."
   },
   {
     "ticker": "TBI",
@@ -24638,7 +24638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TBN",
-    "name": "Tamboran Resources Corporation Common stock"
+    "name": "Tamboran Resources Corporation"
   },
   {
     "ticker": "TBPH",
@@ -24646,7 +24646,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TBRG",
-    "name": "TruBridge, Inc. -"
+    "name": "TruBridge, Inc."
   },
   {
     "ticker": "TC",
@@ -24654,7 +24654,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TCBI",
-    "name": "Texas Capital Bancshares, Inc. -"
+    "name": "Texas Capital Bancshares, Inc."
   },
   {
     "ticker": "TCBIO",
@@ -24662,11 +24662,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TCBK",
-    "name": "TriCo Bancshares -"
+    "name": "TriCo Bancshares"
   },
   {
     "ticker": "TCBS",
-    "name": "Texas Community Bancshares, Inc. -"
+    "name": "Texas Community Bancshares, Inc."
   },
   {
     "ticker": "TCBX",
@@ -24678,7 +24678,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TCMD",
-    "name": "Tactile Systems Technology, Inc. -"
+    "name": "Tactile Systems Technology, Inc."
   },
   {
     "ticker": "TCOM",
@@ -24694,15 +24694,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TCRT",
-    "name": "Alaunos Therapeutics, Inc. -"
+    "name": "Alaunos Therapeutics, Inc."
   },
   {
     "ticker": "TCRX",
-    "name": "TScan Therapeutics, Inc. -"
+    "name": "TScan Therapeutics, Inc."
   },
   {
     "ticker": "TCX",
-    "name": "Tucows Inc. -"
+    "name": "Tucows Inc."
   },
   {
     "ticker": "TD",
@@ -24786,7 +24786,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TEAD",
-    "name": "Teads Holding Co. -"
+    "name": "Teads Holding Co."
   },
   {
     "ticker": "TEAM",
@@ -24794,7 +24794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TECH",
-    "name": "Bio-Techne Corp -"
+    "name": "Bio-Techne Corp"
   },
   {
     "ticker": "TECK",
@@ -24802,7 +24802,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TECX",
-    "name": "Tectonic Therapeutic, Inc. -"
+    "name": "Tectonic Therapeutic, Inc."
   },
   {
     "ticker": "TEI",
@@ -24814,11 +24814,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TELA",
-    "name": "TELA Bio, Inc. - Common stock"
+    "name": "TELA Bio, Inc."
   },
   {
     "ticker": "TELO",
-    "name": "Telomir Pharmaceuticals, Inc. -"
+    "name": "Telomir Pharmaceuticals, Inc."
   },
   {
     "ticker": "TEM",
@@ -24830,11 +24830,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TENB",
-    "name": "Tenable Holdings, Inc. -"
+    "name": "Tenable Holdings, Inc."
   },
   {
     "ticker": "TENX",
-    "name": "Tenax Therapeutics, Inc. -"
+    "name": "Tenax Therapeutics, Inc."
   },
   {
     "ticker": "TEO",
@@ -24842,7 +24842,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TER",
-    "name": "Teradyne, Inc. -"
+    "name": "Teradyne, Inc."
   },
   {
     "ticker": "TEVA",
@@ -24870,7 +24870,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TFSL",
-    "name": "TFS Financial Corporation -"
+    "name": "TFS Financial Corporation"
   },
   {
     "ticker": "TFX",
@@ -24902,7 +24902,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TGL",
-    "name": "Treasure Global Inc. -"
+    "name": "Treasure Global Inc."
   },
   {
     "ticker": "TGLS",
@@ -24918,11 +24918,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TGTX",
-    "name": "TG Therapeutics, Inc. -"
+    "name": "TG Therapeutics, Inc."
   },
   {
     "ticker": "TH",
-    "name": "Target Hospitality Corp. -"
+    "name": "Target Hospitality Corp."
   },
   {
     "ticker": "THC",
@@ -24934,7 +24934,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "THFF",
-    "name": "First Financial Corporation  -"
+    "name": "First Financial Corporation"
   },
   {
     "ticker": "THG",
@@ -24958,11 +24958,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "THRM",
-    "name": "Gentherm Inc -"
+    "name": "Gentherm Inc"
   },
   {
     "ticker": "THRY",
-    "name": "Thryv Holdings, Inc. -"
+    "name": "Thryv Holdings, Inc."
   },
   {
     "ticker": "THW",
@@ -24974,7 +24974,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TIGO",
-    "name": "Millicom International Cellular S.A. -"
+    "name": "Millicom International Cellular S.A."
   },
   {
     "ticker": "TIGR",
@@ -24986,11 +24986,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TIL",
-    "name": "Instil Bio, Inc. -"
+    "name": "Instil Bio, Inc."
   },
   {
     "ticker": "TILE",
-    "name": "Interface, Inc. -"
+    "name": "Interface, Inc."
   },
   {
     "ticker": "TIMB",
@@ -24998,7 +24998,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TIPT",
-    "name": "Tiptree Inc. -"
+    "name": "Tiptree Inc."
   },
   {
     "ticker": "TISI",
@@ -25006,7 +25006,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TITN",
-    "name": "Titan Machinery Inc. -"
+    "name": "Titan Machinery Inc."
   },
   {
     "ticker": "TJGC",
@@ -25030,11 +25030,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TKNO",
-    "name": "Alpha Teknova, Inc. -"
+    "name": "Alpha Teknova, Inc."
   },
   {
     "ticker": "TKO",
-    "name": "TKO Group Holdings, Inc. Class A"
+    "name": "TKO Group Holdings, Inc."
   },
   {
     "ticker": "TKR",
@@ -25042,7 +25042,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TLF",
-    "name": "Tandy Leather Factory, Inc. - common stock"
+    "name": "Tandy Leather Factory, Inc."
   },
   {
     "ticker": "TLIH",
@@ -25054,7 +25054,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TLN",
-    "name": "Talen Energy Corporation -"
+    "name": "Talen Energy Corporation"
   },
   {
     "ticker": "TLNC",
@@ -25070,15 +25070,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TLPH",
-    "name": "Talphera, Inc. -"
+    "name": "Talphera, Inc."
   },
   {
     "ticker": "TLRY",
-    "name": "Tilray Brands, Inc. -"
+    "name": "Tilray Brands, Inc."
   },
   {
     "ticker": "TLS",
-    "name": "Telos Corporation -"
+    "name": "Telos Corporation"
   },
   {
     "ticker": "TLSA",
@@ -25086,7 +25086,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TLSI",
-    "name": "TriSalus Life Sciences, Inc. -"
+    "name": "TriSalus Life Sciences, Inc."
   },
   {
     "ticker": "TLSIW",
@@ -25106,15 +25106,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TMC",
-    "name": "TMC the metals company Inc. -"
+    "name": "TMC the metals company Inc."
   },
   {
     "ticker": "TMCI",
-    "name": "Treace Medical Concepts, Inc. -"
+    "name": "Treace Medical Concepts, Inc."
   },
   {
     "ticker": "TMCR",
-    "name": "The Metals Royalty Company Inc. -"
+    "name": "The Metals Royalty Company Inc."
   },
   {
     "ticker": "TMCWW",
@@ -25126,7 +25126,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TMDX",
-    "name": "TransMedics Group, Inc. -"
+    "name": "TransMedics Group, Inc."
   },
   {
     "ticker": "TME",
@@ -25150,7 +25150,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TMS",
-    "name": "Teamshares Inc. -"
+    "name": "Teamshares Inc."
   },
   {
     "ticker": "TMSWW",
@@ -25170,7 +25170,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TMUS",
-    "name": "T-Mobile US, Inc. -"
+    "name": "T-Mobile US, Inc."
   },
   {
     "ticker": "TMUSI",
@@ -25190,7 +25190,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TNDM",
-    "name": "Tandem Diabetes Care, Inc. -"
+    "name": "Tandem Diabetes Care, Inc."
   },
   {
     "ticker": "TNET",
@@ -25198,7 +25198,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TNGX",
-    "name": "Tango Therapeutics, Inc. -"
+    "name": "Tango Therapeutics, Inc."
   },
   {
     "ticker": "TNK",
@@ -25214,7 +25214,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TNON",
-    "name": "Tenon Medical, Inc. -"
+    "name": "Tenon Medical, Inc."
   },
   {
     "ticker": "TNONW",
@@ -25222,15 +25222,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TNXP",
-    "name": "Tonix Pharmaceuticals Holding Corp. -"
+    "name": "Tonix Pharmaceuticals Holding Corp."
   },
   {
     "ticker": "TNYA",
-    "name": "Tenaya Therapeutics, Inc. -"
+    "name": "Tenaya Therapeutics, Inc."
   },
   {
     "ticker": "TOI",
-    "name": "The Oncology Institute, Inc. -"
+    "name": "The Oncology Institute, Inc."
   },
   {
     "ticker": "TOIIW",
@@ -25242,11 +25242,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TOMZ",
-    "name": "TOMI Environmental Solutions, Inc. -"
+    "name": "TOMI Environmental Solutions, Inc."
   },
   {
     "ticker": "TONX",
-    "name": "TON Strategy Company -"
+    "name": "TON Strategy Company"
   },
   {
     "ticker": "TOON",
@@ -25266,11 +25266,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TORO",
-    "name": "Toro Corp. - Common stock"
+    "name": "Toro Corp."
   },
   {
     "ticker": "TOST",
-    "name": "Toast, Inc. Class A"
+    "name": "Toast, Inc."
   },
   {
     "ticker": "TOUR",
@@ -25282,7 +25282,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TOWN",
-    "name": "Towne Bank -"
+    "name": "Towne Bank"
   },
   {
     "ticker": "TOYO",
@@ -25298,7 +25298,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TPCS",
-    "name": "TechPrecision Corporation - Common stock"
+    "name": "TechPrecision Corporation"
   },
   {
     "ticker": "TPET",
@@ -25322,7 +25322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TPST",
-    "name": "Tempest Therapeutics, Inc. -"
+    "name": "Tempest Therapeutics, Inc."
   },
   {
     "ticker": "TPTA",
@@ -25358,7 +25358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRAW",
-    "name": "Traws Pharma, Inc. -"
+    "name": "Traws Pharma, Inc."
   },
   {
     "ticker": "TRAX",
@@ -25370,11 +25370,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRDA",
-    "name": "Entrada Therapeutics, Inc. -"
+    "name": "Entrada Therapeutics, Inc."
   },
   {
     "ticker": "TREE",
-    "name": "LendingTree, Inc. -"
+    "name": "LendingTree, Inc."
   },
   {
     "ticker": "TREX",
@@ -25406,7 +25406,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRIN",
-    "name": "Trinity Capital Inc. -"
+    "name": "Trinity Capital Inc."
   },
   {
     "ticker": "TRINI",
@@ -25418,7 +25418,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRIP",
-    "name": "TripAdvisor, Inc. -"
+    "name": "TripAdvisor, Inc."
   },
   {
     "ticker": "TRLV",
@@ -25426,7 +25426,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRMB",
-    "name": "Trimble Inc. -"
+    "name": "Trimble Inc."
   },
   {
     "ticker": "TRMD",
@@ -25434,7 +25434,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRMK",
-    "name": "Trustmark Corporation -"
+    "name": "Trustmark Corporation"
   },
   {
     "ticker": "TRN",
@@ -25446,15 +25446,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRNR",
-    "name": "Interactive Strength Inc. -"
+    "name": "Interactive Strength Inc."
   },
   {
     "ticker": "TRNS",
-    "name": "Transcat, Inc. -"
+    "name": "Transcat, Inc."
   },
   {
     "ticker": "TRON",
-    "name": "Tron Inc. -"
+    "name": "Tron Inc."
   },
   {
     "ticker": "TROO",
@@ -25462,7 +25462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TROW",
-    "name": "T. Rowe Price Group, Inc. -"
+    "name": "T. Rowe Price Group, Inc."
   },
   {
     "ticker": "TROX",
@@ -25474,7 +25474,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRS",
-    "name": "TriMas Corporation -"
+    "name": "TriMas Corporation"
   },
   {
     "ticker": "TRSG",
@@ -25482,7 +25482,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRST",
-    "name": "TrustCo Bank Corp NY -"
+    "name": "TrustCo Bank Corp NY"
   },
   {
     "ticker": "TRT",
@@ -25502,7 +25502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRUP",
-    "name": "Trupanion, Inc. -"
+    "name": "Trupanion, Inc."
   },
   {
     "ticker": "TRV",
@@ -25514,7 +25514,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TRVI",
-    "name": "Trevi Therapeutics, Inc. -"
+    "name": "Trevi Therapeutics, Inc."
   },
   {
     "ticker": "TRX",
@@ -25530,11 +25530,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TSBK",
-    "name": "Timberland Bancorp, Inc. -"
+    "name": "Timberland Bancorp, Inc."
   },
   {
     "ticker": "TSCO",
-    "name": "Tractor Supply Company -"
+    "name": "Tractor Supply Company"
   },
   {
     "ticker": "TSEM",
@@ -25542,7 +25542,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TSHA",
-    "name": "Taysha Gene Therapies, Inc. -"
+    "name": "Taysha Gene Therapies, Inc."
   },
   {
     "ticker": "TSI",
@@ -25550,7 +25550,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TSLA",
-    "name": "Tesla, Inc.  -"
+    "name": "Tesla, Inc."
   },
   {
     "ticker": "TSLX",
@@ -25566,11 +25566,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TSQ",
-    "name": "Townsquare Media, Inc. Class A"
+    "name": "Townsquare Media, Inc."
   },
   {
     "ticker": "TSSI",
-    "name": "TSS, Inc. -"
+    "name": "TSS, Inc."
   },
   {
     "ticker": "TT",
@@ -25598,15 +25598,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TTEC",
-    "name": "TTEC Holdings, Inc. -"
+    "name": "TTEC Holdings, Inc."
   },
   {
     "ticker": "TTEK",
-    "name": "Tetra Tech, Inc. -"
+    "name": "Tetra Tech, Inc."
   },
   {
     "ticker": "TTGT",
-    "name": "TechTarget, Inc. -"
+    "name": "TechTarget, Inc."
   },
   {
     "ticker": "TTI",
@@ -25614,15 +25614,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TTMI",
-    "name": "TTM Technologies, Inc. -"
+    "name": "TTM Technologies, Inc."
   },
   {
     "ticker": "TTRX",
-    "name": "Turn Therapeutics Inc. -"
+    "name": "Turn Therapeutics Inc."
   },
   {
     "ticker": "TTWO",
-    "name": "Take-Two Interactive Software, Inc. -"
+    "name": "Take-Two Interactive Software, Inc."
   },
   {
     "ticker": "TU",
@@ -25630,7 +25630,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TULP",
-    "name": "Bloomia Holdings, Inc. -"
+    "name": "Bloomia Holdings, Inc."
   },
   {
     "ticker": "TURB",
@@ -25638,7 +25638,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TUSK",
-    "name": "Mammoth Energy Services, Inc. -"
+    "name": "Mammoth Energy Services, Inc."
   },
   {
     "ticker": "TUYA",
@@ -25682,7 +25682,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TVGN",
-    "name": "Tevogen Bio Holdings Inc. -"
+    "name": "Tevogen Bio Holdings Inc."
   },
   {
     "ticker": "TVGNW",
@@ -25694,11 +25694,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TVRD",
-    "name": "Tvardi Therapeutics, Inc. -"
+    "name": "Tvardi Therapeutics, Inc."
   },
   {
     "ticker": "TVTX",
-    "name": "Travere Therapeutics, Inc. -"
+    "name": "Travere Therapeutics, Inc."
   },
   {
     "ticker": "TW",
@@ -25706,11 +25706,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TWAV",
-    "name": "TaoWeave, Inc. -"
+    "name": "TaoWeave, Inc."
   },
   {
     "ticker": "TWFG",
-    "name": "TWFG, Inc. -"
+    "name": "TWFG, Inc."
   },
   {
     "ticker": "TWG",
@@ -25722,11 +25722,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TWIN",
-    "name": "Twin Disc, Incorporated -"
+    "name": "Twin Disc, Incorporated"
   },
   {
     "ticker": "TWLO",
-    "name": "Twilio Inc. Class A"
+    "name": "Twilio Inc."
   },
   {
     "ticker": "TWLV",
@@ -25754,7 +25754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TWST",
-    "name": "Twist Bioscience Corporation -"
+    "name": "Twist Bioscience Corporation"
   },
   {
     "ticker": "TX",
@@ -25762,15 +25762,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TXG",
-    "name": "10x Genomics, Inc. -"
+    "name": "10x Genomics, Inc."
   },
   {
     "ticker": "TXMD",
-    "name": "TherapeuticsMD, Inc. -"
+    "name": "TherapeuticsMD, Inc."
   },
   {
     "ticker": "TXN",
-    "name": "Texas Instruments Incorporated -"
+    "name": "Texas Instruments Incorporated"
   },
   {
     "ticker": "TXNM",
@@ -25782,7 +25782,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TXRH",
-    "name": "Texas Roadhouse, Inc. -"
+    "name": "Texas Roadhouse, Inc."
   },
   {
     "ticker": "TXT",
@@ -25798,7 +25798,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TYGO",
-    "name": "Tigo Energy, Inc. -"
+    "name": "Tigo Energy, Inc."
   },
   {
     "ticker": "TYL",
@@ -25806,11 +25806,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "TYRA",
-    "name": "Tyra Biosciences, Inc. -"
+    "name": "Tyra Biosciences, Inc."
   },
   {
     "ticker": "TZOO",
-    "name": "Travelzoo -"
+    "name": "Travelzoo"
   },
   {
     "ticker": "U",
@@ -25818,11 +25818,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UA",
-    "name": "Under Armour, Inc. Class C"
+    "name": "Under Armour, Inc."
   },
   {
     "ticker": "UAA",
-    "name": "Under Armour, Inc. Class A"
+    "name": "Under Armour, Inc."
   },
   {
     "ticker": "UAC",
@@ -25838,7 +25838,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UAL",
-    "name": "United Airlines Holdings, Inc. -"
+    "name": "United Airlines Holdings, Inc."
   },
   {
     "ticker": "UAMY",
@@ -25854,7 +25854,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UBCP",
-    "name": "United Bancorp, Inc. -"
+    "name": "United Bancorp, Inc."
   },
   {
     "ticker": "UBER",
@@ -25866,7 +25866,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UBSI",
-    "name": "United Bankshares, Inc. -"
+    "name": "United Bankshares, Inc."
   },
   {
     "ticker": "UBXG",
@@ -25882,7 +25882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UCFI",
-    "name": "CN Healthy Food Tech Group Corp. -"
+    "name": "CN Healthy Food Tech Group Corp."
   },
   {
     "ticker": "UCFIW",
@@ -25898,7 +25898,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UCTT",
-    "name": "Ultra Clean Holdings, Inc. -"
+    "name": "Ultra Clean Holdings, Inc."
   },
   {
     "ticker": "UDR",
@@ -25914,11 +25914,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UEIC",
-    "name": "Universal Electronics Inc. -"
+    "name": "Universal Electronics Inc."
   },
   {
     "ticker": "UFCS",
-    "name": "United Fire Group, Inc -"
+    "name": "United Fire Group, Inc"
   },
   {
     "ticker": "UFG",
@@ -25930,15 +25930,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UFPI",
-    "name": "UFP Industries, Inc. -"
+    "name": "UFP Industries, Inc."
   },
   {
     "ticker": "UFPT",
-    "name": "UFP Technologies, Inc. -"
+    "name": "UFP Technologies, Inc."
   },
   {
     "ticker": "UG",
-    "name": "United-Guardian, Inc. -"
+    "name": "United-Guardian, Inc."
   },
   {
     "ticker": "UGI",
@@ -25982,23 +25982,23 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ULBI",
-    "name": "Ultralife Corporation -"
+    "name": "Ultralife Corporation"
   },
   {
     "ticker": "ULCC",
-    "name": "Frontier Group Holdings, Inc. -"
+    "name": "Frontier Group Holdings, Inc."
   },
   {
     "ticker": "ULH",
-    "name": "Universal Logistics Holdings, Inc. -"
+    "name": "Universal Logistics Holdings, Inc."
   },
   {
     "ticker": "ULS",
-    "name": "UL Solutions Inc. Class A"
+    "name": "UL Solutions Inc."
   },
   {
     "ticker": "ULTA",
-    "name": "Ulta Beauty, Inc. -"
+    "name": "Ulta Beauty, Inc."
   },
   {
     "ticker": "UMAC",
@@ -26006,7 +26006,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UMBF",
-    "name": "UMB Financial Corporation -"
+    "name": "UMB Financial Corporation"
   },
   {
     "ticker": "UMBFO",
@@ -26022,11 +26022,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UNB",
-    "name": "Union Bankshares, Inc. -"
+    "name": "Union Bankshares, Inc."
   },
   {
     "ticker": "UNCY",
-    "name": "Unicycive Therapeutics, Inc. -"
+    "name": "Unicycive Therapeutics, Inc."
   },
   {
     "ticker": "UNF",
@@ -26042,7 +26042,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UNIT",
-    "name": "Uniti Group Inc. -"
+    "name": "Uniti Group Inc."
   },
   {
     "ticker": "UNM",
@@ -26058,7 +26058,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UNTY",
-    "name": "Unity Bancorp, Inc. -"
+    "name": "Unity Bancorp, Inc."
   },
   {
     "ticker": "UONE",
@@ -26070,15 +26070,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UP",
-    "name": "Wheels Up Experience Inc. Class A"
+    "name": "Wheels Up Experience Inc."
   },
   {
     "ticker": "UPB",
-    "name": "Upstream Bio, Inc. -"
+    "name": "Upstream Bio, Inc."
   },
   {
     "ticker": "UPBD",
-    "name": "Upbound Group, Inc. -"
+    "name": "Upbound Group, Inc."
   },
   {
     "ticker": "UPC",
@@ -26086,7 +26086,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UPLD",
-    "name": "Upland Software, Inc. -"
+    "name": "Upland Software, Inc."
   },
   {
     "ticker": "UPS",
@@ -26094,19 +26094,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UPST",
-    "name": "Upstart Holdings, Inc. - Common stock"
+    "name": "Upstart Holdings, Inc."
   },
   {
     "ticker": "UPWK",
-    "name": "Upwork Inc. -"
+    "name": "Upwork Inc."
   },
   {
     "ticker": "UPXI",
-    "name": "Upexi, Inc. -"
+    "name": "Upexi, Inc."
   },
   {
     "ticker": "URBN",
-    "name": "Urban Outfitters, Inc. -"
+    "name": "Urban Outfitters, Inc."
   },
   {
     "ticker": "URG",
@@ -26122,7 +26122,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UROY",
-    "name": "Uranium Royalty Corp. -"
+    "name": "Uranium Royalty Corp."
   },
   {
     "ticker": "USA",
@@ -26134,7 +26134,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "USAR",
-    "name": "USA Rare Earth, Inc. -"
+    "name": "USA Rare Earth, Inc."
   },
   {
     "ticker": "USAS",
@@ -26142,7 +26142,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "USAU",
-    "name": "U.S. Gold Corp. -"
+    "name": "U.S. Gold Corp."
   },
   {
     "ticker": "USB",
@@ -26166,7 +26166,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "USEA",
-    "name": "United Maritime Corporation -"
+    "name": "United Maritime Corporation"
   },
   {
     "ticker": "USFD",
@@ -26174,15 +26174,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "USGO",
-    "name": "U.S. GoldMining Inc. - Common stock"
+    "name": "U.S. GoldMining Inc."
   },
   {
     "ticker": "USIO",
-    "name": "Usio, Inc. -"
+    "name": "Usio, Inc."
   },
   {
     "ticker": "USLM",
-    "name": "United States Lime & Minerals, Inc. -"
+    "name": "United States Lime & Minerals, Inc."
   },
   {
     "ticker": "USNA",
@@ -26202,7 +26202,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UTHR",
-    "name": "United Therapeutics Corporation -"
+    "name": "United Therapeutics Corporation"
   },
   {
     "ticker": "UTI",
@@ -26214,7 +26214,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UTMD",
-    "name": "Utah Medical Products, Inc. -"
+    "name": "Utah Medical Products, Inc."
   },
   {
     "ticker": "UTSI",
@@ -26222,7 +26222,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UTZ",
-    "name": "Utz Brands Inc Class A"
+    "name": "Utz Brands Inc"
   },
   {
     "ticker": "UUU",
@@ -26238,7 +26238,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UVSP",
-    "name": "Univest Financial Corporation -"
+    "name": "Univest Financial Corporation"
   },
   {
     "ticker": "UVV",
@@ -26246,7 +26246,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "UWMC",
-    "name": "UWM Holdings Corporation Class A"
+    "name": "UWM Holdings Corporation"
   },
   {
     "ticker": "UXIN",
@@ -26286,7 +26286,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VABK",
-    "name": "Virginia National Bankshares Corporation -"
+    "name": "Virginia National Bankshares Corporation"
   },
   {
     "ticker": "VAC",
@@ -26322,11 +26322,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VALU",
-    "name": "Value Line, Inc. -"
+    "name": "Value Line, Inc."
   },
   {
     "ticker": "VANI",
-    "name": "Vivani Medical, Inc.  -"
+    "name": "Vivani Medical, Inc."
   },
   {
     "ticker": "VATE",
@@ -26338,7 +26338,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VBIO",
-    "name": "Valion Bio, Inc. - Common stock"
+    "name": "Valion Bio, Inc."
   },
   {
     "ticker": "VBNK",
@@ -26346,11 +26346,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VC",
-    "name": "Visteon Corporation -"
+    "name": "Visteon Corporation"
   },
   {
     "ticker": "VCEL",
-    "name": "Vericel Corporation -"
+    "name": "Vericel Corporation"
   },
   {
     "ticker": "VCIG",
@@ -26358,7 +26358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VCTR",
-    "name": "Victory Capital Holdings, Inc. -"
+    "name": "Victory Capital Holdings, Inc."
   },
   {
     "ticker": "VCV",
@@ -26370,7 +26370,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VCYT",
-    "name": "Veracyte, Inc. -"
+    "name": "Veracyte, Inc."
   },
   {
     "ticker": "VECA",
@@ -26386,11 +26386,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VECO",
-    "name": "Veeco Instruments Inc. -"
+    "name": "Veeco Instruments Inc."
   },
   {
     "ticker": "VEEA",
-    "name": "Veea Inc. -"
+    "name": "Veea Inc."
   },
   {
     "ticker": "VEEAW",
@@ -26398,11 +26398,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VEEE",
-    "name": "Twin Vee PowerCats Co. -"
+    "name": "Twin Vee PowerCats Co."
   },
   {
     "ticker": "VEEV",
-    "name": "Veeva Systems Inc. Class A"
+    "name": "Veeva Systems Inc."
   },
   {
     "ticker": "VEL",
@@ -26410,7 +26410,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VELO",
-    "name": "Velo3D, Inc. - Common stock"
+    "name": "Velo3D, Inc."
   },
   {
     "ticker": "VENU",
@@ -26426,11 +26426,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VERI",
-    "name": "Veritone, Inc. -"
+    "name": "Veritone, Inc."
   },
   {
     "ticker": "VERU",
-    "name": "Veru Inc. -"
+    "name": "Veru Inc."
   },
   {
     "ticker": "VERX",
@@ -26462,7 +26462,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VG",
-    "name": "Venture Global, Inc. Class A common stock"
+    "name": "Venture Global, Inc."
   },
   {
     "ticker": "VGAS",
@@ -26490,7 +26490,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VHC",
-    "name": "VirnetX Holding Corp -"
+    "name": "VirnetX Holding Corp"
   },
   {
     "ticker": "VHCP",
@@ -26510,11 +26510,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VHUB",
-    "name": "VenHub Global, Inc. -"
+    "name": "VenHub Global, Inc."
   },
   {
     "ticker": "VIA",
-    "name": "Via Transportation, Inc. Class A"
+    "name": "Via Transportation, Inc."
   },
   {
     "ticker": "VIASP",
@@ -26522,7 +26522,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VIAV",
-    "name": "Viavi Solutions Inc. -"
+    "name": "Viavi Solutions Inc."
   },
   {
     "ticker": "VICI",
@@ -26530,11 +26530,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VICR",
-    "name": "Vicor Corporation -"
+    "name": "Vicor Corporation"
   },
   {
     "ticker": "VIDA",
-    "name": "VIDA Global Inc. Class A"
+    "name": "VIDA Global Inc."
   },
   {
     "ticker": "VIK",
@@ -26554,19 +26554,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VIR",
-    "name": "Vir Biotechnology, Inc. -"
+    "name": "Vir Biotechnology, Inc."
   },
   {
     "ticker": "VIRC",
-    "name": "Virco Manufacturing Corporation -"
+    "name": "Virco Manufacturing Corporation"
   },
   {
     "ticker": "VIRT",
-    "name": "Virtu Financial, Inc. Class A"
+    "name": "Virtu Financial, Inc."
   },
   {
     "ticker": "VISN",
-    "name": "Vistance Networks, Inc.  -"
+    "name": "Vistance Networks, Inc."
   },
   {
     "ticker": "VIST",
@@ -26574,7 +26574,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VITL",
-    "name": "Vital Farms, Inc. -"
+    "name": "Vital Farms, Inc."
   },
   {
     "ticker": "VIV",
@@ -26582,7 +26582,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VIVK",
-    "name": "Vivakor, Inc. -"
+    "name": "Vivakor, Inc."
   },
   {
     "ticker": "VIVO",
@@ -26590,7 +26590,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VIVS",
-    "name": "VivoSim Labs, Inc. -"
+    "name": "VivoSim Labs, Inc."
   },
   {
     "ticker": "VKI",
@@ -26602,7 +26602,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VKTX",
-    "name": "Viking Therapeutics, Inc. -"
+    "name": "Viking Therapeutics, Inc."
   },
   {
     "ticker": "VLGEA",
@@ -26634,7 +26634,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VLY",
-    "name": "Valley National Bancorp -"
+    "name": "Valley National Bancorp"
   },
   {
     "ticker": "VLYPN",
@@ -26662,7 +26662,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VMET",
-    "name": "Versamet Royalties Corporation -"
+    "name": "Versamet Royalties Corporation"
   },
   {
     "ticker": "VMI",
@@ -26674,11 +26674,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VNCE",
-    "name": "Vince Holding Corp. -"
+    "name": "Vince Holding Corp."
   },
   {
     "ticker": "VNDA",
-    "name": "Vanda Pharmaceuticals Inc. -"
+    "name": "Vanda Pharmaceuticals Inc."
   },
   {
     "ticker": "VNET",
@@ -26726,11 +26726,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VOR",
-    "name": "Vor Biopharma Inc. -"
+    "name": "Vor Biopharma Inc."
   },
   {
     "ticker": "VOXR",
-    "name": "Vox Royalty Corp. - common stock"
+    "name": "Vox Royalty Corp."
   },
   {
     "ticker": "VOYA",
@@ -26738,7 +26738,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VOYG",
-    "name": "Voyager Technologies, Inc. Class A"
+    "name": "Voyager Technologies, Inc."
   },
   {
     "ticker": "VPG",
@@ -26750,7 +26750,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VRA",
-    "name": "Vera Bradley, Inc. -"
+    "name": "Vera Bradley, Inc."
   },
   {
     "ticker": "VRAX",
@@ -26758,27 +26758,27 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VRCA",
-    "name": "Verrica Pharmaceuticals Inc. -"
+    "name": "Verrica Pharmaceuticals Inc."
   },
   {
     "ticker": "VRDN",
-    "name": "Viridian Therapeutics, Inc.  -"
+    "name": "Viridian Therapeutics, Inc."
   },
   {
     "ticker": "VREX",
-    "name": "Varex Imaging Corporation -"
+    "name": "Varex Imaging Corporation"
   },
   {
     "ticker": "VRM",
-    "name": "Vroom, Inc. -"
+    "name": "Vroom, Inc."
   },
   {
     "ticker": "VRME",
-    "name": "VerifyMe, Inc. -"
+    "name": "VerifyMe, Inc."
   },
   {
     "ticker": "VRNS",
-    "name": "Varonis Systems, Inc. -"
+    "name": "Varonis Systems, Inc."
   },
   {
     "ticker": "VRRM",
@@ -26786,15 +26786,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VRSK",
-    "name": "Verisk Analytics, Inc. -"
+    "name": "Verisk Analytics, Inc."
   },
   {
     "ticker": "VRSN",
-    "name": "VeriSign, Inc. -"
+    "name": "VeriSign, Inc."
   },
   {
     "ticker": "VRT",
-    "name": "Vertiv Holdings, LLC Class A"
+    "name": "Vertiv Holdings, LLC"
   },
   {
     "ticker": "VRTS",
@@ -26802,7 +26802,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VRTX",
-    "name": "Vertex Pharmaceuticals Incorporated -"
+    "name": "Vertex Pharmaceuticals Incorporated"
   },
   {
     "ticker": "VRXA",
@@ -26814,7 +26814,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VS",
-    "name": "Versus Systems Inc. -"
+    "name": "Versus Systems Inc."
   },
   {
     "ticker": "VSA",
@@ -26822,11 +26822,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VSAT",
-    "name": "ViaSat, Inc. -"
+    "name": "ViaSat, Inc."
   },
   {
     "ticker": "VSEC",
-    "name": "VSE Corporation -"
+    "name": "VSE Corporation"
   },
   {
     "ticker": "VSECU",
@@ -26834,7 +26834,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VSEE",
-    "name": "VSee Health, Inc. -"
+    "name": "VSee Health, Inc."
   },
   {
     "ticker": "VSEEW",
@@ -26862,7 +26862,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VSTM",
-    "name": "Verastem, Inc. -"
+    "name": "Verastem, Inc."
   },
   {
     "ticker": "VSTS",
@@ -26882,7 +26882,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VTGN",
-    "name": "Vistagen Therapeutics, Inc. -"
+    "name": "Vistagen Therapeutics, Inc."
   },
   {
     "ticker": "VTIX",
@@ -26906,7 +26906,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VTRS",
-    "name": "Viatris Inc. -"
+    "name": "Viatris Inc."
   },
   {
     "ticker": "VTS",
@@ -26914,7 +26914,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VTSI",
-    "name": "VirTra, Inc. -"
+    "name": "VirTra, Inc."
   },
   {
     "ticker": "VTVT",
@@ -26922,11 +26922,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VUZI",
-    "name": "Vuzix Corporation  -"
+    "name": "Vuzix Corporation"
   },
   {
     "ticker": "VVOS",
-    "name": "Vivos Therapeutics, Inc. -"
+    "name": "Vivos Therapeutics, Inc."
   },
   {
     "ticker": "VVR",
@@ -26942,7 +26942,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VWAV",
-    "name": "VisionWave Holdings, Inc. -"
+    "name": "VisionWave Holdings, Inc."
   },
   {
     "ticker": "VWAVW",
@@ -26958,11 +26958,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "VYGR",
-    "name": "Voyager Therapeutics, Inc. -"
+    "name": "Voyager Therapeutics, Inc."
   },
   {
     "ticker": "VYNE",
-    "name": "VYNE Therapeutics Inc. -"
+    "name": "VYNE Therapeutics Inc."
   },
   {
     "ticker": "VYX",
@@ -26978,7 +26978,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "W",
-    "name": "Wayfair Inc. Class A"
+    "name": "Wayfair Inc."
   },
   {
     "ticker": "WAB",
@@ -26986,11 +26986,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WABC",
-    "name": "Westamerica Bancorporation -"
+    "name": "Westamerica Bancorporation"
   },
   {
     "ticker": "WAFD",
-    "name": "WaFd, Inc. -"
+    "name": "WaFd, Inc."
   },
   {
     "ticker": "WAFDP",
@@ -27018,7 +27018,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WASH",
-    "name": "Washington Trust Bancorp, Inc. -"
+    "name": "Washington Trust Bancorp, Inc."
   },
   {
     "ticker": "WAT",
@@ -27026,7 +27026,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WATT",
-    "name": "Energous Corporation -"
+    "name": "Energous Corporation"
   },
   {
     "ticker": "WAVE",
@@ -27034,7 +27034,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WAY",
-    "name": "Waystar Holding Corp. -"
+    "name": "Waystar Holding Corp."
   },
   {
     "ticker": "WB",
@@ -27054,7 +27054,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WBTN",
-    "name": "WEBTOON Entertainment Inc. - Common stock"
+    "name": "WEBTOON Entertainment Inc."
   },
   {
     "ticker": "WBUY",
@@ -27086,11 +27086,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WDC",
-    "name": "Western Digital Corporation -"
+    "name": "Western Digital Corporation"
   },
   {
     "ticker": "WDFC",
-    "name": "WD-40 Company -"
+    "name": "WD-40 Company"
   },
   {
     "ticker": "WDH",
@@ -27122,7 +27122,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WEN",
-    "name": "Wendy's Company (The) -"
+    "name": "Wendy's Company (The)"
   },
   {
     "ticker": "WENC",
@@ -27150,7 +27150,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WERN",
-    "name": "Werner Enterprises, Inc. -"
+    "name": "Werner Enterprises, Inc."
   },
   {
     "ticker": "WES",
@@ -27158,11 +27158,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WEST",
-    "name": "Westrock Coffee Company -"
+    "name": "Westrock Coffee Company"
   },
   {
     "ticker": "WETH",
-    "name": "Wetouch Technology Inc. -"
+    "name": "Wetouch Technology Inc."
   },
   {
     "ticker": "WETO",
@@ -27170,11 +27170,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WEX",
-    "name": "WEX Inc. common stock"
+    "name": "WEX Inc."
   },
   {
     "ticker": "WEYS",
-    "name": "Weyco Group, Inc. -"
+    "name": "Weyco Group, Inc."
   },
   {
     "ticker": "WF",
@@ -27186,7 +27186,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WFCF",
-    "name": "Where Food Comes From, Inc. -"
+    "name": "Where Food Comes From, Inc."
   },
   {
     "ticker": "WFF",
@@ -27194,7 +27194,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WFG",
-    "name": "West Fraser Timber Co. Ltd Common stock"
+    "name": "West Fraser Timber Co. Ltd"
   },
   {
     "ticker": "WFRD",
@@ -27206,7 +27206,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WGRX",
-    "name": "Wellgistics Health, Inc. -"
+    "name": "Wellgistics Health, Inc."
   },
   {
     "ticker": "WGS",
@@ -27222,7 +27222,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WHD",
-    "name": "Cactus, Inc. Class A"
+    "name": "Cactus, Inc."
   },
   {
     "ticker": "WHF",
@@ -27238,11 +27238,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WHK",
-    "name": "WhiteHawk Minerals Corp Class A"
+    "name": "WhiteHawk Minerals Corp"
   },
   {
     "ticker": "WHLR",
-    "name": "Wheeler Real Estate Investment Trust, Inc. -"
+    "name": "Wheeler Real Estate Investment Trust, Inc."
   },
   {
     "ticker": "WHLRD",
@@ -27262,7 +27262,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WHWK",
-    "name": "Whitehawk Therapeutics, Inc. -"
+    "name": "Whitehawk Therapeutics, Inc."
   },
   {
     "ticker": "WIA",
@@ -27278,11 +27278,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WINA",
-    "name": "Winmark Corporation -"
+    "name": "Winmark Corporation"
   },
   {
     "ticker": "WING",
-    "name": "Wingstop Inc. -"
+    "name": "Wingstop Inc."
   },
   {
     "ticker": "WIT",
@@ -27298,7 +27298,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WK",
-    "name": "Workiva Inc. Class A"
+    "name": "Workiva Inc."
   },
   {
     "ticker": "WKC",
@@ -27310,11 +27310,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WKHS",
-    "name": "Workhorse Group, Inc. -"
+    "name": "Workhorse Group, Inc."
   },
   {
     "ticker": "WKSP",
-    "name": "Worksport, Ltd. -"
+    "name": "Worksport, Ltd."
   },
   {
     "ticker": "WLCOU",
@@ -27322,7 +27322,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WLDN",
-    "name": "Willdan Group, Inc. -"
+    "name": "Willdan Group, Inc."
   },
   {
     "ticker": "WLDS",
@@ -27334,7 +27334,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WLFC",
-    "name": "Willis Lease Finance Corporation -"
+    "name": "Willis Lease Finance Corporation"
   },
   {
     "ticker": "WLII",
@@ -27358,7 +27358,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WLTH",
-    "name": "Wealthfront Corporation -"
+    "name": "Wealthfront Corporation"
   },
   {
     "ticker": "WLY",
@@ -27390,7 +27390,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WMT",
-    "name": "Walmart Inc. -"
+    "name": "Walmart Inc."
   },
   {
     "ticker": "WNC",
@@ -27398,7 +27398,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WNEB",
-    "name": "Western New England Bancorp, Inc. -"
+    "name": "Western New England Bancorp, Inc."
   },
   {
     "ticker": "WNW",
@@ -27450,7 +27450,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WRAP",
-    "name": "Wrap Technologies, Inc. -"
+    "name": "Wrap Technologies, Inc."
   },
   {
     "ticker": "WRB",
@@ -27458,7 +27458,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WRBY",
-    "name": "Warby Parker Inc. Class A"
+    "name": "Warby Parker Inc."
   },
   {
     "ticker": "WRD",
@@ -27466,7 +27466,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WRLD",
-    "name": "World Acceptance Corporation -"
+    "name": "World Acceptance Corporation"
   },
   {
     "ticker": "WRN",
@@ -27478,7 +27478,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WSBC",
-    "name": "WesBanco, Inc. -"
+    "name": "WesBanco, Inc."
   },
   {
     "ticker": "WSBCO",
@@ -27486,11 +27486,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WSBF",
-    "name": "Waterstone Financial, Inc. -"
+    "name": "Waterstone Financial, Inc."
   },
   {
     "ticker": "WSBK",
-    "name": "Winchester Bancorp, Inc. -"
+    "name": "Winchester Bancorp, Inc."
   },
   {
     "ticker": "WSC",
@@ -27502,7 +27502,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WSFS",
-    "name": "WSFS Financial Corporation -"
+    "name": "WSFS Financial Corporation"
   },
   {
     "ticker": "WSHP",
@@ -27518,7 +27518,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WSO.B",
-    "name": "Watsco, Inc. Class B"
+    "name": "Watsco, Inc."
   },
   {
     "ticker": "WSR",
@@ -27546,7 +27546,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WTBA",
-    "name": "West Bancorporation -"
+    "name": "West Bancorporation"
   },
   {
     "ticker": "WTF",
@@ -27554,7 +27554,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WTFC",
-    "name": "Wintrust Financial Corporation -"
+    "name": "Wintrust Financial Corporation"
   },
   {
     "ticker": "WTFCN",
@@ -27590,11 +27590,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WTS",
-    "name": "Watts Water Technologies, Inc. Class A"
+    "name": "Watts Water Technologies, Inc."
   },
   {
     "ticker": "WTTR",
-    "name": "Select Water Solutions, Inc. Class A common stock"
+    "name": "Select Water Solutions, Inc."
   },
   {
     "ticker": "WTW",
@@ -27606,7 +27606,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WULF",
-    "name": "TeraWulf Inc. -"
+    "name": "TeraWulf Inc."
   },
   {
     "ticker": "WVE",
@@ -27614,7 +27614,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WVVI",
-    "name": "Willamette Valley Vineyards, Inc. -"
+    "name": "Willamette Valley Vineyards, Inc."
   },
   {
     "ticker": "WVVIP",
@@ -27622,11 +27622,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WW",
-    "name": "WW International, Inc.  -"
+    "name": "WW International, Inc."
   },
   {
     "ticker": "WWD",
-    "name": "Woodward, Inc. -"
+    "name": "Woodward, Inc."
   },
   {
     "ticker": "WWR",
@@ -27654,7 +27654,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "WYNN",
-    "name": "Wynn Resorts, Limited -"
+    "name": "Wynn Resorts, Limited"
   },
   {
     "ticker": "WYY",
@@ -27662,19 +27662,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XAIR",
-    "name": "Beyond Air, Inc. -"
+    "name": "Beyond Air, Inc."
   },
   {
     "ticker": "XBIO",
-    "name": "Xenetic Biosciences, Inc. -"
+    "name": "Xenetic Biosciences, Inc."
   },
   {
     "ticker": "XBIT",
-    "name": "XBiotech Inc. -"
+    "name": "XBiotech Inc."
   },
   {
     "ticker": "XBP",
-    "name": "XBP Global Holdings, Inc. -"
+    "name": "XBP Global Holdings, Inc."
   },
   {
     "ticker": "XBPEW",
@@ -27698,7 +27698,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XCUR",
-    "name": "Exicure, Inc. -"
+    "name": "Exicure, Inc."
   },
   {
     "ticker": "XE",
@@ -27706,11 +27706,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XEL",
-    "name": "Xcel Energy Inc. -"
+    "name": "Xcel Energy Inc."
   },
   {
     "ticker": "XELB",
-    "name": "Xcel Brands, Inc -"
+    "name": "Xcel Brands, Inc"
   },
   {
     "ticker": "XELLL",
@@ -27722,7 +27722,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XERS",
-    "name": "Xeris Biopharma Holdings, Inc. -"
+    "name": "Xeris Biopharma Holdings, Inc."
   },
   {
     "ticker": "XFLH",
@@ -27742,11 +27742,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XFOR",
-    "name": "X4 Pharmaceuticals, Inc. -"
+    "name": "X4 Pharmaceuticals, Inc."
   },
   {
     "ticker": "XGN",
-    "name": "Exagen Inc. -"
+    "name": "Exagen Inc."
   },
   {
     "ticker": "XHG",
@@ -27754,7 +27754,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XHLD",
-    "name": "TEN Holdings, Inc. -"
+    "name": "TEN Holdings, Inc."
   },
   {
     "ticker": "XHR",
@@ -27766,11 +27766,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XLO",
-    "name": "Xilio Therapeutics, Inc. -"
+    "name": "Xilio Therapeutics, Inc."
   },
   {
     "ticker": "XMAX",
-    "name": "XMAX, Inc. -"
+    "name": "XMAX, Inc."
   },
   {
     "ticker": "XMTR",
@@ -27778,7 +27778,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XNCR",
-    "name": "Xencor, Inc. -"
+    "name": "Xencor, Inc."
   },
   {
     "ticker": "XNDU",
@@ -27794,7 +27794,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XOMA",
-    "name": "XOMA Royalty Corporation -"
+    "name": "XOMA Royalty Corporation"
   },
   {
     "ticker": "XOMAO",
@@ -27806,7 +27806,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XOS",
-    "name": "Xos, Inc. -"
+    "name": "Xos, Inc."
   },
   {
     "ticker": "XOSWW",
@@ -27818,7 +27818,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XPEL",
-    "name": "XPEL, Inc. -"
+    "name": "XPEL, Inc."
   },
   {
     "ticker": "XPER",
@@ -27838,11 +27838,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XPOF",
-    "name": "Xponential Fitness, Inc. Class A"
+    "name": "Xponential Fitness, Inc."
   },
   {
     "ticker": "XPON",
-    "name": "Expion360 Inc. -"
+    "name": "Expion360 Inc."
   },
   {
     "ticker": "XPRO",
@@ -27850,7 +27850,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XRAY",
-    "name": "DENTSPLY SIRONA Inc. -"
+    "name": "DENTSPLY SIRONA Inc."
   },
   {
     "ticker": "XRN",
@@ -27874,7 +27874,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XRX",
-    "name": "Xerox Holdings Corporation -"
+    "name": "Xerox Holdings Corporation"
   },
   {
     "ticker": "XRXDW",
@@ -27906,15 +27906,15 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XWEL",
-    "name": "XWELL, Inc. -"
+    "name": "XWELL, Inc."
   },
   {
     "ticker": "XXI",
-    "name": "Twenty One Capital, Inc. Class A"
+    "name": "Twenty One Capital, Inc."
   },
   {
     "ticker": "XXII",
-    "name": "22nd Century Group, Inc -"
+    "name": "22nd Century Group, Inc"
   },
   {
     "ticker": "XYF",
@@ -27926,7 +27926,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "XYZ",
-    "name": "Block, Inc. Class A"
+    "name": "Block, Inc."
   },
   {
     "ticker": "XZO",
@@ -27990,11 +27990,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "YHC",
-    "name": "LQR House Inc. -"
+    "name": "LQR House Inc."
   },
   {
     "ticker": "YHGJ",
-    "name": "Yunhong Green CTI Ltd. -"
+    "name": "Yunhong Green CTI Ltd."
   },
   {
     "ticker": "YHNA",
@@ -28042,11 +28042,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "YORW",
-    "name": "The York Water Company -"
+    "name": "The York Water Company"
   },
   {
     "ticker": "YOU",
-    "name": "Clear Secure, Inc. Class A"
+    "name": "Clear Secure, Inc."
   },
   {
     "ticker": "YOUL",
@@ -28098,7 +28098,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "YYAI",
-    "name": "AiRWA Inc. -"
+    "name": "AiRWA Inc."
   },
   {
     "ticker": "YYGH",
@@ -28118,7 +28118,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZBIO",
-    "name": "Zenas BioPharma, Inc. -"
+    "name": "Zenas BioPharma, Inc."
   },
   {
     "ticker": "ZBRA",
@@ -28130,7 +28130,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZD",
-    "name": "Ziff Davis, Inc. -"
+    "name": "Ziff Davis, Inc."
   },
   {
     "ticker": "ZDAI",
@@ -28138,11 +28138,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZDGE",
-    "name": "Zedge, Inc. Class B"
+    "name": "Zedge, Inc."
   },
   {
     "ticker": "ZENA",
-    "name": "ZenaTech, Inc. -"
+    "name": "ZenaTech, Inc."
   },
   {
     "ticker": "ZEO",
@@ -28158,7 +28158,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZETA",
-    "name": "Zeta Global Holdings Corp. Class A"
+    "name": "Zeta Global Holdings Corp."
   },
   {
     "ticker": "ZG",
@@ -28178,7 +28178,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZION",
-    "name": "Zions Bancorporation N.A. -"
+    "name": "Zions Bancorporation N.A."
   },
   {
     "ticker": "ZIONP",
@@ -28186,7 +28186,7 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZIP",
-    "name": "ZipRecruiter, Inc. Class A"
+    "name": "ZipRecruiter, Inc."
   },
   {
     "ticker": "ZJK",
@@ -28230,11 +28230,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZNTL",
-    "name": "Zentalis Pharmaceuticals, Inc. - common stock"
+    "name": "Zentalis Pharmaceuticals, Inc."
   },
   {
     "ticker": "ZONE",
-    "name": "CleanCore Solutions Inc. Class B"
+    "name": "CleanCore Solutions Inc."
   },
   {
     "ticker": "ZOOZ",
@@ -28246,19 +28246,19 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZS",
-    "name": "Zscaler, Inc. -"
+    "name": "Zscaler, Inc."
   },
   {
     "ticker": "ZSQR",
-    "name": "Z Squared Inc. -"
+    "name": "Z Squared Inc."
   },
   {
     "ticker": "ZSTK",
-    "name": "ZeroStack Corp. -"
+    "name": "ZeroStack Corp."
   },
   {
     "ticker": "ZTEK",
-    "name": "Zentek Ltd. - common stock"
+    "name": "Zentek Ltd."
   },
   {
     "ticker": "ZTG",
@@ -28274,11 +28274,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZTS",
-    "name": "Zoetis Inc. Class A"
+    "name": "Zoetis Inc."
   },
   {
     "ticker": "ZUMZ",
-    "name": "Zumiez Inc. -"
+    "name": "Zumiez Inc."
   },
   {
     "ticker": "ZURA",
@@ -28286,11 +28286,11 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZVIA",
-    "name": "Zevia PBC Class A"
+    "name": "Zevia PBC"
   },
   {
     "ticker": "ZVRA",
-    "name": "Zevra Therapeutics, Inc.  -"
+    "name": "Zevra Therapeutics, Inc."
   },
   {
     "ticker": "ZWS",
@@ -28302,6 +28302,6 @@ export const COMPANIES: Company[] = [
   },
   {
     "ticker": "ZYME",
-    "name": "Zymeworks Inc. -"
+    "name": "Zymeworks Inc."
   }
 ];
