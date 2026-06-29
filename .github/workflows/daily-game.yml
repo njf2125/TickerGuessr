@@ -40,7 +40,8 @@ jobs:
           file_pattern: 'public/games/*.json'
 
   refresh-pool:
-    if: github.event_name == 'schedule'
+    needs: generate
+    if: ${{ always() && github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -62,6 +63,9 @@ jobs:
           else
             echo "Not the 1st — skipping pool refresh."
           fi
+
+      - name: Verify winnable pool
+        run: npx vitest run src/data/puzzle-pool.test.ts
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
