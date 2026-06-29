@@ -1,14 +1,13 @@
 {
   "gameId": 4,
   "dateString": "2026-06-28",
-  "ticker": "GOOGL",
-  "companyName": "Alphabet Inc.",
+  "firstLetter": "G",
   "interval": "1d",
   "sector": "Communication Services",
   "marketCapTier": "Mega Cap",
   "triviaHints": [
-    "TODO: trivia hint 1 for GOOGL",
-    "TODO: trivia hint 2 for GOOGL"
+    "TODO: trivia hint 1",
+    "TODO: trivia hint 2"
   ],
   "candlestickData": [
     {

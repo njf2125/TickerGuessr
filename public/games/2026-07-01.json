@@ -1,14 +1,13 @@
 {
   "gameId": 7,
   "dateString": "2026-07-01",
-  "ticker": "ALL",
-  "companyName": "Allstate",
+  "firstLetter": "A",
   "interval": "1d",
   "sector": "Financials",
   "marketCapTier": "Large Cap",
   "triviaHints": [
-    "TODO: trivia hint 1 for ALL",
-    "TODO: trivia hint 2 for ALL"
+    "TODO: trivia hint 1",
+    "TODO: trivia hint 2"
   ],
   "candlestickData": [
     {
@@ -282,5 +281,5 @@
       ]
     }
   ],
-  "_synthetic": "SYNTHETIC OHLC/market-cap — Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-01"
+  "_synthetic": "SYNTHETIC OHLC/market-cap \u2014 Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-01"
 }

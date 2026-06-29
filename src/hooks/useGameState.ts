@@ -1,6 +1,7 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
+  GameDayAnswer,
   GameDayPayload,
   GuessResult,
   PlayerStats,
@@ -43,6 +44,7 @@ function saveGameState(state: PersistedGameState): void {
 
 export function useGameState(dateString: string) {
   const [payload, setPayload] = useState<GameDayPayload | null>(null);
+  const answerRef = useRef<GameDayAnswer | null>(null);
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
   const [status, setStatus] = useState<GameStatus>("playing");
   const [stats, setStats] = useState<PlayerStats>(DEFAULT_STATS);
@@ -56,13 +58,19 @@ export function useGameState(dateString: string) {
     const storedStats = loadStats();
     setStats(storedStats);
 
-    fetch(`/games/${dateString}.json`)
-      .then((res) => {
+    Promise.all([
+      fetch(`/games/${dateString}.json`).then((res) => {
         if (!res.ok) throw new Error("Game not found for this date.");
         return res.json() as Promise<GameDayPayload>;
-      })
-      .then((data) => {
+      }),
+      fetch(`/games/${dateString}-answer.json`).then((res) => {
+        if (!res.ok) throw new Error("Game not found for this date.");
+        return res.json() as Promise<GameDayAnswer>;
+      }),
+    ])
+      .then(([data, answerData]) => {
         setPayload(data);
+        answerRef.current = answerData;
         if (persisted && persisted.dateString === dateString) {
           setGuesses(persisted.guesses);
           setStatus(persisted.status);
@@ -85,7 +93,7 @@ export function useGameState(dateString: string) {
       if (guesses.some((g) => g.ticker === upperTicker)) return;
 
       const company = COMPANIES.find((c) => c.ticker === upperTicker);
-      const isCorrect = upperTicker === payload.ticker;
+      const isCorrect = upperTicker === answerRef.current?.ticker;
 
       const result: GuessResult = {
         ticker: upperTicker,
@@ -125,5 +133,6 @@ export function useGameState(dateString: string) {
     [payload, status, guesses, dateString]
   );
 
-  return { payload, guesses, status, stats, isLoading, error, justFinished, submitGuess };
+  const answer = status !== "playing" ? answerRef.current : null;
+  return { payload, answer, guesses, status, stats, isLoading, error, justFinished, submitGuess };
 }

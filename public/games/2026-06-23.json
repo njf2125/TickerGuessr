@@ -1,14 +1,13 @@
 {
   "gameId": -1,
   "dateString": "2026-06-23",
-  "ticker": "NFLX",
-  "companyName": "Netflix, Inc.",
+  "firstLetter": "N",
   "interval": "1d",
   "sector": "Communication Services",
   "marketCapTier": "Mega Cap",
   "triviaHints": [
-    "TODO: trivia hint 1 for NFLX",
-    "TODO: trivia hint 2 for NFLX"
+    "TODO: trivia hint 1",
+    "TODO: trivia hint 2"
   ],
   "candlestickData": [
     {

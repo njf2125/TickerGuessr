@@ -1,14 +1,13 @@
 {
   "gameId": 0,
   "dateString": "2026-06-24",
-  "ticker": "SBUX",
-  "companyName": "Starbucks Corporation",
+  "firstLetter": "S",
   "interval": "1d",
   "sector": "Consumer Discretionary",
   "marketCapTier": "Large Cap",
   "triviaHints": [
-    "TODO: trivia hint 1 for SBUX",
-    "TODO: trivia hint 2 for SBUX"
+    "TODO: trivia hint 1",
+    "TODO: trivia hint 2"
   ],
   "candlestickData": [
     {

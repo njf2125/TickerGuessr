@@ -1,14 +1,13 @@
 {
   "gameId": 1,
   "dateString": "2026-06-25",
-  "ticker": "AAPL",
-  "companyName": "Apple Inc.",
+  "firstLetter": "A",
   "interval": "1d",
   "sector": "Technology",
   "marketCapTier": "Mega Cap",
   "triviaHints": [
-    "TODO: trivia hint 1 for AAPL",
-    "TODO: trivia hint 2 for AAPL"
+    "TODO: trivia hint 1",
+    "TODO: trivia hint 2"
   ],
   "candlestickData": [
     {
