@@ -87,7 +87,7 @@ export default function Home() {
             </p>
           </div>
         )}
-        <div className="mt-auto pt-2">
+        <div className="sticky bottom-0 bg-gray-900 pt-2 pb-3">
           <SearchInput
             onSubmit={submitGuess}
             disabled={status !== "playing"}
