@@ -76,9 +76,12 @@ async function main() {
   const ndEntries = parseWikiTable(nd, { ticker: "ticker", name: "company", sector: "icb industry" });
   console.log(`S&P 500: ${spEntries.length}, Nasdaq-100: ${ndEntries.length}`);
   if (spEntries.length < 400) throw new Error("S&P 500 parse looks wrong (<400 rows)");
+  if (ndEntries.length < 80) throw new Error("Nasdaq-100 parse looks wrong (<80 rows)");
 
   const map = new Map<string, PoolEntry>();
-  for (const e of [...spEntries, ...ndEntries]) map.set(e.ticker, e); // dedupe by ticker
+  // Dedupe by ticker. Insert Nasdaq-100 first, then S&P, so the ~80 overlap
+  // tickers keep S&P's GICS sector; Nasdaq-100-only names retain ICB industry.
+  for (const e of [...ndEntries, ...spEntries]) map.set(e.ticker, e);
   const pool = Array.from(map.values()).sort((a, b) => a.ticker.localeCompare(b.ticker));
   console.log(`Pool (deduped): ${pool.length} tickers`);
 

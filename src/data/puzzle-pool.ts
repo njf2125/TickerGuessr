@@ -16,7 +16,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "AAPL",
     "name": "Apple Inc.",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "ABBV",
@@ -46,12 +46,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "ADBE",
     "name": "Adobe Inc.",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "ADI",
     "name": "Analog Devices",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "ADM",
@@ -66,7 +66,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "ADSK",
     "name": "Autodesk",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "AEE",
@@ -141,7 +141,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "AMAT",
     "name": "Applied Materials",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "AMCR",
@@ -151,7 +151,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "AMD",
     "name": "Advanced Micro Devices",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "AME",
@@ -216,7 +216,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "APP",
     "name": "AppLovin",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "APTV",
@@ -256,7 +256,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "AVGO",
     "name": "Broadcom",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "AVY",
@@ -456,7 +456,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "CDNS",
     "name": "Cadence Design Systems",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "CDW",
@@ -521,7 +521,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "CMCSA",
     "name": "Comcast",
-    "sector": "Telecommunications"
+    "sector": "Communication Services"
   },
   {
     "ticker": "CME",
@@ -586,7 +586,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "COST",
     "name": "Costco",
-    "sector": "Consumer Discretionary"
+    "sector": "Consumer Staples"
   },
   {
     "ticker": "CPAY",
@@ -596,7 +596,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "CPRT",
     "name": "Copart",
-    "sector": "Consumer Discretionary"
+    "sector": "Industrials"
   },
   {
     "ticker": "CPT",
@@ -621,7 +621,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "CRWD",
     "name": "CrowdStrike",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "CRWV",
@@ -631,7 +631,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "CSCO",
     "name": "Cisco",
-    "sector": "Telecommunications"
+    "sector": "Information Technology"
   },
   {
     "ticker": "CSGP",
@@ -686,7 +686,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "DASH",
     "name": "DoorDash",
-    "sector": "Technology"
+    "sector": "Consumer Discretionary"
   },
   {
     "ticker": "DD",
@@ -696,7 +696,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "DDOG",
     "name": "Datadog",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "DE",
@@ -795,13 +795,13 @@ export const PUZZLE_POOL: PoolEntry[] = [
   },
   {
     "ticker": "DXCM",
-    "name": "DexCom",
+    "name": "Dexcom",
     "sector": "Health Care"
   },
   {
     "ticker": "EA",
     "name": "Electronic Arts",
-    "sector": "Consumer Discretionary"
+    "sector": "Communication Services"
   },
   {
     "ticker": "EBAY",
@@ -1041,7 +1041,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "FTNT",
     "name": "Fortinet",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "FTV",
@@ -1111,12 +1111,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "GOOG",
     "name": "Alphabet Inc. (Class C)",
-    "sector": "Technology"
+    "sector": "Communication Services"
   },
   {
     "ticker": "GOOGL",
     "name": "Alphabet Inc. (Class A)",
-    "sector": "Technology"
+    "sector": "Communication Services"
   },
   {
     "ticker": "GPC",
@@ -1276,12 +1276,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "INTC",
     "name": "Intel",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "INTU",
     "name": "Intuit",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "INVH",
@@ -1396,7 +1396,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "KLAC",
     "name": "KLA Corporation",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "KMB",
@@ -1456,12 +1456,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "LIN",
     "name": "Linde plc",
-    "sector": "Basic Materials"
+    "sector": "Materials"
   },
   {
     "ticker": "LITE",
     "name": "Lumentum",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "LLY",
@@ -1486,7 +1486,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "LRCX",
     "name": "Lam Research",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "LULU",
@@ -1541,7 +1541,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "MCHP",
     "name": "Microchip Technology",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "MCK",
@@ -1576,7 +1576,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "META",
     "name": "Meta Platforms",
-    "sector": "Technology"
+    "sector": "Communication Services"
   },
   {
     "ticker": "MGM",
@@ -1621,7 +1621,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "MPWR",
     "name": "Monolithic Power Systems",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "MRK",
@@ -1641,7 +1641,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "MRVL",
     "name": "Marvell Technology",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "MS",
@@ -1656,7 +1656,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "MSFT",
     "name": "Microsoft",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "MSI",
@@ -1681,7 +1681,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "MU",
     "name": "Micron Technology",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "NBIS",
@@ -1715,8 +1715,8 @@ export const PUZZLE_POOL: PoolEntry[] = [
   },
   {
     "ticker": "NFLX",
-    "name": "Netflix, Inc.",
-    "sector": "Consumer Discretionary"
+    "name": "Netflix",
+    "sector": "Communication Services"
   },
   {
     "ticker": "NI",
@@ -1766,7 +1766,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "NVDA",
     "name": "Nvidia",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "NVR",
@@ -1786,7 +1786,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "NXPI",
     "name": "NXP Semiconductors",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "O",
@@ -1795,7 +1795,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   },
   {
     "ticker": "ODFL",
-    "name": "Old Dominion Freight Line",
+    "name": "Old Dominion",
     "sector": "Industrials"
   },
   {
@@ -1820,7 +1820,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   },
   {
     "ticker": "ORLY",
-    "name": "O'Reilly Automotive",
+    "name": "O’Reilly Automotive",
     "sector": "Consumer Discretionary"
   },
   {
@@ -1836,7 +1836,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "PANW",
     "name": "Palo Alto Networks",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "PAYX",
@@ -1846,7 +1846,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "PCAR",
     "name": "Paccar",
-    "sector": "Consumer Discretionary"
+    "sector": "Industrials"
   },
   {
     "ticker": "PCG",
@@ -1911,7 +1911,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "PLTR",
     "name": "Palantir Technologies",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "PM",
@@ -1981,7 +1981,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "PYPL",
     "name": "PayPal",
-    "sector": "Industrials"
+    "sector": "Financials"
   },
   {
     "ticker": "Q",
@@ -1991,7 +1991,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "QCOM",
     "name": "Qualcomm",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "RCL",
@@ -2046,7 +2046,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "ROP",
     "name": "Roper Technologies",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "ROST",
@@ -2116,12 +2116,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "SNDK",
     "name": "Sandisk",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "SNPS",
     "name": "Synopsys",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "SO",
@@ -2166,7 +2166,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "STX",
     "name": "Seagate Technology",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "STZ",
@@ -2236,7 +2236,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "TER",
     "name": "Teradyne",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "TFC",
@@ -2266,7 +2266,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "TMUS",
     "name": "T-Mobile US",
-    "sector": "Telecommunications"
+    "sector": "Communication Services"
   },
   {
     "ticker": "TPL",
@@ -2331,12 +2331,12 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "TTWO",
     "name": "Take-Two Interactive",
-    "sector": "Consumer Discretionary"
+    "sector": "Communication Services"
   },
   {
     "ticker": "TXN",
     "name": "Texas Instruments",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "TXT",
@@ -2481,17 +2481,17 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "WBD",
     "name": "Warner Bros. Discovery",
-    "sector": "Consumer Discretionary"
+    "sector": "Communication Services"
   },
   {
     "ticker": "WDAY",
     "name": "Workday, Inc.",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "WDC",
     "name": "Western Digital",
-    "sector": "Technology"
+    "sector": "Information Technology"
   },
   {
     "ticker": "WEC",
@@ -2521,7 +2521,7 @@ export const PUZZLE_POOL: PoolEntry[] = [
   {
     "ticker": "WMT",
     "name": "Walmart",
-    "sector": "Consumer Discretionary"
+    "sector": "Consumer Staples"
   },
   {
     "ticker": "WRB",
