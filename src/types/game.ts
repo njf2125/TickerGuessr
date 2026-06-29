@@ -11,11 +11,15 @@ export interface OHLCPoint {
   y: [number, number, number, number]; // [Open, High, Low, Close]
 }
 
+export interface GameDayAnswer {
+  ticker: string;
+  companyName: string;
+}
+
 export interface GameDayPayload {
   gameId: number;
   dateString: string; // YYYY-MM-DD
-  ticker: string;
-  companyName: string;
+  firstLetter: string;
   interval: CandleInterval;
   sector: string;
   marketCapTier: string;

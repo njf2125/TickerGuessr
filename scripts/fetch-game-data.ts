@@ -5,7 +5,7 @@ import {
   selectPuzzle,
   gameIdFor,
 } from "../src/data/puzzle-selection";
-import type { GameDayPayload, OHLCPoint, CandleInterval } from "../src/types/game";
+import type { GameDayAnswer, GameDayPayload, OHLCPoint, CandleInterval } from "../src/types/game";
 
 const API_KEY = process.env.ALPHAVANTAGE_API_KEY;
 const BASE = "https://www.alphavantage.co/query";
@@ -96,13 +96,22 @@ export async function recentlyUsedTickers(targetDate: string, gamesDir: string):
   const target = new Date(targetDate).getTime();
   const windowMs = HISTORY_WINDOW_DAYS * 24 * 60 * 60 * 1000;
   for (const f of files) {
-    if (!f.endsWith(".json")) continue;
+    if (!f.endsWith(".json") || f.includes("-answer")) continue;
     const d = new Date(f.replace(".json", "")).getTime();
     if (isNaN(d)) continue;
     if (d < target && target - d <= windowMs) {
       try {
-        const payload = JSON.parse(await fs.readFile(path.join(gamesDir, f), "utf8"));
-        if (payload?.ticker) used.add(payload.ticker);
+        // Read from the answer file (new split format); fall back to main file (legacy).
+        const answerPath = path.join(gamesDir, f.replace(".json", "-answer.json"));
+        let ticker: string | undefined;
+        try {
+          const answer = JSON.parse(await fs.readFile(answerPath, "utf8"));
+          ticker = answer?.ticker;
+        } catch {
+          const payload = JSON.parse(await fs.readFile(path.join(gamesDir, f), "utf8"));
+          ticker = payload?.ticker;
+        }
+        if (ticker) used.add(ticker);
       } catch {
         /* skip unreadable */
       }
@@ -145,22 +154,25 @@ async function generateGameFile(dateString: string): Promise<void> {
   const payload: GameDayPayload = {
     gameId: gameIdFor(dateString),
     dateString,
-    ticker: puzzle.ticker,
-    companyName: puzzle.name,
+    firstLetter: puzzle.ticker[0],
     interval: puzzle.interval,
     sector: puzzle.sector,
     marketCapTier,
-    triviaHints: [
-      `TODO: trivia hint 1 for ${puzzle.ticker}`,
-      `TODO: trivia hint 2 for ${puzzle.ticker}`,
-    ],
+    triviaHints: ["TODO: trivia hint 1", "TODO: trivia hint 2"],
     candlestickData,
   };
 
-  const outPath = path.join(gamesDir, `${dateString}.json`);
+  const answer: GameDayAnswer = {
+    ticker: puzzle.ticker,
+    companyName: puzzle.name,
+  };
+
   await fs.mkdir(gamesDir, { recursive: true });
+  const outPath = path.join(gamesDir, `${dateString}.json`);
+  const answerPath = path.join(gamesDir, `${dateString}-answer.json`);
   await fs.writeFile(outPath, JSON.stringify(payload, null, 2) + "\n");
-  console.log(`Wrote ${outPath}`);
+  await fs.writeFile(answerPath, JSON.stringify(answer, null, 2) + "\n");
+  console.log(`Wrote ${outPath} + ${answerPath}`);
   console.log(`⚠️  Fill in triviaHints for ${puzzle.ticker} before ${dateString} goes live.`);
 }
 

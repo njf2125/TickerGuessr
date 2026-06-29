@@ -12,7 +12,7 @@ import { HowToModal } from "@/components/HowToModal";
 const TODAY = new Date().toLocaleDateString("en-CA");
 
 export default function Home() {
-  const { payload, guesses, status, stats, isLoading, error, justFinished, submitGuess } =
+  const { payload, answer, guesses, status, stats, isLoading, error, justFinished, submitGuess } =
     useGameState(TODAY);
   const [showStats, setShowStats] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
@@ -72,7 +72,7 @@ export default function Home() {
           sector={payload.sector}
           marketCapTier={payload.marketCapTier}
           triviaHints={payload.triviaHints}
-          firstLetter={payload.ticker[0]}
+          firstLetter={payload.firstLetter}
           guessCount={guesses.length}
         />
         <AttemptMatrix guesses={guesses} />
@@ -82,8 +82,8 @@ export default function Home() {
               {status === "won" ? "You got it" : "The answer was"}
             </p>
             <p className="mt-1 text-lg font-bold">
-              <span className="font-mono">{payload.ticker}</span>
-              <span className="ml-2 font-normal text-gray-300">{payload.companyName}</span>
+              <span className="font-mono">{answer?.ticker}</span>
+              <span className="ml-2 font-normal text-gray-300">{answer?.companyName}</span>
             </p>
           </div>
         )}
