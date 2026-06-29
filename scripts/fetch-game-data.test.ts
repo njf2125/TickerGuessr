@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toAlphaVantageSymbol, parseSeries, barLabel } from "./fetch-game-data";
+import { toAlphaVantageSymbol, parseSeries, barLabel, assertNotThrottled } from "./fetch-game-data";
 
 describe("fetch-game-data helpers", () => {
   it("converts dot share-class tickers to dash for Alpha Vantage", () => {
@@ -27,5 +27,12 @@ describe("fetch-game-data helpers", () => {
 
   it("throws on an Alpha Vantage rate-limit / error series", () => {
     expect(() => parseSeries({}, "1d", 30)).toThrow();
+  });
+
+  it("throws when Alpha Vantage signals throttling or an error", () => {
+    expect(() => assertNotThrottled({ Note: "Thank you for using Alpha Vantage..." })).toThrow();
+    expect(() => assertNotThrottled({ Information: "rate limit reached" })).toThrow();
+    expect(() => assertNotThrottled({ "Error Message": "Invalid API call" })).toThrow();
+    expect(() => assertNotThrottled({ "Time Series (Daily)": {} })).not.toThrow();
   });
 });
