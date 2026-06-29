@@ -29,6 +29,7 @@ jobs:
         # Pass the dispatch input via env (never interpolated into the shell line)
         # to avoid GitHub Actions script injection. Empty -> script defaults to tomorrow.
         env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
           TARGET_DATE: ${{ github.event.inputs.date || '' }}
         run: npx tsx scripts/fetch-game-data.ts "$TARGET_DATE"
 
@@ -37,3 +38,32 @@ jobs:
         with:
           commit_message: 'chore: generate daily game (remember to fill in triviaHints)'
           file_pattern: 'public/games/*.json'
+
+  refresh-pool:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Refresh pool + autocomplete (first of month only)
+        run: |
+          if [ "$(date -u +%d)" = "01" ]; then
+            npx tsx scripts/build-company-list.ts
+            npx tsx scripts/build-puzzle-pool.ts
+          else
+            echo "Not the 1st — skipping pool refresh."
+          fi
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: monthly refresh of company list + puzzle pool'
+          file_pattern: 'src/data/companies.ts src/data/puzzle-pool.ts'
