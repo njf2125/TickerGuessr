@@ -7,13 +7,9 @@ import {
 } from "../src/data/puzzle-selection";
 import type { GameDayAnswer, GameDayPayload, OHLCPoint, CandleInterval } from "../src/types/game";
 
-const API_KEY = process.env.ALPHAVANTAGE_API_KEY;
-const BASE = "https://www.alphavantage.co/query";
+const API_KEY = process.env.TWELVEDATA_API_KEY;
+const BASE = "https://api.twelvedata.com";
 const HISTORY_WINDOW_DAYS = 180;
-
-export function toAlphaVantageSymbol(ticker: string): string {
-  return ticker.replace(/\./g, "-");
-}
 
 export function barLabel(index: number, interval: CandleInterval): string {
   if (interval === "1w") return `Wk ${index + 1}`;
@@ -40,48 +36,33 @@ function getJson(url: string): Promise<Record<string, unknown>> {
   });
 }
 
-// Alpha Vantage signals throttling/errors via these keys (with HTTP 200).
+// Twelve Data signals errors via {"status": "error", "message": ...} (with HTTP 200 in some cases).
 export function assertNotThrottled(res: Record<string, unknown>): void {
-  for (const k of ["Note", "Information", "Error Message"]) {
-    if (res[k]) throw new Error(`Alpha Vantage: ${String(res[k])}`);
-  }
+  if (res["status"] === "error") throw new Error(`Twelve Data: ${String(res["message"])}`);
 }
 
-type AVSeries = Record<string, Record<string, string>>;
+type TDSeries = { datetime: string; open: string; high: string; low: string; close: string }[];
 
-export function parseSeries(series: AVSeries, interval: CandleInterval, count: number): OHLCPoint[] {
-  const entries = Object.entries(series); // AV returns newest-first
-  if (entries.length === 0) throw new Error("empty Alpha Vantage series (throttled or bad symbol?)");
-  const oldestFirst = entries
-    .sort(([a], [b]) => a.localeCompare(b)) // chronological
+export function parseSeries(series: TDSeries, interval: CandleInterval, count: number): OHLCPoint[] {
+  if (series.length === 0) throw new Error("empty Twelve Data series (throttled or bad symbol?)");
+  const oldestFirst = [...series] // Twelve Data returns newest-first
+    .sort((a, b) => a.datetime.localeCompare(b.datetime))
     .slice(-count);
-  return oldestFirst.map(([, ohlc], i) => ({
+  return oldestFirst.map((ohlc, i) => ({
     x: barLabel(i, interval),
     y: [
-      Math.round(Number(ohlc["1. open"]) * 100) / 100,
-      Math.round(Number(ohlc["2. high"]) * 100) / 100,
-      Math.round(Number(ohlc["3. low"]) * 100) / 100,
-      Math.round(Number(ohlc["4. close"]) * 100) / 100,
+      Math.round(Number(ohlc.open) * 100) / 100,
+      Math.round(Number(ohlc.high) * 100) / 100,
+      Math.round(Number(ohlc.low) * 100) / 100,
+      Math.round(Number(ohlc.close) * 100) / 100,
     ],
   }));
 }
 
-function seriesKeyFor(interval: CandleInterval): { fn: string; key: string; extra: string } {
-  if (interval === "1w") return { fn: "TIME_SERIES_WEEKLY", key: "Weekly Time Series", extra: "" };
-  if (interval === "1h")
-    return {
-      fn: "TIME_SERIES_INTRADAY",
-      key: "Time Series (60min)",
-      extra: "&interval=60min&outputsize=compact&extended_hours=false",
-    };
-  return { fn: "TIME_SERIES_DAILY", key: "Time Series (Daily)", extra: "&outputsize=compact" };
-}
-
-function getMarketCapTier(cap: number): string {
-  if (cap >= 200_000_000_000) return "Mega Cap";
-  if (cap >= 10_000_000_000) return "Large Cap";
-  if (cap >= 2_000_000_000) return "Mid Cap";
-  return "Small Cap";
+function twelveDataInterval(interval: CandleInterval): string {
+  if (interval === "1w") return "1week";
+  if (interval === "1h") return "1h";
+  return "1day";
 }
 
 // Read the trailing 180 days of generated game files to get recently-used tickers.
@@ -121,35 +102,27 @@ export async function recentlyUsedTickers(targetDate: string, gamesDir: string):
 }
 
 async function generateGameFile(dateString: string): Promise<void> {
-  if (!API_KEY) throw new Error("ALPHAVANTAGE_API_KEY is not set");
+  if (!API_KEY) throw new Error("TWELVEDATA_API_KEY is not set");
   const gamesDir = path.join(process.cwd(), "public", "games");
   const recent = await recentlyUsedTickers(dateString, gamesDir);
   const puzzle = selectPuzzle(dateString, recent);
-  const avSymbol = toAlphaVantageSymbol(puzzle.ticker);
   console.log(`Generating ${dateString}: ${puzzle.ticker} (${puzzle.interval})`);
 
-  const { fn, key, extra } = seriesKeyFor(puzzle.interval);
-  const priceRes = await getJson(`${BASE}?function=${fn}&symbol=${avSymbol}${extra}&apikey=${API_KEY}`);
+  const interval = twelveDataInterval(puzzle.interval);
+  const priceRes = await getJson(
+    `${BASE}/time_series?symbol=${puzzle.ticker}&interval=${interval}&outputsize=30&apikey=${API_KEY}`
+  );
   assertNotThrottled(priceRes);
-  const series = priceRes[key] as AVSeries | undefined;
-  if (!series) throw new Error(`missing "${key}" in Alpha Vantage response for ${puzzle.ticker}`);
+  const series = priceRes["values"] as TDSeries | undefined;
+  if (!series) throw new Error(`missing "values" in Twelve Data response for ${puzzle.ticker}`);
   const candlestickData = parseSeries(series, puzzle.interval, 30);
   if (candlestickData.length < 10) {
     throw new Error(`only ${candlestickData.length} bars for ${puzzle.ticker}`);
   }
 
-  // OVERVIEW for market cap (sector + name come from the curated pool).
-  const overview = await getJson(`${BASE}?function=OVERVIEW&symbol=${avSymbol}&apikey=${API_KEY}`);
-  assertNotThrottled(overview);
-  const rawCap = overview["MarketCapitalization"];
-  const marketCap = Number(rawCap);
-  let marketCapTier: string;
-  if (!Number.isFinite(marketCap) || marketCap <= 0) {
-    console.warn(`⚠️  No usable market cap for ${puzzle.ticker} (got ${JSON.stringify(rawCap)}); defaulting tier to "Large Cap" (answer pool is all large/mega cap).`);
-    marketCapTier = "Large Cap";
-  } else {
-    marketCapTier = getMarketCapTier(marketCap);
-  }
+  // Twelve Data's free tier doesn't expose market cap (statistics/profile endpoints are paid-only).
+  // The answer pool is curated S&P 500 ∪ Nasdaq-100, i.e. all large/mega cap, so default the tier.
+  const marketCapTier = "Large Cap";
 
   const payload: GameDayPayload = {
     gameId: gameIdFor(dateString),
