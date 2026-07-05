@@ -23,8 +23,8 @@ npx tsx scripts/build-company-list.ts
 # Regenerate answer pool (~517 tickers from Wikipedia S&P 500 + Nasdaq-100)
 npx tsx scripts/build-puzzle-pool.ts
 
-# Generate a game fixture (requires ALPHAVANTAGE_API_KEY env var)
-ALPHAVANTAGE_API_KEY=<key> npx tsx scripts/fetch-game-data.ts 2026-07-05
+# Generate a game fixture (requires TWELVEDATA_API_KEY env var)
+TWELVEDATA_API_KEY=<key> npx tsx scripts/fetch-game-data.ts 2026-07-05
 ```
 
 ## Architecture
@@ -47,7 +47,7 @@ GitHub Actions cron (6:00 UTC daily)
   → scripts/fetch-game-data.ts
       → reads 180-day history from public/games/*.json
       → calls selectPuzzle(date, recentlyUsed) — deterministic, date-seeded
-      → calls Alpha Vantage (OHLC + company overview)
+      → calls Twelve Data (OHLC time series)
       → writes public/games/YYYY-MM-DD.json
       → auto-committed → triggers Vercel deploy
 ```
@@ -65,13 +65,16 @@ Players fetch `/games/${date}.json` statically — zero live financial API calls
 ### Ticker notation
 
 - **App / payload**: dot notation for share classes (`BRK.B`, `BF.B`)
-- **Alpha Vantage API calls**: dash notation (`BRK-B`, `BF-B`)
-- `toAlphaVantageSymbol(ticker)` converts before every AV call.
+- **Twelve Data API calls**: same dot notation — no conversion needed (unlike the old Alpha Vantage provider, which required dashes).
 - `normalizeTicker()` in the build scripts normalizes source dashes/slashes to dots.
 
-### Alpha Vantage guard
+### Twelve Data guard
 
-Alpha Vantage returns HTTP 200 even on throttle or error — signalled via `Note`, `Information`, or `Error Message` JSON keys. `assertNotThrottled(res)` (exported from `scripts/fetch-game-data.ts`) throws on any truthy value before any file write happens.
+Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON body. `assertNotThrottled(res)` (exported from `scripts/fetch-game-data.ts`) throws before any file write happens. Free tier does not include the `statistics`/`profile` endpoints, so `marketCapTier` is **not** fetched live — it's precomputed monthly into `puzzle-pool.ts` (see below) and read statically per puzzle.
+
+### Market cap tiers
+
+`marketCapTier` (used for the g3 hint in `HintContainer.tsx`) is fetched once per ticker during the monthly `build-puzzle-pool.ts` refresh via `api.nasdaq.com`'s public, keyless quote-summary endpoint (undocumented, same risk class as `build-company-list.ts`'s NASDAQ symbol-file scrape). Falls back to `"Large Cap"` per-ticker if that lookup fails for an individual symbol.
 
 ### Client-side state
 
@@ -92,7 +95,7 @@ Alpha Vantage returns HTTP 200 even on throttle or error — signalled via `Note
 `.github/workflows/daily-game.yml`:
 - `generate` job: runs daily at 6:00 UTC, calls `fetch-game-data.ts`, auto-commits the new JSON.
 - `refresh-pool` job: runs after `generate` (serialized via `needs: generate`), first-of-month only, re-runs both build scripts and runs the winnable test before committing.
-- API key injected via `env: ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}` — never interpolated directly into the `run:` shell line.
+- API key injected via `env: TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}` — never interpolated directly into the `run:` shell line.
 
 ### Go-live notes
 
@@ -100,4 +103,4 @@ Three synthetic fixtures exist in `public/games/` (marked `"_synthetic": true`) 
 ```bash
 npx tsx scripts/fetch-game-data.ts <date>
 ```
-Also: `gh secret set ALPHAVANTAGE_API_KEY` must be set for CI to function.
+Also: `gh secret set TWELVEDATA_API_KEY` must be set for CI to function.
