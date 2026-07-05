@@ -120,17 +120,13 @@ async function generateGameFile(dateString: string): Promise<void> {
     throw new Error(`only ${candlestickData.length} bars for ${puzzle.ticker}`);
   }
 
-  // Twelve Data's free tier doesn't expose market cap (statistics/profile endpoints are paid-only).
-  // The answer pool is curated S&P 500 ∪ Nasdaq-100, i.e. all large/mega cap, so default the tier.
-  const marketCapTier = "Large Cap";
-
   const payload: GameDayPayload = {
     gameId: gameIdFor(dateString),
     dateString,
     firstLetter: puzzle.ticker[0],
     interval: puzzle.interval,
     sector: puzzle.sector,
-    marketCapTier,
+    marketCapTier: puzzle.marketCapTier,
     triviaHints: ["TODO: trivia hint 1", "TODO: trivia hint 2"],
     candlestickData,
   };
