@@ -29,7 +29,7 @@ jobs:
         # Pass the dispatch input via env (never interpolated into the shell line)
         # to avoid GitHub Actions script injection. Empty -> script defaults to tomorrow.
         env:
-          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TARGET_DATE: ${{ github.event.inputs.date || '' }}
         run: npx tsx scripts/fetch-game-data.ts "$TARGET_DATE"
 
