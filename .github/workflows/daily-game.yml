@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v4
@@ -34,10 +35,20 @@ jobs:
         run: npx tsx scripts/fetch-game-data.ts "$TARGET_DATE"
 
       - name: Commit game file
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: generate daily game (remember to fill in triviaHints)'
           file_pattern: 'public/games/*.json'
+
+      # Commits made with the default GITHUB_TOKEN don't trigger other workflows
+      # (GitHub's anti-recursion rule), so the push above never fires the Pages
+      # deploy on its own — trigger it explicitly.
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy to GitHub Pages" --repo "$GITHUB_REPOSITORY"
 
   refresh-pool:
     needs: generate
@@ -45,6 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
 
@@ -67,7 +79,15 @@ jobs:
       - name: Verify winnable pool
         run: npx vitest run src/data/puzzle-pool.test.ts
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit pool refresh
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: monthly refresh of company list + puzzle pool'
           file_pattern: 'src/data/companies.ts src/data/puzzle-pool.ts'
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy to GitHub Pages" --repo "$GITHUB_REPOSITORY"
