@@ -70,7 +70,11 @@ Players fetch `/games/${date}.json` statically — zero live financial API calls
 
 ### Twelve Data guard
 
-Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON body. `assertNotThrottled(res)` (exported from `scripts/fetch-game-data.ts`) throws before any file write happens. Free tier does not include the `statistics`/`profile` endpoints, so `marketCapTier` is defaulted to `"Large Cap"` (the answer pool is curated S&P 500 ∪ Nasdaq-100, i.e. already large/mega cap) rather than fetched live.
+Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON body. `assertNotThrottled(res)` (exported from `scripts/fetch-game-data.ts`) throws before any file write happens. Free tier does not include the `statistics`/`profile` endpoints, so `marketCapTier` is **not** fetched live — it's precomputed monthly into `puzzle-pool.ts` (see below) and read statically per puzzle.
+
+### Market cap tiers
+
+`marketCapTier` (used for the g3 hint in `HintContainer.tsx`) is fetched once per ticker during the monthly `build-puzzle-pool.ts` refresh via `api.nasdaq.com`'s public, keyless quote-summary endpoint (undocumented, same risk class as `build-company-list.ts`'s NASDAQ symbol-file scrape). Falls back to `"Large Cap"` per-ticker if that lookup fails for an individual symbol.
 
 ### Client-side state
 
