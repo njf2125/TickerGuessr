@@ -12,12 +12,10 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      actions: write
-
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -34,31 +32,40 @@ jobs:
           TARGET_DATE: ${{ github.event.inputs.date || '' }}
         run: npx tsx scripts/fetch-game-data.ts "$TARGET_DATE"
 
-      - name: Commit game file
+      # main is protected (required "check" status + no direct pushes), so the bot
+      # commits to its own branch and opens a PR instead of pushing to main directly.
+      # Checkout uses a PAT (not GITHUB_TOKEN) so the PR is attributed to a real user —
+      # GITHUB_TOKEN-authored PRs don't trigger other workflows (incl. the required CI check),
+      # and the eventual merge (also via the PAT) still fires deploy.yml's push trigger.
+      - name: Commit game file to automation branch
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: generate daily game (remember to fill in triviaHints)'
           file_pattern: 'public/games/*.json'
+          branch: automation/daily-game-${{ github.run_id }}
+          create_branch: true
 
-      # Commits made with the default GITHUB_TOKEN don't trigger other workflows
-      # (GitHub's anti-recursion rule), so the push above never fires the Pages
-      # deploy on its own — trigger it explicitly.
-      - name: Trigger Pages deploy
+      - name: Open PR and enable auto-merge
         if: steps.commit.outputs.changes_detected == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Deploy to GitHub Pages" --repo "$GITHUB_REPOSITORY"
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh pr create \
+            --title "chore: generate daily game" \
+            --body "Automated daily puzzle generation." \
+            --base main \
+            --head "automation/daily-game-${{ github.run_id }}"
+          gh pr merge --auto --squash "automation/daily-game-${{ github.run_id }}"
 
   refresh-pool:
     needs: generate
     if: ${{ always() && github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      actions: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -79,15 +86,23 @@ jobs:
       - name: Verify winnable pool
         run: npx vitest run src/data/puzzle-pool.test.ts
 
-      - name: Commit pool refresh
+      - name: Commit pool refresh to automation branch
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: monthly refresh of company list + puzzle pool'
           file_pattern: 'src/data/companies.ts src/data/puzzle-pool.ts'
+          branch: automation/pool-refresh-${{ github.run_id }}
+          create_branch: true
 
-      - name: Trigger Pages deploy
+      - name: Open PR and enable auto-merge
         if: steps.commit.outputs.changes_detected == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Deploy to GitHub Pages" --repo "$GITHUB_REPOSITORY"
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh pr create \
+            --title "chore: monthly refresh of company list + puzzle pool" \
+            --body "Automated monthly pool refresh." \
+            --base main \
+            --head "automation/pool-refresh-${{ github.run_id }}"
+          gh pr merge --auto --squash "automation/pool-refresh-${{ github.run_id }}"
