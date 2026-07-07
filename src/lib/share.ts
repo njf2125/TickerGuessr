@@ -11,6 +11,7 @@ export function buildShareText(
   const grid = Array.from({ length: MAX_ATTEMPTS }, (_, i) => {
     const g = guesses[i];
     if (!g) return "⬜";
+    if (g.isSkip) return "⬛";
     return g.isCorrect ? "🟩" : "🟥";
   }).join("");
 

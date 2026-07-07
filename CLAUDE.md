@@ -60,7 +60,7 @@ Players fetch `/games/${date}.json` statically — zero live financial API calls
 - `selectPuzzle(dateString, recentlyUsed)` → deterministic via xmur3 hash + mulberry32 PRNG seeded from the date string. Same date + same history always yields the same puzzle.
 - 180-day exclusion window: `recentlyUsedTickers()` in `fetch-game-data.ts` reads `public/games/*.json` to build the exclusion set before calling `selectPuzzle`.
 - `gameIdFor(dateString)` → day offset from `GAME_START_DATE = "2026-06-25"` + 1.
-- `CandleInterval`: exactly `'1h' | '1d' | '1w'` — no other values.
+- `CandleInterval`: exactly `'1d' | '1w' | '1mo'` — no other values.
 
 ### Ticker notation
 

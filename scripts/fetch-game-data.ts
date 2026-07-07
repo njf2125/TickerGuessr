@@ -11,12 +11,6 @@ const API_KEY = process.env.TWELVEDATA_API_KEY;
 const BASE = "https://api.twelvedata.com";
 const HISTORY_WINDOW_DAYS = 180;
 
-export function barLabel(index: number, interval: CandleInterval): string {
-  if (interval === "1w") return `Wk ${index + 1}`;
-  if (interval === "1h") return `Hr ${index + 1}`;
-  return `Day ${index + 1}`;
-}
-
 function getJson(url: string): Promise<Record<string, unknown>> {
   return new Promise((resolve, reject) => {
     https
@@ -43,13 +37,16 @@ export function assertNotThrottled(res: Record<string, unknown>): void {
 
 type TDSeries = { datetime: string; open: string; high: string; low: string; close: string }[];
 
-export function parseSeries(series: TDSeries, interval: CandleInterval, count: number): OHLCPoint[] {
+// x is the real bar date (YYYY-MM-DD) so the chart's x-axis can render actual
+// months/years — coarse enough to not give away the exact day, but real
+// enough for the axis to read like a normal stock chart.
+export function parseSeries(series: TDSeries, count: number): OHLCPoint[] {
   if (series.length === 0) throw new Error("empty Twelve Data series (throttled or bad symbol?)");
   const oldestFirst = [...series] // Twelve Data returns newest-first
     .sort((a, b) => a.datetime.localeCompare(b.datetime))
     .slice(-count);
-  return oldestFirst.map((ohlc, i) => ({
-    x: barLabel(i, interval),
+  return oldestFirst.map((ohlc) => ({
+    x: ohlc.datetime,
     y: [
       Math.round(Number(ohlc.open) * 100) / 100,
       Math.round(Number(ohlc.high) * 100) / 100,
@@ -61,7 +58,7 @@ export function parseSeries(series: TDSeries, interval: CandleInterval, count: n
 
 function twelveDataInterval(interval: CandleInterval): string {
   if (interval === "1w") return "1week";
-  if (interval === "1h") return "1h";
+  if (interval === "1mo") return "1month";
   return "1day";
 }
 
@@ -115,7 +112,7 @@ async function generateGameFile(dateString: string): Promise<void> {
   assertNotThrottled(priceRes);
   const series = priceRes["values"] as TDSeries | undefined;
   if (!series) throw new Error(`missing "values" in Twelve Data response for ${puzzle.ticker}`);
-  const candlestickData = parseSeries(series, puzzle.interval, 30);
+  const candlestickData = parseSeries(series, 30);
   if (candlestickData.length < 10) {
     throw new Error(`only ${candlestickData.length} bars for ${puzzle.ticker}`);
   }

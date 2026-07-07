@@ -3,7 +3,7 @@ import { PUZZLE_POOL } from "./puzzle-pool";
 import { COMPANIES } from "./companies";
 
 export const GAME_START_DATE = "2026-06-25";
-const INTERVALS: CandleInterval[] = ["1h", "1d", "1w"];
+const INTERVALS: CandleInterval[] = ["1d", "1w", "1mo"];
 
 export interface SelectedPuzzle {
   ticker: string;
