@@ -38,9 +38,9 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
         labels: {
           show: guessCount >= 3,
           style: { colors: "#9ca3af", fontSize: "10px" },
-          // Coarse on purpose: month for daily/weekly charts, year for monthly —
-          // enough calendar context to read like a real chart without giving
-          // away the exact date.
+          // Coarse on purpose: month for daily/weekly charts, year for monthly.
+          // d.x is already a synthetic, seeded calendar (see fakeDateSeries in
+          // fetch-game-data.ts) — no real trading date reaches the client.
           formatter: (value: string) => {
             const d = new Date(Number(value));
             return interval === "1mo"

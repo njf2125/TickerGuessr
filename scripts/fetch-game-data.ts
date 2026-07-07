@@ -4,6 +4,8 @@ import path from "path";
 import {
   selectPuzzle,
   gameIdFor,
+  seedFrom,
+  mulberry32,
 } from "../src/data/puzzle-selection";
 import type { GameDayAnswer, GameDayPayload, OHLCPoint, CandleInterval } from "../src/types/game";
 
@@ -37,16 +39,38 @@ export function assertNotThrottled(res: Record<string, unknown>): void {
 
 type TDSeries = { datetime: string; open: string; high: string; low: string; close: string }[];
 
-// x is the real bar date (YYYY-MM-DD) so the chart's x-axis can render actual
-// months/years — coarse enough to not give away the exact day, but real
-// enough for the axis to read like a normal stock chart.
-export function parseSeries(series: TDSeries, count: number): OHLCPoint[] {
+// A fully synthetic calendar, seeded from the puzzle date (not the real trading
+// dates) so it's deterministic per puzzle but carries zero real-world date
+// signal. The chart's x-axis needs real, evenly-spaced timestamps to render a
+// datetime axis, but the underlying calendar itself must not leak which real
+// dates the actual candles came from.
+function fakeDateSeries(seed: string, interval: CandleInterval, count: number): string[] {
+  const rand = mulberry32(seedFrom(seed));
+  const stepDays = interval === "1w" ? 7 : interval === "1mo" ? 30 : 1;
+  const anchor = new Date(Date.UTC(2000, 0, 1));
+  anchor.setUTCDate(anchor.getUTCDate() + Math.floor(rand() * 365 * 20));
+  const dates: string[] = [];
+  for (let i = 0; i < count; i++) {
+    const d = new Date(anchor);
+    d.setUTCDate(d.getUTCDate() + i * stepDays);
+    dates.push(d.toISOString().slice(0, 10));
+  }
+  return dates;
+}
+
+export function parseSeries(
+  series: TDSeries,
+  count: number,
+  seed: string,
+  interval: CandleInterval
+): OHLCPoint[] {
   if (series.length === 0) throw new Error("empty Twelve Data series (throttled or bad symbol?)");
   const oldestFirst = [...series] // Twelve Data returns newest-first
     .sort((a, b) => a.datetime.localeCompare(b.datetime))
     .slice(-count);
-  return oldestFirst.map((ohlc) => ({
-    x: ohlc.datetime,
+  const fakeDates = fakeDateSeries(seed, interval, oldestFirst.length);
+  return oldestFirst.map((ohlc, i) => ({
+    x: fakeDates[i],
     y: [
       Math.round(Number(ohlc.open) * 100) / 100,
       Math.round(Number(ohlc.high) * 100) / 100,
@@ -112,7 +136,7 @@ async function generateGameFile(dateString: string): Promise<void> {
   assertNotThrottled(priceRes);
   const series = priceRes["values"] as TDSeries | undefined;
   if (!series) throw new Error(`missing "values" in Twelve Data response for ${puzzle.ticker}`);
-  const candlestickData = parseSeries(series, 30);
+  const candlestickData = parseSeries(series, 30, dateString, puzzle.interval);
   if (candlestickData.length < 10) {
     throw new Error(`only ${candlestickData.length} bars for ${puzzle.ticker}`);
   }
