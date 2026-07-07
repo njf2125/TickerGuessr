@@ -133,6 +133,42 @@ export function useGameState(dateString: string) {
     [payload, status, guesses, dateString]
   );
 
+  // Burns an attempt without a real ticker guess, purely to unlock the next hint.
+  const skipGuess = useCallback(() => {
+    if (!payload || status !== "playing") return;
+
+    const result: GuessResult = { ticker: "", name: "Skipped", isCorrect: false, isSkip: true };
+    const nextGuesses = [...guesses, result];
+    const nextStatus: GameStatus = nextGuesses.length >= 6 ? "lost" : "playing";
+
+    setGuesses(nextGuesses);
+    setStatus(nextStatus);
+
+    if (nextStatus !== "playing") {
+      setJustFinished(true);
+    }
+
+    saveGameState({ dateString, guesses: nextGuesses, status: nextStatus });
+
+    if (nextStatus !== "playing") {
+      const prevStats = loadStats();
+      const nextStats = computeNextStats(prevStats, false, nextGuesses.length);
+      setStats(nextStats);
+      saveStats(nextStats);
+    }
+  }, [payload, status, guesses, dateString]);
+
   const answer = status !== "playing" ? answerRef.current : null;
-  return { payload, answer, guesses, status, stats, isLoading, error, justFinished, submitGuess };
+  return {
+    payload,
+    answer,
+    guesses,
+    status,
+    stats,
+    isLoading,
+    error,
+    justFinished,
+    submitGuess,
+    skipGuess,
+  };
 }

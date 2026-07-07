@@ -9,14 +9,28 @@ interface SearchInputProps {
   guessedTickers: string[];
 }
 
+// Rank ticker matches ahead of name matches, and prefix matches ahead of
+// substring matches, so typing "META" surfaces the META ticker first.
+function matchRank(c: Company, q: string): number {
+  const ticker = c.ticker.toUpperCase();
+  const name = c.name.toUpperCase();
+  if (ticker === q) return 0;
+  if (ticker.startsWith(q)) return 1;
+  if (ticker.includes(q)) return 2;
+  if (name.startsWith(q)) return 3;
+  return 4;
+}
+
 function matchCompanies(query: string, exclude: Set<string>): Company[] {
   if (!query.trim()) return [];
   const q = query.toUpperCase();
   return COMPANIES.filter(
     (c) =>
       !exclude.has(c.ticker) &&
-      (c.ticker.includes(q) || c.name.toUpperCase().includes(q))
-  ).slice(0, 5);
+      (c.ticker.toUpperCase().includes(q) || c.name.toUpperCase().includes(q))
+  )
+    .sort((a, b) => matchRank(a, q) - matchRank(b, q))
+    .slice(0, 20);
 }
 
 export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputProps) {
@@ -62,7 +76,7 @@ export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputP
   return (
     <div className="relative w-full">
       {open && (
-        <ul className="absolute bottom-full mb-2 left-0 right-0 z-50 bg-gray-800 border border-gray-700 rounded-xl overflow-hidden shadow-xl">
+        <ul className="absolute bottom-full mb-2 left-0 right-0 z-50 bg-gray-800 border border-gray-700 rounded-xl overflow-y-auto max-h-64 shadow-xl">
           {results.map((c) => (
             <li key={c.ticker}>
               <button

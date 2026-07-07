@@ -3,7 +3,7 @@ import { PUZZLE_POOL } from "./puzzle-pool";
 import { COMPANIES } from "./companies";
 
 export const GAME_START_DATE = "2026-06-25";
-const INTERVALS: CandleInterval[] = ["1h", "1d", "1w"];
+const INTERVALS: CandleInterval[] = ["1d", "1w", "1mo"];
 
 export interface SelectedPuzzle {
   ticker: string;
@@ -19,7 +19,7 @@ const COMPANY_TICKERS = new Set(COMPANIES.map((c) => c.ticker));
 const ELIGIBLE = PUZZLE_POOL.filter((e) => COMPANY_TICKERS.has(e.ticker));
 
 // Deterministic string -> 32-bit seed (xmur3) and PRNG (mulberry32).
-function seedFrom(str: string): number {
+export function seedFrom(str: string): number {
   let h = 1779033703 ^ str.length;
   for (let i = 0; i < str.length; i++) {
     h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
@@ -30,7 +30,7 @@ function seedFrom(str: string): number {
   return (h ^= h >>> 16) >>> 0;
 }
 
-function mulberry32(seed: number): () => number {
+export function mulberry32(seed: number): () => number {
   let a = seed;
   return () => {
     a |= 0;

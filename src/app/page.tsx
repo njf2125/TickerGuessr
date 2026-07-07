@@ -12,8 +12,18 @@ import { HowToModal } from "@/components/HowToModal";
 const TODAY = new Date().toLocaleDateString("en-CA");
 
 export default function Home() {
-  const { payload, answer, guesses, status, stats, isLoading, error, justFinished, submitGuess } =
-    useGameState(TODAY);
+  const {
+    payload,
+    answer,
+    guesses,
+    status,
+    stats,
+    isLoading,
+    error,
+    justFinished,
+    submitGuess,
+    skipGuess,
+  } = useGameState(TODAY);
   const [showStats, setShowStats] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
 
@@ -75,11 +85,22 @@ export default function Home() {
           firstLetter={payload.firstLetter}
           guessCount={guesses.length}
         />
-        <SearchInput
-          onSubmit={submitGuess}
-          disabled={status !== "playing"}
-          guessedTickers={guesses.map((g) => g.ticker)}
-        />
+        <div className="flex gap-2">
+          <div className="flex-1">
+            <SearchInput
+              onSubmit={submitGuess}
+              disabled={status !== "playing"}
+              guessedTickers={guesses.filter((g) => !g.isSkip).map((g) => g.ticker)}
+            />
+          </div>
+          <button
+            onClick={skipGuess}
+            disabled={status !== "playing"}
+            className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-sm font-medium text-gray-300 hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shrink-0"
+          >
+            Skip
+          </button>
+        </div>
         <AttemptMatrix guesses={guesses} />
         {status !== "playing" && (
           <div className="rounded-xl border border-gray-700 bg-gray-800/60 px-4 py-3 text-center">
