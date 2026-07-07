@@ -25,7 +25,7 @@ describe("selectPuzzle", () => {
 
   it("returns a valid interval", () => {
     const p = selectPuzzle("2026-07-09", new Set());
-    expect(["1h", "1d", "1w"]).toContain(p.interval);
+    expect(["1d", "1w", "1mo"]).toContain(p.interval);
   });
 
   it("gameId is day-offset + 1 from the start date", () => {

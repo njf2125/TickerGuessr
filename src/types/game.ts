@@ -3,7 +3,7 @@ export interface Company {
   name: string;
 }
 
-export type CandleInterval = '1h' | '1d' | '1w';
+export type CandleInterval = '1d' | '1w' | '1mo';
 export type GameStatus = 'playing' | 'won' | 'lost';
 
 export interface OHLCPoint {
@@ -31,6 +31,7 @@ export interface GuessResult {
   ticker: string;
   name: string;
   isCorrect: boolean;
+  isSkip?: boolean;
 }
 
 export interface PlayerStats {

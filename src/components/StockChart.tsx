@@ -7,9 +7,9 @@ import type { OHLCPoint, CandleInterval } from "@/types/game";
 const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const INTERVAL_LABELS: Record<CandleInterval, string> = {
-  "1h": "Hourly",
   "1d": "Daily",
   "1w": "Weekly",
+  "1mo": "Monthly",
 };
 
 interface StockChartProps {
@@ -33,9 +33,20 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
         borderColor: "#374151",
       },
       xaxis: {
+        type: "datetime",
+        tickAmount: 6,
         labels: {
           show: guessCount >= 3,
           style: { colors: "#9ca3af", fontSize: "10px" },
+          // Coarse on purpose: month for daily/weekly charts, year for monthly —
+          // enough calendar context to read like a real chart without giving
+          // away the exact date.
+          formatter: (value: string) => {
+            const d = new Date(Number(value));
+            return interval === "1mo"
+              ? `${d.getUTCFullYear()}`
+              : d.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
+          },
         },
         axisBorder: { show: false },
         axisTicks: { show: false },
@@ -63,11 +74,11 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
         },
       },
     }),
-    [guessCount]
+    [guessCount, interval]
   );
 
   const series = useMemo(
-    () => [{ data: data.map((d) => ({ x: d.x, y: d.y })) }],
+    () => [{ data: data.map((d) => ({ x: new Date(d.x).getTime(), y: d.y })) }],
     [data]
   );
 
