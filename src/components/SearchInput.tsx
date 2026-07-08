@@ -37,7 +37,9 @@ export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputP
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Company[]>([]);
   const [open, setOpen] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
+  const itemRefs = useRef<(HTMLLIElement | null)[]>([]);
 
   const handleChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -46,6 +48,7 @@ export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputP
       const matches = matchCompanies(val, new Set(guessedTickers));
       setResults(matches);
       setOpen(matches.length > 0);
+      setHighlightedIndex(-1);
     },
     [guessedTickers]
   );
@@ -56,6 +59,7 @@ export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputP
       setQuery("");
       setResults([]);
       setOpen(false);
+      setHighlightedIndex(-1);
       inputRef.current?.blur();
     },
     [onSubmit]
@@ -63,24 +67,47 @@ export function SearchInput({ onSubmit, disabled, guessedTickers }: SearchInputP
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (e.key === "ArrowDown" && results.length > 0) {
+        e.preventDefault();
+        setHighlightedIndex((prev) => {
+          const next = Math.min(prev + 1, results.length - 1);
+          itemRefs.current[next]?.scrollIntoView({ block: "nearest" });
+          return next;
+        });
+        return;
+      }
+      if (e.key === "ArrowUp" && results.length > 0) {
+        e.preventDefault();
+        setHighlightedIndex((prev) => {
+          const next = Math.max(prev - 1, 0);
+          itemRefs.current[next]?.scrollIntoView({ block: "nearest" });
+          return next;
+        });
+        return;
+      }
       if (e.key === "Enter" && results.length > 0) {
-        handleSelect(results[0].ticker);
+        const ticker = highlightedIndex >= 0 ? results[highlightedIndex].ticker : results[0].ticker;
+        handleSelect(ticker);
       }
       if (e.key === "Escape") {
         setOpen(false);
       }
     },
-    [results, handleSelect]
+    [results, highlightedIndex, handleSelect]
   );
 
   return (
     <div className="relative w-full">
       {open && (
         <ul className="absolute bottom-full mb-2 left-0 right-0 z-50 bg-gray-800 border border-gray-700 rounded-xl overflow-y-auto max-h-64 shadow-xl">
-          {results.map((c) => (
-            <li key={c.ticker}>
+          {results.map((c, i) => (
+            <li key={c.ticker} ref={(el) => { itemRefs.current[i] = el; }}>
               <button
-                className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-700 transition-colors"
+                type="button"
+                className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                  i === highlightedIndex ? "bg-gray-700" : "hover:bg-gray-700"
+                }`}
+                onMouseEnter={() => setHighlightedIndex(i)}
                 onMouseDown={(e) => {
                   e.preventDefault();
                   handleSelect(c.ticker);
