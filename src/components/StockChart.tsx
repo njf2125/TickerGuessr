@@ -29,14 +29,14 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
       },
       theme: { mode: "dark" },
       grid: {
-        show: guessCount >= 1,
+        show: true,
         borderColor: "#374151",
       },
       xaxis: {
         type: "datetime",
         tickAmount: 6,
         labels: {
-          show: guessCount >= 3,
+          show: true,
           style: { colors: "#9ca3af", fontSize: "10px" },
           // Coarse on purpose: month for daily/weekly charts, year for monthly.
           // d.x is already a synthetic, seeded calendar (see fakeDateSeries in
@@ -61,7 +61,7 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
       },
       tooltip: {
         // Exact OHLC on hover is more revealing than the price scale alone.
-        enabled: guessCount >= 4,
+        enabled: guessCount >= 3,
         theme: "dark",
       },
       plotOptions: {
@@ -84,11 +84,9 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
 
   return (
     <div className="relative w-full rounded-xl overflow-hidden bg-gray-900">
-      {guessCount >= 1 && (
-        <span className="absolute top-2 right-2 z-10 text-xs font-medium px-2 py-0.5 rounded-full bg-gray-700 text-gray-300">
-          {INTERVAL_LABELS[interval]}
-        </span>
-      )}
+      <span className="absolute top-2 right-2 z-10 text-xs font-medium px-2 py-0.5 rounded-full bg-gray-700 text-gray-300">
+        {INTERVAL_LABELS[interval]}
+      </span>
       <ApexChart
         type="candlestick"
         series={series}
