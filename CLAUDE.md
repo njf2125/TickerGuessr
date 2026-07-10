@@ -74,7 +74,7 @@ Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON
 
 ### Market cap tiers
 
-`marketCapTier` (used for the g3 hint in `HintContainer.tsx`) is fetched once per ticker during the monthly `build-puzzle-pool.ts` refresh via `api.nasdaq.com`'s public, keyless quote-summary endpoint (undocumented, same risk class as `build-company-list.ts`'s NASDAQ symbol-file scrape). Falls back to `"Large Cap"` per-ticker if that lookup fails for an individual symbol.
+`marketCapTier` (used for the g2 hint in `HintContainer.tsx`) is fetched once per ticker during the monthly `build-puzzle-pool.ts` refresh via `api.nasdaq.com`'s public, keyless quote-summary endpoint (undocumented, same risk class as `build-company-list.ts`'s NASDAQ symbol-file scrape). Falls back to `"Large Cap"` per-ticker if that lookup fails for an individual symbol.
 
 ### Client-side state
 

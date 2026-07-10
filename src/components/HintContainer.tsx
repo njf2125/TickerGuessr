@@ -13,7 +13,8 @@ function isReal(hint: string | undefined): hint is string {
 }
 
 // Reveal curve is staggered so every wrong guess (through 5) unlocks something:
-// g2 sector, g3 market cap, g4 trivia[0], g5 trivia[1] + starting letter.
+// g1 sector, g2 market cap, (g3 chart tooltip, in StockChart), g4 trivia[0],
+// g5 trivia[1] + starting letter.
 export function HintContainer({
   sector,
   marketCapTier,
@@ -21,7 +22,7 @@ export function HintContainer({
   firstLetter,
   guessCount,
 }: HintContainerProps) {
-  if (guessCount < 2) return null;
+  if (guessCount < 1) return null;
 
   return (
     <div className="flex flex-col gap-2">
@@ -29,7 +30,7 @@ export function HintContainer({
         <span className="text-xs px-3 py-1 rounded-full bg-blue-900/50 text-blue-300 border border-blue-800">
           📊 {sector}
         </span>
-        {guessCount >= 3 && (
+        {guessCount >= 2 && (
           <span className="text-xs px-3 py-1 rounded-full bg-purple-900/50 text-purple-300 border border-purple-800">
             💰 {marketCapTier}
           </span>
