@@ -59,10 +59,11 @@ export function gameIdFor(dateString: string): number {
 export function selectPuzzle(dateString: string, recentlyUsed: Set<string>): SelectedPuzzle {
   const rng = mulberry32(seedFrom(dateString));
   let candidates = FAMILIAR_ELIGIBLE.filter((e) => !recentlyUsed.has(e.ticker));
-  // Safety nets: fall back to the full eligible pool if the familiar subset
-  // or the 180-day window somehow excluded everything.
-  if (candidates.length === 0) candidates = FAMILIAR_ELIGIBLE;
+  // Safety nets, in priority order: prefer a fresh (not-recently-used) pick
+  // over a familiar one, since the 180-day no-repeat rule is the harder
+  // guarantee — only reuse a ticker if the wider pool is also exhausted.
   if (candidates.length === 0) candidates = ELIGIBLE.filter((e) => !recentlyUsed.has(e.ticker));
+  if (candidates.length === 0) candidates = FAMILIAR_ELIGIBLE;
   if (candidates.length === 0) candidates = ELIGIBLE;
   if (candidates.length === 0) {
     throw new Error("No eligible puzzle tickers — pool ∩ companies is empty.");
