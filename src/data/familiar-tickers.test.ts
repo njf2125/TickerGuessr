@@ -10,9 +10,11 @@ describe("familiar-tickers", () => {
     expect(missing, `familiar tickers missing from puzzle-pool.ts: ${missing.join(", ")}`).toEqual([]);
   });
 
-  it("has enough entries for reasonable variety", () => {
-    // selectPuzzle falls back to the full eligible pool if this set is ever
-    // exhausted by the 180-day no-repeat window, so this isn't a hard floor.
-    expect(FAMILIAR_TICKERS.size).toBeGreaterThan(100);
+  it("has enough margin above the 180-day no-repeat window", () => {
+    // selectPuzzle excludes tickers used in the trailing 180 days; a familiar
+    // pool sized too close to 180 runs dry and falls back to the full (less
+    // recognizable) pool permanently. Guard the margin so a future edit that
+    // trims this list too aggressively fails loudly instead of silently.
+    expect(FAMILIAR_TICKERS.size).toBeGreaterThan(210);
   });
 });
