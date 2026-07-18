@@ -13,8 +13,9 @@ function isReal(hint: string | undefined): hint is string {
 }
 
 // Reveal curve is staggered so every wrong guess (through 5) unlocks something:
-// g1 sector, g2 market cap, (g3 chart tooltip, in StockChart), g4 trivia[0],
-// g5 trivia[1] + starting letter.
+// g1 sector, g2 market cap, g3 trivia[0], g4 trivia[1], g5 starting letter.
+// (g3 also flips on the chart's hover tooltip, in StockChart — a bonus, not
+// the guess's real hint, since it's invisible/unreliable on touch devices.)
 export function HintContainer({
   sector,
   marketCapTier,
@@ -41,12 +42,12 @@ export function HintContainer({
           </span>
         )}
       </div>
-      {guessCount >= 4 && isReal(triviaHints[0]) && (
+      {guessCount >= 3 && isReal(triviaHints[0]) && (
         <p className="text-xs text-gray-300 bg-gray-800/60 rounded-lg px-3 py-2 leading-relaxed">
           💡 {triviaHints[0]}
         </p>
       )}
-      {guessCount >= 5 && isReal(triviaHints[1]) && (
+      {guessCount >= 4 && isReal(triviaHints[1]) && (
         <p className="text-xs text-gray-300 bg-gray-800/60 rounded-lg px-3 py-2 leading-relaxed">
           💡 {triviaHints[1]}
         </p>
