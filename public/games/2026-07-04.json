@@ -6,8 +6,8 @@
   "sector": "Industrials",
   "marketCapTier": "Large Cap",
   "triviaHints": [
-    "TODO: trivia hint 1",
-    "TODO: trivia hint 2"
+    "Formed in 2020 from the merger of a major defense contractor with an aerospace and aircraft-engine manufacturer.",
+    "One of its divisions makes jet engines, while another makes aviation electronics."
   ],
   "candlestickData": [
     {
@@ -281,5 +281,5 @@
       ]
     }
   ],
-  "_synthetic": "SYNTHETIC OHLC/market-cap \u2014 Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-04"
+  "_synthetic": "SYNTHETIC OHLC/market-cap — Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-04"
 }

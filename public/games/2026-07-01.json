@@ -6,8 +6,8 @@
   "sector": "Financials",
   "marketCapTier": "Large Cap",
   "triviaHints": [
-    "TODO: trivia hint 1",
-    "TODO: trivia hint 2"
+    "Its well-known slogan has promised customers they're 'in Good Hands' since the 1950s.",
+    "Originally launched in 1931 as an auto insurance offering sold through a department store chain."
   ],
   "candlestickData": [
     {
@@ -281,5 +281,5 @@
       ]
     }
   ],
-  "_synthetic": "SYNTHETIC OHLC/market-cap \u2014 Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-01"
+  "_synthetic": "SYNTHETIC OHLC/market-cap — Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-07-01"
 }

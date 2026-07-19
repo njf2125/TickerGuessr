@@ -41,7 +41,7 @@ jobs:
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: generate daily game (remember to fill in triviaHints)'
+          commit_message: 'chore: generate daily game'
           file_pattern: 'public/games/*.json'
           branch: automation/daily-game-${{ github.run_id }}
           create_branch: true

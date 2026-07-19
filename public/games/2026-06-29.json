@@ -6,8 +6,8 @@
   "sector": "Real Estate",
   "marketCapTier": "Large Cap",
   "triviaHints": [
-    "TODO: trivia hint 1",
-    "TODO: trivia hint 2"
+    "One of the largest owners of premier workplace real estate in the U.S., concentrated in coastal markets.",
+    "Organized as a real estate investment trust, it rebranded from a name tied to its home city in 2021."
   ],
   "candlestickData": [
     {
@@ -281,5 +281,5 @@
       ]
     }
   ],
-  "_synthetic": "SYNTHETIC OHLC/market-cap \u2014 Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-06-29"
+  "_synthetic": "SYNTHETIC OHLC/market-cap — Alpha Vantage key unavailable; regenerate with: npx tsx scripts/fetch-game-data.ts 2026-06-29"
 }
