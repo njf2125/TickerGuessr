@@ -148,7 +148,7 @@ async function generateGameFile(dateString: string): Promise<void> {
     interval: puzzle.interval,
     sector: puzzle.sector,
     marketCapTier: puzzle.marketCapTier,
-    triviaHints: ["TODO: trivia hint 1", "TODO: trivia hint 2"],
+    triviaHints: puzzle.triviaHints,
     candlestickData,
   };
 
@@ -163,7 +163,6 @@ async function generateGameFile(dateString: string): Promise<void> {
   await fs.writeFile(outPath, JSON.stringify(payload, null, 2) + "\n");
   await fs.writeFile(answerPath, JSON.stringify(answer, null, 2) + "\n");
   console.log(`Wrote ${outPath} + ${answerPath}`);
-  console.log(`⚠️  Fill in triviaHints for ${puzzle.ticker} before ${dateString} goes live.`);
 }
 
 // Usage: npx tsx scripts/fetch-game-data.ts [YYYY-MM-DD]  (defaults to tomorrow, UTC)
