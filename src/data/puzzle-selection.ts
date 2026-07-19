@@ -11,6 +11,7 @@ export interface SelectedPuzzle {
   name: string;
   sector: string;
   marketCapTier: string;
+  triviaHints: [string, string];
   interval: CandleInterval;
 }
 
@@ -70,5 +71,12 @@ export function selectPuzzle(dateString: string, recentlyUsed: Set<string>): Sel
   }
   const entry = candidates[Math.floor(rng() * candidates.length)];
   const interval = INTERVALS[Math.floor(rng() * INTERVALS.length)];
-  return { ticker: entry.ticker, name: entry.name, sector: entry.sector, marketCapTier: entry.marketCapTier, interval };
+  return {
+    ticker: entry.ticker,
+    name: entry.name,
+    sector: entry.sector,
+    marketCapTier: entry.marketCapTier,
+    triviaHints: entry.triviaHints,
+    interval,
+  };
 }

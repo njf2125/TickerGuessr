@@ -1,4 +1,6 @@
 import { describe, it, expect } from "vitest";
+import fs from "fs";
+import path from "path";
 import { parseSeries, assertNotThrottled } from "./fetch-game-data";
 
 describe("fetch-game-data helpers", () => {
@@ -46,5 +48,28 @@ describe("fetch-game-data helpers", () => {
   it("throws when Twelve Data signals an error", () => {
     expect(() => assertNotThrottled({ status: "error", message: "Invalid API call" })).toThrow();
     expect(() => assertNotThrottled({ status: "ok", values: [] })).not.toThrow();
+  });
+});
+
+describe("live fixtures", () => {
+  // Catches the recurring gap where a puzzle goes live with the generator's
+  // placeholder trivia text still in place — HintContainer silently hides a
+  // TODO-prefixed hint, so a guess/skip that should unlock trivia shows nothing.
+  it("has no TODO trivia placeholders in already-live game files", () => {
+    const gamesDir = path.join(process.cwd(), "public", "games");
+    const today = new Date().toISOString().slice(0, 10);
+    const stale: string[] = [];
+
+    for (const file of fs.readdirSync(gamesDir)) {
+      if (!file.endsWith(".json") || file.includes("-answer")) continue;
+      const dateString = file.replace(".json", "");
+      if (dateString > today) continue; // not live yet — TODOs are expected until filled in
+
+      const data = JSON.parse(fs.readFileSync(path.join(gamesDir, file), "utf8"));
+      const hints: string[] = data.triviaHints ?? [];
+      if (hints.some((h) => h.startsWith("TODO:"))) stale.push(file);
+    }
+
+    expect(stale, `live fixtures still with TODO trivia: ${stale.join(", ")}`).toEqual([]);
   });
 });

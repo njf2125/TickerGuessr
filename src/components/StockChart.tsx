@@ -45,7 +45,7 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
             const d = new Date(Number(value));
             return interval === "1mo"
               ? `${d.getUTCFullYear()}`
-              : d.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
+              : d.toLocaleString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
           },
         },
         axisBorder: { show: false },
