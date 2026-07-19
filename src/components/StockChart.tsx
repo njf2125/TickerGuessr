@@ -38,7 +38,7 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
         labels: {
           show: true,
           style: { colors: "#9ca3af", fontSize: "10px" },
-          // Coarse on purpose: month for daily/weekly charts, year for monthly.
+          // Coarse on purpose: month+day for daily/weekly charts, year for monthly.
           // d.x is already a synthetic, seeded calendar (see fakeDateSeries in
           // fetch-game-data.ts) — no real trading date reaches the client.
           formatter: (value: string) => {
