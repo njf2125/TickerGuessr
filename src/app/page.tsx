@@ -101,11 +101,20 @@ export default function Home() {
             Skip
           </button>
         </div>
-        <AttemptMatrix guesses={guesses} />
         {status !== "playing" && (
-          <div className="rounded-xl border border-gray-700 bg-gray-800/60 px-4 py-3 text-center">
-            <p className="text-xs uppercase tracking-wider text-gray-400">
-              {status === "won" ? "You got it" : "The answer was"}
+          <div
+            className={`rounded-xl border px-4 py-3 text-center ${
+              status === "won"
+                ? "border-green-700 bg-green-900/40"
+                : "border-red-800 bg-red-900/30"
+            }`}
+          >
+            <p
+              className={`text-xs uppercase tracking-wider ${
+                status === "won" ? "text-green-300" : "text-red-300"
+              }`}
+            >
+              {status === "won" ? "You got it!" : "The answer was"}
             </p>
             <p className="mt-1 text-lg font-bold">
               <span className="font-mono">{answer?.ticker}</span>
@@ -113,6 +122,7 @@ export default function Home() {
             </p>
           </div>
         )}
+        <AttemptMatrix guesses={guesses} />
       </main>
       {showStats && (
         <StatsModal
