@@ -25,6 +25,18 @@ export function StatsModal({ stats, guesses, status, gameId, onClose }: StatsMod
 
   const handleShare = useCallback(async () => {
     const text = buildShareText(guesses, status, gameId);
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ text });
+      } catch (err) {
+        // AbortError just means the user dismissed the native share sheet —
+        // not a failure, so don't fall back to clipboard in that case.
+        if (err instanceof Error && err.name === "AbortError") return;
+      }
+      return;
+    }
+
     await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
