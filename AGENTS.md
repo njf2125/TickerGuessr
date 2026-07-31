@@ -22,9 +22,6 @@ npx tsx scripts/build-company-list.ts
 
 # Regenerate answer pool (~517 tickers from Wikipedia S&P 500 + Nasdaq-100)
 npx tsx scripts/build-puzzle-pool.ts
-
-# Generate a game fixture (requires TWELVEDATA_API_KEY env var)
-TWELVEDATA_API_KEY=<key> npx tsx scripts/fetch-game-data.ts 2026-07-05
 ```
 
 ## Architecture
@@ -40,37 +37,26 @@ TWELVEDATA_API_KEY=<key> npx tsx scripts/fetch-game-data.ts 2026-07-05
 
 A unit test (`puzzle-pool.test.ts`) enforces that every pool ticker exists in companies.ts (the "winnability guarantee"). `puzzle-selection.ts` computes `ELIGIBLE = PUZZLE_POOL ∩ COMPANY_TICKERS` at runtime as a belt-and-suspenders safety net.
 
-### Data pipeline (automated, no runtime API calls)
+### Data pipeline (currently paused — no active OHLC provider)
 
-```
-GitHub Actions cron (6:00 UTC daily)
-  → scripts/fetch-game-data.ts
-      → reads 180-day history from public/games/*.json
-      → calls selectPuzzle(date, recentlyUsed) — deterministic, date-seeded
-      → calls Twelve Data (OHLC time series)
-      → writes public/games/YYYY-MM-DD.json
-      → auto-committed → triggers Vercel deploy
-```
+Daily game generation is **paused**: the prior provider (Twelve Data) does not permit publicly redistributing/caching its OHLC data long-term on a free/personal plan, which is exactly what this pipeline did (bake it into static JSON files served indefinitely). `scripts/fetch-game-data.ts` and the daily-generation GitHub Actions job have been removed until a licensing-compliant provider is chosen.
 
-Players fetch `/games/${date}.json` statically — zero live financial API calls at runtime.
+`public/games/*.json` still holds previously-generated puzzles and continues to be served statically — zero live financial API calls at runtime — but no new dates are being produced.
+
+`src/data/puzzle-selection.ts` (`selectPuzzle`, `gameIdFor`, deterministic date-seeded PRNG) is unchanged and ready to be wired into a new fetch script once a provider is picked.
 
 ### Puzzle selection
 
 `src/data/puzzle-selection.ts` — pure, no I/O:
 - `selectPuzzle(dateString, recentlyUsed)` → deterministic via xmur3 hash + mulberry32 PRNG seeded from the date string. Same date + same history always yields the same puzzle.
-- 180-day exclusion window: `recentlyUsedTickers()` in `fetch-game-data.ts` reads `public/games/*.json` to build the exclusion set before calling `selectPuzzle`.
+- 180-day exclusion window: previously built by reading `public/games/*.json` in `fetch-game-data.ts` (now removed) before calling `selectPuzzle`; a new fetch script will need to reimplement this.
 - `gameIdFor(dateString)` → day offset from `GAME_START_DATE = "2026-06-25"` + 1.
 - `CandleInterval`: exactly `'1d' | '1w' | '1mo'` — no other values.
 
 ### Ticker notation
 
 - **App / payload**: dot notation for share classes (`BRK.B`, `BF.B`)
-- **Twelve Data API calls**: same dot notation — no conversion needed (unlike the old Alpha Vantage provider, which required dashes).
 - `normalizeTicker()` in the build scripts normalizes source dashes/slashes to dots.
-
-### Twelve Data guard
-
-Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON body. `assertNotThrottled(res)` (exported from `scripts/fetch-game-data.ts`) throws before any file write happens. Free tier does not include the `statistics`/`profile` endpoints, so `marketCapTier` is **not** fetched live — it's precomputed monthly into `puzzle-pool.ts` (see below) and read statically per puzzle.
 
 ### Market cap tiers
 
@@ -92,15 +78,13 @@ Twelve Data signals errors via `{"status": "error", "message": ...}` in the JSON
 
 ### CI
 
-`.github/workflows/daily-game.yml`:
-- `generate` job: runs daily at 6:00 UTC, calls `fetch-game-data.ts`, auto-commits the new JSON.
-- `refresh-pool` job: runs after `generate` (serialized via `needs: generate`), first-of-month only, re-runs both build scripts and runs the winnable test before committing.
-- API key injected via `env: TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}` — never interpolated directly into the `run:` shell line.
+`.github/workflows/pool-refresh.yml`:
+- `refresh-pool` job: runs monthly (1st of the month, 6:00 UTC), re-runs both build scripts (`build-company-list.ts`, `build-puzzle-pool.ts`) and the winnable-pool test before auto-committing via PR.
+- There is no daily-generation workflow — see "Data pipeline" above.
 
-### Go-live notes
+### Resuming daily generation
 
-Three synthetic fixtures exist in `public/games/` (marked `"_synthetic": true`) for 2026-06-29, 2026-07-01, and 2026-07-04. Regenerate them with a real key before those dates:
-```bash
-npx tsx scripts/fetch-game-data.ts <date>
-```
-Also: `gh secret set TWELVEDATA_API_KEY` must be set for CI to function.
+To bring daily puzzle generation back:
+1. Pick an OHLC data provider whose terms explicitly permit public redistribution/long-term caching of historical price data (not just live per-request display) — this was the reason Twelve Data was removed.
+2. Write a new `scripts/fetch-*.ts` analogous to the old `fetch-game-data.ts`: read recent `public/games/*.json` to build the 180-day exclusion set, call `selectPuzzle`, fetch OHLC from the new provider, write `public/games/YYYY-MM-DD.json` + `-answer.json`.
+3. Add a daily-cron GitHub Actions job (see git history for `daily-game.yml` prior to its removal for the auto-commit/PR pattern).
