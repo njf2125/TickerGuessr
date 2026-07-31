@@ -1,0 +1,55 @@
+name: Monthly Pool Refresh
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'  # 6:00 UTC on the 1st of each month
+  workflow_dispatch: {}
+
+jobs:
+  refresh-pool:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Refresh company list + puzzle pool
+        run: |
+          npx tsx scripts/build-company-list.ts
+          npx tsx scripts/build-puzzle-pool.ts
+
+      - name: Verify winnable pool
+        run: npx vitest run src/data/puzzle-pool.test.ts
+
+      # main is protected (required "check" status + no direct pushes), so the bot
+      # commits to its own branch and opens a PR instead of pushing to main directly.
+      # Checkout uses a PAT (not GITHUB_TOKEN) so the PR is attributed to a real user —
+      # GITHUB_TOKEN-authored PRs don't trigger other workflows (incl. the required CI check),
+      # and the eventual merge (also via the PAT) still fires deploy.yml's push trigger.
+      - name: Commit pool refresh to automation branch
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: monthly refresh of company list + puzzle pool'
+          file_pattern: 'src/data/companies.ts src/data/puzzle-pool.ts'
+          branch: automation/pool-refresh-${{ github.run_id }}
+          create_branch: true
+
+      - name: Open PR and enable auto-merge
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh pr create \
+            --title "chore: monthly refresh of company list + puzzle pool" \
+            --body "Automated monthly pool refresh." \
+            --base main \
+            --head "automation/pool-refresh-${{ github.run_id }}"
+          gh pr merge --auto --squash "automation/pool-refresh-${{ github.run_id }}"
