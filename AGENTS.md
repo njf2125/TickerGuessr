@@ -45,6 +45,14 @@ Daily game generation is **paused**: the prior provider (Twelve Data) does not p
 
 `src/data/puzzle-selection.ts` (`selectPuzzle`, `gameIdFor`, deterministic date-seeded PRNG) is unchanged and ready to be wired into a new fetch script once a provider is picked.
 
+### Data retention (public/games is a rolling window, not an archive)
+
+No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY)` in `src/app/page.tsx`) — there's no replay/archive UI, and `gameId` is only a display number. So once a day passes, its file has no product purpose, only a growing liability surface (publicly redistributing licensed OHLC data indefinitely). Retention policy:
+
+- `public/games/` holds **only the current day's puzzle plus at most one day ahead** (a pre-generated "tomorrow," if one exists) — never a running archive.
+- `data/ticker-history.json` (outside `public/`, never served) holds the full `{date, ticker}` history needed for the 180-day repeat-ticker exclusion window in `selectPuzzle` — no price data, just enough to avoid repeats.
+- Whenever a new fetch script runs: append that day's `{date, ticker}` to `data/ticker-history.json`, write the new day's file into `public/games/`, and delete the previous day's file(s) from `public/games/` once they're no longer "today" or "tomorrow."
+
 ### Puzzle selection
 
 `src/data/puzzle-selection.ts` — pure, no I/O:
@@ -86,5 +94,5 @@ Daily game generation is **paused**: the prior provider (Twelve Data) does not p
 
 To bring daily puzzle generation back:
 1. Pick an OHLC data provider whose terms explicitly permit public redistribution/long-term caching of historical price data (not just live per-request display) — this was the reason Twelve Data was removed.
-2. Write a new `scripts/fetch-*.ts` analogous to the old `fetch-game-data.ts`: read recent `public/games/*.json` to build the 180-day exclusion set, call `selectPuzzle`, fetch OHLC from the new provider, write `public/games/YYYY-MM-DD.json` + `-answer.json`.
+2. Write a new `scripts/fetch-*.ts` analogous to the old `fetch-game-data.ts`: read `data/ticker-history.json` (not `public/games/*.json`) to build the 180-day exclusion set, call `selectPuzzle`, fetch OHLC from the new provider, write `public/games/YYYY-MM-DD.json` + `-answer.json`, append the new `{date, ticker}` to `data/ticker-history.json`, and delete any `public/games/` file that's no longer today or tomorrow — see "Data retention" above.
 3. Add a daily-cron GitHub Actions job (see git history for `daily-game.yml` prior to its removal for the auto-commit/PR pattern).
