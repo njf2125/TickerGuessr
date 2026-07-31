@@ -20,10 +20,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    // Upgrade to "summary_large_image" once a public/og.png exists and is added
-    // to openGraph.images / twitter.images. "summary" renders cleanly with no
-    // image asset, so it's safe to ship today.
-    card: "summary",
+    card: "summary_large_image",
     title: "TickerGuessr",
     description: DESCRIPTION,
   },

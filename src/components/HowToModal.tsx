@@ -38,9 +38,9 @@ export function HowToModal({ onClose }: HowToModalProps) {
           Guess the mystery stock from its candlestick chart in <strong>6 tries</strong>.
         </p>
         <ul className="flex flex-col gap-2 text-sm text-gray-300">
-          <li>📈 The chart starts bare — no axes, no labels.</li>
+          <li>📈 The chart shows price and dates, but not the company.</li>
           <li>🔎 Search a ticker or company name and submit a guess.</li>
-          <li>💡 Each wrong guess reveals more — grid, axes, sector, market cap, trivia, and finally the starting letter.</li>
+          <li>💡 Each wrong guess unlocks a new hint — sector, then market cap, then two trivia clues, then the starting letter.</li>
           <li>🟩 Solve it before you run out of attempts. A new puzzle drops daily.</li>
         </ul>
         <button
