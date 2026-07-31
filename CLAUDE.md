@@ -60,7 +60,7 @@ Daily game generation is **paused**: the prior provider (Twelve Data) does not p
 
 ### Market cap tiers
 
-`marketCapTier` (used for the g2 hint in `HintContainer.tsx`) is fetched once per ticker during the monthly `build-puzzle-pool.ts` refresh via `api.nasdaq.com`'s public, keyless quote-summary endpoint (undocumented, same risk class as `build-company-list.ts`'s NASDAQ symbol-file scrape). Falls back to `"Large Cap"` per-ticker if that lookup fails for an individual symbol.
+`marketCapTier` (used for the g2 hint in `HintContainer.tsx`) is **not** fetched live. `build-puzzle-pool.ts` carries the tier forward from the previous pool build for tickers already in the pool; a ticker new to the pool defaults to `"Large Cap"` (S&P 500 / Nasdaq-100 membership already implies large/mega cap). This replaced a prior `api.nasdaq.com` undocumented quote-summary lookup, which was fragile and unlicensed.
 
 ### Client-side state
 
