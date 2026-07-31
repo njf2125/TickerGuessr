@@ -5,15 +5,16 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const TITLE = "TickerGuessr — Daily Stock Ticker Guessing Game";
 const DESCRIPTION =
-  "Guess the stock ticker from the chart — a new puzzle every day.";
+  "Guess the mystery stock from its candlestick chart in 6 tries. A new stock market puzzle every day — free, no account needed.";
 
 export const metadata: Metadata = {
-  title: "TickerGuessr",
+  title: TITLE,
   description: DESCRIPTION,
   metadataBase: new URL("https://tickerguessr.app"),
   openGraph: {
-    title: "TickerGuessr",
+    title: TITLE,
     description: DESCRIPTION,
     url: "https://tickerguessr.app",
     siteName: "TickerGuessr",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TickerGuessr",
+    title: TITLE,
     description: DESCRIPTION,
   },
 };
