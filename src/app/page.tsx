@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useGameState } from "@/hooks/useGameState";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { StockChart } from "@/components/StockChart";
 import { HintContainer } from "@/components/HintContainer";
 import { AttemptMatrix } from "@/components/AttemptMatrix";
@@ -124,6 +125,7 @@ export default function Home() {
         )}
         <AttemptMatrix guesses={guesses} />
       </main>
+      <Footer />
       {showStats && (
         <StatsModal
           stats={stats}

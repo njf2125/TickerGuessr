@@ -7,5 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1,
     },
+    {
+      url: "https://tickerguessr.app/privacy",
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
   ];
 }
