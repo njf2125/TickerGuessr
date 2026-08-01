@@ -1,3 +1,5 @@
+import https from "https";
+
 export interface SecFactUnit {
   start: string;
   end: string;
@@ -57,4 +59,82 @@ export function trendDirection(values: number[]): "up" | "down" {
   }
   const slope = den === 0 ? 0 : num / den;
   return slope >= 0 ? "up" : "down";
+}
+
+export interface Fetcher {
+  getJson(url: string): Promise<{ status: number; body: unknown }>;
+}
+
+const SEC_USER_AGENT = "TickerGuessrBot/1.0 (https://tickerguessr.app)";
+
+export function httpsFetcher(): Fetcher {
+  return {
+    getJson(url: string) {
+      return new Promise((resolve, reject) => {
+        const req = https.get(
+          url,
+          { headers: { "User-Agent": SEC_USER_AGENT, Accept: "application/json" } },
+          (res) => {
+            let data = "";
+            res.on("data", (c) => (data += c));
+            res.on("end", () => {
+              const status = res.statusCode ?? 0;
+              if (status !== 200) return resolve({ status, body: null });
+              try {
+                resolve({ status, body: JSON.parse(data) });
+              } catch (e) {
+                reject(e);
+              }
+            });
+          }
+        );
+        req.on("error", reject);
+        req.setTimeout(15_000, () => req.destroy(new Error(`timed out: ${url}`)));
+      });
+    },
+  };
+}
+
+export function assertNotSecThrottled(status: number): void {
+  if (status === 403 || status === 429) {
+    throw new Error(`SEC EDGAR throttled or blocked request (HTTP ${status})`);
+  }
+}
+
+export const REVENUE_TAGS = [
+  "RevenueFromContractWithCustomerExcludingAssessedTax",
+  "Revenues",
+  "SalesRevenueNet",
+  "SalesRevenueGoodsNet",
+  "SalesRevenueServicesNet",
+  "InterestAndDividendIncomeOperating",
+];
+export const NET_INCOME_TAGS = ["NetIncomeLoss"];
+
+export async function fetchConceptWithFallback(
+  fetcher: Fetcher,
+  cik: string,
+  tags: string[]
+): Promise<SecFactUnit[] | null> {
+  for (const tag of tags) {
+    const url = `https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/us-gaap/${tag}.json`;
+    const { status, body } = await fetcher.getJson(url);
+    assertNotSecThrottled(status);
+    if (status !== 200 || !body) continue;
+    const units = (body as { units?: { USD?: SecFactUnit[] } }).units?.USD;
+    if (!Array.isArray(units)) continue;
+    const series = extractQuarterlySeries(units);
+    if (series) return series;
+  }
+  return null;
+}
+
+export function lookupCik(
+  ticker: string,
+  tickerMap: Record<string, { ticker: string; cik_str: number }>
+): string | null {
+  const entry = Object.values(tickerMap).find(
+    (v) => v.ticker === ticker || v.ticker === ticker.replace(".", "-")
+  );
+  return entry ? String(entry.cik_str).padStart(10, "0") : null;
 }

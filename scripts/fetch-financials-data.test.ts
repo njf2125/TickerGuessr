@@ -4,6 +4,10 @@ import {
   dedupeByPeriod,
   extractQuarterlySeries,
   trendDirection,
+  fetchConceptWithFallback,
+  lookupCik,
+  assertNotSecThrottled,
+  Fetcher,
   SecFactUnit,
 } from "./fetch-financials-data";
 
@@ -68,5 +72,95 @@ describe("trendDirection", () => {
   it("detects a downward trend", () => {
     const values = [100, 95, 90, 85, 80, 75, 70];
     expect(trendDirection(values)).toBe("down");
+  });
+});
+
+function fakeUnits(vals: number[]): SecFactUnit[] {
+  const out: SecFactUnit[] = [];
+  let start = new Date("2018-01-01");
+  for (const v of vals) {
+    const end = new Date(start);
+    end.setDate(end.getDate() + 90);
+    out.push({
+      start: start.toISOString().slice(0, 10),
+      end: end.toISOString().slice(0, 10),
+      val: v,
+      filed: end.toISOString().slice(0, 10),
+      form: "10-Q",
+    });
+    start = end;
+  }
+  return out;
+}
+
+describe("assertNotSecThrottled", () => {
+  it("throws on 429", () => {
+    expect(() => assertNotSecThrottled(429)).toThrow(/throttled/i);
+  });
+
+  it("throws on 403", () => {
+    expect(() => assertNotSecThrottled(403)).toThrow(/throttled/i);
+  });
+
+  it("does not throw on 200", () => {
+    expect(() => assertNotSecThrottled(200)).not.toThrow();
+  });
+});
+
+describe("fetchConceptWithFallback", () => {
+  it("falls back to the next tag when the first tag has no usable data", async () => {
+    const calls: string[] = [];
+    const fetcher: Fetcher = {
+      async getJson(url: string) {
+        calls.push(url);
+        if (url.includes("RevenueFromContractWithCustomerExcludingAssessedTax")) {
+          return { status: 200, body: { units: { USD: [] } } };
+        }
+        if (url.includes("/Revenues.json")) {
+          return { status: 200, body: { units: { USD: fakeUnits([1, 2, 3, 4, 5, 6, 7, 8]) } } };
+        }
+        return { status: 404, body: null };
+      },
+    };
+    const result = await fetchConceptWithFallback(fetcher, "0000320193", [
+      "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "Revenues",
+      "SalesRevenueNet",
+    ]);
+    expect(result).not.toBeNull();
+    expect(result!.map((u) => u.val)).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
+    expect(calls).toHaveLength(2);
+  });
+
+  it("returns null when no tag has usable data", async () => {
+    const fetcher: Fetcher = {
+      async getJson() {
+        return { status: 404, body: null };
+      },
+    };
+    const result = await fetchConceptWithFallback(fetcher, "0000000000", ["Revenues"]);
+    expect(result).toBeNull();
+  });
+
+  it("throws when SEC responds with a throttling status", async () => {
+    const fetcher: Fetcher = {
+      async getJson() {
+        return { status: 429, body: null };
+      },
+    };
+    await expect(
+      fetchConceptWithFallback(fetcher, "0000320193", ["Revenues"])
+    ).rejects.toThrow(/throttled/i);
+  });
+});
+
+describe("lookupCik", () => {
+  it("finds a ticker's CIK and pads to 10 digits", () => {
+    const map = { "0": { ticker: "AAPL", cik_str: 320193 } };
+    expect(lookupCik("AAPL", map)).toBe("0000320193");
+  });
+
+  it("returns null for an unknown ticker", () => {
+    expect(lookupCik("ZZZZ", {})).toBeNull();
   });
 });
