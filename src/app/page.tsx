@@ -75,8 +75,7 @@ export default function Home() {
       <Header onStatsClick={() => setShowStats(true)} onHelpClick={() => setShowHelp(true)} />
       <main className="flex flex-col flex-1 gap-3 p-3">
         <StockChart
-          data={payload.candlestickData}
-          interval={payload.interval}
+          data={payload.revenueData}
           guessCount={guesses.length}
         />
         <HintContainer

@@ -2,27 +2,20 @@
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import type { ApexOptions } from "apexcharts";
-import type { OHLCPoint, CandleInterval } from "@/types/game";
+import type { RevenuePoint } from "@/types/game";
 
 const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
-const INTERVAL_LABELS: Record<CandleInterval, string> = {
-  "1d": "Daily",
-  "1w": "Weekly",
-  "1mo": "Monthly",
-};
-
 interface StockChartProps {
-  data: OHLCPoint[];
-  interval: CandleInterval;
+  data: RevenuePoint[];
   guessCount: number;
 }
 
-export function StockChart({ data, interval, guessCount }: StockChartProps) {
+export function StockChart({ data, guessCount }: StockChartProps) {
   const options: ApexOptions = useMemo(
     () => ({
       chart: {
-        type: "candlestick",
+        type: "bar",
         background: "transparent",
         toolbar: { show: false },
         animations: { enabled: false },
@@ -33,67 +26,52 @@ export function StockChart({ data, interval, guessCount }: StockChartProps) {
         borderColor: "#374151",
       },
       xaxis: {
-        type: "datetime",
-        tickAmount: 6,
+        categories: data.map((d) => d.x),
         labels: {
           show: true,
           style: { colors: "#9ca3af", fontSize: "10px" },
-          // Coarse on purpose: month+day for daily/weekly charts, year for monthly.
-          // d.x is already a synthetic, seeded calendar (see fakeDateSeries in
-          // fetch-game-data.ts) — no real trading date reaches the client.
-          formatter: (value: string) => {
-            const d = new Date(Number(value));
-            return interval === "1mo"
-              ? `${d.getUTCFullYear()}`
-              : d.toLocaleString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
-          },
         },
         axisBorder: { show: false },
         axisTicks: { show: false },
-        tooltip: { enabled: false },
       },
       yaxis: {
-        labels: {
-          show: true,
-          style: { colors: "#9ca3af", fontSize: "10px" },
-          formatter: (val: number) => `$${val.toFixed(0)}`,
-        },
+        labels: { show: false },
       },
+      // Bar/column charts default dataLabels to visible, which would print the
+      // real revenue value on every bar regardless of guess count — must be
+      // explicitly disabled to preserve the same anonymization the old
+      // candlestick chart relied on (hidden axis values until solved/hover).
+      dataLabels: { enabled: false },
+      legend: { show: false },
       tooltip: {
-        // Exact OHLC on hover is more revealing than the price scale alone.
+        // Exact revenue on hover is more revealing than the shape alone.
         enabled: guessCount >= 3,
         theme: "dark",
-      },
-      plotOptions: {
-        candlestick: {
-          colors: {
-            upward: "#22c55e",
-            downward: "#ef4444",
-          },
-          wick: { useFillColor: true },
+        y: {
+          formatter: (val: number) => `$${(val / 1_000_000).toFixed(0)}M`,
         },
       },
+      plotOptions: {
+        bar: {
+          // distributed: true is required for the per-bar `colors` array
+          // below to apply — without it every bar uses colors[0] only.
+          distributed: true,
+          columnWidth: "70%",
+        },
+      },
+      colors: data.map((d, i) => (i === 0 || d.y >= data[i - 1].y ? "#22c55e" : "#ef4444")),
     }),
-    [guessCount, interval]
+    [guessCount, data]
   );
 
-  const series = useMemo(
-    () => [{ data: data.map((d) => ({ x: new Date(d.x).getTime(), y: d.y })) }],
-    [data]
-  );
+  const series = useMemo(() => [{ name: "Revenue", data: data.map((d) => d.y) }], [data]);
 
   return (
     <div className="relative w-full rounded-xl overflow-hidden bg-gray-900">
       <span className="absolute top-2 right-2 z-10 text-xs font-medium px-2 py-0.5 rounded-full bg-gray-700 text-gray-300">
-        {INTERVAL_LABELS[interval]}
+        Quarterly Revenue
       </span>
-      <ApexChart
-        type="candlestick"
-        series={series}
-        options={options}
-        height={260}
-        width="100%"
-      />
+      <ApexChart type="bar" series={series} options={options} height={260} width="100%" />
     </div>
   );
 }

@@ -1,10 +1,8 @@
-import { CandleInterval } from "../types/game";
 import { PUZZLE_POOL } from "./puzzle-pool";
 import { COMPANIES } from "./companies";
 import { FAMILIAR_TICKERS } from "./familiar-tickers";
 
 export const GAME_START_DATE = "2026-06-25";
-const INTERVALS: CandleInterval[] = ["1d", "1w", "1mo"];
 
 export interface SelectedPuzzle {
   ticker: string;
@@ -12,7 +10,6 @@ export interface SelectedPuzzle {
   sector: string;
   marketCapTier: string;
   triviaHints: [string, string];
-  interval: CandleInterval;
 }
 
 // Only pool entries that are actually typeable in the autocomplete are eligible.
@@ -70,13 +67,11 @@ export function selectPuzzle(dateString: string, recentlyUsed: Set<string>): Sel
     throw new Error("No eligible puzzle tickers — pool ∩ companies is empty.");
   }
   const entry = candidates[Math.floor(rng() * candidates.length)];
-  const interval = INTERVALS[Math.floor(rng() * INTERVALS.length)];
   return {
     ticker: entry.ticker,
     name: entry.name,
     sector: entry.sector,
     marketCapTier: entry.marketCapTier,
     triviaHints: entry.triviaHints,
-    interval,
   };
 }
