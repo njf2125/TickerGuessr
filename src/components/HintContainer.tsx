@@ -1,6 +1,7 @@
 interface HintContainerProps {
   sector: string;
   marketCapTier: string;
+  netIncomeTrend: "up" | "down";
   triviaHints: [string, string];
   firstLetter: string;
   guessCount: number;
@@ -13,12 +14,13 @@ function isReal(hint: string | undefined): hint is string {
 }
 
 // Reveal curve is staggered so every wrong guess (through 5) unlocks something:
-// g1 sector, g2 market cap, g3 trivia[0], g4 trivia[1], g5 starting letter.
+// g1 sector, g2 market cap + net income trend, g3 trivia[0], g4 trivia[1], g5 starting letter.
 // (g3 also flips on the chart's hover tooltip, in StockChart — a bonus, not
 // the guess's real hint, since it's invisible/unreliable on touch devices.)
 export function HintContainer({
   sector,
   marketCapTier,
+  netIncomeTrend,
   triviaHints,
   firstLetter,
   guessCount,
@@ -34,6 +36,11 @@ export function HintContainer({
         {guessCount >= 2 && (
           <span className="text-xs px-3 py-1 rounded-full bg-purple-900/50 text-purple-300 border border-purple-800">
             💰 {marketCapTier}
+          </span>
+        )}
+        {guessCount >= 2 && (
+          <span className="text-xs px-3 py-1 rounded-full bg-teal-900/50 text-teal-300 border border-teal-800">
+            {netIncomeTrend === "up" ? "📈 Net income trending up" : "📉 Net income trending down"}
           </span>
         )}
         {guessCount >= 5 && (

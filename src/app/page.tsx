@@ -81,6 +81,7 @@ export default function Home() {
         <HintContainer
           sector={payload.sector}
           marketCapTier={payload.marketCapTier}
+          netIncomeTrend={payload.netIncomeTrend}
           triviaHints={payload.triviaHints}
           firstLetter={payload.firstLetter}
           guessCount={guesses.length}
