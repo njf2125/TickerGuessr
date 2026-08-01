@@ -1,0 +1,56 @@
+name: Daily Financials Generator
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Target date (YYYY-MM-DD). Defaults to tomorrow.'
+        required: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Generate game file
+        # Pass the dispatch input via env (never interpolated into the shell line)
+        # to avoid GitHub Actions script injection. Empty -> script defaults to tomorrow.
+        # No API key needed — SEC EDGAR is keyless, unlike the old Twelve Data pipeline.
+        env:
+          TARGET_DATE: ${{ github.event.inputs.date || '' }}
+        run: npx tsx scripts/fetch-financials-data.ts "$TARGET_DATE"
+
+      # main is protected (required "check" status + no direct pushes), so the bot
+      # commits to its own branch and opens a PR instead of pushing to main directly.
+      - name: Commit game file to automation branch
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: generate daily game'
+          file_pattern: 'public/games/*.json data/ticker-history.json'
+          branch: automation/daily-financials-${{ github.run_id }}
+          create_branch: true
+
+      - name: Open PR and enable auto-merge
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh pr create \
+            --title "chore: generate daily game" \
+            --body "Automated daily puzzle generation." \
+            --base main \
+            --head "automation/daily-financials-${{ github.run_id }}"
+          gh pr merge --auto --squash "automation/daily-financials-${{ github.run_id }}"
