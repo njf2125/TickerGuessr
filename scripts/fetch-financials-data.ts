@@ -22,16 +22,32 @@ export function isSingleQuarterSpan(start: string, end: string): boolean {
   return days >= MIN_QUARTER_DAYS && days <= MAX_QUARTER_DAYS;
 }
 
+// SEC sometimes reports the very same real quarter with slightly different
+// boundary dates across filings (verified live: Coca-Cola's Q3 2010 revenue
+// appears twice — once as start "2010-07-02", once as "2010-07-03", same end
+// date, same value, filed at different times). Keying strictly on the exact
+// (start,end) string pair misses this, so cluster by end-date proximity
+// instead: entries whose end dates fall within DEDUP_PROXIMITY_DAYS of each
+// other are treated as the same period, keeping the most-recently-filed one.
+// Real distinct quarters are ~90 days apart, far outside this threshold.
+const DEDUP_PROXIMITY_DAYS = 15;
+
 export function dedupeByPeriod(units: SecFactUnit[]): SecFactUnit[] {
-  const byPeriod = new Map<string, SecFactUnit>();
-  for (const u of units) {
-    const key = `${u.start}_${u.end}`;
-    const existing = byPeriod.get(key);
-    if (!existing || new Date(u.filed).getTime() > new Date(existing.filed).getTime()) {
-      byPeriod.set(key, u);
+  const sorted = [...units].sort((a, b) => a.end.localeCompare(b.end));
+  const clusters: SecFactUnit[][] = [];
+  for (const u of sorted) {
+    const lastCluster = clusters[clusters.length - 1];
+    const lastEnd = lastCluster ? new Date(lastCluster[lastCluster.length - 1].end).getTime() : null;
+    const gapDays = lastEnd === null ? Infinity : (new Date(u.end).getTime() - lastEnd) / (1000 * 60 * 60 * 24);
+    if (gapDays <= DEDUP_PROXIMITY_DAYS) {
+      lastCluster!.push(u);
+    } else {
+      clusters.push([u]);
     }
   }
-  return Array.from(byPeriod.values());
+  return clusters.map((cluster) =>
+    cluster.reduce((best, cur) => (new Date(cur.filed).getTime() > new Date(best.filed).getTime() ? cur : best))
+  );
 }
 
 // SEC's companyconcept API returns every historical filing's reported value for
@@ -163,8 +179,12 @@ async function readTickerHistory(): Promise<TickerHistoryEntry[]> {
 
 async function appendTickerHistory(entry: TickerHistoryEntry): Promise<void> {
   const history = await readTickerHistory();
-  history.push(entry);
-  await fs.writeFile(TICKER_HISTORY_PATH, JSON.stringify(history, null, 2) + "\n");
+  // Upsert by date rather than blindly pushing — re-running for an
+  // already-recorded date (backfill, accidental re-dispatch) replaces that
+  // date's entry instead of accumulating duplicates.
+  const withoutDate = history.filter((h) => h.date !== entry.date);
+  withoutDate.push(entry);
+  await fs.writeFile(TICKER_HISTORY_PATH, JSON.stringify(withoutDate, null, 2) + "\n");
 }
 
 export function recentlyUsedTickers(history: TickerHistoryEntry[], targetDate: string): Set<string> {
@@ -237,7 +257,12 @@ async function generateGameFile(dateString: string): Promise<void> {
 
   const labels = fakeQuarterLabels(revenue.length);
   const revenueData: RevenuePoint[] = revenue.map((u, i) => ({ x: labels[i], y: u.val }));
-  const netIncomeTrend: "up" | "down" = netIncome ? trendDirection(netIncome.map((u) => u.val)) : "up";
+  // Never fabricate a trend the data doesn't support — omit the field
+  // entirely (JSON.stringify drops undefined properties) rather than
+  // defaulting to a value with no real signal behind it.
+  const netIncomeTrend: "up" | "down" | undefined = netIncome
+    ? trendDirection(netIncome.map((u) => u.val))
+    : undefined;
 
   const payload: GameDayPayload = {
     gameId: gameIdFor(dateString),

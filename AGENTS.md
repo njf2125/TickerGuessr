@@ -84,6 +84,7 @@ No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY
 
 - **App / payload**: dot notation for share classes (`BRK.B`, `BF.B`)
 - `normalizeTicker()` in the build scripts normalizes source dashes/slashes to dots.
+- **SEC's `company_tickers.json`**: dash notation (`BRK-B`), like the old Alpha Vantage provider — `lookupCik()` in `fetch-financials-data.ts` converts dots to dashes before matching. This exact class of bug (a provider using different notation than the app) has bitten this project before; `lookupCik`'s test coverage includes a dotted-ticker case specifically because of that history.
 
 ### Market cap tiers
 

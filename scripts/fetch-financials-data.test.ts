@@ -43,6 +43,27 @@ describe("dedupeByPeriod", () => {
     expect(result).toHaveLength(1);
     expect(result[0].val).toBe(105);
   });
+
+  it("merges near-duplicate periods with slightly different boundary dates", () => {
+    // Real shape found live in Coca-Cola's (KO) SEC data during code review:
+    // the same real Q3 2010 quarter reported twice with start off by a day.
+    const units: SecFactUnit[] = [
+      { start: "2010-07-02", end: "2010-10-01", val: 8426000000, filed: "2011-10-27", form: "10-Q" },
+      { start: "2010-07-03", end: "2010-10-01", val: 8426000000, filed: "2010-10-29", form: "10-Q" },
+    ];
+    const result = dedupeByPeriod(units);
+    expect(result).toHaveLength(1);
+    expect(result[0].filed).toBe("2011-10-27");
+  });
+
+  it("does not merge genuinely distinct quarters ~90 days apart", () => {
+    const units: SecFactUnit[] = [
+      makeUnit("2018-09-30", "2018-12-29", 100),
+      makeUnit("2018-12-30", "2019-03-30", 110),
+    ];
+    const result = dedupeByPeriod(units);
+    expect(result).toHaveLength(2);
+  });
 });
 
 describe("extractQuarterlySeries", () => {
@@ -169,6 +190,14 @@ describe("lookupCik", () => {
 
   it("returns null for an unknown ticker", () => {
     expect(lookupCik("ZZZZ", {})).toBeNull();
+  });
+
+  it("finds a dotted share-class ticker via SEC's dash notation", () => {
+    // App convention is dot notation (BRK.B); SEC's company_tickers.json uses
+    // dashes (BRK-B) — this is the same ticker-notation gotcha documented in
+    // CLAUDE.md's "Ticker notation" section for prior data providers.
+    const map = { "0": { ticker: "BRK-B", cik_str: 1067983 } };
+    expect(lookupCik("BRK.B", map)).toBe("0001067983");
   });
 });
 

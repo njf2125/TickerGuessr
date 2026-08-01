@@ -23,7 +23,9 @@ export interface GameDayPayload {
   marketCapTier: string;
   triviaHints: [string, string];
   revenueData: RevenuePoint[];
-  netIncomeTrend: 'up' | 'down';
+  // Omitted (not defaulted) when net income data wasn't available for this
+  // ticker — never fabricate a trend the data doesn't support.
+  netIncomeTrend?: 'up' | 'down';
 }
 
 export interface GuessResult {

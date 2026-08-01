@@ -1,7 +1,7 @@
 interface HintContainerProps {
   sector: string;
   marketCapTier: string;
-  netIncomeTrend: "up" | "down";
+  netIncomeTrend?: "up" | "down";
   triviaHints: [string, string];
   firstLetter: string;
   guessCount: number;
@@ -38,7 +38,7 @@ export function HintContainer({
             💰 {marketCapTier}
           </span>
         )}
-        {guessCount >= 2 && (
+        {guessCount >= 2 && netIncomeTrend && (
           <span className="text-xs px-3 py-1 rounded-full bg-teal-900/50 text-teal-300 border border-teal-800">
             {netIncomeTrend === "up" ? "📈 Net income trending up" : "📉 Net income trending down"}
           </span>
