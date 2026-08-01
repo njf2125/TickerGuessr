@@ -22,11 +22,14 @@ npx tsx scripts/build-company-list.ts
 
 # Regenerate answer pool (~517 tickers from Wikipedia S&P 500 + Nasdaq-100)
 npx tsx scripts/build-puzzle-pool.ts
+
+# Generate a game fixture (no API key needed — SEC EDGAR is keyless)
+npx tsx scripts/fetch-financials-data.ts 2026-08-05
 ```
 
 ## Architecture
 
-**TickerGuessr** is a daily stock-guessing game (Wordle-style). Players see an anonymized candlestick chart and get up to 6 guesses; hints unlock progressively. One puzzle per calendar day, same puzzle for all players.
+**TickerGuessr** is a daily stock-guessing game (Wordle-style). Players see an anonymized quarterly revenue chart and get up to 6 guesses; hints unlock progressively. One puzzle per calendar day, same puzzle for all players.
 
 ### Two separate ticker lists
 
@@ -37,17 +40,34 @@ npx tsx scripts/build-puzzle-pool.ts
 
 A unit test (`puzzle-pool.test.ts`) enforces that every pool ticker exists in companies.ts (the "winnability guarantee"). `puzzle-selection.ts` computes `ELIGIBLE = PUZZLE_POOL ∩ COMPANY_TICKERS` at runtime as a belt-and-suspenders safety net.
 
-### Data pipeline (currently paused — no active OHLC provider)
+### Data pipeline (automated, no runtime API calls)
 
-Daily game generation is **paused**: the prior provider (Twelve Data) does not permit publicly redistributing/caching its OHLC data long-term on a free/personal plan, which is exactly what this pipeline did (bake it into static JSON files served indefinitely). `scripts/fetch-game-data.ts` and the daily-generation GitHub Actions job have been removed until a licensing-compliant provider is chosen.
+```
+GitHub Actions cron (6:00 UTC daily)
+  → scripts/fetch-financials-data.ts
+      → reads data/ticker-history.json for the 180-day exclusion set
+      → calls selectPuzzle(date, recentlyUsed) — deterministic, date-seeded
+      → looks up the ticker's CIK via SEC's company_tickers.json
+      → fetches quarterly revenue + net income from SEC EDGAR's XBRL API
+      → writes public/games/YYYY-MM-DD.json + -answer.json
+      → appends {date, ticker} to data/ticker-history.json
+      → prunes public/games/ down to just today + tomorrow
+      → auto-committed → triggers Vercel deploy
+```
 
-`public/games/*.json` still holds previously-generated puzzles and continues to be served statically — zero live financial API calls at runtime — but no new dates are being produced.
+Players fetch `/games/${date}.json` statically — zero live financial API calls at runtime.
 
-`src/data/puzzle-selection.ts` (`selectPuzzle`, `gameIdFor`, deterministic date-seeded PRNG) is unchanged and ready to be wired into a new fetch script once a provider is picked.
+SEC EDGAR is free, public-domain, government-sourced data with no vendor and no
+redistribution restriction — this replaced Twelve Data (removed for exactly that
+restriction) and, before it, an evaluation of Polygon.io, yfinance/Yahoo Finance,
+Alpha Vantage, Tiingo, and Stooq, all of which restrict free-tier redistribution
+for the same structural reason. See
+`docs/superpowers/specs/2026-07-31-revenue-chart-pivot-design.md` for the full
+comparison.
 
 ### Data retention (public/games is a rolling window, not an archive)
 
-No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY)` in `src/app/page.tsx`) — there's no replay/archive UI, and `gameId` is only a display number. So once a day passes, its file has no product purpose, only a growing liability surface (publicly redistributing licensed OHLC data indefinitely). Retention policy:
+No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY)` in `src/app/page.tsx`) — there's no replay/archive UI, and `gameId` is only a display number. So once a day passes, its file has no product purpose — keeping it around is just an ever-growing archive with no upside (this policy predates the SEC EDGAR data source; it was originally about not indefinitely redistributing licensed OHLC data, and is kept now as good hygiene). Retention policy:
 
 - `public/games/` holds **only the current day's puzzle plus at most one day ahead** (a pre-generated "tomorrow," if one exists) — never a running archive.
 - `data/ticker-history.json` (outside `public/`, never served) holds the full `{date, ticker}` history needed for the 180-day repeat-ticker exclusion window in `selectPuzzle` — no price data, just enough to avoid repeats.
@@ -57,18 +77,38 @@ No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY
 
 `src/data/puzzle-selection.ts` — pure, no I/O:
 - `selectPuzzle(dateString, recentlyUsed)` → deterministic via xmur3 hash + mulberry32 PRNG seeded from the date string. Same date + same history always yields the same puzzle.
-- 180-day exclusion window: previously built by reading `public/games/*.json` in `fetch-game-data.ts` (now removed) before calling `selectPuzzle`; a new fetch script will need to reimplement this.
+- 180-day exclusion window: `recentlyUsedTickers()` in `fetch-financials-data.ts` reads `data/ticker-history.json` (not `public/games/`) to build the exclusion set before calling `selectPuzzle`.
 - `gameIdFor(dateString)` → day offset from `GAME_START_DATE = "2026-06-25"` + 1.
-- `CandleInterval`: exactly `'1d' | '1w' | '1mo'` — no other values.
 
 ### Ticker notation
 
 - **App / payload**: dot notation for share classes (`BRK.B`, `BF.B`)
 - `normalizeTicker()` in the build scripts normalizes source dashes/slashes to dots.
+- **SEC's `company_tickers.json`**: dash notation (`BRK-B`), like the old Alpha Vantage provider — `lookupCik()` in `fetch-financials-data.ts` converts dots to dashes before matching. This exact class of bug (a provider using different notation than the app) has bitten this project before; `lookupCik`'s test coverage includes a dotted-ticker case specifically because of that history.
 
 ### Market cap tiers
 
 `marketCapTier` (used for the g2 hint in `HintContainer.tsx`) is **not** fetched live. `build-puzzle-pool.ts` carries the tier forward from the previous pool build for tickers already in the pool; a ticker new to the pool defaults to `"Large Cap"` (S&P 500 / Nasdaq-100 membership already implies large/mega cap). This replaced a prior `api.nasdaq.com` undocumented quote-summary lookup, which was fragile and unlicensed.
+
+### SEC EDGAR data source
+
+`scripts/fetch-financials-data.ts` fetches quarterly revenue and net income from
+SEC EDGAR's XBRL company-concept API (`data.sec.gov`), using a fallback tag list
+for revenue (companies use different tags across years/industries — see the tag
+list in the script) and `NetIncomeLoss` for net income. Every request sends a
+descriptive `User-Agent` per SEC's fair-access policy. Throttling is signaled via
+HTTP 403/429, not a JSON error body.
+
+A ticker with no usable SEC data (recent IPO with too few filings, or a foreign
+private issuer filing annual 20-F instead of quarterly 10-Q) triggers a
+retry-and-reselect loop rather than failing the whole run — see
+`pickPuzzleWithData` in the script.
+
+Revenue and net income values from SEC's API mix true single-quarter figures
+with cumulative year-to-date figures under the same tag — `extractQuarterlySeries`
+filters to true single-quarter spans (80–100 day range) and deduplicates
+restated periods before use. This was a real bug caught during design review, not
+a hypothetical — see the spec doc for the live-data verification.
 
 ### Client-side state
 
@@ -86,13 +126,8 @@ No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY
 
 ### CI
 
+`.github/workflows/daily-financials.yml`:
+- `generate` job: runs daily at 6:00 UTC, calls `fetch-financials-data.ts`, auto-commits the new JSON + ticker history.
+
 `.github/workflows/pool-refresh.yml`:
 - `refresh-pool` job: runs monthly (1st of the month, 6:00 UTC), re-runs both build scripts (`build-company-list.ts`, `build-puzzle-pool.ts`) and the winnable-pool test before auto-committing via PR.
-- There is no daily-generation workflow — see "Data pipeline" above.
-
-### Resuming daily generation
-
-To bring daily puzzle generation back:
-1. Pick an OHLC data provider whose terms explicitly permit public redistribution/long-term caching of historical price data (not just live per-request display) — this was the reason Twelve Data was removed.
-2. Write a new `scripts/fetch-*.ts` analogous to the old `fetch-game-data.ts`: read `data/ticker-history.json` (not `public/games/*.json`) to build the 180-day exclusion set, call `selectPuzzle`, fetch OHLC from the new provider, write `public/games/YYYY-MM-DD.json` + `-answer.json`, append the new `{date, ticker}` to `data/ticker-history.json`, and delete any `public/games/` file that's no longer today or tomorrow — see "Data retention" above.
-3. Add a daily-cron GitHub Actions job (see git history for `daily-game.yml` prior to its removal for the auto-commit/PR pattern).

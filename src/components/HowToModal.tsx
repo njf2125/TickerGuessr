@@ -35,12 +35,12 @@ export function HowToModal({ onClose }: HowToModalProps) {
           </button>
         </div>
         <p className="text-sm text-gray-300">
-          Guess the mystery stock from its candlestick chart in <strong>6 tries</strong>.
+          Guess the mystery stock from its real quarterly revenue chart in <strong>6 tries</strong>.
         </p>
         <ul className="flex flex-col gap-2 text-sm text-gray-300">
-          <li>📈 The chart shows price and dates, but not the company.</li>
+          <li>📈 The chart shows real revenue history, but not the company or exact numbers.</li>
           <li>🔎 Search a ticker or company name and submit a guess.</li>
-          <li>💡 Each wrong guess unlocks a new hint — sector, then market cap, then two trivia clues, then the starting letter.</li>
+          <li>💡 Each wrong guess unlocks a new hint — sector, then market cap and net income trend, then two trivia clues, then the starting letter.</li>
           <li>🟩 Solve it before you run out of attempts. A new puzzle drops daily.</li>
         </ul>
         <button

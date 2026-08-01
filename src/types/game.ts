@@ -3,12 +3,11 @@ export interface Company {
   name: string;
 }
 
-export type CandleInterval = '1d' | '1w' | '1mo';
 export type GameStatus = 'playing' | 'won' | 'lost';
 
-export interface OHLCPoint {
-  x: string;
-  y: [number, number, number, number]; // [Open, High, Low, Close]
+export interface RevenuePoint {
+  x: string; // fake sequential period label, e.g. "Q1" — carries no real filing-quarter info
+  y: number; // real quarterly revenue in USD; hidden from the player until solved/hover
 }
 
 export interface GameDayAnswer {
@@ -20,11 +19,13 @@ export interface GameDayPayload {
   gameId: number;
   dateString: string; // YYYY-MM-DD
   firstLetter: string;
-  interval: CandleInterval;
   sector: string;
   marketCapTier: string;
   triviaHints: [string, string];
-  candlestickData: OHLCPoint[];
+  revenueData: RevenuePoint[];
+  // Omitted (not defaulted) when net income data wasn't available for this
+  // ticker — never fabricate a trend the data doesn't support.
+  netIncomeTrend?: 'up' | 'down';
 }
 
 export interface GuessResult {
