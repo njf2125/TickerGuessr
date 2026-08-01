@@ -55,8 +55,14 @@ Fetched once per pool refresh (or cached), not per-puzzle.
 `https://data.sec.gov/api/xbrl/companyconcept/CIK{10-digit-cik}/us-gaap/{tag}.json`
 
 - Revenue: try tags in priority order — `RevenueFromContractWithCustomerExcludingAssessedTax`,
-  `Revenues`, `SalesRevenueNet` — use whichever yields the most usable quarterly (`form:
-  "10-Q"`) data points, since companies have changed tags over the years as GAAP evolved.
+  `Revenues`, `SalesRevenueNet`, `SalesRevenueGoodsNet`, `SalesRevenueServicesNet`,
+  `InterestAndDividendIncomeOperating` (for banks/insurers, which often don't use a generic
+  "Revenues" tag at all) — use whichever yields the most usable quarterly data points, since
+  companies have changed tags over the years as GAAP evolved and different industries favor
+  different tags. Validated against a 25-ticker sample spanning all 13 pool sectors: the
+  original 3-tag list alone covered 21/25 (84%); `ARE` and `APA` specifically needed a wider
+  tag list (real companies, just tagged differently) — the 6-tag list above is expected to
+  close most of that gap, though it hasn't been re-validated with the wider list yet.
 - Net income: `NetIncomeLoss` (far more consistently tagged; no fallback list needed in v1,
   but the fetch helper should be written to accept a tag list for consistency and future
   extension).
@@ -87,13 +93,22 @@ error body (unlike the old Twelve Data `assertNotThrottled` pattern) — the fet
 must check `res.statusCode` directly.
 
 **Missing-data handling**: if the ticker `selectPuzzle` picks has no usable revenue data
-across all fallback tags (e.g., too new to have SEC history, or an unusual filer type), the
-fetch script adds it to the `recentlyUsed` exclusion set passed into `selectPuzzle` and
-re-calls it to get a different candidate, repeating until one with usable data is found (or
-a small retry cap is hit, at which point the run fails loudly rather than silently degrading
-— consistent with the existing `assertNotThrottled`-style fail-fast pattern). If this
-retry-and-reselect happens often enough to matter, a future pass could pre-filter the pool at
-`build-puzzle-pool.ts` time instead — deferred until observed in practice.
+across all fallback tags, the fetch script adds it to the `recentlyUsed` exclusion set passed
+into `selectPuzzle` and re-calls it to get a different candidate, repeating until one with
+usable data is found (or a small retry cap is hit, at which point the run fails loudly rather
+than silently degrading — consistent with the existing `assertNotThrottled`-style fail-fast
+pattern). Two real cases confirmed during validation (25-ticker sample):
+- **Recent IPOs** (e.g. a company that just went public) have too few quarterly filings on
+  record yet for a usable 24–30 quarter chart. This will recur — new constituents join the
+  pool periodically (the monthly `build-puzzle-pool.ts` refresh already handles Nasdaq-100/
+  S&P 500 turnover) — so the retry path isn't a rare edge case, it's expected to fire
+  regularly.
+- **Foreign private issuers** (e.g. `ARM`) file annual Form 20-F rather than quarterly 10-Qs,
+  so they structurally lack the quarterly granularity this design needs, not just missing
+  tags. If this turns out to affect enough pool tickers, excluding foreign private issuers
+  from the pool at `build-puzzle-pool.ts` time (rather than discovering it via retry every
+  time they're selected) may be worth doing proactively — deferred until observed in
+  practice, same as the general pre-filtering question below.
 
 ## Output schema (`public/games/YYYY-MM-DD.json`)
 
@@ -142,6 +157,12 @@ labels/gridline values by default — same principle as hiding real price levels
 - Add a new hint chip for `netIncomeTrend`, revealed at **g2** alongside `marketCapTier`
   (both are quick numeric/directional facts) — e.g. "📈 Net income trending up" /
   "📉 Net income trending down".
+- Trend calculation: use a linear regression slope over the net income series, not a
+  first-half-vs-second-half average. Validation found several real companies with a third or
+  more of their quarters showing a net loss while still trending up overall (e.g. one sample
+  ticker had losses in 9 of 28 quarters) — a simple 2-bucket average is more exposed to being
+  thrown off by a handful of lumpy one-time-charge quarters than a regression slope over the
+  whole series.
 - Existing reveal order otherwise unchanged: sector (g1), market cap + net income (g2),
   trivia[0] (g3), trivia[1] (g4), first letter (g5).
 
@@ -185,19 +206,30 @@ and the hint list needs the net income mention added.
 - `data/ticker-history.json` needs no changes — it's schema-agnostic (just `{date,
   ticker}`).
 
+## Validation performed during design
+
+Ran the actual single-quarter-filter + dedup logic (see Data source section) against a live
+25-ticker sample spanning all 13 pool sectors, not just the 2 tickers spot-checked earlier:
+
+- **Distinctiveness**: only 2 of 21 tickers with usable data (`CMCSA`, `CHTR` — both
+  cable/telecom, steady subscription revenue) came back visually flat. Every other sector,
+  including ones expected to be boring (utilities showed the *most* quarter-to-quarter
+  direction changes of any sector in the sample, due to real seasonal demand), showed genuine
+  shape variety. This substantially de-risks the original distinctiveness concern — it's a
+  real but minor effect (~10% of tickers), not a pervasive problem requiring a second metric
+  from day one.
+- **Data coverage**: 21 of 25 tickers (84%) had usable revenue data with the original 3-tag
+  fallback list; the tag list has since been widened to 6 tags (see Data source section) to
+  close some of that gap, though the wider list hasn't been re-validated yet.
+- **Net income reliability**: genuinely noisy for some tickers (see Hints section) — informed
+  the switch to a regression-slope trend calculation instead of a 2-bucket average.
+
 ## Open questions for implementation time
 
 - Exact wording/emoji for the net income hint chip.
-- Whether "too few usable quarters" tickers should be pre-filtered at pool-build time rather
-  than handled per-day (deferred until it's observed to matter in practice).
-- **Unverified assumption**: revenue charts may not be as visually distinctive as price
-  charts across the whole pool. Only 2 tickers were spot-checked (AAPL, WY) during design —
-  both showed real variation, and quarterly seasonality (e.g. retail Q4 spikes) likely gives
-  many companies a genuinely distinctive sawtooth-vs-smooth-growth character, but mature,
-  stable companies (utilities, insurers) may produce fairly flat, unremarkable shapes
-  compared to a volatile price chart. Worth spot-checking a wider sample from the actual pool
-  before committing to this as the sole chart mechanic — if it's a real problem, Approach 2
-  (layering in a second metric) becomes more important sooner rather than a stretch goal.
-- **Unverified assumption**: net income's "trending up/down" simplification may be
-  misleading for companies with lumpy net income (one-time charges, tax effects) that don't
-  reflect the underlying business trend. Not validated against real data yet.
+- Whether "too few usable quarters" tickers (recent IPOs, foreign private issuers) should be
+  pre-filtered at pool-build time rather than handled per-day via retry — deferred until
+  observed frequency in practice makes the retry path a real cost (recent-IPO turnover is
+  expected to make this a recurring case, not a rare edge case).
+- Re-validate data coverage with the widened 6-tag revenue fallback list before implementation
+  is considered done, to confirm `ARE`/`APA`-style gaps are actually closed.
