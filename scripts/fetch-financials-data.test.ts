@@ -1,3 +1,6 @@
+import os from "os";
+import fs from "fs/promises";
+import path from "path";
 import { describe, it, expect } from "vitest";
 import {
   isSingleQuarterSpan,
@@ -7,8 +10,12 @@ import {
   fetchConceptWithFallback,
   lookupCik,
   assertNotSecThrottled,
+  recentlyUsedTickers,
+  pruneOldPublicFiles,
+  fakeQuarterLabels,
   Fetcher,
   SecFactUnit,
+  TickerHistoryEntry,
 } from "./fetch-financials-data";
 
 function makeUnit(start: string, end: string, val: number, filed = end, form = "10-Q"): SecFactUnit {
@@ -162,5 +169,37 @@ describe("lookupCik", () => {
 
   it("returns null for an unknown ticker", () => {
     expect(lookupCik("ZZZZ", {})).toBeNull();
+  });
+});
+
+describe("recentlyUsedTickers", () => {
+  it("includes tickers used within the 180-day window", () => {
+    const history: TickerHistoryEntry[] = [{ date: "2026-06-01", ticker: "AAPL" }];
+    const used = recentlyUsedTickers(history, "2026-07-01");
+    expect(used.has("AAPL")).toBe(true);
+  });
+
+  it("excludes tickers used more than 180 days before the target date", () => {
+    const history: TickerHistoryEntry[] = [{ date: "2025-01-01", ticker: "AAPL" }];
+    const used = recentlyUsedTickers(history, "2026-07-01");
+    expect(used.has("AAPL")).toBe(false);
+  });
+});
+
+describe("fakeQuarterLabels", () => {
+  it("generates sequential Q labels with no real date info", () => {
+    expect(fakeQuarterLabels(4)).toEqual(["Q1", "Q2", "Q3", "Q4"]);
+  });
+});
+
+describe("pruneOldPublicFiles", () => {
+  it("deletes files for dates not in the keep set", async () => {
+    const dir = await fs.mkdtemp(path.join(os.tmpdir(), "tickerguessr-test-"));
+    await fs.writeFile(path.join(dir, "2026-07-01.json"), "{}");
+    await fs.writeFile(path.join(dir, "2026-07-02.json"), "{}");
+    await pruneOldPublicFiles(dir, new Set(["2026-07-02"]));
+    const remaining = await fs.readdir(dir);
+    expect(remaining).toEqual(["2026-07-02.json"]);
+    await fs.rm(dir, { recursive: true, force: true });
   });
 });
