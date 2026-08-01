@@ -60,8 +60,22 @@ Fetched once per pool refresh (or cached), not per-puzzle.
 - Net income: `NetIncomeLoss` (far more consistently tagged; no fallback list needed in v1,
   but the fetch helper should be written to accept a tag list for consistency and future
   extension).
-- Take the most recent ~24–30 quarters (mirrors the old "30 bars"), sorted chronologically
-  by period end date.
+- **Single-quarter filtering (critical, verified via live data)**: SEC's companyconcept API
+  returns every historical filing's reported value for a tag, including both true
+  single-quarter figures and cumulative year-to-date figures reported in later quarters'
+  10-Qs, all under the same tag/form. Spot-checked live against AAPL's data: 80 raw
+  `form:"10-Q"` entries collapse to only 45 *unique* `(start, end)` periods once verified —
+  meaning roughly half the raw entries are YTD/multi-quarter spans, not single quarters.
+  Naively sorting by period end date without filtering would mix 1-quarter and 2-3-quarter
+  cumulative values in the same series, producing a chart with meaningless, inconsistent bar
+  heights. The fetch helper must filter to entries where `end - start` is approximately one
+  quarter (~80–100 days) before anything else.
+- **Deduplication**: even after single-quarter filtering, the same `(start, end)` period can
+  still appear more than once across multiple filings (restatements, corrections). Dedupe by
+  `(start, end)`, keeping the value from the most recently `filed` entry (the latest-known,
+  most-corrected figure) for that period.
+- Take the most recent ~24–30 quarters after filtering and deduping (mirrors the old "30
+  bars"), sorted chronologically by period end date.
 
 **Compliance**: every request includes a descriptive `User-Agent` per SEC's fair-access
 policy (`TickerGuessrBot/1.0 (https://tickerguessr.app)`), same pattern already used for the
@@ -153,7 +167,11 @@ and the hint list needs the net income mention added.
 ## Testing
 
 - New unit tests for the SEC fetch helper: tag-fallback selection (pick the tag with the
-  most usable quarters), quarter sorting/slicing, throttling detection via HTTP status.
+  most usable quarters), **single-quarter-span filtering (reject YTD/cumulative entries)**,
+  **deduplication by period keeping the latest-filed value**, quarter sorting/slicing, and
+  throttling detection via HTTP status. The single-quarter-filtering and dedup logic is the
+  highest-risk part of this pipeline (caught a real bug here during spec review — see Data
+  source section) and needs the most test coverage of anything in this design.
 - Update `StockChart.tsx`/`HintContainer.tsx` tests (if any exist) and any type-level tests
   for the new payload shape.
 - `puzzle-pool.test.ts` (winnability guarantee) is unaffected — it's about the ticker pool,
@@ -172,3 +190,14 @@ and the hint list needs the net income mention added.
 - Exact wording/emoji for the net income hint chip.
 - Whether "too few usable quarters" tickers should be pre-filtered at pool-build time rather
   than handled per-day (deferred until it's observed to matter in practice).
+- **Unverified assumption**: revenue charts may not be as visually distinctive as price
+  charts across the whole pool. Only 2 tickers were spot-checked (AAPL, WY) during design —
+  both showed real variation, and quarterly seasonality (e.g. retail Q4 spikes) likely gives
+  many companies a genuinely distinctive sawtooth-vs-smooth-growth character, but mature,
+  stable companies (utilities, insurers) may produce fairly flat, unremarkable shapes
+  compared to a volatile price chart. Worth spot-checking a wider sample from the actual pool
+  before committing to this as the sole chart mechanic — if it's a real problem, Approach 2
+  (layering in a second metric) becomes more important sooner rather than a stretch goal.
+- **Unverified assumption**: net income's "trending up/down" simplification may be
+  misleading for companies with lumpy net income (one-time charges, tax effects) that don't
+  reflect the underlying business trend. Not validated against real data yet.
