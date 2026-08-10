@@ -1,0 +1,62 @@
+{
+  "gameId": 48,
+  "dateString": "2026-08-11",
+  "firstLetter": "N",
+  "sector": "Information Technology",
+  "marketCapTier": "Mega Cap",
+  "triviaHints": [
+    "A chip company whose graphics processors became the engines of the AI boom.",
+    "It was founded in 1993, reportedly at a Denny's restaurant."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 1937000000
+    },
+    {
+      "x": "Q2",
+      "y": 2230000000
+    },
+    {
+      "x": "Q3",
+      "y": 2636000000
+    },
+    {
+      "x": "Q4",
+      "y": 2911000000
+    },
+    {
+      "x": "Q5",
+      "y": 3207000000
+    },
+    {
+      "x": "Q6",
+      "y": 3123000000
+    },
+    {
+      "x": "Q7",
+      "y": 3181000000
+    },
+    {
+      "x": "Q8",
+      "y": 2205000000
+    },
+    {
+      "x": "Q9",
+      "y": 2220000000
+    },
+    {
+      "x": "Q10",
+      "y": 2579000000
+    },
+    {
+      "x": "Q11",
+      "y": 3014000000
+    },
+    {
+      "x": "Q12",
+      "y": 3105000000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
