@@ -62,26 +62,40 @@ this design makes the *presentation* carry the engagement instead.
 show:
 
 ```
-visibleCount = min(4 + guessCount * 4, 12)
+visibleCount = min(4 + guessCount * 2, 12, data.length)
 ```
 
-- g0 → 4 bars, g1 → 8 bars, g2+ → 12 bars (full).
+- g0 → 4 bars, g1 → 6, g2 → 8, g3 → 10, g4 → 12 (full), g5 → 12.
+
+  **The step size is 2, not 4, and that's load-bearing.** `MAX_ATTEMPTS` is 6, so
+  `guessCount` runs 0–5 during play. A step of 4 would reach the 12-cap at guess 2, leaving
+  the chart frozen for guesses 2–5 — four of six stages — which reintroduces the exact
+  "static wallpaper" problem this design exists to eliminate, just delayed, and does so
+  precisely when the game gets hard and engagement matters most. A step of 2 changes the
+  chart at g1/g2/g3/g4, leaving only the final guess static.
+
 - Reveals **backwards in time**: always show the *most recent* `visibleCount` quarters, with
   older history filling in leftward. Two reasons: recent performance is the most
   identifiable signal, and the rightmost (newest) bars never shift position as more appear,
   so the reveal reads as "more context added" rather than "everything moved."
 - **Short-history tickers:** `MIN_USABLE_QUARTERS` is 8, so a ticker can legitimately have
-  only 8–11 quarters of data (recent-ish IPOs that still cleared the minimum). The reveal
-  must clamp to what actually exists — `min(4 + guessCount * 4, 12, data.length)` — so such a
-  ticker simply reaches its full history earlier (e.g. an 8-quarter ticker is fully revealed
-  at g1) rather than rendering empty slots. The visible-history indicator copy must read
-  correctly in that case too.
+  only 8–11 quarters of data (recent-ish IPOs that still cleared the minimum). The
+  `data.length` term in the formula clamps to what actually exists, so such a ticker simply
+  reaches its full history earlier (an 8-quarter ticker is fully revealed at g2) rather than
+  rendering empty slots. The visible-history indicator copy must read correctly in that case
+  too.
 
 **Color stability (important correctness detail):** bar color is green when that quarter's
 revenue is ≥ the *previous* quarter's, red otherwise. The comparison must use the previous
 quarter from the **full** array, not from the visible slice. Otherwise the leftmost visible
 bar has no predecessor and would flip color as soon as more bars are revealed — colors must
 be stable across reveals.
+
+A deliberate consequence: the leftmost visible bar's color is determined by a quarter the
+player can't see yet. This is the right tradeoff — stable colors that never change under the
+player beat colors they could verify but which mutate on every reveal — but it is a choice,
+not an oversight. The very first bar of the *full* array (no predecessor at all) defaults to
+green.
 
 ### 3. Visual treatment
 
@@ -112,13 +126,15 @@ These are load-bearing and were each deliberate decisions in prior work:
 ## Testing
 
 - `StockChart` has no existing test file. Add unit coverage for the pure reveal logic —
-  extract `visibleQuarterCount(guessCount)` and the color-assignment helper as exported pure
-  functions so they're testable without rendering ApexCharts (which requires a DOM and is
-  dynamically imported with `ssr: false`).
-- Cases worth covering: reveal counts at g0/g1/g2/g5; cap at 12 never exceeded; a 28-entry
-  legacy payload renders the most recent 12; an 8-entry (short-history) payload never
-  requests more than it has; color of a given quarter is identical at g0 and g2 (stability
-  across reveals).
+  extract `visibleQuarterCount(guessCount, dataLength)` and the color-assignment helper as
+  exported pure functions so they're testable without rendering ApexCharts (which requires a
+  DOM and is dynamically imported with `ssr: false`). Note the signature takes **both**
+  arguments: the `data.length` clamp for short-history tickers is part of this function, not
+  a separate concern at the call site.
+- Cases worth covering: reveal counts at each of g0–g5 (4/6/8/10/12/12); cap at 12 never
+  exceeded; a 28-entry legacy payload renders the most recent 12; an 8-entry (short-history)
+  payload never requests more than it has; color of a given quarter is identical at g0 and
+  g4 (stability across reveals); the full array's first bar defaults to green.
 - Existing test suites (38 tests) must stay green; `puzzle-pool.test.ts` and the
   `fetch-financials-data` suite are unaffected except for the `MAX_QUARTERS_KEPT` constant.
 
