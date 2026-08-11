@@ -23,8 +23,10 @@ this design makes the *presentation* carry the engagement instead.
 
 ## Goals
 
-- Make the chart the primary reward loop: **every guess changes the chart**, not just the
-  text hints.
+- Make the chart the primary reward loop: **nearly every guess changes the chart**, not just
+  the text hints. (Exactly: guesses 1–4 of 5 transitions for a full-history ticker; the final
+  guess is static by design, and short-history tickers reach their full history earlier — see
+  §2, where the pacing is deliberate and shouldn't be "fixed" by raising the cap.)
 - Make the chart legible and bold on a phone screen.
 - Preserve every existing anonymization property (no real dates, no visible values until
   guess 3).
@@ -45,9 +47,23 @@ this design makes the *presentation* carry the engagement instead.
 
 ### 1. Data & schema
 
-- `MAX_QUARTERS_KEPT` in `scripts/fetch-financials-data.ts` drops **28 → 12**. Three years
-  is enough to show a real growth/decline trend plus ~3 seasonal cycles, and it's the most
-  that renders boldly on mobile.
+- **Split the shared `MAX_QUARTERS_KEPT` constant into two.** Today
+  `scripts/fetch-financials-data.ts` has a single `MAX_QUARTERS_KEPT = 28` applied inside
+  `extractQuarterlySeries`, which is called for **both** revenue *and* net income
+  (`pickPuzzleWithData` → `fetchConceptWithFallback` → `extractQuarterlySeries`). Naively
+  dropping it to 12 for chart-density reasons would also silently shorten the net income
+  series that `trendDirection` regresses over — turning a ~7-year profitability trend into a
+  ~3-year one, which can flip the player-facing hint (a company that lost money for years and
+  recently turned profitable reads "down" over 7 years but "up" over 3). That's a meaningful
+  behavior change and must not happen as a side effect of a layout change.
+
+  Therefore: `extractQuarterlySeries` takes the cap as a parameter, and callers pass
+  - `MAX_REVENUE_QUARTERS = 12` for revenue (presentation — what the chart shows), and
+  - `MAX_TREND_QUARTERS = 28` for net income (analysis — what the trend is computed over).
+
+  Twelve quarters is enough to show a real growth/decline trend plus ~3 seasonal cycles, and
+  it's the most that renders boldly on mobile. Twenty-eight preserves the existing net income
+  hint behavior exactly, so this change is chart-only.
 - **No schema change.** `revenueData: RevenuePoint[]` keeps its exact shape, just carries
   fewer entries. The `x` field (fake sequential label) stays even though the axis labels are
   being removed — keeping it costs nothing, and removing it would force a type migration and
@@ -135,8 +151,12 @@ These are load-bearing and were each deliberate decisions in prior work:
   exceeded; a 28-entry legacy payload renders the most recent 12; an 8-entry (short-history)
   payload never requests more than it has; color of a given quarter is identical at g0 and
   g4 (stability across reveals); the full array's first bar defaults to green.
-- Existing test suites (38 tests) must stay green; `puzzle-pool.test.ts` and the
-  `fetch-financials-data` suite are unaffected except for the `MAX_QUARTERS_KEPT` constant.
+- `extractQuarterlySeries` gains a cap parameter — add a test that the same input series
+  yields 12 entries when called with `MAX_REVENUE_QUARTERS` and 28 with `MAX_TREND_QUARTERS`,
+  so the revenue/net-income decoupling can't silently regress back to a shared constant.
+- Existing test suites (38 tests) must stay green. Existing `extractQuarterlySeries` tests
+  use short (8–9 entry) fixtures that never reach either cap, so they're unaffected by the
+  signature change beyond passing the new argument.
 
 ## Migration
 
