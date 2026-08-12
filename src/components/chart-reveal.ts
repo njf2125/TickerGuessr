@@ -1,5 +1,10 @@
 import type { RevenuePoint } from "@/types/game";
 
+// Mirrors MAX_REVENUE_QUARTERS in scripts/fetch-financials-data.ts — that's the
+// generator's cap on how many quarters end up in the payload at all, this is the
+// client's cap on how many of them the reveal ever shows. They can't share a
+// module (scripts/ runs under tsx, which can't resolve the `@/` alias this file
+// imports), so if one changes, check whether the other needs to move with it.
 export const MAX_VISIBLE_QUARTERS = 12;
 export const UP_COLOR = "#22c55e";
 export const DOWN_COLOR = "#ef4444";

@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import type { ApexOptions } from "apexcharts";
 import type { RevenuePoint } from "@/types/game";
 import {
+  MAX_VISIBLE_QUARTERS,
   visibleQuarterCount,
   visibleSlice,
   barColorsForVisible,
@@ -14,13 +15,17 @@ const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 interface StockChartProps {
   data: RevenuePoint[];
   guessCount: number;
+  // When true (terminal states), show the full reveal cap regardless of
+  // guessCount — a fast winner shouldn't see fewer bars than a slow one.
+  isRevealed?: boolean;
 }
 
-export function StockChart({ data, guessCount }: StockChartProps) {
-  const visibleCount = visibleQuarterCount(guessCount, data.length);
+export function StockChart({ data, guessCount, isRevealed = false }: StockChartProps) {
+  const visibleCount = isRevealed
+    ? Math.min(MAX_VISIBLE_QUARTERS, data.length)
+    : visibleQuarterCount(guessCount, data.length);
   const visible = useMemo(() => visibleSlice(data, visibleCount), [data, visibleCount]);
   const colors = useMemo(() => barColorsForVisible(data, visibleCount), [data, visibleCount]);
-  const isFullyRevealed = visibleCount >= data.length;
 
   const options: ApexOptions = useMemo(
     () => ({
@@ -30,7 +35,9 @@ export function StockChart({ data, guessCount }: StockChartProps) {
         toolbar: { show: false },
         // Animations are ON so newly revealed quarters grow in rather than
         // silently appearing — the reveal is the reward, it needs to be felt.
-        animations: { enabled: true, speed: 400 },
+        // `speed` only governs the initial mount in ApexCharts v5; every reveal
+        // goes through updateSeries, which is driven by dynamicAnimation.speed.
+        animations: { enabled: true, speed: 400, dynamicAnimation: { enabled: true, speed: 400 } },
       },
       theme: { mode: "dark" },
       grid: {
@@ -95,7 +102,7 @@ export function StockChart({ data, guessCount }: StockChartProps) {
           Quarterly Revenue
         </span>
         <span className="text-[11px] text-gray-500 tabular-nums">
-          {isFullyRevealed ? "full history" : `last ${visibleCount} quarters`}
+          {`last ${visibleCount} quarters`}
         </span>
       </div>
       <ApexChart type="bar" series={series} options={options} height={300} width="100%" />

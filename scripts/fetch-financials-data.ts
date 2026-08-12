@@ -21,6 +21,10 @@ const MIN_USABLE_QUARTERS = 8;
 // the series trendDirection regresses over — turning a ~7-year profitability trend
 // into a ~3-year one, which can flip the player-facing hint for a company that
 // recently turned profitable. Presentation and analysis windows stay independent.
+// Mirrors MAX_VISIBLE_QUARTERS in src/components/chart-reveal.ts — that's the
+// client's cap on how many quarters the progressive reveal shows, this is the
+// generator's cap on how many even reach the payload. Keep them in sync: raising
+// this without raising that one silently does nothing visible.
 export const MAX_REVENUE_QUARTERS = 12; // what the chart displays
 export const MAX_TREND_QUARTERS = 28; // what the net-income trend is computed over
 
