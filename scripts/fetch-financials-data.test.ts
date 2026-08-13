@@ -13,6 +13,7 @@ import {
   recentlyUsedTickers,
   pruneOldPublicFiles,
   fakeQuarterLabels,
+  retentionKeepDates,
   Fetcher,
   SecFactUnit,
   TickerHistoryEntry,
@@ -218,6 +219,32 @@ describe("recentlyUsedTickers", () => {
 describe("fakeQuarterLabels", () => {
   it("generates sequential Q labels with no real date info", () => {
     expect(fakeQuarterLabels(4)).toEqual(["Q1", "Q2", "Q3", "Q4"]);
+  });
+});
+
+describe("retentionKeepDates", () => {
+  const noon = Date.UTC(2026, 7, 12, 12, 0, 0); // 2026-08-12T12:00:00Z
+
+  it("keeps yesterday so users west of UTC don't 404 on their local date", () => {
+    // The client requests its LOCAL date; west of UTC that can be a day behind
+    // the UTC filenames, so yesterday must survive the prune.
+    expect(retentionKeepDates("2026-08-13", noon).has("2026-08-11")).toBe(true);
+  });
+
+  it("keeps today, tomorrow, and the generated date", () => {
+    const keep = retentionKeepDates("2026-08-13", noon);
+    expect(keep.has("2026-08-12")).toBe(true);
+    expect(keep.has("2026-08-13")).toBe(true);
+  });
+
+  it("does not keep anything older than yesterday", () => {
+    const keep = retentionKeepDates("2026-08-13", noon);
+    expect(keep.has("2026-08-10")).toBe(false);
+    expect(keep.has("2026-08-09")).toBe(false);
+  });
+
+  it("retains a backfill date outside the rolling window", () => {
+    expect(retentionKeepDates("2026-09-01", noon).has("2026-09-01")).toBe(true);
   });
 });
 

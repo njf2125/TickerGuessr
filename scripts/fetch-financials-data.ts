@@ -214,6 +214,20 @@ export async function pruneOldPublicFiles(gamesDir: string, keepDates: Set<strin
   }
 }
 
+const DAY_MS = 86_400_000;
+
+// Which puzzle dates survive a prune. Yesterday is retained on purpose: these
+// filenames are UTC dates, but the client asks for its LOCAL date
+// (`toLocaleDateString("en-CA")` in src/app/page.tsx). Any timezone west of UTC
+// is up to a day behind UTC, so between this prune and that user's local
+// midnight they would request a date that had just been deleted and get a 404
+// instead of a puzzle — roughly an hour nightly at UTC-7, four at UTC-10.
+// Keeping one extra day of public-domain SEC-derived JSON covers every timezone.
+export function retentionKeepDates(dateString: string, nowMs: number): Set<string> {
+  const utcDay = (offsetMs: number) => new Date(nowMs + offsetMs).toISOString().slice(0, 10);
+  return new Set([utcDay(-DAY_MS), utcDay(0), utcDay(DAY_MS), dateString]);
+}
+
 export function fakeQuarterLabels(count: number): string[] {
   return Array.from({ length: count }, (_, i) => `Q${i + 1}`);
 }
@@ -281,9 +295,7 @@ async function generateGameFile(dateString: string): Promise<void> {
   await fs.writeFile(path.join(gamesDir, `${dateString}-answer.json`), JSON.stringify(answer, null, 2) + "\n");
   await appendTickerHistory({ date: dateString, ticker: puzzle.ticker });
 
-  const today = new Date().toISOString().slice(0, 10);
-  const tomorrow = new Date(Date.now() + 86_400_000).toISOString().slice(0, 10);
-  await pruneOldPublicFiles(gamesDir, new Set([today, tomorrow, dateString]));
+  await pruneOldPublicFiles(gamesDir, retentionKeepDates(dateString, Date.now()));
 
   console.log(`Wrote ${dateString}.json + -answer.json`);
 }
