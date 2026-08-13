@@ -14,6 +14,8 @@ import {
   pruneOldPublicFiles,
   fakeQuarterLabels,
   retentionKeepDates,
+  MAX_REVENUE_QUARTERS,
+  MAX_TREND_QUARTERS,
   Fetcher,
   SecFactUnit,
   TickerHistoryEntry,
@@ -80,14 +82,34 @@ describe("extractQuarterlySeries", () => {
       makeUnit("2020-03-29", "2020-06-27", 160),
       makeUnit("2020-06-28", "2020-09-26", 170),
     ];
-    const result = extractQuarterlySeries(units);
+    const result = extractQuarterlySeries(units, MAX_REVENUE_QUARTERS);
     expect(result).not.toBeNull();
     expect(result!.map((u) => u.val)).toEqual([100, 110, 120, 130, 140, 150, 160, 170]);
   });
 
   it("returns null when there are fewer than 8 usable quarters", () => {
     const units = [makeUnit("2018-09-30", "2018-12-29", 100)];
-    expect(extractQuarterlySeries(units)).toBeNull();
+    expect(extractQuarterlySeries(units, MAX_REVENUE_QUARTERS)).toBeNull();
+  });
+
+  it("honors the cap argument so revenue and trend windows stay decoupled", () => {
+    // 30 consecutive real quarters, ~90 days apart so none get deduped together
+    const units: SecFactUnit[] = [];
+    let start = new Date("2015-01-01");
+    for (let i = 0; i < 30; i++) {
+      const end = new Date(start);
+      end.setDate(end.getDate() + 90);
+      units.push({
+        start: start.toISOString().slice(0, 10),
+        end: end.toISOString().slice(0, 10),
+        val: 1000 + i,
+        filed: end.toISOString().slice(0, 10),
+        form: "10-Q",
+      });
+      start = end;
+    }
+    expect(extractQuarterlySeries(units, MAX_REVENUE_QUARTERS)).toHaveLength(12);
+    expect(extractQuarterlySeries(units, MAX_TREND_QUARTERS)).toHaveLength(28);
   });
 });
 
@@ -155,7 +177,7 @@ describe("fetchConceptWithFallback", () => {
       "RevenueFromContractWithCustomerExcludingAssessedTax",
       "Revenues",
       "SalesRevenueNet",
-    ]);
+    ], MAX_REVENUE_QUARTERS);
     expect(result).not.toBeNull();
     expect(result!.map((u) => u.val)).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
     expect(calls).toHaveLength(2);
@@ -167,7 +189,7 @@ describe("fetchConceptWithFallback", () => {
         return { status: 404, body: null };
       },
     };
-    const result = await fetchConceptWithFallback(fetcher, "0000000000", ["Revenues"]);
+    const result = await fetchConceptWithFallback(fetcher, "0000000000", ["Revenues"], MAX_REVENUE_QUARTERS);
     expect(result).toBeNull();
   });
 
@@ -178,7 +200,7 @@ describe("fetchConceptWithFallback", () => {
       },
     };
     await expect(
-      fetchConceptWithFallback(fetcher, "0000320193", ["Revenues"])
+      fetchConceptWithFallback(fetcher, "0000320193", ["Revenues"], MAX_REVENUE_QUARTERS)
     ).rejects.toThrow(/throttled/i);
   });
 });

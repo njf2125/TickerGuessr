@@ -15,7 +15,18 @@ export interface SecFactUnit {
 const MIN_QUARTER_DAYS = 80;
 const MAX_QUARTER_DAYS = 100;
 const MIN_USABLE_QUARTERS = 8;
-const MAX_QUARTERS_KEPT = 28;
+
+// Two separate caps on purpose. extractQuarterlySeries runs for BOTH revenue and
+// net income, so a single shared cap would mean shortening the chart also shortens
+// the series trendDirection regresses over — turning a ~7-year profitability trend
+// into a ~3-year one, which can flip the player-facing hint for a company that
+// recently turned profitable. Presentation and analysis windows stay independent.
+// Mirrors MAX_VISIBLE_QUARTERS in src/components/chart-reveal.ts — that's the
+// client's cap on how many quarters the progressive reveal shows, this is the
+// generator's cap on how many even reach the payload. Keep them in sync: raising
+// this without raising that one silently does nothing visible.
+export const MAX_REVENUE_QUARTERS = 12; // what the chart displays
+export const MAX_TREND_QUARTERS = 28; // what the net-income trend is computed over
 
 export function isSingleQuarterSpan(start: string, end: string): boolean {
   const days = (new Date(end).getTime() - new Date(start).getTime()) / (1000 * 60 * 60 * 24);
@@ -55,13 +66,16 @@ export function dedupeByPeriod(units: SecFactUnit[]): SecFactUnit[] {
 // reported in later quarters' 10-Qs, all under the same tag/form. Verified live
 // against AAPL's data during design: 80 raw form:"10-Q" entries collapsed to 45
 // unique (start,end) periods — roughly half the raw entries were YTD spans.
-export function extractQuarterlySeries(units: SecFactUnit[]): SecFactUnit[] | null {
+export function extractQuarterlySeries(
+  units: SecFactUnit[],
+  maxQuarters: number
+): SecFactUnit[] | null {
   const quarterly = units.filter(
     (u) => (u.form === "10-Q" || u.form === "10-K") && isSingleQuarterSpan(u.start, u.end)
   );
   const deduped = dedupeByPeriod(quarterly).sort((a, b) => a.end.localeCompare(b.end));
   if (deduped.length < MIN_USABLE_QUARTERS) return null;
-  return deduped.slice(-MAX_QUARTERS_KEPT);
+  return deduped.slice(-maxQuarters);
 }
 
 // Sign of the linear regression slope over a value series (index as x). More
@@ -134,7 +148,8 @@ export const NET_INCOME_TAGS = ["NetIncomeLoss"];
 export async function fetchConceptWithFallback(
   fetcher: Fetcher,
   cik: string,
-  tags: string[]
+  tags: string[],
+  maxQuarters: number
 ): Promise<SecFactUnit[] | null> {
   for (const tag of tags) {
     const url = `https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/us-gaap/${tag}.json`;
@@ -143,7 +158,7 @@ export async function fetchConceptWithFallback(
     if (status !== 200 || !body) continue;
     const units = (body as { units?: { USD?: SecFactUnit[] } }).units?.USD;
     if (!Array.isArray(units)) continue;
-    const series = extractQuarterlySeries(units);
+    const series = extractQuarterlySeries(units, maxQuarters);
     if (series) return series;
   }
   return null;
@@ -243,9 +258,9 @@ async function pickPuzzleWithData(
     const puzzle = selectPuzzle(dateString, excluded);
     const cik = lookupCik(puzzle.ticker, tickerMap);
     if (cik) {
-      const revenue = await fetchConceptWithFallback(fetcher, cik, REVENUE_TAGS);
+      const revenue = await fetchConceptWithFallback(fetcher, cik, REVENUE_TAGS, MAX_REVENUE_QUARTERS);
       if (revenue) {
-        const netIncome = await fetchConceptWithFallback(fetcher, cik, NET_INCOME_TAGS);
+        const netIncome = await fetchConceptWithFallback(fetcher, cik, NET_INCOME_TAGS, MAX_TREND_QUARTERS);
         return { puzzle, revenue, netIncome };
       }
     }

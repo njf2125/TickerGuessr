@@ -77,6 +77,7 @@ export default function Home() {
         <StockChart
           data={payload.revenueData}
           guessCount={guesses.length}
+          isRevealed={status !== "playing"}
         />
         <HintContainer
           sector={payload.sector}
