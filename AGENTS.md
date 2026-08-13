@@ -69,9 +69,10 @@ comparison.
 
 No feature ever fetches a puzzle by date other than "today" (`useGameState(TODAY)` in `src/app/page.tsx`) — there's no replay/archive UI, and `gameId` is only a display number. So once a day passes, its file has no product purpose — keeping it around is just an ever-growing archive with no upside (this policy predates the SEC EDGAR data source; it was originally about not indefinitely redistributing licensed OHLC data, and is kept now as good hygiene). Retention policy:
 
-- `public/games/` holds **only the current day's puzzle plus at most one day ahead** (a pre-generated "tomorrow," if one exists) — never a running archive.
+- `public/games/` holds **yesterday, today, and at most one day ahead** (a pre-generated "tomorrow," if one exists) — never a running archive. See `retentionKeepDates()` in `fetch-financials-data.ts`, which is the single source of truth for the window and is unit-tested.
+- **Yesterday is retained on purpose, and this is load-bearing.** Filenames are UTC dates, but the client requests its *local* date (`toLocaleDateString("en-CA")` in `src/app/page.tsx`). Every timezone west of UTC is up to a day behind, so pruning to just today+tomorrow left those users hitting a 404 and the "puzzle isn't available yet" screen between the 06:00 UTC prune and their own local midnight — about an hour nightly at UTC-7, four at UTC-10. Do not "tighten" this back to two days without first making the client and the generator agree on a timezone.
 - `data/ticker-history.json` (outside `public/`, never served) holds the full `{date, ticker}` history needed for the 180-day repeat-ticker exclusion window in `selectPuzzle` — no price data, just enough to avoid repeats.
-- Whenever a new fetch script runs: append that day's `{date, ticker}` to `data/ticker-history.json`, write the new day's file into `public/games/`, and delete the previous day's file(s) from `public/games/` once they're no longer "today" or "tomorrow."
+- Whenever a new fetch script runs: append that day's `{date, ticker}` to `data/ticker-history.json`, write the new day's file into `public/games/`, and prune everything outside `retentionKeepDates()`.
 
 ### Puzzle selection
 
