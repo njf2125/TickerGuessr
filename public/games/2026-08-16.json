@@ -1,0 +1,62 @@
+{
+  "gameId": 53,
+  "dateString": "2026-08-16",
+  "firstLetter": "M",
+  "sector": "Consumer Discretionary",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "Often called the 'Amazon of Latin America,' running the region's biggest online marketplace.",
+    "It also operates a fast-growing digital-payments business called Mercado Pago."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 3002000000
+    },
+    {
+      "x": "Q2",
+      "y": 2165000000
+    },
+    {
+      "x": "Q3",
+      "y": 2479000000
+    },
+    {
+      "x": "Q4",
+      "y": 2709000000
+    },
+    {
+      "x": "Q5",
+      "y": 3099000000
+    },
+    {
+      "x": "Q6",
+      "y": 3765000000
+    },
+    {
+      "x": "Q7",
+      "y": 3895000000
+    },
+    {
+      "x": "Q8",
+      "y": 4191000000
+    },
+    {
+      "x": "Q9",
+      "y": 4803000000
+    },
+    {
+      "x": "Q10",
+      "y": 5205000000
+    },
+    {
+      "x": "Q11",
+      "y": 6065000000
+    },
+    {
+      "x": "Q12",
+      "y": 7055000000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
