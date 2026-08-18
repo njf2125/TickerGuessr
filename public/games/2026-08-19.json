@@ -1,0 +1,62 @@
+{
+  "gameId": 56,
+  "dateString": "2026-08-19",
+  "firstLetter": "U",
+  "sector": "Industrials",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "A ride-hailing company that lets people summon cars through a smartphone app.",
+    "It expanded into food delivery with Uber Eats."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 8343000000
+    },
+    {
+      "x": "Q2",
+      "y": 8823000000
+    },
+    {
+      "x": "Q3",
+      "y": 9230000000
+    },
+    {
+      "x": "Q4",
+      "y": 9292000000
+    },
+    {
+      "x": "Q5",
+      "y": 10131000000
+    },
+    {
+      "x": "Q6",
+      "y": 10700000000
+    },
+    {
+      "x": "Q7",
+      "y": 11188000000
+    },
+    {
+      "x": "Q8",
+      "y": 11533000000
+    },
+    {
+      "x": "Q9",
+      "y": 12651000000
+    },
+    {
+      "x": "Q10",
+      "y": 13467000000
+    },
+    {
+      "x": "Q11",
+      "y": 13203000000
+    },
+    {
+      "x": "Q12",
+      "y": 14191000000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
