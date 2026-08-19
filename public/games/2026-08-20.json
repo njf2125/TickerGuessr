@@ -1,0 +1,62 @@
+{
+  "gameId": 57,
+  "dateString": "2026-08-20",
+  "firstLetter": "G",
+  "sector": "Consumer Discretionary",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "A distributor of auto and industrial parts, best known for the NAPA brand.",
+    "Its stores supply mechanics and do-it-yourselfers with replacement parts."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 5675274000
+    },
+    {
+      "x": "Q2",
+      "y": 5765118000
+    },
+    {
+      "x": "Q3",
+      "y": 5915006000
+    },
+    {
+      "x": "Q4",
+      "y": 5824602000
+    },
+    {
+      "x": "Q5",
+      "y": 5783631000
+    },
+    {
+      "x": "Q6",
+      "y": 5962567000
+    },
+    {
+      "x": "Q7",
+      "y": 5970198000
+    },
+    {
+      "x": "Q8",
+      "y": 5866069000
+    },
+    {
+      "x": "Q9",
+      "y": 6164425000
+    },
+    {
+      "x": "Q10",
+      "y": 6260232000
+    },
+    {
+      "x": "Q11",
+      "y": 6264940000
+    },
+    {
+      "x": "Q12",
+      "y": 6536951000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
