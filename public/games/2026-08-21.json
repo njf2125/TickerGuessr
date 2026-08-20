@@ -1,0 +1,62 @@
+{
+  "gameId": 58,
+  "dateString": "2026-08-21",
+  "firstLetter": "P",
+  "sector": "Financials",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "A life insurer whose logo is the Rock of Gibraltar, symbolizing strength.",
+    "Its slogan long promised customers 'a piece of the rock.'"
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 17045000000
+    },
+    {
+      "x": "Q2",
+      "y": 13498000000
+    },
+    {
+      "x": "Q3",
+      "y": 8352000000
+    },
+    {
+      "x": "Q4",
+      "y": 15084000000
+    },
+    {
+      "x": "Q5",
+      "y": 23509000000
+    },
+    {
+      "x": "Q6",
+      "y": 14883000000
+    },
+    {
+      "x": "Q7",
+      "y": 19490000000
+    },
+    {
+      "x": "Q8",
+      "y": 13470000000
+    },
+    {
+      "x": "Q9",
+      "y": 13726000000
+    },
+    {
+      "x": "Q10",
+      "y": 17888000000
+    },
+    {
+      "x": "Q11",
+      "y": 15526000000
+    },
+    {
+      "x": "Q12",
+      "y": 15661000000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
