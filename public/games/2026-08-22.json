@@ -1,0 +1,62 @@
+{
+  "gameId": 59,
+  "dateString": "2026-08-22",
+  "firstLetter": "M",
+  "sector": "Consumer Discretionary",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "A fast-food chain built on a speedy 'Speedee Service System' from a single California stand.",
+    "A milkshake-machine salesman turned it into a global franchising empire."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 5872100000
+    },
+    {
+      "x": "Q2",
+      "y": 5898000000
+    },
+    {
+      "x": "Q3",
+      "y": 6498000000
+    },
+    {
+      "x": "Q4",
+      "y": 6692000000
+    },
+    {
+      "x": "Q5",
+      "y": 6169000000
+    },
+    {
+      "x": "Q6",
+      "y": 6490000000
+    },
+    {
+      "x": "Q7",
+      "y": 6873000000
+    },
+    {
+      "x": "Q8",
+      "y": 5956000000
+    },
+    {
+      "x": "Q9",
+      "y": 6843000000
+    },
+    {
+      "x": "Q10",
+      "y": 7078000000
+    },
+    {
+      "x": "Q11",
+      "y": 6517000000
+    },
+    {
+      "x": "Q12",
+      "y": 7099000000
+    }
+  ],
+  "netIncomeTrend": "up"
+}
