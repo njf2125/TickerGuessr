@@ -1,0 +1,62 @@
+{
+  "gameId": 60,
+  "dateString": "2026-08-23",
+  "firstLetter": "P",
+  "sector": "Health Care",
+  "marketCapTier": "Large Cap",
+  "triviaHints": [
+    "A pharmaceutical company founded in Brooklyn in 1849 by two German immigrants.",
+    "It partnered on one of the first widely used COVID-19 vaccines."
+  ],
+  "revenueData": [
+    {
+      "x": "Q1",
+      "y": 13118000000
+    },
+    {
+      "x": "Q2",
+      "y": 13264000000
+    },
+    {
+      "x": "Q3",
+      "y": 12680000000
+    },
+    {
+      "x": "Q4",
+      "y": 10083000000
+    },
+    {
+      "x": "Q5",
+      "y": 9864000000
+    },
+    {
+      "x": "Q6",
+      "y": 10277000000
+    },
+    {
+      "x": "Q7",
+      "y": 14516000000
+    },
+    {
+      "x": "Q8",
+      "y": 18899000000
+    },
+    {
+      "x": "Q9",
+      "y": 24035000000
+    },
+    {
+      "x": "Q10",
+      "y": 25661000000
+    },
+    {
+      "x": "Q11",
+      "y": 27742000000
+    },
+    {
+      "x": "Q12",
+      "y": 22638000000
+    }
+  ],
+  "netIncomeTrend": "down"
+}
